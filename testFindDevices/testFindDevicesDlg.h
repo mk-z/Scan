@@ -7,6 +7,9 @@
 
 
 
+
+
+
 // CtestFindDevicesDlg ¶Ô»°¿ò
 class CtestFindDevicesDlg : public CDialogEx
 {
@@ -35,4 +38,5 @@ public:
 	afx_msg void OnBnClickedButton1();
 	afx_msg void OnBnClickedButton2();
 	CListCtrl m_wndList;
+	
 };

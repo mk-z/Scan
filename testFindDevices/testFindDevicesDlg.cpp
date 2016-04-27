@@ -7,14 +7,21 @@
 #include "testFindDevicesDlg.h"
 #include "afxdialogex.h"
 
-# include <stdlib.h>
+#include <stdlib.h>
+#include <WinSock.h>
+
+//迪智浦
 #include "DiZhiPuVideoServer/netsdk.h"
 #include "DiZhiPuVideoServer/H264Play.h"
+
+
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
 
+//迪智浦
 #pragma comment(lib, "netsdk.lib")
+
 
 // 用于应用程序“关于”菜单项的 CAboutDlg 对话框
 
@@ -66,8 +73,7 @@ void CtestFindDevicesDlg::DoDataExchange(CDataExchange* pDX)
 BEGIN_MESSAGE_MAP(CtestFindDevicesDlg, CDialogEx)
 	ON_WM_SYSCOMMAND()
 	ON_WM_PAINT()
-	ON_WM_QUERYDRAGICON()
-	ON_BN_CLICKED(IDC_BUTTON1, &CtestFindDevicesDlg::OnBnClickedButton1)
+	ON_WM_QUERYDRAGICON()	
 	ON_BN_CLICKED(IDC_BUTTON2, &CtestFindDevicesDlg::OnBnClickedButton2)
 END_MESSAGE_MAP()
 
@@ -178,11 +184,6 @@ HCURSOR CtestFindDevicesDlg::OnQueryDragIcon()
 
 
 
-void CtestFindDevicesDlg::OnBnClickedButton1()
-{
-	
-}
-
 
 void CtestFindDevicesDlg::OnBnClickedButton2()
 {
@@ -191,16 +192,17 @@ void CtestFindDevicesDlg::OnBnClickedButton2()
 	int nRetLength = 0;
 
 	nInit = H264_DVR_Init(NULL, NULL);
-	int j = m_wndList.GetItemCount();
-	while(j < 0)
+	/*int j = m_wndList.GetItemCount();
+	while(j >= 0)
 	{
-		m_wndList.DeleteItem(j);
 		j--;
-	}
-	
+		m_wndList.DeleteItem(j);		
+	}*/
+	m_wndList.DeleteAllItems();
+
 	SDK_CONFIG_NET_COMMON_V2 m_Device[100] = { 0 };
 	memset(&m_Device, 0, sizeof(SDK_CONFIG_NET_COMMON_V2)* 100);
-	bool bRet = H264_DVR_SearchDevice((char*)m_Device, sizeof(SDK_CONFIG_NET_COMMON_V2)* 100, &nRetLength, 3000);
+	bool bRet = H264_DVR_SearchDevice((char*)m_Device, sizeof(SDK_CONFIG_NET_COMMON_V2)* 100, &nRetLength, 1000);
 	
 	if (bRet)
 	{		
@@ -215,7 +217,8 @@ void CtestFindDevicesDlg::OnBnClickedButton2()
 			
 			m_wndList.SetItemText(nIndex, 1, m_Device[i].HostName);
 			struct in_addr in;
-			in.s_addr = m_Device[i].HostIP.l;			
+			in.s_addr = m_Device[i].HostIP.l;	
+			
 			m_wndList.SetItemText(nIndex, 2, inet_ntoa(in));
 
 			m_wndList.SetItemText(nIndex, 6, m_Device[i].sSn);
@@ -224,6 +227,11 @@ void CtestFindDevicesDlg::OnBnClickedButton2()
 		
 		
 		m_wndList.SetRedraw(TRUE);
+	}
+
+	if (nInit)
+	{
+		H264_DVR_Cleanup();
 	}
 	
 }

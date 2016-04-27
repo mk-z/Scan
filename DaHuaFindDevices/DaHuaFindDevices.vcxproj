@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{EEBC40AE-0225-459C-AFCA-D5EDFABF5253}</ProjectGuid>
-    <RootNamespace>testFindDevices</RootNamespace>
+    <ProjectGuid>{9A4329CD-2AEA-47BB-B5A3-2EF7060F2D8C}</ProjectGuid>
+    <RootNamespace>DaHuaFindDevices</RootNamespace>
     <Keyword>MFCProj</Keyword>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -43,9 +43,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>F:\project\NVRDetector\sdk\include;$(IncludePath)</IncludePath>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);F:\project\NVRDetector\sdk\include;</IncludePath>
     <LibraryPath>$(ProjectDir)sdk\;$(LibraryPath)</LibraryPath>
-    <LibraryWPath>$(LibraryWPath)</LibraryWPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -56,7 +55,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <SDLCheck>false</SDLCheck>
+      <SDLCheck>true</SDLCheck>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -104,35 +103,35 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DaHuaFindDevices.h" />
+    <ClInclude Include="DaHuaFindDevicesDlg.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
-    <ClInclude Include="testFindDevices.h" />
-    <ClInclude Include="testFindDevicesDlg.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="DaHuaFindDevices.cpp" />
+    <ClCompile Include="DaHuaFindDevicesDlg.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="testFindDevices.cpp" />
-    <ClCompile Include="testFindDevicesDlg.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="testFindDevices.rc" />
+    <ResourceCompile Include="DaHuaFindDevices.rc" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\testFindDevices.rc2" />
+    <None Include="res\DaHuaFindDevices.rc2" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\testFindDevices.ico" />
+    <Image Include="res\DaHuaFindDevices.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties RESOURCE_FILE="testFindDevices.rc" />
+      <UserProperties RESOURCE_FILE="DaHuaFindDevices.rc" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>
