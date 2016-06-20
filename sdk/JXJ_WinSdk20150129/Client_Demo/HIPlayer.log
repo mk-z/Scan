@@ -1,0 +1,2922 @@
+2014-03-11 13:44:41:353 info    .\HIPlayer.cpp(97) => HIPlayer Init OK
+
+2014-03-11 13:44:46:932 info    .\HIPlayer.cpp(129) => HIPlayer Release OK
+
+2014-03-11 13:45:11:977 info    .\HIPlayer.cpp(97) => HIPlayer Init OK
+
+2014-03-11 13:45:20:683 info    .\HIPlayer.cpp(129) => HIPlayer Release OK
+
+2014-03-17 10:41:21:749 info    .\HIPlayer.cpp(97) => HIPlayer Init OK
+
+2014-03-17 10:42:00:746 info    .\HIPlayer.cpp(129) => HIPlayer Release OK
+
+2014-03-17 10:42:56:867 info    .\HIPlayer.cpp(97) => HIPlayer Init OK
+
+2014-03-17 10:43:06:069 info    .\HIPlayer.cpp(196) => HIPlayer GetPort OK 0
+
+2014-03-17 10:43:06:070 debug   .\HIDecoder.cpp(78) => Decoder No Buffer And TimerThrd
+
+2014-03-17 10:43:06:071 debug   .\HIBuffer.cpp(137) => InitList Element Num 3, size 3145728
+
+2014-03-17 10:43:06:071 debug   .\HIDSound.cpp(123) => DSound No Buffer And TimerThrd
+
+2014-03-17 10:43:06:071 info    .\HIPlayer.cpp(585) => HIPLAYER_OpenStream nPort 0 nRet 0 OK!!
+
+2014-03-17 10:43:07:912 info    .\HIPlayer.cpp(749) => HIPLAYER_RegDrawCallBackEx port 0 fcb 012FE410 pUser 00000000
+
+2014-03-17 10:43:07:913 info    .\HIDDraw.cpp(570) => AddDisplayWndEx_v2 00031100 fCallBackEx 012FE410 pUser 00000000 OK Count 1
+
+2014-03-17 10:43:07:913 err     .\HIDDraw.cpp(472) => CheckDisplayWndEx_v2 m_pDDraw 00000000
+
+2014-03-17 10:43:07:913 debug   .\HIDDraw.cpp(486) => CheckDisplayWnd_v2 hwnd 00031100, fCallBackEx 012FE410, pUser 00000000
+
+2014-03-17 10:43:07:914 info    .\HIPlayer.cpp(309) => HIPLAYER_Play nPort 0 hwnd 00031100 fCallBack 00000000 pUser 00000000 nRet 0 OK!!
+
+2014-03-17 10:43:07:939 err     .\HIDecoder.cpp(337) => Current Video Frame 18042 Expected 1 May Lost 18041
+
+2014-03-17 10:43:07:940 info    .\HIDecoder.cpp(376) => CheckResolution 0 0 => 1280 720 Success
+
+2014-03-17 10:43:07:948 info    .\HIDecoder.cpp(405) => InitDecoder 1280 720 => 1280 720 Success
+
+2014-03-17 10:43:07:948 err     .\HIDecoder.cpp(475) => Hi264DecAU error -2
+
+2014-03-17 10:43:08:088 err     .\HIDDraw.cpp(736) => DDraw Cap supp BLTFOURCC: 0x95d27fc1
+
+2014-03-17 10:43:08:110 debug   .\HIDDraw.cpp(486) => CheckDisplayWnd_v2 hwnd 00031100, fCallBackEx 012FE410, pUser 00000000
+
+2014-03-17 10:43:08:111 info    .\HIDDraw.cpp(1101) => UpdateDDrawResolution (0, 0) => (1280, 720) OK!
+
+2014-03-17 10:43:08:111 info    .\HIDDraw.cpp(318) => SetMainWndRegion hwnd 00031100 region(0, 0, 1280, 720) nRet 0
+
+2014-03-17 10:43:08:112 info    .\HIDDraw.cpp(1179) => Update Resolution 0 0 => 1280 720 Success
+
+2014-03-17 10:43:08:114 debug   .\HIDDraw.cpp(2500) => DrawThrdProc Running
+
+2014-03-17 10:43:08:148 debug   .\HIBuffer.cpp(420) => Increase buffer to index 4 counter 3(4), buffSize 3145680, addr 0ECD0020
+
+2014-03-17 10:43:17:507 info    .\HIDecoder.cpp(255) => resolution 1280 720 Over Count 0 Max Decode AU Time 37 ms
+
+2014-03-17 10:43:17:528 info    .\HIDDraw.cpp(2580) => VideoTimerDrawProc exit
+
+2014-03-17 10:43:17:531 info    .\HIDDraw.cpp(159) => [1] FreeDisplayWnd 00031100 
+
+2014-03-17 10:43:17:532 info    .\HIDDraw.cpp(172) => FreeDisplayWnd Leave Count 1 => 0 
+
+2014-03-17 10:43:17:533 debug   .\HIBuffer.cpp(159) => FreeBufferList total 3 frame
+
+2014-03-17 10:43:17:533 info    .\HIPlayer.cpp(223) => HIPlayer FreePort 0 OK
+
+2014-03-17 10:43:17:533 info    .\HIPlayer.cpp(129) => HIPlayer Release OK
+
+2014-03-17 10:43:59:272 info    .\HIPlayer.cpp(97) => HIPlayer Init OK
+
+2014-03-17 10:44:05:637 info    .\HIPlayer.cpp(196) => HIPlayer GetPort OK 0
+
+2014-03-17 10:44:05:637 debug   .\HIDecoder.cpp(78) => Decoder No Buffer And TimerThrd
+
+2014-03-17 10:44:05:638 debug   .\HIBuffer.cpp(137) => InitList Element Num 3, size 3145728
+
+2014-03-17 10:44:05:638 debug   .\HIDSound.cpp(123) => DSound No Buffer And TimerThrd
+
+2014-03-17 10:44:05:639 info    .\HIPlayer.cpp(585) => HIPLAYER_OpenStream nPort 0 nRet 0 OK!!
+
+2014-03-17 10:44:07:327 info    .\HIPlayer.cpp(749) => HIPLAYER_RegDrawCallBackEx port 0 fcb 012FE410 pUser 00000000
+
+2014-03-17 10:44:07:327 info    .\HIDDraw.cpp(570) => AddDisplayWndEx_v2 000411A8 fCallBackEx 012FE410 pUser 00000000 OK Count 1
+
+2014-03-17 10:44:07:328 err     .\HIDDraw.cpp(472) => CheckDisplayWndEx_v2 m_pDDraw 00000000
+
+2014-03-17 10:44:07:328 debug   .\HIDDraw.cpp(486) => CheckDisplayWnd_v2 hwnd 000411A8, fCallBackEx 012FE410, pUser 00000000
+
+2014-03-17 10:44:07:328 info    .\HIPlayer.cpp(309) => HIPLAYER_Play nPort 0 hwnd 000411A8 fCallBack 00000000 pUser 00000000 nRet 0 OK!!
+
+2014-03-17 10:44:07:355 err     .\HIDecoder.cpp(337) => Current Video Frame 19520 Expected 1 May Lost 19519
+
+2014-03-17 10:44:07:356 info    .\HIDecoder.cpp(376) => CheckResolution 0 0 => 1280 720 Success
+
+2014-03-17 10:44:07:366 info    .\HIDecoder.cpp(405) => InitDecoder 1280 720 => 1280 720 Success
+
+2014-03-17 10:44:07:366 err     .\HIDecoder.cpp(475) => Hi264DecAU error -2
+
+2014-03-17 10:44:07:367 err     .\HIDecoder.cpp(475) => Hi264DecAU error -2
+
+2014-03-17 10:44:07:576 err     .\HIDDraw.cpp(736) => DDraw Cap supp BLTFOURCC: 0x95d27fc1
+
+2014-03-17 10:44:07:582 debug   .\HIDDraw.cpp(486) => CheckDisplayWnd_v2 hwnd 000411A8, fCallBackEx 012FE410, pUser 00000000
+
+2014-03-17 10:44:07:583 info    .\HIDDraw.cpp(1101) => UpdateDDrawResolution (0, 0) => (1280, 720) OK!
+
+2014-03-17 10:44:07:583 info    .\HIDDraw.cpp(318) => SetMainWndRegion hwnd 000411A8 region(0, 0, 1280, 720) nRet 0
+
+2014-03-17 10:44:07:583 debug   .\HIDDraw.cpp(2500) => DrawThrdProc Running
+
+2014-03-17 10:44:07:583 info    .\HIDDraw.cpp(1179) => Update Resolution 0 0 => 1280 720 Success
+
+2014-03-17 10:44:07:596 debug   .\HIBuffer.cpp(420) => Increase buffer to index 4 counter 3(4), buffSize 3145680, addr 0E300020
+
+2014-03-17 10:44:07:602 debug   .\HIBuffer.cpp(420) => Increase buffer to index 5 counter 4(5), buffSize 3145680, addr 0E610020
+
+2014-03-17 10:44:07:617 debug   .\HIBuffer.cpp(420) => Increase buffer to index 6 counter 5(6), buffSize 3145680, addr 0E920020
+
+2014-03-17 10:44:16:293 info    .\HIDecoder.cpp(255) => resolution 1280 720 Over Count 0 Max Decode AU Time 34 ms
+
+2014-03-17 10:44:16:294 info    .\HIDDraw.cpp(2580) => VideoTimerDrawProc exit
+
+2014-03-17 10:44:16:300 info    .\HIDDraw.cpp(159) => [1] FreeDisplayWnd 000411A8 
+
+2014-03-17 10:44:16:301 info    .\HIDDraw.cpp(172) => FreeDisplayWnd Leave Count 1 => 0 
+
+2014-03-17 10:44:16:302 debug   .\HIBuffer.cpp(159) => FreeBufferList total 5 frame
+
+2014-03-17 10:44:16:303 info    .\HIPlayer.cpp(223) => HIPlayer FreePort 0 OK
+
+2014-03-17 10:44:16:303 info    .\HIPlayer.cpp(129) => HIPlayer Release OK
+
+2014-03-17 14:38:55:744 info    .\HIPlayer.cpp(97) => HIPlayer Init OK
+
+2014-03-17 14:39:07:450 info    .\HIPlayer.cpp(196) => HIPlayer GetPort OK 0
+
+2014-03-17 14:39:07:450 debug   .\HIDecoder.cpp(78) => Decoder No Buffer And TimerThrd
+
+2014-03-17 14:39:07:451 debug   .\HIBuffer.cpp(137) => InitList Element Num 3, size 3145728
+
+2014-03-17 14:39:07:451 debug   .\HIDSound.cpp(123) => DSound No Buffer And TimerThrd
+
+2014-03-17 14:39:07:451 info    .\HIPlayer.cpp(585) => HIPLAYER_OpenStream nPort 0 nRet 0 OK!!
+
+2014-03-17 14:39:08:712 info    .\HIPlayer.cpp(749) => HIPLAYER_RegDrawCallBackEx port 0 fcb 0137E3E0 pUser 00000000
+
+2014-03-17 14:39:08:713 info    .\HIDDraw.cpp(570) => AddDisplayWndEx_v2 00170C12 fCallBackEx 0137E3E0 pUser 00000000 OK Count 1
+
+2014-03-17 14:39:08:714 err     .\HIDDraw.cpp(472) => CheckDisplayWndEx_v2 m_pDDraw 00000000
+
+2014-03-17 14:39:08:714 debug   .\HIDDraw.cpp(486) => CheckDisplayWnd_v2 hwnd 00170C12, fCallBackEx 0137E3E0, pUser 00000000
+
+2014-03-17 14:39:08:715 info    .\HIPlayer.cpp(309) => HIPLAYER_Play nPort 0 hwnd 00170C12 fCallBack 00000000 pUser 00000000 nRet 0 OK!!
+
+2014-03-17 14:39:08:726 err     .\HIDecoder.cpp(337) => Current Video Frame 13855 Expected 1 May Lost 13854
+
+2014-03-17 14:39:08:726 info    .\HIDecoder.cpp(376) => CheckResolution 0 0 => 1280 960 Success
+
+2014-03-17 14:39:08:739 info    .\HIDecoder.cpp(405) => InitDecoder 1280 960 => 1280 960 Success
+
+2014-03-17 14:39:08:739 err     .\HIDecoder.cpp(475) => Hi264DecAU error -2
+
+2014-03-17 14:39:08:831 err     .\HIDDraw.cpp(736) => DDraw Cap supp BLTFOURCC: 0x95d27fc1
+
+2014-03-17 14:39:08:837 debug   .\HIDDraw.cpp(486) => CheckDisplayWnd_v2 hwnd 00170C12, fCallBackEx 0137E3E0, pUser 00000000
+
+2014-03-17 14:39:08:838 info    .\HIDDraw.cpp(1101) => UpdateDDrawResolution (0, 0) => (1280, 960) OK!
+
+2014-03-17 14:39:08:838 debug   .\HIDDraw.cpp(2500) => DrawThrdProc Running
+
+2014-03-17 14:39:08:838 info    .\HIDDraw.cpp(318) => SetMainWndRegion hwnd 00170C12 region(0, 0, 1280, 960) nRet 0
+
+2014-03-17 14:39:08:839 info    .\HIDDraw.cpp(1179) => Update Resolution 0 0 => 1280 960 Success
+
+2014-03-17 14:39:09:188 debug   .\HIBuffer.cpp(420) => Increase buffer to index 4 counter 3(4), buffSize 3145680, addr 0FCF0020
+
+2014-03-17 14:39:09:545 debug   .\HIBuffer.cpp(420) => Increase buffer to index 5 counter 4(5), buffSize 3145680, addr 10500020
+
+2014-03-17 14:39:26:314 info    .\HIDDraw.cpp(570) => AddDisplayWndEx_v2 000E12D6 fCallBackEx 00000000 pUser 00000000 OK Count 2
+
+2014-03-17 14:39:26:315 info    .\HIPlayer.cpp(309) => HIPLAYER_Play nPort 0 hwnd 000E12D6 fCallBack 00000000 pUser 00000000 nRet 0 OK!!
+
+2014-03-17 14:39:26:315 info    .\HIPlayer.cpp(749) => HIPLAYER_RegDrawCallBackEx port 0 fcb 01391550 pUser 002DCF88
+
+2014-03-17 14:39:26:316 debug   .\HIDDraw.cpp(486) => CheckDisplayWnd_v2 hwnd 000E12D6, fCallBackEx 01391550, pUser 002DCF88
+
+2014-03-17 14:39:26:654 info    .\HIPlayer.cpp(749) => HIPLAYER_RegDrawCallBackEx port 0 fcb 01391550 pUser 002DCF88
+
+2014-03-17 14:39:26:654 debug   .\HIDDraw.cpp(486) => CheckDisplayWnd_v2 hwnd 000E12D6, fCallBackEx 01391550, pUser 002DCF88
+
+2014-03-17 14:39:28:799 debug   .\HIBuffer.cpp(420) => Increase buffer to index 6 counter 5(6), buffSize 3145680, addr 115B0020
+
+2014-03-17 14:39:41:270 debug   .\HIBuffer.cpp(420) => Increase buffer to index 7 counter 6(7), buffSize 3145680, addr 118C0020
+
+2014-03-17 14:39:50:522 debug   .\HIPlayStream.cpp(555) => DeleteDisplayWnd 000E12D6 
+
+2014-03-17 14:39:50:522 info    .\HIDDraw.cpp(657) => DeleteDisplayWnd 000E12D6 Leave Count 2 => 1 
+
+2014-03-17 14:39:50:523 info    .\HIPlayer.cpp(749) => HIPLAYER_RegDrawCallBackEx port 0 fcb 00000000 pUser 002DCF88
+
+2014-03-17 14:40:12:845 info    .\HIDDraw.cpp(570) => AddDisplayWndEx_v2 001A0C42 fCallBackEx 00000000 pUser 00000000 OK Count 2
+
+2014-03-17 14:40:12:846 info    .\HIPlayer.cpp(309) => HIPLAYER_Play nPort 0 hwnd 001A0C42 fCallBack 00000000 pUser 00000000 nRet 0 OK!!
+
+2014-03-17 14:40:12:846 info    .\HIPlayer.cpp(749) => HIPLAYER_RegDrawCallBackEx port 0 fcb 01391550 pUser 002DCF88
+
+2014-03-17 14:40:12:847 debug   .\HIDDraw.cpp(486) => CheckDisplayWnd_v2 hwnd 001A0C42, fCallBackEx 01391550, pUser 002DCF88
+
+2014-03-17 14:40:13:163 info    .\HIPlayer.cpp(749) => HIPLAYER_RegDrawCallBackEx port 0 fcb 01391550 pUser 002DCF88
+
+2014-03-17 14:40:13:178 debug   .\HIDDraw.cpp(486) => CheckDisplayWnd_v2 hwnd 001A0C42, fCallBackEx 01391550, pUser 002DCF88
+
+2014-03-17 14:40:22:038 debug   .\HIPlayStream.cpp(555) => DeleteDisplayWnd 001A0C42 
+
+2014-03-17 14:40:22:039 info    .\HIDDraw.cpp(657) => DeleteDisplayWnd 001A0C42 Leave Count 2 => 1 
+
+2014-03-17 14:40:22:039 info    .\HIPlayer.cpp(749) => HIPLAYER_RegDrawCallBackEx port 0 fcb 00000000 pUser 002DCF88
+
+2014-03-17 14:40:31:583 info    .\HIDecoder.cpp(255) => resolution 1280 960 Over Count 0 Max Decode AU Time 21 ms
+
+2014-03-17 14:40:31:602 info    .\HIDDraw.cpp(2580) => VideoTimerDrawProc exit
+
+2014-03-17 14:40:31:606 info    .\HIDDraw.cpp(159) => [1] FreeDisplayWnd 00170C12 
+
+2014-03-17 14:40:31:606 info    .\HIDDraw.cpp(172) => FreeDisplayWnd Leave Count 1 => 0 
+
+2014-03-17 14:40:31:607 debug   .\HIBuffer.cpp(159) => FreeBufferList total 6 frame
+
+2014-03-17 14:40:31:608 info    .\HIPlayer.cpp(223) => HIPlayer FreePort 0 OK
+
+2014-03-17 14:40:31:608 info    .\HIPlayer.cpp(129) => HIPlayer Release OK
+
+2014-03-17 14:43:36:088 info    .\HIPlayer.cpp(97) => HIPlayer Init OK
+
+2014-03-17 14:43:40:114 info    .\HIPlayer.cpp(129) => HIPlayer Release OK
+
+2014-03-17 14:44:13:529 info    .\HIPlayer.cpp(97) => HIPlayer Init OK
+
+2014-03-17 14:44:21:111 info    .\HIPlayer.cpp(196) => HIPlayer GetPort OK 0
+
+2014-03-17 14:44:21:111 debug   .\HIDecoder.cpp(78) => Decoder No Buffer And TimerThrd
+
+2014-03-17 14:44:21:112 debug   .\HIBuffer.cpp(137) => InitList Element Num 3, size 3145728
+
+2014-03-17 14:44:21:112 debug   .\HIDSound.cpp(123) => DSound No Buffer And TimerThrd
+
+2014-03-17 14:44:21:112 info    .\HIPlayer.cpp(585) => HIPLAYER_OpenStream nPort 0 nRet 0 OK!!
+
+2014-03-17 14:44:22:515 info    .\HIPlayer.cpp(749) => HIPLAYER_RegDrawCallBackEx port 0 fcb 00E7E3E0 pUser 00000000
+
+2014-03-17 14:44:22:515 info    .\HIDDraw.cpp(570) => AddDisplayWndEx_v2 00151908 fCallBackEx 00E7E3E0 pUser 00000000 OK Count 1
+
+2014-03-17 14:44:22:516 err     .\HIDDraw.cpp(472) => CheckDisplayWndEx_v2 m_pDDraw 00000000
+
+2014-03-17 14:44:22:516 debug   .\HIDDraw.cpp(486) => CheckDisplayWnd_v2 hwnd 00151908, fCallBackEx 00E7E3E0, pUser 00000000
+
+2014-03-17 14:44:22:516 info    .\HIPlayer.cpp(309) => HIPLAYER_Play nPort 0 hwnd 00151908 fCallBack 00000000 pUser 00000000 nRet 0 OK!!
+
+2014-03-17 14:44:22:702 err     .\HIDecoder.cpp(337) => Current Video Frame 50427 Expected 1 May Lost 50426
+
+2014-03-17 14:44:22:703 info    .\HIDecoder.cpp(376) => CheckResolution 0 0 => 1280 720 Success
+
+2014-03-17 14:44:22:712 info    .\HIDecoder.cpp(405) => InitDecoder 1280 720 => 1280 720 Success
+
+2014-03-17 14:44:22:773 err     .\HIDDraw.cpp(736) => DDraw Cap supp BLTFOURCC: 0x95d27fc1
+
+2014-03-17 14:44:22:779 debug   .\HIDDraw.cpp(486) => CheckDisplayWnd_v2 hwnd 00151908, fCallBackEx 00E7E3E0, pUser 00000000
+
+2014-03-17 14:44:22:780 info    .\HIDDraw.cpp(1101) => UpdateDDrawResolution (0, 0) => (1280, 720) OK!
+
+2014-03-17 14:44:22:780 debug   .\HIDDraw.cpp(2500) => DrawThrdProc Running
+
+2014-03-17 14:44:22:780 info    .\HIDDraw.cpp(318) => SetMainWndRegion hwnd 00151908 region(0, 0, 1280, 720) nRet 0
+
+2014-03-17 14:44:22:781 info    .\HIDDraw.cpp(1179) => Update Resolution 0 0 => 1280 720 Success
+
+2014-03-17 14:44:22:933 debug   .\HIBuffer.cpp(420) => Increase buffer to index 4 counter 3(4), buffSize 3145680, addr 0F0F0020
+
+2014-03-17 14:44:22:955 debug   .\HIBuffer.cpp(420) => Increase buffer to index 5 counter 4(5), buffSize 3145680, addr 0F400020
+
+2014-03-17 14:44:22:971 debug   .\HIBuffer.cpp(420) => Increase buffer to index 6 counter 5(6), buffSize 3145680, addr 0F710020
+
+2014-03-17 14:44:22:977 debug   .\HIBuffer.cpp(420) => Increase buffer to index 7 counter 6(7), buffSize 3145680, addr 0FA20020
+
+2014-03-17 14:44:23:011 debug   .\HIBuffer.cpp(420) => Increase buffer to index 8 counter 7(8), buffSize 3145680, addr 10050020
+
+2014-03-17 14:44:23:038 debug   .\HIBuffer.cpp(420) => Increase buffer to index 9 counter 8(9), buffSize 3145680, addr 10360020
+
+2014-03-17 14:46:14:577 debug   .\HIDecoder.cpp(455) => DecAu Spend Time Over 40ms Count 20 Max 49
+
+2014-03-17 14:47:08:368 debug   .\HIDecoder.cpp(455) => DecAu Spend Time Over 40ms Count 40 Max 57
+
+2014-03-17 14:47:30:879 debug   .\HIDecoder.cpp(455) => DecAu Spend Time Over 40ms Count 60 Max 57
+
+2014-03-17 14:48:30:362 debug   .\HIDecoder.cpp(455) => DecAu Spend Time Over 40ms Count 80 Max 57
+
+2014-03-17 14:49:29:862 debug   .\HIDecoder.cpp(455) => DecAu Spend Time Over 40ms Count 100 Max 57
+
+2014-03-17 14:50:49:507 debug   .\HIDecoder.cpp(455) => DecAu Spend Time Over 40ms Count 120 Max 57
+
+2014-03-17 14:50:56:214 debug   .\HIBuffer.cpp(420) => Increase buffer to index 10 counter 9(10), buffSize 3145680, addr 10A00020
+
+2014-03-17 14:51:42:513 info    .\HIDecoder.cpp(255) => resolution 1280 720 Over Count 137 Max Decode AU Time 57 ms
+
+2014-03-17 14:51:42:515 info    .\HIDDraw.cpp(2580) => VideoTimerDrawProc exit
+
+2014-03-17 14:51:42:521 info    .\HIDDraw.cpp(159) => [1] FreeDisplayWnd 00151908 
+
+2014-03-17 14:51:42:522 info    .\HIDDraw.cpp(172) => FreeDisplayWnd Leave Count 1 => 0 
+
+2014-03-17 14:51:42:524 debug   .\HIBuffer.cpp(159) => FreeBufferList total 9 frame
+
+2014-03-17 14:51:42:525 info    .\HIPlayer.cpp(223) => HIPlayer FreePort 0 OK
+
+2014-03-17 14:51:42:525 info    .\HIPlayer.cpp(129) => HIPlayer Release OK
+
+2014-03-17 15:04:54:266 info    .\HIPlayer.cpp(97) => HIPlayer Init OK
+
+2014-03-17 15:04:59:070 info    .\HIPlayer.cpp(196) => HIPlayer GetPort OK 0
+
+2014-03-17 15:04:59:071 debug   .\HIDecoder.cpp(78) => Decoder No Buffer And TimerThrd
+
+2014-03-17 15:04:59:071 debug   .\HIBuffer.cpp(137) => InitList Element Num 3, size 3145728
+
+2014-03-17 15:04:59:071 debug   .\HIDSound.cpp(123) => DSound No Buffer And TimerThrd
+
+2014-03-17 15:04:59:072 info    .\HIPlayer.cpp(585) => HIPLAYER_OpenStream nPort 0 nRet 0 OK!!
+
+2014-03-17 15:05:00:232 info    .\HIPlayer.cpp(749) => HIPLAYER_RegDrawCallBackEx port 0 fcb 0010E3E0 pUser 00000000
+
+2014-03-17 15:05:00:233 info    .\HIDDraw.cpp(570) => AddDisplayWndEx_v2 00330A50 fCallBackEx 0010E3E0 pUser 00000000 OK Count 1
+
+2014-03-17 15:05:00:233 err     .\HIDDraw.cpp(472) => CheckDisplayWndEx_v2 m_pDDraw 00000000
+
+2014-03-17 15:05:00:233 debug   .\HIDDraw.cpp(486) => CheckDisplayWnd_v2 hwnd 00330A50, fCallBackEx 0010E3E0, pUser 00000000
+
+2014-03-17 15:05:00:234 info    .\HIPlayer.cpp(309) => HIPLAYER_Play nPort 0 hwnd 00330A50 fCallBack 00000000 pUser 00000000 nRet 0 OK!!
+
+2014-03-17 15:05:00:261 err     .\HIDecoder.cpp(337) => Current Video Frame 52677 Expected 1 May Lost 52676
+
+2014-03-17 15:05:00:262 info    .\HIDecoder.cpp(376) => CheckResolution 0 0 => 1280 960 Success
+
+2014-03-17 15:05:00:274 info    .\HIDecoder.cpp(405) => InitDecoder 1280 960 => 1280 960 Success
+
+2014-03-17 15:05:00:315 err     .\HIDDraw.cpp(736) => DDraw Cap supp BLTFOURCC: 0x95d27fc1
+
+2014-03-17 15:05:00:321 debug   .\HIDDraw.cpp(486) => CheckDisplayWnd_v2 hwnd 00330A50, fCallBackEx 0010E3E0, pUser 00000000
+
+2014-03-17 15:05:00:322 info    .\HIDDraw.cpp(1101) => UpdateDDrawResolution (0, 0) => (1280, 960) OK!
+
+2014-03-17 15:05:00:322 info    .\HIDDraw.cpp(318) => SetMainWndRegion hwnd 00330A50 region(0, 0, 1280, 960) nRet 0
+
+2014-03-17 15:05:00:322 info    .\HIDDraw.cpp(1179) => Update Resolution 0 0 => 1280 960 Success
+
+2014-03-17 15:05:00:324 debug   .\HIDDraw.cpp(2500) => DrawThrdProc Running
+
+2014-03-17 15:05:00:716 debug   .\HIBuffer.cpp(420) => Increase buffer to index 4 counter 3(4), buffSize 3145680, addr 0FB70020
+
+2014-03-17 15:05:01:076 debug   .\HIBuffer.cpp(420) => Increase buffer to index 5 counter 4(5), buffSize 3145680, addr 10500020
+
+2014-03-17 15:05:01:499 debug   .\HIBuffer.cpp(420) => Increase buffer to index 6 counter 5(6), buffSize 3145680, addr 10810020
+
+2014-03-17 15:05:01:737 debug   .\HIBuffer.cpp(420) => Increase buffer to index 7 counter 6(7), buffSize 3145680, addr 10B20020
+
+2014-03-17 15:05:01:741 debug   .\HIBuffer.cpp(420) => Increase buffer to index 8 counter 7(8), buffSize 3145680, addr 10E30020
+
+2014-03-17 15:05:04:668 debug   .\HIBuffer.cpp(420) => Increase buffer to index 9 counter 8(9), buffSize 3145680, addr 11140020
+
+2014-03-17 15:05:04:673 debug   .\HIBuffer.cpp(420) => Increase buffer to index 10 counter 9(10), buffSize 3145680, addr 11450020
+
+2014-03-17 15:05:04:679 debug   .\HIBuffer.cpp(420) => Increase buffer to index 11 counter 10(11), buffSize 3145680, addr 11760020
+
+2014-03-17 15:05:18:313 warn    .\HIDDraw.cpp(1210) => YUV Pool Over Limit 10, Reset Buffer
+
+2014-03-17 15:05:18:314 info    .\HIBuffer.cpp(190) => ResetList Start Node 11 Frame 11
+
+2014-03-17 15:05:18:325 info    .\HIBuffer.cpp(235) => ResetList Free Node 7 Leave 4
+
+2014-03-17 15:05:19:167 debug   .\HIBuffer.cpp(420) => Increase buffer to index 5 counter 4(5), buffSize 3145680, addr 080D0020
+
+2014-03-17 15:05:26:231 debug   .\HIBuffer.cpp(420) => Increase buffer to index 6 counter 5(6), buffSize 3145680, addr 10500020
+
+2014-03-17 15:05:26:238 debug   .\HIBuffer.cpp(420) => Increase buffer to index 7 counter 6(7), buffSize 3145680, addr 10810020
+
+2014-03-17 15:05:26:242 debug   .\HIBuffer.cpp(420) => Increase buffer to index 8 counter 7(8), buffSize 3145680, addr 11450020
+
+2014-03-17 15:05:26:298 debug   .\HIBuffer.cpp(420) => Increase buffer to index 9 counter 8(9), buffSize 3145680, addr 11760020
+
+2014-03-17 15:05:26:328 debug   .\HIBuffer.cpp(420) => Increase buffer to index 10 counter 9(10), buffSize 3145680, addr 11A70020
+
+2014-03-17 15:06:10:610 debug   .\HIBuffer.cpp(420) => Increase buffer to index 11 counter 10(11), buffSize 3145680, addr 11D80020
+
+2014-03-17 15:06:11:531 warn    .\HIDDraw.cpp(1210) => YUV Pool Over Limit 10, Reset Buffer
+
+2014-03-17 15:06:11:531 info    .\HIBuffer.cpp(190) => ResetList Start Node 11 Frame 11
+
+2014-03-17 15:06:11:533 info    .\HIBuffer.cpp(235) => ResetList Free Node 7 Leave 4
+
+2014-03-17 15:06:11:940 debug   .\HIBuffer.cpp(420) => Increase buffer to index 5 counter 4(5), buffSize 3145680, addr 10500020
+
+2014-03-17 15:06:11:946 debug   .\HIBuffer.cpp(420) => Increase buffer to index 6 counter 5(6), buffSize 3145680, addr 10810020
+
+2014-03-17 15:06:13:122 debug   .\HIBuffer.cpp(420) => Increase buffer to index 7 counter 6(7), buffSize 3145680, addr 10E30020
+
+2014-03-17 15:06:13:127 debug   .\HIBuffer.cpp(420) => Increase buffer to index 8 counter 7(8), buffSize 3145680, addr 11140020
+
+2014-03-17 15:06:13:132 debug   .\HIBuffer.cpp(420) => Increase buffer to index 9 counter 8(9), buffSize 3145680, addr 11450020
+
+2014-03-17 15:06:13:137 debug   .\HIBuffer.cpp(420) => Increase buffer to index 10 counter 9(10), buffSize 3145680, addr 11760020
+
+2014-03-17 15:06:44:612 debug   .\HIBuffer.cpp(420) => Increase buffer to index 11 counter 10(11), buffSize 3145680, addr 0FCB0020
+
+2014-03-17 15:06:44:703 warn    .\HIDDraw.cpp(1210) => YUV Pool Over Limit 10, Reset Buffer
+
+2014-03-17 15:06:44:703 info    .\HIBuffer.cpp(190) => ResetList Start Node 11 Frame 11
+
+2014-03-17 15:06:44:704 info    .\HIBuffer.cpp(235) => ResetList Free Node 7 Leave 4
+
+2014-03-17 15:06:45:093 debug   .\HIBuffer.cpp(420) => Increase buffer to index 5 counter 4(5), buffSize 3145680, addr 080D0020
+
+2014-03-17 15:06:53:987 debug   .\HIBuffer.cpp(420) => Increase buffer to index 6 counter 5(6), buffSize 3145680, addr 0FCB0020
+
+2014-03-17 15:06:57:696 debug   .\HIBuffer.cpp(420) => Increase buffer to index 7 counter 6(7), buffSize 3145680, addr 10B20020
+
+2014-03-17 15:06:57:700 debug   .\HIBuffer.cpp(420) => Increase buffer to index 8 counter 7(8), buffSize 3145680, addr 10E30020
+
+2014-03-17 15:06:59:721 debug   .\HIBuffer.cpp(420) => Increase buffer to index 9 counter 8(9), buffSize 3145680, addr 11140020
+
+2014-03-17 15:06:59:725 debug   .\HIBuffer.cpp(420) => Increase buffer to index 10 counter 9(10), buffSize 3145680, addr 11450020
+
+2014-03-17 15:06:59:731 debug   .\HIBuffer.cpp(420) => Increase buffer to index 11 counter 10(11), buffSize 3145680, addr 11760020
+
+2014-03-17 15:08:44:817 warn    .\HIDDraw.cpp(1210) => YUV Pool Over Limit 10, Reset Buffer
+
+2014-03-17 15:08:44:817 info    .\HIBuffer.cpp(190) => ResetList Start Node 11 Frame 11
+
+2014-03-17 15:08:44:819 info    .\HIBuffer.cpp(235) => ResetList Free Node 7 Leave 4
+
+2014-03-17 15:08:45:200 debug   .\HIBuffer.cpp(420) => Increase buffer to index 5 counter 4(5), buffSize 3145680, addr 083E0020
+
+2014-03-17 15:08:45:205 debug   .\HIBuffer.cpp(420) => Increase buffer to index 6 counter 5(6), buffSize 3145680, addr 0FB70020
+
+2014-03-17 15:08:45:209 debug   .\HIBuffer.cpp(420) => Increase buffer to index 7 counter 6(7), buffSize 3145680, addr 10810020
+
+2014-03-17 15:08:45:214 debug   .\HIBuffer.cpp(420) => Increase buffer to index 8 counter 7(8), buffSize 3145680, addr 10B20020
+
+2014-03-17 15:09:34:047 debug   .\HIBuffer.cpp(420) => Increase buffer to index 9 counter 8(9), buffSize 3145680, addr 10E30020
+
+2014-03-17 15:09:51:183 debug   .\HIBuffer.cpp(420) => Increase buffer to index 10 counter 9(10), buffSize 3145680, addr 11140020
+
+2014-03-17 15:09:51:188 debug   .\HIBuffer.cpp(420) => Increase buffer to index 11 counter 10(11), buffSize 3145680, addr 11450020
+
+2014-03-17 15:10:08:143 warn    .\HIDDraw.cpp(1210) => YUV Pool Over Limit 10, Reset Buffer
+
+2014-03-17 15:10:08:144 info    .\HIBuffer.cpp(190) => ResetList Start Node 11 Frame 11
+
+2014-03-17 15:10:08:145 info    .\HIBuffer.cpp(235) => ResetList Free Node 7 Leave 4
+
+2014-03-17 15:10:08:809 debug   .\HIBuffer.cpp(420) => Increase buffer to index 5 counter 4(5), buffSize 3145680, addr 080D0020
+
+2014-03-17 15:10:10:096 debug   .\HIBuffer.cpp(420) => Increase buffer to index 6 counter 5(6), buffSize 3145680, addr 083E0020
+
+2014-03-17 15:10:12:454 debug   .\HIBuffer.cpp(420) => Increase buffer to index 7 counter 6(7), buffSize 3145680, addr 0FB70020
+
+2014-03-17 15:10:12:459 debug   .\HIBuffer.cpp(420) => Increase buffer to index 8 counter 7(8), buffSize 3145680, addr 10500020
+
+2014-03-17 15:10:12:465 debug   .\HIBuffer.cpp(420) => Increase buffer to index 9 counter 8(9), buffSize 3145680, addr 10810020
+
+2014-03-17 15:10:12:558 debug   .\HIBuffer.cpp(420) => Increase buffer to index 10 counter 9(10), buffSize 3145680, addr 10B20020
+
+2014-03-17 15:11:07:990 debug   .\HIBuffer.cpp(420) => Increase buffer to index 11 counter 10(11), buffSize 3145680, addr 10E30020
+
+2014-03-17 15:11:08:005 warn    .\HIDDraw.cpp(1210) => YUV Pool Over Limit 10, Reset Buffer
+
+2014-03-17 15:11:08:006 info    .\HIBuffer.cpp(190) => ResetList Start Node 11 Frame 11
+
+2014-03-17 15:11:08:007 info    .\HIBuffer.cpp(235) => ResetList Free Node 7 Leave 4
+
+2014-03-17 15:11:09:035 debug   .\HIBuffer.cpp(420) => Increase buffer to index 5 counter 4(5), buffSize 3145680, addr 080D0020
+
+2014-03-17 15:11:11:468 debug   .\HIBuffer.cpp(420) => Increase buffer to index 6 counter 5(6), buffSize 3145680, addr 10500020
+
+2014-03-17 15:11:11:474 debug   .\HIBuffer.cpp(420) => Increase buffer to index 7 counter 6(7), buffSize 3145680, addr 10810020
+
+2014-03-17 15:11:11:481 debug   .\HIBuffer.cpp(420) => Increase buffer to index 8 counter 7(8), buffSize 3145680, addr 10B20020
+
+2014-03-17 15:11:11:486 debug   .\HIBuffer.cpp(420) => Increase buffer to index 9 counter 8(9), buffSize 3145680, addr 10E30020
+
+2014-03-17 15:11:11:612 debug   .\HIBuffer.cpp(420) => Increase buffer to index 10 counter 9(10), buffSize 3145680, addr 11450020
+
+2014-03-17 15:11:16:102 debug   .\HIBuffer.cpp(420) => Increase buffer to index 11 counter 10(11), buffSize 3145680, addr 11760020
+
+2014-03-17 15:11:16:118 warn    .\HIDDraw.cpp(1210) => YUV Pool Over Limit 10, Reset Buffer
+
+2014-03-17 15:11:16:118 info    .\HIBuffer.cpp(190) => ResetList Start Node 11 Frame 11
+
+2014-03-17 15:11:16:124 info    .\HIBuffer.cpp(235) => ResetList Free Node 7 Leave 4
+
+2014-03-17 15:11:16:852 debug   .\HIBuffer.cpp(420) => Increase buffer to index 5 counter 4(5), buffSize 3145680, addr 083E0020
+
+2014-03-17 15:11:35:959 debug   .\HIBuffer.cpp(420) => Increase buffer to index 6 counter 5(6), buffSize 3145680, addr 0FB70020
+
+2014-03-17 15:11:41:888 debug   .\HIBuffer.cpp(420) => Increase buffer to index 7 counter 6(7), buffSize 3145680, addr 10500020
+
+2014-03-17 15:12:13:930 debug   .\HIBuffer.cpp(420) => Increase buffer to index 8 counter 7(8), buffSize 3145680, addr 10810020
+
+2014-03-17 15:12:13:937 debug   .\HIBuffer.cpp(420) => Increase buffer to index 9 counter 8(9), buffSize 3145680, addr 10B20020
+
+2014-03-17 15:12:13:942 debug   .\HIBuffer.cpp(420) => Increase buffer to index 10 counter 9(10), buffSize 3145680, addr 10E30020
+
+2014-03-17 15:12:13:947 debug   .\HIBuffer.cpp(420) => Increase buffer to index 11 counter 10(11), buffSize 3145680, addr 11760020
+
+2014-03-17 15:12:13:962 warn    .\HIDDraw.cpp(1210) => YUV Pool Over Limit 10, Reset Buffer
+
+2014-03-17 15:12:13:963 info    .\HIBuffer.cpp(190) => ResetList Start Node 11 Frame 11
+
+2014-03-17 15:12:13:964 info    .\HIBuffer.cpp(235) => ResetList Free Node 7 Leave 4
+
+2014-03-17 15:12:14:681 debug   .\HIBuffer.cpp(420) => Increase buffer to index 5 counter 4(5), buffSize 3145680, addr 080D0020
+
+2014-03-17 15:12:17:571 debug   .\HIBuffer.cpp(420) => Increase buffer to index 6 counter 5(6), buffSize 3145680, addr 0FB70020
+
+2014-03-17 15:12:18:516 debug   .\HIBuffer.cpp(420) => Increase buffer to index 7 counter 6(7), buffSize 3145680, addr 10500020
+
+2014-03-17 15:12:18:520 debug   .\HIBuffer.cpp(420) => Increase buffer to index 8 counter 7(8), buffSize 3145680, addr 10B20020
+
+2014-03-17 15:12:43:911 debug   .\HIBuffer.cpp(420) => Increase buffer to index 9 counter 8(9), buffSize 3145680, addr 10E30020
+
+2014-03-17 15:12:43:916 debug   .\HIBuffer.cpp(420) => Increase buffer to index 10 counter 9(10), buffSize 3145680, addr 11450020
+
+2014-03-17 15:12:43:947 debug   .\HIBuffer.cpp(420) => Increase buffer to index 11 counter 10(11), buffSize 3145680, addr 11760020
+
+2014-03-17 15:16:07:861 warn    .\HIDDraw.cpp(1210) => YUV Pool Over Limit 10, Reset Buffer
+
+2014-03-17 15:16:07:862 info    .\HIBuffer.cpp(190) => ResetList Start Node 11 Frame 11
+
+2014-03-17 15:16:07:864 info    .\HIBuffer.cpp(235) => ResetList Free Node 7 Leave 4
+
+2014-03-17 15:16:08:575 debug   .\HIBuffer.cpp(420) => Increase buffer to index 5 counter 4(5), buffSize 3145680, addr 080D0020
+
+2014-03-17 15:16:13:711 debug   .\HIBuffer.cpp(420) => Increase buffer to index 6 counter 5(6), buffSize 3145680, addr 083E0020
+
+2014-03-17 15:16:14:465 debug   .\HIBuffer.cpp(420) => Increase buffer to index 7 counter 6(7), buffSize 3145680, addr 0FB70020
+
+2014-03-17 15:16:14:469 debug   .\HIBuffer.cpp(420) => Increase buffer to index 8 counter 7(8), buffSize 3145680, addr 10810020
+
+2014-03-17 15:16:14:474 debug   .\HIBuffer.cpp(420) => Increase buffer to index 9 counter 8(9), buffSize 3145680, addr 10E30020
+
+2014-03-17 15:16:24:867 debug   .\HIBuffer.cpp(420) => Increase buffer to index 10 counter 9(10), buffSize 3145680, addr 11450020
+
+2014-03-17 15:18:01:400 debug   .\HIBuffer.cpp(420) => Increase buffer to index 11 counter 10(11), buffSize 3145680, addr 11760020
+
+2014-03-17 15:23:55:378 warn    .\HIDDraw.cpp(1210) => YUV Pool Over Limit 10, Reset Buffer
+
+2014-03-17 15:23:55:379 info    .\HIBuffer.cpp(190) => ResetList Start Node 11 Frame 11
+
+2014-03-17 15:23:55:380 info    .\HIBuffer.cpp(235) => ResetList Free Node 7 Leave 4
+
+2014-03-17 15:23:56:028 debug   .\HIBuffer.cpp(420) => Increase buffer to index 5 counter 4(5), buffSize 3145680, addr 080D0020
+
+2014-03-17 15:23:57:332 debug   .\HIBuffer.cpp(420) => Increase buffer to index 6 counter 5(6), buffSize 3145680, addr 0FB70020
+
+2014-03-17 15:32:58:544 debug   .\HIBuffer.cpp(420) => Increase buffer to index 7 counter 6(7), buffSize 3145680, addr 105A0020
+
+2014-03-17 15:32:58:549 debug   .\HIBuffer.cpp(420) => Increase buffer to index 8 counter 7(8), buffSize 3145680, addr 108B0020
+
+2014-03-17 15:32:58:553 debug   .\HIBuffer.cpp(420) => Increase buffer to index 9 counter 8(9), buffSize 3145680, addr 10BC0020
+
+2014-03-17 15:33:01:095 debug   .\HIBuffer.cpp(420) => Increase buffer to index 10 counter 9(10), buffSize 3145680, addr 11450020
+
+2014-03-17 15:33:01:100 debug   .\HIBuffer.cpp(420) => Increase buffer to index 11 counter 10(11), buffSize 3145680, addr 11A70020
+
+2014-03-17 15:33:01:105 warn    .\HIDDraw.cpp(1210) => YUV Pool Over Limit 10, Reset Buffer
+
+2014-03-17 15:33:01:106 info    .\HIBuffer.cpp(190) => ResetList Start Node 11 Frame 11
+
+2014-03-17 15:33:01:107 info    .\HIBuffer.cpp(235) => ResetList Free Node 7 Leave 4
+
+2014-03-17 15:33:01:481 debug   .\HIBuffer.cpp(420) => Increase buffer to index 5 counter 4(5), buffSize 3145680, addr 080D0020
+
+2014-03-17 15:33:12:887 debug   .\HIBuffer.cpp(420) => Increase buffer to index 6 counter 5(6), buffSize 3145680, addr 083E0020
+
+2014-03-17 15:33:19:560 info    .\HIDecoder.cpp(255) => resolution 1280 960 Over Count 0 Max Decode AU Time 25 ms
+
+2014-03-17 15:33:19:564 info    .\HIDDraw.cpp(2580) => VideoTimerDrawProc exit
+
+2014-03-17 15:33:19:571 info    .\HIDDraw.cpp(159) => [1] FreeDisplayWnd 00330A50 
+
+2014-03-17 15:33:19:571 info    .\HIDDraw.cpp(172) => FreeDisplayWnd Leave Count 1 => 0 
+
+2014-03-17 15:33:19:572 debug   .\HIBuffer.cpp(159) => FreeBufferList total 5 frame
+
+2014-03-17 15:33:19:573 info    .\HIPlayer.cpp(223) => HIPlayer FreePort 0 OK
+
+2014-03-17 15:33:19:573 info    .\HIPlayer.cpp(129) => HIPlayer Release OK
+
+2014-03-17 15:39:58:228 info    .\HIPlayer.cpp(97) => HIPlayer Init OK
+
+2014-03-17 15:40:05:216 info    .\HIPlayer.cpp(196) => HIPlayer GetPort OK 0
+
+2014-03-17 15:40:05:216 debug   .\HIDecoder.cpp(78) => Decoder No Buffer And TimerThrd
+
+2014-03-17 15:40:05:217 debug   .\HIBuffer.cpp(137) => InitList Element Num 3, size 3145728
+
+2014-03-17 15:40:05:217 debug   .\HIDSound.cpp(123) => DSound No Buffer And TimerThrd
+
+2014-03-17 15:40:05:217 info    .\HIPlayer.cpp(585) => HIPLAYER_OpenStream nPort 0 nRet 0 OK!!
+
+2014-03-17 15:40:07:215 info    .\HIPlayer.cpp(749) => HIPLAYER_RegDrawCallBackEx port 0 fcb 011BE3E0 pUser 00000000
+
+2014-03-17 15:40:07:215 info    .\HIDDraw.cpp(570) => AddDisplayWndEx_v2 001818D4 fCallBackEx 011BE3E0 pUser 00000000 OK Count 1
+
+2014-03-17 15:40:07:215 err     .\HIDDraw.cpp(472) => CheckDisplayWndEx_v2 m_pDDraw 00000000
+
+2014-03-17 15:40:07:216 debug   .\HIDDraw.cpp(486) => CheckDisplayWnd_v2 hwnd 001818D4, fCallBackEx 011BE3E0, pUser 00000000
+
+2014-03-17 15:40:07:216 info    .\HIPlayer.cpp(309) => HIPLAYER_Play nPort 0 hwnd 001818D4 fCallBack 00000000 pUser 00000000 nRet 0 OK!!
+
+2014-03-17 15:40:07:255 err     .\HIDecoder.cpp(337) => Current Video Frame 39862 Expected 1 May Lost 39861
+
+2014-03-17 15:40:07:255 info    .\HIDecoder.cpp(376) => CheckResolution 0 0 => 1280 960 Success
+
+2014-03-17 15:40:07:267 info    .\HIDecoder.cpp(405) => InitDecoder 1280 960 => 1280 960 Success
+
+2014-03-17 15:40:07:307 err     .\HIDDraw.cpp(736) => DDraw Cap supp BLTFOURCC: 0x95d27fc1
+
+2014-03-17 15:40:07:313 debug   .\HIDDraw.cpp(486) => CheckDisplayWnd_v2 hwnd 001818D4, fCallBackEx 011BE3E0, pUser 00000000
+
+2014-03-17 15:40:07:314 info    .\HIDDraw.cpp(1101) => UpdateDDrawResolution (0, 0) => (1280, 960) OK!
+
+2014-03-17 15:40:07:314 info    .\HIDDraw.cpp(318) => SetMainWndRegion hwnd 001818D4 region(0, 0, 1280, 960) nRet 0
+
+2014-03-17 15:40:07:315 info    .\HIDDraw.cpp(1179) => Update Resolution 0 0 => 1280 960 Success
+
+2014-03-17 15:40:07:314 debug   .\HIDDraw.cpp(2500) => DrawThrdProc Running
+
+2014-03-17 15:40:07:665 debug   .\HIBuffer.cpp(420) => Increase buffer to index 4 counter 3(4), buffSize 3145680, addr 10500020
+
+2014-03-17 15:40:08:232 debug   .\HIBuffer.cpp(420) => Increase buffer to index 5 counter 4(5), buffSize 3145680, addr 10810020
+
+2014-03-17 15:40:15:314 debug   .\HIBuffer.cpp(420) => Increase buffer to index 6 counter 5(6), buffSize 3145680, addr 10B20020
+
+2014-03-17 15:40:54:957 info    .\HIDecoder.cpp(255) => resolution 1280 960 Over Count 0 Max Decode AU Time 22 ms
+
+2014-03-17 15:40:54:967 info    .\HIDDraw.cpp(2580) => VideoTimerDrawProc exit
+
+2014-03-17 15:40:54:974 info    .\HIDDraw.cpp(159) => [1] FreeDisplayWnd 001818D4 
+
+2014-03-17 15:40:54:974 info    .\HIDDraw.cpp(172) => FreeDisplayWnd Leave Count 1 => 0 
+
+2014-03-17 15:40:54:975 debug   .\HIBuffer.cpp(159) => FreeBufferList total 5 frame
+
+2014-03-17 15:40:54:976 info    .\HIPlayer.cpp(223) => HIPlayer FreePort 0 OK
+
+2014-03-17 15:40:54:976 info    .\HIPlayer.cpp(129) => HIPlayer Release OK
+
+2014-03-17 15:46:16:993 info    .\HIPlayer.cpp(97) => HIPlayer Init OK
+
+2014-03-17 15:46:23:580 info    .\HIPlayer.cpp(196) => HIPlayer GetPort OK 0
+
+2014-03-17 15:46:23:581 debug   .\HIDecoder.cpp(78) => Decoder No Buffer And TimerThrd
+
+2014-03-17 15:46:23:581 debug   .\HIBuffer.cpp(137) => InitList Element Num 3, size 3145728
+
+2014-03-17 15:46:23:582 debug   .\HIDSound.cpp(123) => DSound No Buffer And TimerThrd
+
+2014-03-17 15:46:23:582 info    .\HIPlayer.cpp(585) => HIPLAYER_OpenStream nPort 0 nRet 0 OK!!
+
+2014-03-17 15:46:25:063 info    .\HIPlayer.cpp(749) => HIPLAYER_RegDrawCallBackEx port 0 fcb 0136E3E0 pUser 00000000
+
+2014-03-17 15:46:25:063 info    .\HIDDraw.cpp(570) => AddDisplayWndEx_v2 002B18C8 fCallBackEx 0136E3E0 pUser 00000000 OK Count 1
+
+2014-03-17 15:46:25:064 err     .\HIDDraw.cpp(472) => CheckDisplayWndEx_v2 m_pDDraw 00000000
+
+2014-03-17 15:46:25:064 debug   .\HIDDraw.cpp(486) => CheckDisplayWnd_v2 hwnd 002B18C8, fCallBackEx 0136E3E0, pUser 00000000
+
+2014-03-17 15:46:25:065 info    .\HIPlayer.cpp(309) => HIPLAYER_Play nPort 0 hwnd 002B18C8 fCallBack 00000000 pUser 00000000 nRet 0 OK!!
+
+2014-03-17 15:46:25:068 err     .\HIDecoder.cpp(337) => Current Video Frame 24046 Expected 1 May Lost 24045
+
+2014-03-17 15:46:25:068 info    .\HIDecoder.cpp(376) => CheckResolution 0 0 => 1280 720 Success
+
+2014-03-17 15:46:25:076 info    .\HIDecoder.cpp(405) => InitDecoder 1280 720 => 1280 720 Success
+
+2014-03-17 15:46:25:077 err     .\HIDecoder.cpp(475) => Hi264DecAU error -2
+
+2014-03-17 15:46:25:218 err     .\HIDDraw.cpp(736) => DDraw Cap supp BLTFOURCC: 0x95d27fc1
+
+2014-03-17 15:46:25:224 debug   .\HIDDraw.cpp(486) => CheckDisplayWnd_v2 hwnd 002B18C8, fCallBackEx 0136E3E0, pUser 00000000
+
+2014-03-17 15:46:25:225 info    .\HIDDraw.cpp(1101) => UpdateDDrawResolution (0, 0) => (1280, 720) OK!
+
+2014-03-17 15:46:25:225 info    .\HIDDraw.cpp(318) => SetMainWndRegion hwnd 002B18C8 region(0, 0, 1280, 720) nRet 0
+
+2014-03-17 15:46:25:225 info    .\HIDDraw.cpp(1179) => Update Resolution 0 0 => 1280 720 Success
+
+2014-03-17 15:46:25:227 debug   .\HIDDraw.cpp(2500) => DrawThrdProc Running
+
+2014-03-17 15:46:25:262 debug   .\HIBuffer.cpp(420) => Increase buffer to index 4 counter 3(4), buffSize 3145680, addr 0EF60020
+
+2014-03-17 15:46:30:176 debug   .\HIBuffer.cpp(420) => Increase buffer to index 5 counter 4(5), buffSize 3145680, addr 0F270020
+
+2014-03-17 15:46:30:193 debug   .\HIBuffer.cpp(420) => Increase buffer to index 6 counter 5(6), buffSize 3145680, addr 0F580020
+
+2014-03-17 15:47:15:499 info    .\HIDecoder.cpp(255) => resolution 1280 720 Over Count 3 Max Decode AU Time 42 ms
+
+2014-03-17 15:47:15:525 info    .\HIDDraw.cpp(2580) => VideoTimerDrawProc exit
+
+2014-03-17 15:47:15:530 info    .\HIDDraw.cpp(159) => [1] FreeDisplayWnd 002B18C8 
+
+2014-03-17 15:47:15:530 info    .\HIDDraw.cpp(172) => FreeDisplayWnd Leave Count 1 => 0 
+
+2014-03-17 15:47:15:532 debug   .\HIBuffer.cpp(159) => FreeBufferList total 5 frame
+
+2014-03-17 15:47:15:533 info    .\HIPlayer.cpp(223) => HIPlayer FreePort 0 OK
+
+2014-03-17 15:47:15:533 info    .\HIPlayer.cpp(129) => HIPlayer Release OK
+
+2014-03-17 18:04:09:692 info    .\HIPlayer.cpp(97) => HIPlayer Init OK
+
+2014-03-17 18:04:16:619 info    .\HIPlayer.cpp(196) => HIPlayer GetPort OK 0
+
+2014-03-17 18:04:16:619 debug   .\HIDecoder.cpp(78) => Decoder No Buffer And TimerThrd
+
+2014-03-17 18:04:16:620 debug   .\HIBuffer.cpp(137) => InitList Element Num 3, size 3145728
+
+2014-03-17 18:04:16:620 debug   .\HIDSound.cpp(123) => DSound No Buffer And TimerThrd
+
+2014-03-17 18:04:16:621 info    .\HIPlayer.cpp(585) => HIPLAYER_OpenStream nPort 0 nRet 0 OK!!
+
+2014-03-17 18:04:18:654 info    .\HIPlayer.cpp(749) => HIPLAYER_RegDrawCallBackEx port 0 fcb 0108E3E0 pUser 00000000
+
+2014-03-17 18:04:18:654 info    .\HIDDraw.cpp(570) => AddDisplayWndEx_v2 006217A6 fCallBackEx 0108E3E0 pUser 00000000 OK Count 1
+
+2014-03-17 18:04:18:654 err     .\HIDDraw.cpp(472) => CheckDisplayWndEx_v2 m_pDDraw 00000000
+
+2014-03-17 18:04:18:655 debug   .\HIDDraw.cpp(486) => CheckDisplayWnd_v2 hwnd 006217A6, fCallBackEx 0108E3E0, pUser 00000000
+
+2014-03-17 18:04:18:655 info    .\HIPlayer.cpp(309) => HIPLAYER_Play nPort 0 hwnd 006217A6 fCallBack 00000000 pUser 00000000 nRet 0 OK!!
+
+2014-03-17 18:04:18:697 err     .\HIDecoder.cpp(337) => Current Video Frame 59729 Expected 1 May Lost 59728
+
+2014-03-17 18:04:18:698 info    .\HIDecoder.cpp(376) => CheckResolution 0 0 => 1280 960 Success
+
+2014-03-17 18:04:18:710 info    .\HIDecoder.cpp(405) => InitDecoder 1280 960 => 1280 960 Success
+
+2014-03-17 18:04:18:760 err     .\HIDDraw.cpp(736) => DDraw Cap supp BLTFOURCC: 0x95d27fc1
+
+2014-03-17 18:04:18:766 debug   .\HIDDraw.cpp(486) => CheckDisplayWnd_v2 hwnd 006217A6, fCallBackEx 0108E3E0, pUser 00000000
+
+2014-03-17 18:04:18:767 info    .\HIDDraw.cpp(1101) => UpdateDDrawResolution (0, 0) => (1280, 960) OK!
+
+2014-03-17 18:04:18:767 debug   .\HIDDraw.cpp(2500) => DrawThrdProc Running
+
+2014-03-17 18:04:18:767 info    .\HIDDraw.cpp(318) => SetMainWndRegion hwnd 006217A6 region(0, 0, 1280, 960) nRet 0
+
+2014-03-17 18:04:18:767 info    .\HIDDraw.cpp(1179) => Update Resolution 0 0 => 1280 960 Success
+
+2014-03-17 18:04:19:074 debug   .\HIBuffer.cpp(420) => Increase buffer to index 4 counter 3(4), buffSize 3145680, addr 10500020
+
+2014-03-17 18:04:20:365 debug   .\HIBuffer.cpp(420) => Increase buffer to index 5 counter 4(5), buffSize 3145680, addr 10810020
+
+2014-03-17 18:04:28:712 debug   .\HIBuffer.cpp(420) => Increase buffer to index 6 counter 5(6), buffSize 3145680, addr 10B20020
+
+2014-03-17 18:04:36:971 debug   .\HIBuffer.cpp(420) => Increase buffer to index 7 counter 6(7), buffSize 3145680, addr 10E30020
+
+2014-03-17 18:04:49:931 info    .\HIDecoder.cpp(255) => resolution 1280 960 Over Count 0 Max Decode AU Time 24 ms
+
+2014-03-17 18:04:49:948 info    .\HIDDraw.cpp(2580) => VideoTimerDrawProc exit
+
+2014-03-17 18:04:49:954 info    .\HIDDraw.cpp(159) => [1] FreeDisplayWnd 006217A6 
+
+2014-03-17 18:04:49:954 info    .\HIDDraw.cpp(172) => FreeDisplayWnd Leave Count 1 => 0 
+
+2014-03-17 18:04:49:956 debug   .\HIBuffer.cpp(159) => FreeBufferList total 6 frame
+
+2014-03-17 18:04:49:956 info    .\HIPlayer.cpp(223) => HIPlayer FreePort 0 OK
+
+2014-03-17 18:04:49:957 info    .\HIPlayer.cpp(129) => HIPlayer Release OK
+
+2014-03-18 14:32:37:905 info    .\HIPlayer.cpp(97) => HIPlayer Init OK
+
+2014-03-18 14:32:51:111 info    .\HIPlayer.cpp(196) => HIPlayer GetPort OK 0
+
+2014-03-18 14:32:51:111 debug   .\HIDecoder.cpp(78) => Decoder No Buffer And TimerThrd
+
+2014-03-18 14:32:51:112 debug   .\HIBuffer.cpp(137) => InitList Element Num 3, size 3145728
+
+2014-03-18 14:32:51:112 debug   .\HIDSound.cpp(123) => DSound No Buffer And TimerThrd
+
+2014-03-18 14:32:51:113 info    .\HIPlayer.cpp(585) => HIPLAYER_OpenStream nPort 0 nRet 0 OK!!
+
+2014-03-18 14:32:52:940 info    .\HIPlayer.cpp(749) => HIPLAYER_RegDrawCallBackEx port 0 fcb 002DE3E0 pUser 00000000
+
+2014-03-18 14:32:52:941 info    .\HIDDraw.cpp(570) => AddDisplayWndEx_v2 00090A2E fCallBackEx 002DE3E0 pUser 00000000 OK Count 1
+
+2014-03-18 14:32:52:941 err     .\HIDDraw.cpp(472) => CheckDisplayWndEx_v2 m_pDDraw 00000000
+
+2014-03-18 14:32:52:942 debug   .\HIDDraw.cpp(486) => CheckDisplayWnd_v2 hwnd 00090A2E, fCallBackEx 002DE3E0, pUser 00000000
+
+2014-03-18 14:32:52:942 info    .\HIPlayer.cpp(309) => HIPLAYER_Play nPort 0 hwnd 00090A2E fCallBack 00000000 pUser 00000000 nRet 0 OK!!
+
+2014-03-18 14:32:53:003 err     .\HIDecoder.cpp(337) => Current Video Frame 2116 Expected 1 May Lost 2115
+
+2014-03-18 14:32:53:004 info    .\HIDecoder.cpp(376) => CheckResolution 0 0 => 1280 720 Success
+
+2014-03-18 14:32:53:014 info    .\HIDecoder.cpp(405) => InitDecoder 1280 720 => 1280 720 Success
+
+2014-03-18 14:32:53:061 err     .\HIDDraw.cpp(736) => DDraw Cap supp BLTFOURCC: 0x95d27fc1
+
+2014-03-18 14:32:53:067 debug   .\HIDDraw.cpp(486) => CheckDisplayWnd_v2 hwnd 00090A2E, fCallBackEx 002DE3E0, pUser 00000000
+
+2014-03-18 14:32:53:068 info    .\HIDDraw.cpp(1101) => UpdateDDrawResolution (0, 0) => (1280, 720) OK!
+
+2014-03-18 14:32:53:068 debug   .\HIDDraw.cpp(2500) => DrawThrdProc Running
+
+2014-03-18 14:32:53:068 info    .\HIDDraw.cpp(318) => SetMainWndRegion hwnd 00090A2E region(0, 0, 1280, 720) nRet 0
+
+2014-03-18 14:32:53:068 info    .\HIDDraw.cpp(1179) => Update Resolution 0 0 => 1280 720 Success
+
+2014-03-18 14:32:53:091 debug   .\HIBuffer.cpp(420) => Increase buffer to index 4 counter 3(4), buffSize 3145680, addr 0E260020
+
+2014-03-18 14:33:23:698 info    .\HIDecoder.cpp(255) => resolution 1280 720 Over Count 0 Max Decode AU Time 35 ms
+
+2014-03-18 14:33:23:727 info    .\HIDDraw.cpp(2580) => VideoTimerDrawProc exit
+
+2014-03-18 14:33:23:730 info    .\HIDDraw.cpp(159) => [1] FreeDisplayWnd 00090A2E 
+
+2014-03-18 14:33:23:731 info    .\HIDDraw.cpp(172) => FreeDisplayWnd Leave Count 1 => 0 
+
+2014-03-18 14:33:23:732 debug   .\HIBuffer.cpp(159) => FreeBufferList total 3 frame
+
+2014-03-18 14:33:23:732 info    .\HIPlayer.cpp(223) => HIPlayer FreePort 0 OK
+
+2014-03-18 14:33:23:732 info    .\HIPlayer.cpp(129) => HIPlayer Release OK
+
+2014-04-28 16:49:33:160 info    .\HIPlayer.cpp(97) => HIPlayer Init OK
+
+2014-04-28 16:49:39:121 info    .\HIPlayer.cpp(196) => HIPlayer GetPort OK 0
+
+2014-04-28 16:49:39:122 debug   .\HIDecoder.cpp(78) => Decoder No Buffer And TimerThrd
+
+2014-04-28 16:49:39:122 debug   .\HIBuffer.cpp(137) => InitList Element Num 5, size 3145728
+
+2014-04-28 16:49:39:122 debug   .\HIDSound.cpp(123) => DSound No Buffer And TimerThrd
+
+2014-04-28 16:49:39:123 info    .\HIStreamFile.cpp(469) => File Info: frame 6793 len 66031610 width 1280 height 720 FR 25 media 3 intval 40 time(4936 => 5068)
+
+2014-04-28 16:49:39:123 info    .\HIPlayer.cpp(727) => HIPLAYER_RegDrawCallBack port 0 fcb 5C7E88A0 pUser 0060D920
+
+2014-04-28 16:49:39:123 debug   .\HIStreamFile.cpp(155) => OpenFile: Init and Open DrawIvs handle 00C2AE10 success
+
+2014-04-28 16:49:39:124 debug   .\HIStreamFile.cpp(167) => Play uInterval 40
+
+2014-04-28 16:49:39:124 info    .\HIPlayer.cpp(259) => HIPLAYER_OpenFile nPort 0 bDispIvs 1 nRet 0 OK!!
+
+2014-04-28 16:49:39:125 info    .\HIDDraw.cpp(396) => AddDisplayWndEx 00121D94 OK Count 1
+
+2014-04-28 16:49:39:125 info    .\HIPlayer.cpp(309) => HIPLAYER_Play nPort 0 hwnd 00121D94 fCallBack 00000000 pUser 00000000 nRet 0 OK!!
+
+2014-04-28 16:49:39:125 err     .\HIDecoder.cpp(337) => Current Video Frame 11510 Expected 1 May Lost 11509
+
+2014-04-28 16:49:39:125 info    .\HIDecoder.cpp(376) => CheckResolution 0 0 => 1280 720 Success
+
+2014-04-28 16:49:39:133 info    .\HIDecoder.cpp(405) => InitDecoder 1280 720 => 1280 720 Success
+
+2014-04-28 16:49:39:134 err     .\HIDecoder.cpp(475) => Hi264DecAU error -2
+
+2014-04-28 16:49:39:134 err     .\HIStreamFile.cpp(998) => InputFrame type 2 num 11510 timestamp 4936930 Failed -66
+
+2014-04-28 16:49:39:165 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:39:165 err     .\HIDecoder.cpp(475) => Hi264DecAU error -2
+
+2014-04-28 16:49:39:165 err     .\HIStreamFile.cpp(998) => InputFrame type 2 num 11511 timestamp 4936970 Failed -66
+
+2014-04-28 16:49:39:205 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 1, uSleepTime 40, sleep 39
+
+2014-04-28 16:49:39:205 err     .\HIDecoder.cpp(475) => Hi264DecAU error -2
+
+2014-04-28 16:49:39:206 err     .\HIStreamFile.cpp(998) => InputFrame type 2 num 11512 timestamp 4937010 Failed -66
+
+2014-04-28 16:49:39:245 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 1, uSleepTime 40, sleep 39
+
+2014-04-28 16:49:39:245 err     .\HIDecoder.cpp(475) => Hi264DecAU error -2
+
+2014-04-28 16:49:39:246 err     .\HIStreamFile.cpp(998) => InputFrame type 2 num 11513 timestamp 4937051 Failed -66
+
+2014-04-28 16:49:39:285 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 1, uSleepTime 40, sleep 39
+
+2014-04-28 16:49:39:285 err     .\HIDecoder.cpp(475) => Hi264DecAU error -2
+
+2014-04-28 16:49:39:286 err     .\HIStreamFile.cpp(998) => InputFrame type 2 num 11514 timestamp 4937091 Failed -66
+
+2014-04-28 16:49:39:325 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 1, uSleepTime 40, sleep 39
+
+2014-04-28 16:49:39:325 err     .\HIDecoder.cpp(475) => Hi264DecAU error -2
+
+2014-04-28 16:49:39:325 err     .\HIStreamFile.cpp(998) => InputFrame type 2 num 11515 timestamp 4937131 Failed -66
+
+2014-04-28 16:49:39:365 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 0, uSleepTime 40, sleep 40
+
+2014-04-28 16:49:39:365 err     .\HIDecoder.cpp(475) => Hi264DecAU error -2
+
+2014-04-28 16:49:39:365 err     .\HIStreamFile.cpp(998) => InputFrame type 2 num 11516 timestamp 4937171 Failed -66
+
+2014-04-28 16:49:39:405 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 1, uSleepTime 40, sleep 39
+
+2014-04-28 16:49:39:405 err     .\HIDecoder.cpp(475) => Hi264DecAU error -2
+
+2014-04-28 16:49:39:406 err     .\HIStreamFile.cpp(998) => InputFrame type 2 num 11517 timestamp 4937212 Failed -66
+
+2014-04-28 16:49:39:445 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 1, uSleepTime 40, sleep 39
+
+2014-04-28 16:49:39:445 err     .\HIDecoder.cpp(475) => Hi264DecAU error -2
+
+2014-04-28 16:49:39:446 err     .\HIStreamFile.cpp(998) => InputFrame type 2 num 11518 timestamp 4937251 Failed -66
+
+2014-04-28 16:49:39:485 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 1, uSleepTime 40, sleep 39
+
+2014-04-28 16:49:39:485 err     .\HIDecoder.cpp(475) => Hi264DecAU error -2
+
+2014-04-28 16:49:39:486 err     .\HIStreamFile.cpp(998) => InputFrame type 2 num 11519 timestamp 4937292 Failed -66
+
+2014-04-28 16:49:39:525 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 1, uSleepTime 40, sleep 39
+
+2014-04-28 16:49:39:525 err     .\HIDecoder.cpp(475) => Hi264DecAU error -2
+
+2014-04-28 16:49:39:526 err     .\HIStreamFile.cpp(998) => InputFrame type 2 num 11520 timestamp 4937332 Failed -66
+
+2014-04-28 16:49:39:565 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 1, uSleepTime 40, sleep 39
+
+2014-04-28 16:49:39:565 err     .\HIDecoder.cpp(475) => Hi264DecAU error -2
+
+2014-04-28 16:49:39:565 err     .\HIStreamFile.cpp(998) => InputFrame type 2 num 11521 timestamp 4937372 Failed -66
+
+2014-04-28 16:49:39:605 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 1, uSleepTime 40, sleep 39
+
+2014-04-28 16:49:39:605 err     .\HIDecoder.cpp(475) => Hi264DecAU error -2
+
+2014-04-28 16:49:39:605 err     .\HIStreamFile.cpp(998) => InputFrame type 2 num 11522 timestamp 4937412 Failed -66
+
+2014-04-28 16:49:39:645 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 1, uSleepTime 40, sleep 39
+
+2014-04-28 16:49:39:645 err     .\HIDecoder.cpp(475) => Hi264DecAU error -2
+
+2014-04-28 16:49:39:646 err     .\HIStreamFile.cpp(998) => InputFrame type 2 num 11523 timestamp 4937453 Failed -66
+
+2014-04-28 16:49:39:685 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 1, uSleepTime 40, sleep 39
+
+2014-04-28 16:49:39:743 err     .\HIDDraw.cpp(736) => DDraw Cap supp BLTFOURCC: 0x95d27fc1
+
+2014-04-28 16:49:39:750 debug   .\HIDDraw.cpp(368) => AddDisplayWndEx 00121D94 Already Exist!! Count 1
+
+2014-04-28 16:49:39:750 info    .\HIDDraw.cpp(1101) => UpdateDDrawResolution (0, 0) => (1280, 720) OK!
+
+2014-04-28 16:49:39:751 info    .\HIDDraw.cpp(318) => SetMainWndRegion hwnd 00121D94 region(0, 0, 1280, 720) nRet 0
+
+2014-04-28 16:49:39:751 info    .\HIDDraw.cpp(1179) => Update Resolution 0 0 => 1280 720 Success
+
+2014-04-28 16:49:39:753 debug   .\HIDDraw.cpp(2502) => DrawThrdProc Running
+
+2014-04-28 16:49:39:754 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 67, uSleepTime 40, sleep 0
+
+2014-04-28 16:49:39:794 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 26, uSleepTime 40, sleep 14
+
+2014-04-28 16:49:39:834 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:39:874 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 14, uSleepTime 40, sleep 26
+
+2014-04-28 16:49:39:914 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:39:954 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 20, uSleepTime 40, sleep 20
+
+2014-04-28 16:49:39:994 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:40:034 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:40:074 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:40:114 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:49:40:154 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:49:40:194 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:49:40:235 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 6, uSleepTime 40, sleep 34
+
+2014-04-28 16:49:40:275 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:49:40:315 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:49:40:355 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 15, uSleepTime 40, sleep 25
+
+2014-04-28 16:49:40:395 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 19, uSleepTime 40, sleep 21
+
+2014-04-28 16:49:40:435 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 13, uSleepTime 40, sleep 27
+
+2014-04-28 16:49:40:475 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:49:40:515 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 14, uSleepTime 40, sleep 26
+
+2014-04-28 16:49:40:555 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 14, uSleepTime 40, sleep 26
+
+2014-04-28 16:49:40:595 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:49:40:635 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:49:40:676 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 15, uSleepTime 40, sleep 25
+
+2014-04-28 16:49:40:717 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 14, uSleepTime 40, sleep 26
+
+2014-04-28 16:49:40:757 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 14, uSleepTime 40, sleep 26
+
+2014-04-28 16:49:40:797 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 14, uSleepTime 40, sleep 26
+
+2014-04-28 16:49:40:837 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 17, uSleepTime 40, sleep 23
+
+2014-04-28 16:49:40:877 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:40:917 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:40:957 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:40:997 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:41:037 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:41:077 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:41:117 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:41:158 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 15, uSleepTime 40, sleep 25
+
+2014-04-28 16:49:41:198 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 15, uSleepTime 40, sleep 25
+
+2014-04-28 16:49:41:238 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 14, uSleepTime 40, sleep 26
+
+2014-04-28 16:49:41:278 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 17, uSleepTime 40, sleep 23
+
+2014-04-28 16:49:41:318 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:41:358 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:41:398 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:41:438 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:41:478 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:41:518 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:49:41:558 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:41:598 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:49:41:638 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:41:679 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:41:719 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:49:41:759 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 23, uSleepTime 40, sleep 17
+
+2014-04-28 16:49:41:799 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:41:839 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:41:879 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:41:919 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:41:959 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 14, uSleepTime 40, sleep 26
+
+2014-04-28 16:49:42:000 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:42:041 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:42:081 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:42:121 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:42:161 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:49:42:201 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:49:42:241 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:49:42:281 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 15, uSleepTime 40, sleep 25
+
+2014-04-28 16:49:42:321 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:49:42:362 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:49:42:402 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:49:42:442 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:49:42:482 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:42:522 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:49:42:562 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:42:602 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:42:642 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 15, uSleepTime 40, sleep 25
+
+2014-04-28 16:49:42:682 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 13, uSleepTime 40, sleep 27
+
+2014-04-28 16:49:42:722 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 13, uSleepTime 40, sleep 27
+
+2014-04-28 16:49:42:762 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 15, uSleepTime 40, sleep 25
+
+2014-04-28 16:49:42:802 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 17, uSleepTime 40, sleep 23
+
+2014-04-28 16:49:42:842 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:42:882 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:42:922 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:42:962 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:43:002 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:43:042 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:43:082 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:43:124 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:43:165 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:43:205 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:49:43:245 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:43:285 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:43:325 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:43:365 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:43:405 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:43:445 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:43:485 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:43:526 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:43:567 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:43:608 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:43:648 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 16, uSleepTime 40, sleep 24
+
+2014-04-28 16:49:43:689 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 17, uSleepTime 40, sleep 23
+
+2014-04-28 16:49:43:729 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:43:769 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 25, uSleepTime 40, sleep 15
+
+2014-04-28 16:49:43:809 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:43:849 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:43:889 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:43:929 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:43:969 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:49:44:010 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:44:051 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:49:44:091 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:49:44:131 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 16, uSleepTime 40, sleep 24
+
+2014-04-28 16:49:44:171 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:44:211 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:49:44:251 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:49:44:291 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:49:44:331 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:49:44:371 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:49:44:412 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:49:44:452 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:49:44:492 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:44:532 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:49:44:572 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:44:612 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:44:652 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:44:692 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 15, uSleepTime 40, sleep 25
+
+2014-04-28 16:49:44:732 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:49:44:772 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:49:44:812 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:44:852 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:44:892 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:44:932 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:44:972 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:45:012 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:45:052 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 15, uSleepTime 40, sleep 25
+
+2014-04-28 16:49:45:092 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 14, uSleepTime 40, sleep 26
+
+2014-04-28 16:49:45:133 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:45:173 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:45:213 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:45:253 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:45:293 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:45:333 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:45:373 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 19, uSleepTime 40, sleep 21
+
+2014-04-28 16:49:45:413 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 17, uSleepTime 40, sleep 23
+
+2014-04-28 16:49:45:453 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 17, uSleepTime 40, sleep 23
+
+2014-04-28 16:49:45:493 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:45:533 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:45:573 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:49:45:613 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:45:653 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:45:693 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:45:733 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:45:773 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 23, uSleepTime 40, sleep 17
+
+2014-04-28 16:49:45:813 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:45:853 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:45:893 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:45:933 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:45:973 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:46:013 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:46:054 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:46:095 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:46:136 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:49:46:177 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:49:46:217 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:46:257 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:49:46:297 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 13, uSleepTime 40, sleep 27
+
+2014-04-28 16:49:46:337 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 15, uSleepTime 40, sleep 25
+
+2014-04-28 16:49:46:377 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:49:46:417 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:49:46:457 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:49:46:497 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:49:46:537 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:46:577 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:46:617 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:46:657 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:46:697 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:46:738 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:46:778 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:46:818 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:46:858 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:46:898 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:46:938 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:46:978 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:47:020 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:49:47:060 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:47:101 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 15, uSleepTime 40, sleep 25
+
+2014-04-28 16:49:47:142 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:47:182 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:49:47:222 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 13, uSleepTime 40, sleep 27
+
+2014-04-28 16:49:47:262 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 17, uSleepTime 40, sleep 23
+
+2014-04-28 16:49:47:302 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 19, uSleepTime 40, sleep 21
+
+2014-04-28 16:49:47:342 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:47:382 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:49:47:422 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:47:462 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:47:502 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:47:542 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:47:582 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:47:622 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:47:662 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:47:702 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:47:742 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:47:782 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 22, uSleepTime 40, sleep 18
+
+2014-04-28 16:49:47:822 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:47:862 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:47:902 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:47:943 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:47:984 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:48:025 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 15, uSleepTime 40, sleep 25
+
+2014-04-28 16:49:48:066 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:48:106 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 20, uSleepTime 40, sleep 20
+
+2014-04-28 16:49:48:146 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:49:48:186 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 15, uSleepTime 40, sleep 25
+
+2014-04-28 16:49:48:226 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 16, uSleepTime 40, sleep 24
+
+2014-04-28 16:49:48:266 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:49:48:306 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:49:48:346 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:49:48:386 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 14, uSleepTime 40, sleep 26
+
+2014-04-28 16:49:48:426 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 13, uSleepTime 40, sleep 27
+
+2014-04-28 16:49:48:466 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:48:507 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 15, uSleepTime 40, sleep 25
+
+2014-04-28 16:49:48:548 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:48:588 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:48:628 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:48:668 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:48:708 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:48:748 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:48:788 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:48:828 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:48:868 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:48:908 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:48:948 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:48:988 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:49:028 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 18, uSleepTime 40, sleep 22
+
+2014-04-28 16:49:49:068 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 16, uSleepTime 40, sleep 24
+
+2014-04-28 16:49:49:108 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 14, uSleepTime 40, sleep 26
+
+2014-04-28 16:49:49:148 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:49:49:190 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:49:230 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 19, uSleepTime 40, sleep 21
+
+2014-04-28 16:49:49:270 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:49:310 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:49:350 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:49:390 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:49:430 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:49:470 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:49:510 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:49:550 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:49:590 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:49:630 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:49:670 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:49:710 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:49:750 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 17, uSleepTime 40, sleep 23
+
+2014-04-28 16:49:49:790 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 22, uSleepTime 40, sleep 18
+
+2014-04-28 16:49:49:830 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 14, uSleepTime 40, sleep 26
+
+2014-04-28 16:49:49:870 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:49:49:910 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:49:951 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:49:992 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:50:032 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:50:072 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:50:112 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 20, uSleepTime 40, sleep 20
+
+2014-04-28 16:49:50:152 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:50:192 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:50:232 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:49:50:272 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:49:50:312 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:49:50:352 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:49:50:392 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:49:50:432 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:49:50:472 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:50:512 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 16, uSleepTime 40, sleep 24
+
+2014-04-28 16:49:50:552 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 16, uSleepTime 40, sleep 24
+
+2014-04-28 16:49:50:592 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:50:632 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:50:672 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:50:712 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:50:752 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:50:792 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:50:832 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:50:872 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:50:912 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:50:952 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:49:50:992 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 16, uSleepTime 40, sleep 24
+
+2014-04-28 16:49:51:032 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:51:072 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:51:112 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:51:152 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:51:192 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:51:232 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:51:272 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:51:318 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:51:358 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:51:399 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:51:440 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:51:480 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:51:520 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 15, uSleepTime 40, sleep 25
+
+2014-04-28 16:49:51:560 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:51:600 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:51:640 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:51:680 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:51:720 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:51:760 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:51:800 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 22, uSleepTime 40, sleep 18
+
+2014-04-28 16:49:51:840 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:51:881 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:51:921 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 13, uSleepTime 40, sleep 27
+
+2014-04-28 16:49:51:961 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 17, uSleepTime 40, sleep 23
+
+2014-04-28 16:49:52:001 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:52:041 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:52:081 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:49:52:121 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:52:161 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:49:52:201 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:49:52:241 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:49:52:281 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:49:52:324 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:49:52:364 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:49:52:404 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:49:52:444 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:52:484 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:49:52:524 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:49:52:564 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 19, uSleepTime 40, sleep 21
+
+2014-04-28 16:49:52:604 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 16, uSleepTime 40, sleep 24
+
+2014-04-28 16:49:52:645 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:49:52:685 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:52:725 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:52:765 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:52:805 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:52:845 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:52:885 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:52:925 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 15, uSleepTime 40, sleep 25
+
+2014-04-28 16:49:52:965 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 14, uSleepTime 40, sleep 26
+
+2014-04-28 16:49:53:005 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:49:53:046 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:53:086 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:53:126 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:53:166 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:53:206 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:53:246 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:53:286 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:53:326 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 15, uSleepTime 40, sleep 25
+
+2014-04-28 16:49:53:366 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 16, uSleepTime 40, sleep 24
+
+2014-04-28 16:49:53:406 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 17, uSleepTime 40, sleep 23
+
+2014-04-28 16:49:53:446 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:53:486 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:53:526 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:53:566 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:53:606 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:49:53:646 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:53:686 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:53:727 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 16, uSleepTime 40, sleep 24
+
+2014-04-28 16:49:53:768 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:53:808 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 23, uSleepTime 40, sleep 17
+
+2014-04-28 16:49:53:848 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:53:888 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:49:53:928 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:53:968 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:54:008 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:54:048 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:54:088 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:54:128 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:49:54:169 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:49:54:210 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:54:250 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:49:54:290 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 15, uSleepTime 40, sleep 25
+
+2014-04-28 16:49:54:330 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 6, uSleepTime 40, sleep 34
+
+2014-04-28 16:49:54:371 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:49:54:411 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:49:54:451 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:49:54:491 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:54:531 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:49:54:571 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:49:54:611 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:54:652 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:49:54:692 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:54:732 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 13, uSleepTime 40, sleep 27
+
+2014-04-28 16:49:54:772 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 17, uSleepTime 40, sleep 23
+
+2014-04-28 16:49:54:812 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:54:852 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:54:892 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:54:932 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:54:972 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 17, uSleepTime 40, sleep 23
+
+2014-04-28 16:49:55:012 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 13, uSleepTime 40, sleep 27
+
+2014-04-28 16:49:55:053 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:55:093 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:55:133 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:55:173 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:55:213 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:55:253 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:55:293 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:55:333 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 16, uSleepTime 40, sleep 24
+
+2014-04-28 16:49:55:380 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:49:55:420 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:55:460 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:49:55:500 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:55:540 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:55:580 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:55:620 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 17, uSleepTime 40, sleep 23
+
+2014-04-28 16:49:55:660 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 13, uSleepTime 40, sleep 27
+
+2014-04-28 16:49:55:701 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:49:55:741 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:55:781 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:55:821 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 23, uSleepTime 40, sleep 17
+
+2014-04-28 16:49:55:861 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:55:901 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:49:55:941 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:55:981 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:56:021 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:56:061 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:56:101 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:56:141 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:49:56:181 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:49:56:221 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:49:56:261 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:49:56:301 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:49:56:341 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:49:56:381 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:49:56:421 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 5, uSleepTime 40, sleep 35
+
+2014-04-28 16:49:56:461 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 18, uSleepTime 40, sleep 22
+
+2014-04-28 16:49:56:501 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:49:56:541 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:56:581 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:56:621 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:56:661 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:56:701 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:56:741 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:56:781 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:56:821 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:56:861 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:56:901 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:56:950 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:56:992 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:49:57:034 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:57:075 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:57:115 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:49:57:155 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:57:196 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:57:237 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 15, uSleepTime 40, sleep 25
+
+2014-04-28 16:49:57:278 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:57:319 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:57:359 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 29, uSleepTime 40, sleep 11
+
+2014-04-28 16:49:57:399 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:57:439 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:57:479 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:57:519 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:57:559 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:57:599 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:49:57:639 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:57:679 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:49:57:723 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:49:57:764 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:57:785 info    .\HIPlayer.cpp(196) => HIPlayer GetPort OK 1
+
+2014-04-28 16:49:57:786 debug   .\HIDecoder.cpp(78) => Decoder No Buffer And TimerThrd
+
+2014-04-28 16:49:57:786 debug   .\HIBuffer.cpp(137) => InitList Element Num 3, size 3145728
+
+2014-04-28 16:49:57:786 debug   .\HIDSound.cpp(123) => DSound No Buffer And TimerThrd
+
+2014-04-28 16:49:57:787 info    .\HIPlayer.cpp(585) => HIPLAYER_OpenStream nPort 1 nRet 0 OK!!
+
+2014-04-28 16:49:57:804 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:49:57:849 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 22, uSleepTime 40, sleep 18
+
+2014-04-28 16:49:57:890 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:57:934 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:57:975 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:58:016 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:58:056 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:58:101 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:58:143 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:49:58:184 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:58:228 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:49:58:268 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:58:308 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:49:58:351 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 6, uSleepTime 40, sleep 34
+
+2014-04-28 16:49:58:393 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:49:58:435 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:49:58:475 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 6, uSleepTime 40, sleep 34
+
+2014-04-28 16:49:58:516 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 6, uSleepTime 40, sleep 34
+
+2014-04-28 16:49:58:556 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:58:603 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:49:58:645 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 13, uSleepTime 40, sleep 27
+
+2014-04-28 16:49:58:685 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:49:58:729 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:49:58:770 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:49:58:810 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:58:855 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:49:58:897 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:58:937 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:49:58:981 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:59:021 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:59:061 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:59:107 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:59:149 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:59:191 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:59:231 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:59:269 info    .\HIPlayer.cpp(749) => HIPLAYER_RegDrawCallBackEx port 1 fcb 00D7E540 pUser 00000000
+
+2014-04-28 16:49:59:271 info    .\HIDDraw.cpp(570) => AddDisplayWndEx_v2 00331B88 fCallBackEx 00D7E540 pUser 00000000 OK Count 1
+
+2014-04-28 16:49:59:272 err     .\HIDDraw.cpp(472) => CheckDisplayWndEx_v2 m_pDDraw 00000000
+
+2014-04-28 16:49:59:272 debug   .\HIDDraw.cpp(486) => CheckDisplayWnd_v2 hwnd 00331B88, fCallBackEx 00D7E540, pUser 00000000
+
+2014-04-28 16:49:59:272 info    .\HIPlayer.cpp(309) => HIPLAYER_Play nPort 1 hwnd 00331B88 fCallBack 00000000 pUser 00000000 nRet 0 OK!!
+
+2014-04-28 16:49:59:273 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:49:59:313 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:49:59:337 err     .\HIDecoder.cpp(337) => Current Video Frame 17472 Expected 1 May Lost 17471
+
+2014-04-28 16:49:59:338 info    .\HIDecoder.cpp(376) => CheckResolution 0 0 => 1280 720 Success
+
+2014-04-28 16:49:59:349 info    .\HIDecoder.cpp(405) => InitDecoder 1280 720 => 1280 720 Success
+
+2014-04-28 16:49:59:361 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 13, uSleepTime 40, sleep 27
+
+2014-04-28 16:49:59:371 err     .\HIDDraw.cpp(736) => DDraw Cap supp BLTFOURCC: 0x95d27fc1
+
+2014-04-28 16:49:59:372 debug   .\HIDDraw.cpp(486) => CheckDisplayWnd_v2 hwnd 00331B88, fCallBackEx 00D7E540, pUser 00000000
+
+2014-04-28 16:49:59:372 info    .\HIDDraw.cpp(1101) => UpdateDDrawResolution (0, 0) => (1280, 720) OK!
+
+2014-04-28 16:49:59:373 info    .\HIDDraw.cpp(318) => SetMainWndRegion hwnd 00331B88 region(0, 0, 1280, 720) nRet 0
+
+2014-04-28 16:49:59:373 debug   .\HIDDraw.cpp(2502) => DrawThrdProc Running
+
+2014-04-28 16:49:59:373 info    .\HIDDraw.cpp(1179) => Update Resolution 0 0 => 1280 720 Success
+
+2014-04-28 16:49:59:402 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:59:452 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:59:500 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 20, uSleepTime 40, sleep 20
+
+2014-04-28 16:49:59:545 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:59:596 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:59:636 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:59:676 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:59:717 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:59:757 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:49:59:801 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:49:59:866 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 18, uSleepTime 40, sleep 22
+
+2014-04-28 16:49:59:906 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:59:946 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:49:59:986 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 23, uSleepTime 40, sleep 17
+
+2014-04-28 16:50:00:026 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:50:00:066 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:00:106 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:50:00:146 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:00:186 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:00:226 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:00:273 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:00:314 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:00:358 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:00:398 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:00:439 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:50:00:479 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:50:00:525 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:50:00:566 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:50:00:609 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:50:00:653 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:50:00:694 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:50:00:734 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:50:00:777 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:00:819 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:50:00:862 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:50:00:903 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:00:943 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:50:00:983 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:01:024 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:50:01:064 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:01:105 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:01:154 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:01:194 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:01:236 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 25, uSleepTime 40, sleep 15
+
+2014-04-28 16:50:01:277 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:01:318 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:01:364 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 35, uSleepTime 40, sleep 5
+
+2014-04-28 16:50:01:406 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:01:447 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:01:487 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 20, uSleepTime 40, sleep 20
+
+2014-04-28 16:50:01:499 debug   .\HIBuffer.cpp(420) => Increase buffer to index 4 counter 3(4), buffSize 3145680, addr 15EE0020
+
+2014-04-28 16:50:01:527 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:50:01:568 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 14, uSleepTime 40, sleep 26
+
+2014-04-28 16:50:01:617 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 18, uSleepTime 40, sleep 22
+
+2014-04-28 16:50:01:660 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:01:701 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 13, uSleepTime 40, sleep 27
+
+2014-04-28 16:50:01:741 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:50:01:782 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:01:823 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:01:864 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:01:905 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:01:945 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 20, uSleepTime 40, sleep 20
+
+2014-04-28 16:50:01:985 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 15, uSleepTime 40, sleep 25
+
+2014-04-28 16:50:02:025 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 19, uSleepTime 40, sleep 21
+
+2014-04-28 16:50:02:065 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 24, uSleepTime 40, sleep 16
+
+2014-04-28 16:50:02:106 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:02:146 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:02:186 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:02:226 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:02:266 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:02:306 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:02:346 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:02:386 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:02:426 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:02:466 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:02:506 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:50:02:548 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:02:588 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:02:631 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 16, uSleepTime 40, sleep 24
+
+2014-04-28 16:50:02:675 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:50:02:715 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:50:02:755 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 6, uSleepTime 40, sleep 34
+
+2014-04-28 16:50:02:796 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 6, uSleepTime 40, sleep 34
+
+2014-04-28 16:50:02:838 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:50:02:879 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:50:02:919 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:50:02:960 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:03:001 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:03:041 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:50:03:081 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 13, uSleepTime 40, sleep 27
+
+2014-04-28 16:50:03:121 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 32, uSleepTime 40, sleep 8
+
+2014-04-28 16:50:03:161 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:03:201 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:03:241 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 24, uSleepTime 40, sleep 16
+
+2014-04-28 16:50:03:281 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:03:322 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:03:362 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 18, uSleepTime 40, sleep 22
+
+2014-04-28 16:50:03:402 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:03:442 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 18, uSleepTime 40, sleep 22
+
+2014-04-28 16:50:03:482 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 15, uSleepTime 40, sleep 25
+
+2014-04-28 16:50:03:522 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 19, uSleepTime 40, sleep 21
+
+2014-04-28 16:50:03:562 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:03:602 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:03:642 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:03:682 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:03:722 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:03:762 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:03:802 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:03:842 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:03:882 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 32, uSleepTime 40, sleep 8
+
+2014-04-28 16:50:03:922 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:03:962 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:04:002 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:04:042 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 36, uSleepTime 40, sleep 4
+
+2014-04-28 16:50:04:082 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 24, uSleepTime 40, sleep 16
+
+2014-04-28 16:50:04:122 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:04:163 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:04:203 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:04:243 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 15, uSleepTime 40, sleep 25
+
+2014-04-28 16:50:04:283 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 16, uSleepTime 40, sleep 24
+
+2014-04-28 16:50:04:323 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 13, uSleepTime 40, sleep 27
+
+2014-04-28 16:50:04:363 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:50:04:405 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 13, uSleepTime 40, sleep 27
+
+2014-04-28 16:50:04:447 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:04:488 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:50:04:528 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:50:04:568 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:50:04:608 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:50:04:648 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 6, uSleepTime 40, sleep 34
+
+2014-04-28 16:50:04:688 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 6, uSleepTime 40, sleep 34
+
+2014-04-28 16:50:04:728 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 6, uSleepTime 40, sleep 34
+
+2014-04-28 16:50:04:768 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:50:04:808 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:50:04:849 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:50:04:889 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:04:929 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 29, uSleepTime 40, sleep 11
+
+2014-04-28 16:50:04:969 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 13, uSleepTime 40, sleep 27
+
+2014-04-28 16:50:05:010 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:05:050 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:05:091 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:05:132 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:05:172 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:05:212 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:05:252 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 26, uSleepTime 40, sleep 14
+
+2014-04-28 16:50:05:292 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 26, uSleepTime 40, sleep 14
+
+2014-04-28 16:50:05:333 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:05:373 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:05:413 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:05:453 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:05:493 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:05:534 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:05:574 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:05:615 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:05:655 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:05:695 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:05:735 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:05:775 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:05:815 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:05:855 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:05:895 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:05:935 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:05:975 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:06:016 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:06:056 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:06:096 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 24, uSleepTime 40, sleep 16
+
+2014-04-28 16:50:06:136 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:06:180 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:06:221 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:50:06:261 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:06:307 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:50:06:347 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:06:387 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:50:06:428 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:50:06:469 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:50:06:510 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 16, uSleepTime 40, sleep 24
+
+2014-04-28 16:50:06:551 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:06:591 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 16, uSleepTime 40, sleep 24
+
+2014-04-28 16:50:06:631 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:50:06:671 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:06:711 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:06:751 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:06:791 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:06:831 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:06:871 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:06:911 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:06:951 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:06:991 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:07:032 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:07:080 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:07:120 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:07:161 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:07:204 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:07:245 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:07:285 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:07:326 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:07:366 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:07:410 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:07:451 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:07:492 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:07:532 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:07:572 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:07:612 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:07:656 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:07:697 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:50:07:741 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:07:782 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:07:822 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:07:862 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:07:903 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:07:943 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:07:984 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 20, uSleepTime 40, sleep 20
+
+2014-04-28 16:50:08:025 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 19, uSleepTime 40, sleep 21
+
+2014-04-28 16:50:08:065 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 23, uSleepTime 40, sleep 17
+
+2014-04-28 16:50:08:105 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 25, uSleepTime 40, sleep 15
+
+2014-04-28 16:50:08:145 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 23, uSleepTime 40, sleep 17
+
+2014-04-28 16:50:08:185 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:08:225 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:08:265 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:08:305 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:08:346 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:08:386 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:08:432 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:08:473 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:08:513 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:50:08:553 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:08:597 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:50:08:638 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 6, uSleepTime 40, sleep 34
+
+2014-04-28 16:50:08:679 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 6, uSleepTime 40, sleep 34
+
+2014-04-28 16:50:08:719 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 6, uSleepTime 40, sleep 34
+
+2014-04-28 16:50:08:759 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:08:799 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:08:840 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:08:881 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:08:921 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:08:961 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:09:001 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:09:041 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 19, uSleepTime 40, sleep 21
+
+2014-04-28 16:50:09:082 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 21, uSleepTime 40, sleep 19
+
+2014-04-28 16:50:09:123 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 21, uSleepTime 40, sleep 19
+
+2014-04-28 16:50:09:163 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 22, uSleepTime 40, sleep 18
+
+2014-04-28 16:50:09:203 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 22, uSleepTime 40, sleep 18
+
+2014-04-28 16:50:09:243 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 23, uSleepTime 40, sleep 17
+
+2014-04-28 16:50:09:283 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 25, uSleepTime 40, sleep 15
+
+2014-04-28 16:50:09:323 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:09:363 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 22, uSleepTime 40, sleep 18
+
+2014-04-28 16:50:09:404 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:09:444 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:09:484 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 21, uSleepTime 40, sleep 19
+
+2014-04-28 16:50:09:524 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 18, uSleepTime 40, sleep 22
+
+2014-04-28 16:50:09:564 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 15, uSleepTime 40, sleep 25
+
+2014-04-28 16:50:09:605 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:09:645 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 18, uSleepTime 40, sleep 22
+
+2014-04-28 16:50:09:685 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 13, uSleepTime 40, sleep 27
+
+2014-04-28 16:50:09:725 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:50:09:765 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 14, uSleepTime 40, sleep 26
+
+2014-04-28 16:50:09:805 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:50:09:845 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:09:885 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 18, uSleepTime 40, sleep 22
+
+2014-04-28 16:50:09:925 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 21, uSleepTime 40, sleep 19
+
+2014-04-28 16:50:09:965 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:10:005 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 17, uSleepTime 40, sleep 23
+
+2014-04-28 16:50:10:045 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 15, uSleepTime 40, sleep 25
+
+2014-04-28 16:50:10:085 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 13, uSleepTime 40, sleep 27
+
+2014-04-28 16:50:10:131 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 28, uSleepTime 40, sleep 12
+
+2014-04-28 16:50:10:172 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 27, uSleepTime 40, sleep 13
+
+2014-04-28 16:50:10:212 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 15, uSleepTime 40, sleep 25
+
+2014-04-28 16:50:10:253 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 13, uSleepTime 40, sleep 27
+
+2014-04-28 16:50:10:293 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:50:10:333 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:50:10:373 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 6, uSleepTime 40, sleep 34
+
+2014-04-28 16:50:10:413 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:10:453 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 6, uSleepTime 40, sleep 34
+
+2014-04-28 16:50:10:493 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:50:10:533 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:50:10:573 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 20, uSleepTime 40, sleep 20
+
+2014-04-28 16:50:10:613 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 19, uSleepTime 40, sleep 21
+
+2014-04-28 16:50:10:653 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 25, uSleepTime 40, sleep 15
+
+2014-04-28 16:50:10:693 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 25, uSleepTime 40, sleep 15
+
+2014-04-28 16:50:10:734 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 25, uSleepTime 40, sleep 15
+
+2014-04-28 16:50:10:774 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 24, uSleepTime 40, sleep 16
+
+2014-04-28 16:50:10:817 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:50:10:857 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:10:901 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 13, uSleepTime 40, sleep 27
+
+2014-04-28 16:50:10:942 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:50:10:983 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 13, uSleepTime 40, sleep 27
+
+2014-04-28 16:50:11:027 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 13, uSleepTime 40, sleep 27
+
+2014-04-28 16:50:11:067 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 15, uSleepTime 40, sleep 25
+
+2014-04-28 16:50:11:107 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:11:154 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:11:194 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:11:234 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 14, uSleepTime 40, sleep 26
+
+2014-04-28 16:50:11:275 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 26, uSleepTime 40, sleep 14
+
+2014-04-28 16:50:11:315 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 13, uSleepTime 40, sleep 27
+
+2014-04-28 16:50:11:355 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 27, uSleepTime 40, sleep 13
+
+2014-04-28 16:50:11:395 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:50:11:435 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:11:475 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:11:515 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:11:555 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:11:595 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:11:635 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 25, uSleepTime 40, sleep 15
+
+2014-04-28 16:50:11:675 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 21, uSleepTime 40, sleep 19
+
+2014-04-28 16:50:11:715 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 20, uSleepTime 40, sleep 20
+
+2014-04-28 16:50:11:755 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:50:11:795 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:50:11:835 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:11:875 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:11:915 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:11:955 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:11:995 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:50:12:036 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 14, uSleepTime 40, sleep 26
+
+2014-04-28 16:50:12:076 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 16, uSleepTime 40, sleep 24
+
+2014-04-28 16:50:12:116 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 27, uSleepTime 40, sleep 13
+
+2014-04-28 16:50:12:156 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:12:196 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 36, uSleepTime 40, sleep 4
+
+2014-04-28 16:50:12:236 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:12:276 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 13, uSleepTime 40, sleep 27
+
+2014-04-28 16:50:12:316 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:12:356 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 18, uSleepTime 40, sleep 22
+
+2014-04-28 16:50:12:401 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 15, uSleepTime 40, sleep 25
+
+2014-04-28 16:50:12:442 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:12:483 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:50:12:523 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:50:12:563 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 6, uSleepTime 40, sleep 34
+
+2014-04-28 16:50:12:603 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:12:643 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:50:12:683 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:12:723 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:12:763 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 18, uSleepTime 40, sleep 22
+
+2014-04-28 16:50:12:803 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 16, uSleepTime 40, sleep 24
+
+2014-04-28 16:50:12:844 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:12:884 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:50:12:924 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:12:964 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:50:13:004 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:50:13:044 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:13:084 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:50:13:124 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 27, uSleepTime 40, sleep 13
+
+2014-04-28 16:50:13:164 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:50:13:204 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:50:13:244 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 21, uSleepTime 40, sleep 19
+
+2014-04-28 16:50:13:285 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 18, uSleepTime 40, sleep 22
+
+2014-04-28 16:50:13:326 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 16, uSleepTime 40, sleep 24
+
+2014-04-28 16:50:13:367 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 16, uSleepTime 40, sleep 24
+
+2014-04-28 16:50:13:407 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 23, uSleepTime 40, sleep 17
+
+2014-04-28 16:50:13:447 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 16, uSleepTime 40, sleep 24
+
+2014-04-28 16:50:13:488 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:50:13:530 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:50:13:571 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:13:612 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:13:652 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 22, uSleepTime 40, sleep 18
+
+2014-04-28 16:50:13:693 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 19, uSleepTime 40, sleep 21
+
+2014-04-28 16:50:13:733 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 19, uSleepTime 40, sleep 21
+
+2014-04-28 16:50:13:773 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 21, uSleepTime 40, sleep 19
+
+2014-04-28 16:50:13:813 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:13:853 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:13:893 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:13:934 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:13:975 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:14:015 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 13, uSleepTime 40, sleep 27
+
+2014-04-28 16:50:14:055 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 18, uSleepTime 40, sleep 22
+
+2014-04-28 16:50:14:095 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 13, uSleepTime 40, sleep 27
+
+2014-04-28 16:50:14:135 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 14, uSleepTime 40, sleep 26
+
+2014-04-28 16:50:14:175 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:50:14:219 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 44, uSleepTime 40, sleep 0
+
+2014-04-28 16:50:14:260 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:14:300 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:14:340 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:14:380 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 13, uSleepTime 40, sleep 27
+
+2014-04-28 16:50:14:421 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:14:462 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:50:14:504 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 15, uSleepTime 40, sleep 25
+
+2014-04-28 16:50:14:545 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:14:585 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 15, uSleepTime 40, sleep 25
+
+2014-04-28 16:50:14:625 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 14, uSleepTime 40, sleep 26
+
+2014-04-28 16:50:14:665 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 16, uSleepTime 40, sleep 24
+
+2014-04-28 16:50:14:705 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:50:14:745 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 7, uSleepTime 40, sleep 33
+
+2014-04-28 16:50:14:785 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 6, uSleepTime 40, sleep 34
+
+2014-04-28 16:50:14:825 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:14:866 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:50:14:906 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:50:14:946 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 19, uSleepTime 40, sleep 21
+
+2014-04-28 16:50:14:987 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:50:15:028 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:15:069 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:15:109 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 17, uSleepTime 40, sleep 23
+
+2014-04-28 16:50:15:149 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 16, uSleepTime 40, sleep 24
+
+2014-04-28 16:50:15:189 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:15:229 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:15:269 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:15:309 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:15:349 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:15:389 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:15:429 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 15, uSleepTime 40, sleep 25
+
+2014-04-28 16:50:15:469 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 18, uSleepTime 40, sleep 22
+
+2014-04-28 16:50:15:509 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:15:549 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:15:589 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:15:629 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:15:669 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:15:709 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:15:749 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:15:789 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 17, uSleepTime 40, sleep 23
+
+2014-04-28 16:50:15:829 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:15:869 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 17, uSleepTime 40, sleep 23
+
+2014-04-28 16:50:15:909 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 15, uSleepTime 40, sleep 25
+
+2014-04-28 16:50:15:951 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:15:992 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:16:032 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:16:072 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:16:112 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:16:152 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:16:192 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 28, uSleepTime 40, sleep 12
+
+2014-04-28 16:50:16:232 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 25, uSleepTime 40, sleep 15
+
+2014-04-28 16:50:16:279 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:50:16:320 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:16:360 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:16:400 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:16:440 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:16:480 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:16:520 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:16:560 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:16:600 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:16:640 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:50:16:680 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 33, uSleepTime 40, sleep 7
+
+2014-04-28 16:50:16:723 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:16:764 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:50:16:804 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:50:16:844 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:50:16:884 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 8, uSleepTime 40, sleep 32
+
+2014-04-28 16:50:16:924 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:16:964 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:17:004 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:17:044 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 28, uSleepTime 40, sleep 12
+
+2014-04-28 16:50:17:084 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 28, uSleepTime 40, sleep 12
+
+2014-04-28 16:50:17:124 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 13, uSleepTime 40, sleep 27
+
+2014-04-28 16:50:17:164 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 29, uSleepTime 40, sleep 11
+
+2014-04-28 16:50:17:204 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:17:244 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:17:284 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:17:324 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:17:364 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 9, uSleepTime 40, sleep 31
+
+2014-04-28 16:50:17:404 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:17:444 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:17:484 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 12, uSleepTime 40, sleep 28
+
+2014-04-28 16:50:17:525 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 14, uSleepTime 40, sleep 26
+
+2014-04-28 16:50:17:565 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 11, uSleepTime 40, sleep 29
+
+2014-04-28 16:50:17:605 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:17:645 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:17:685 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:17:725 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:17:765 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 13, uSleepTime 40, sleep 27
+
+2014-04-28 16:50:17:783 info    .\HIPlayStream.cpp(986) => Stop function have been called
+
+2014-04-28 16:50:17:788 info    .\HIDecoder.cpp(255) => resolution 1280 720 Over Count 0 Max Decode AU Time 34 ms
+
+2014-04-28 16:50:17:809 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 10, uSleepTime 40, sleep 30
+
+2014-04-28 16:50:17:824 info    .\HIDDraw.cpp(2582) => VideoTimerDrawProc exit
+
+2014-04-28 16:50:17:826 info    .\HIDDraw.cpp(159) => [1] FreeDisplayWnd 00331B88 
+
+2014-04-28 16:50:17:826 info    .\HIDDraw.cpp(172) => FreeDisplayWnd Leave Count 1 => 0 
+
+2014-04-28 16:50:17:827 debug   .\HIBuffer.cpp(159) => FreeBufferList total 3 frame
+
+2014-04-28 16:50:17:827 info    .\HIPlayer.cpp(223) => HIPlayer FreePort 1 OK
+
+2014-04-28 16:50:17:827 debug   .\HIPlayStream.cpp(1031) => ExceptionCallBack nPort 0, nError 3, pUser 0062B630
+
+2014-04-28 16:50:17:829 info    .\HIDecoder.cpp(255) => resolution 1280 720 Over Count 0 Max Decode AU Time 31 ms
+
+2014-04-28 16:50:17:840 info    .\HIDDraw.cpp(2582) => VideoTimerDrawProc exit
+
+2014-04-28 16:50:17:846 info    .\HIDDraw.cpp(159) => [1] FreeDisplayWnd 00121D94 
+
+2014-04-28 16:50:17:847 info    .\HIDDraw.cpp(172) => FreeDisplayWnd Leave Count 1 => 0 
+
+2014-04-28 16:50:17:847 debug   .\HIBuffer.cpp(159) => FreeBufferList total 4 frame
+
+2014-04-28 16:50:17:855 debug   .\HIStreamFile.cpp(1126) => ReadStreamThrdProc spend time 14, uSleepTime 40, sleep 26
+
+2014-04-28 16:50:17:856 info    .\HIStreamFile.cpp(1132) => ReadStreamThrdProc exit ok
+
+2014-04-28 16:50:17:857 debug   .\HIPlayStream.cpp(1031) => ExceptionCallBack nPort 0, nError 0, pUser 0062B630
+
+2014-04-28 16:50:17:857 debug   .\HIStreamFile.cpp(198) => CloseFile: Close DrawIvs handle 00C2AE10 err -2
+
+2014-04-28 16:50:17:858 info    .\HIPlayer.cpp(223) => HIPlayer FreePort 0 OK
+
+2014-04-28 16:50:17:858 info    .\HIPlayer.cpp(129) => HIPlayer Release OK
+

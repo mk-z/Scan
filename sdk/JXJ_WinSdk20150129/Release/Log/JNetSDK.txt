@@ -1,0 +1,4 @@
+-------- ./Log/JNetSDK.txt Create by JXJ at 2016-06-20 13:48:15 --------
+2016-06-20 13:48:15	JNetInit version:3.0.0.4, Last compiled at 17:19:47, Jan 20 2015
+
+2016-06-20 13:48:20	CJLogWriter::Close at 2016-06-20 13:48:20

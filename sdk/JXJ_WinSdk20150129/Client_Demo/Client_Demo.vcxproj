@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{47BA4A3B-29EE-4900-A90D-2376E330B5EA}</ProjectGuid>
+    <RootNamespace>Client_Demo</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <IgnoreImportLibrary>false</IgnoreImportLibrary>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/D _AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <DelayLoadDLLs />
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_BIND_TO_CURRENT_VCLIBS_VERSION;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+      <DelayLoadDLLs />
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>0</StackReserveSize>
+      <StackCommitSize>0</StackCommitSize>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AvdSet.cpp" />
+    <ClCompile Include="BorderDlg.cpp" />
+    <ClCompile Include="CAttributeDlg.cpp" />
+    <ClCompile Include="ChannelStream.cpp" />
+    <ClCompile Include="Client_Demo.cpp" />
+    <ClCompile Include="Client_DemoDlg.cpp" />
+    <ClCompile Include="CloudSet.cpp" />
+    <ClCompile Include="CpcScreen.cpp" />
+    <ClCompile Include="CpcSetDlg.cpp" />
+    <ClCompile Include="DeviceState.cpp" />
+    <ClCompile Include="DeviceUpdateDlg.cpp" />
+    <ClCompile Include="DeviceUserDlg.cpp" />
+    <ClCompile Include="DNSSet.cpp" />
+    <ClCompile Include="ElevatorSet.cpp" />
+    <ClCompile Include="EMailSet.cpp" />
+    <ClCompile Include="EncodeDlg.cpp" />
+    <ClCompile Include="FTPSet.cpp" />
+    <ClCompile Include="FullUpDlg.cpp" />
+    <ClCompile Include="GB28181Set.cpp" />
+    <ClCompile Include="HerdAnalyse.cpp" />
+    <ClCompile Include="HerdAnalyseScreen.cpp" />
+    <ClCompile Include="HerdTimeDlg.cpp" />
+    <ClCompile Include="HideAlarmScreen.cpp" />
+    <ClCompile Include="HideScreenDlg.cpp" />
+    <ClCompile Include="HideWarning.cpp" />
+    <ClCompile Include="HwSetDlg.cpp" />
+    <ClCompile Include="HxhtConfig.cpp" />
+    <ClCompile Include="IniFile.cpp" />
+    <ClCompile Include="InterestArea.cpp" />
+    <ClCompile Include="InterestScreen.cpp" />
+    <ClCompile Include="IoWarning.cpp" />
+    <ClCompile Include="Ir_CutSet.cpp" />
+    <ClCompile Include="JointAction.cpp" />
+    <ClCompile Include="LostWarning.cpp" />
+    <ClCompile Include="MainStream.cpp" />
+    <ClCompile Include="MessageBoxDlg.cpp" />
+    <ClCompile Include="MoveSenseScreen.cpp" />
+    <ClCompile Include="MoveSenseSet.cpp" />
+    <ClCompile Include="NetDiskSet.cpp" />
+    <ClCompile Include="NetParam.cpp" />
+    <ClCompile Include="NetStatus.cpp" />
+    <ClCompile Include="NetWorkFaultCheck.cpp" />
+    <ClCompile Include="OsdSet.cpp" />
+    <ClCompile Include="PeaJointAction.cpp" />
+    <ClCompile Include="PeaOscCfg.cpp" />
+    <ClCompile Include="PerOscScreen.cpp" />
+    <ClCompile Include="PictureSet.cpp" />
+    <ClCompile Include="PirAlarmDlg.cpp" />
+    <ClCompile Include="PppoeSet.cpp" />
+    <ClCompile Include="Pub_Data.cpp" />
+    <ClCompile Include="RecodeScreenDlg.cpp" />
+    <ClCompile Include="RtspServerDlg.cpp" />
+    <ClCompile Include="SecondStreamDlg.cpp" />
+    <ClCompile Include="SerachNote.cpp" />
+    <ClCompile Include="SerachWifi.cpp" />
+    <ClCompile Include="SerchDevice.cpp" />
+    <ClCompile Include="SerialSet.cpp" />
+    <ClCompile Include="SetTimeDlg.cpp" />
+    <ClCompile Include="SrcSet.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="SystemMsgDlg.cpp" />
+    <ClCompile Include="ThirdStreamDlg.cpp" />
+    <ClCompile Include="UPNPSet.cpp" />
+    <ClCompile Include="VideoHide.cpp" />
+    <ClCompile Include="VideoPlan.cpp" />
+    <ClCompile Include="VideoPlayBack.cpp" />
+    <ClCompile Include="VideoTime.cpp" />
+    <ClCompile Include="WarningUpload.cpp" />
+    <ClCompile Include="WifiConnect.cpp" />
+    <ClCompile Include="ZteCfgDlg.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\inc\AVPlayer.h" />
+    <ClInclude Include="..\inc\JNetSDK.h" />
+    <ClInclude Include="..\inc\Jtype.h" />
+    <ClInclude Include="..\inc\j_sdk.h" />
+    <ClInclude Include="..\inc\mb_api.h" />
+    <ClInclude Include="..\inc\stdint.h" />
+    <ClInclude Include="AvdSet.h" />
+    <ClInclude Include="BorderDlg.h" />
+    <ClInclude Include="CAttributeDlg.h" />
+    <ClInclude Include="ChannelStream.h" />
+    <ClInclude Include="Client_Demo.h" />
+    <ClInclude Include="Client_DemoDlg.h" />
+    <ClInclude Include="CloudSet.h" />
+    <ClInclude Include="CpcScreen.h" />
+    <ClInclude Include="CpcSetDlg.h" />
+    <ClInclude Include="DeviceState.h" />
+    <ClInclude Include="DeviceUpdateDlg.h" />
+    <ClInclude Include="DeviceUserDlg.h" />
+    <ClInclude Include="DNSSet.h" />
+    <ClInclude Include="ElevatorSet.h" />
+    <ClInclude Include="EMailSet.h" />
+    <ClInclude Include="EncodeDlg.h" />
+    <ClInclude Include="FTPSet.h" />
+    <ClInclude Include="FullUpDlg.h" />
+    <ClInclude Include="GB28181Set.h" />
+    <ClInclude Include="HerdAnalyse.h" />
+    <ClInclude Include="HerdAnalyseScreen.h" />
+    <ClInclude Include="HerdTimeDlg.h" />
+    <ClInclude Include="HideAlarmScreen.h" />
+    <ClInclude Include="HideScreenDlg.h" />
+    <ClInclude Include="HideWarning.h" />
+    <ClInclude Include="HwSetDlg.h" />
+    <ClInclude Include="HxhtConfig.h" />
+    <ClInclude Include="IniFile.h" />
+    <ClInclude Include="InterestArea.h" />
+    <ClInclude Include="InterestScreen.h" />
+    <ClInclude Include="IoWarning.h" />
+    <ClInclude Include="Ir_CutSet.h" />
+    <ClInclude Include="JointAction.h" />
+    <ClInclude Include="LostWarning.h" />
+    <ClInclude Include="MainStream.h" />
+    <ClInclude Include="MessageBoxDlg.h" />
+    <ClInclude Include="MoveSenseScreen.h" />
+    <ClInclude Include="MoveSenseSet.h" />
+    <ClInclude Include="NetDiskSet.h" />
+    <ClInclude Include="NetParam.h" />
+    <ClInclude Include="NetStatus.h" />
+    <ClInclude Include="NetWorkFaultCheck.h" />
+    <ClInclude Include="OsdSet.h" />
+    <ClInclude Include="PeaJointAction.h" />
+    <ClInclude Include="PeaOscCfg.h" />
+    <ClInclude Include="PerOscScreen.h" />
+    <ClInclude Include="PictureSet.h" />
+    <ClInclude Include="PirAlarmDlg.h" />
+    <ClInclude Include="PppoeSet.h" />
+    <ClInclude Include="Pub_Data.h" />
+    <ClInclude Include="RecodeScreenDlg.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="RtspServerDlg.h" />
+    <ClInclude Include="SecondStreamDlg.h" />
+    <ClInclude Include="SerachNote.h" />
+    <ClInclude Include="SerachWifi.h" />
+    <ClInclude Include="SerchDevice.h" />
+    <ClInclude Include="SerialSet.h" />
+    <ClInclude Include="SetTimeDlg.h" />
+    <ClInclude Include="SrcSet.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="SystemMsgDlg.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="ThirdStreamDlg.h" />
+    <ClInclude Include="UPNPSet.h" />
+    <ClInclude Include="VideoHide.h" />
+    <ClInclude Include="VideoPlan.h" />
+    <ClInclude Include="VideoPlayBack.h" />
+    <ClInclude Include="VideoTime.h" />
+    <ClInclude Include="WarningUpload.h" />
+    <ClInclude Include="WifiConnect.h" />
+    <ClInclude Include="ZteCfgDlg.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\audio.bmp" />
+    <Image Include="res\audio1.bmp" />
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\bitmap2.bmp" />
+    <Image Include="res\bitmap3.bmp" />
+    <Image Include="res\bmp00001.bmp" />
+    <Image Include="res\bmp00002.bmp" />
+    <Image Include="res\camera.bmp" />
+    <Image Include="res\camera_server.bmp" />
+    <Image Include="res\Client_Demo.ico" />
+    <Image Include="res\drag.bmp" />
+    <Image Include="res\IPChan.bmp" />
+    <Image Include="res\IPChan_server.bmp" />
+    <Image Include="res\tree.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client_Demo.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="res\Client_Demo.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Client_Demo.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

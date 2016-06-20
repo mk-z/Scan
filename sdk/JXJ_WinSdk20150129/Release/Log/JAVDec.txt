@@ -1,0 +1,17 @@
+-------- .\Log\JAVDec.txt Create by JXJ at 2016-06-20 13:48:15 --------
+2016-06-20 13:48:15	CAVMng::DDEnumCallbackEx Intel(R) HD Graphics 4600 -- \\.\DISPLAY1
+2016-06-20 13:48:15	CAVMng::DSInEnumCallback 主声音捕获驱动程序 -- 
+2016-06-20 13:48:15	CAVMng::DSOutEnumCallback 主声音驱动程序 -- 
+2016-06-20 13:48:15	CAVMng::DSOutEnumCallback 数字音频(S/PDIF) (High Definition Audio 设备) -- {0.0.0.00000000}.{11b30e39-b4d6-40a3-935f-404fcae72a7f}
+2016-06-20 13:48:20	CAVMng::Clean() s_mngRec.Clear()
+2016-06-20 13:48:20	CRecMng::Clear. Start
+2016-06-20 13:48:20	CRecMng::Clear. end
+2016-06-20 13:48:20	CAVMng::Clean() s_mngConver.Clear()
+2016-06-20 13:48:20	CConverMng::Clear. Start
+2016-06-20 13:48:20	CConverMng::Clear. end
+2016-06-20 13:48:20	CAVMng::Clean() s_mngCapture.Clear()
+2016-06-20 13:48:20	CAVMng::Clean() SAFE_DELETE(m_arJAVPlayer[i])
+2016-06-20 13:48:20	CAVMng::Clean() StopPickAudio()
+2016-06-20 13:48:20	CAVMng::Clean() s_timer.Stop()
+2016-06-20 13:48:20	CAVMng::Clean() OK
+2016-06-20 13:48:20	CJLogWriter::Close at 2016-06-20 13:48:20

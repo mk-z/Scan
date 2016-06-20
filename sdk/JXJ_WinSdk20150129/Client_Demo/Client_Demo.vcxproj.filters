@@ -1,0 +1,532 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="JNetSDK">
+      <UniqueIdentifier>{34170343-4ca7-4f94-9ff9-8411ae88e4f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AVPlayer">
+      <UniqueIdentifier>{5a5bced6-4d4f-44f2-8295-c69f77f88f89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc">
+      <UniqueIdentifier>{a92f41cc-f365-4556-a886-5c7ab0c14ae4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AvdSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BorderDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CAttributeDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChannelStream.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Client_Demo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Client_DemoDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CloudSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CpcScreen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CpcSetDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceState.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceUpdateDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceUserDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DNSSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ElevatorSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EMailSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EncodeDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FTPSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FullUpDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GB28181Set.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HerdAnalyse.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HerdAnalyseScreen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HerdTimeDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HideAlarmScreen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HideScreenDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HideWarning.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HwSetDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HxhtConfig.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IniFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InterestArea.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InterestScreen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IoWarning.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ir_CutSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="JointAction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LostWarning.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainStream.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageBoxDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveSenseScreen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveSenseSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NetDiskSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NetParam.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NetStatus.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWorkFaultCheck.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OsdSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PeaJointAction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PeaOscCfg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PerOscScreen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PictureSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PirAlarmDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PppoeSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Pub_Data.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RecodeScreenDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RtspServerDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SecondStreamDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SerachNote.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SerachWifi.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SerchDevice.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SetTimeDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SrcSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemMsgDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdStreamDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UPNPSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoHide.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoPlan.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoPlayBack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoTime.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WarningUpload.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WifiConnect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZteCfgDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AvdSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BorderDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CAttributeDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChannelStream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Client_Demo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Client_DemoDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CpcScreen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CpcSetDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceState.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceUpdateDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceUserDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DNSSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ElevatorSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EMailSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EncodeDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FTPSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FullUpDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GB28181Set.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HerdAnalyse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HerdAnalyseScreen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HerdTimeDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HideAlarmScreen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HideScreenDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HideWarning.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HwSetDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HxhtConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IniFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InterestArea.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InterestScreen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IoWarning.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ir_CutSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="JointAction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LostWarning.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainStream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageBoxDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveSenseScreen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveSenseSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NetDiskSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NetParam.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NetStatus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWorkFaultCheck.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OsdSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PeaJointAction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PeaOscCfg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PerOscScreen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PictureSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PirAlarmDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PppoeSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Pub_Data.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RecodeScreenDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RtspServerDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SecondStreamDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SerachNote.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SerachWifi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SerchDevice.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SetTimeDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SrcSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemMsgDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdStreamDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UPNPSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoHide.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoPlan.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoPlayBack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoTime.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WarningUpload.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WifiConnect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZteCfgDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\JNetSDK.h">
+      <Filter>JNetSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\AVPlayer.h">
+      <Filter>AVPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\j_sdk.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\Jtype.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\mb_api.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\stdint.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\audio.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\audio1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00001.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00002.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\camera.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\camera_server.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Client_Demo.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\drag.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IPChan.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IPChan_server.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\tree.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client_Demo.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Client_Demo.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
