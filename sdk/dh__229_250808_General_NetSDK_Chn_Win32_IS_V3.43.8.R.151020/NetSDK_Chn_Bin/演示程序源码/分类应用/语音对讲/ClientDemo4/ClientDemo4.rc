@@ -1,0 +1,288 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ClientDemo4.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\ClientDemo4.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 ClientDemo4"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "ClientDemo4 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2008",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "Ok",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_CLIENTDEMO4_DIALOG DIALOGEX 0, 0, 183, 110
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Talk"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Ok",IDOK,32,81,50,14
+    PUSHBUTTON      "Cancle",IDCANCEL,103,81,50,14
+    CONTROL         "Direct",IDC_RADIO_CLIENT,"Button",BS_AUTORADIOBUTTON,49,
+                    23,120,10
+    CONTROL         "Server",IDC_RADIO_SERVER,"Button",BS_AUTORADIOBUTTON,49,
+                    45,120,10
+END
+
+IDD_DIALOG_CLIENT DIALOG DISCARDABLE  0, 0, 249, 249
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Direct"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "Login",IDC_BTN_LOGIN,55,63,50,14
+    PUSHBUTTON      "Logout",IDC_BTN_LOGOUT,132,63,50,14,WS_DISABLED
+    CONTROL         "IPAddress1",IDC_IPADDRESS_IP,"SysIPAddress32",
+                    WS_TABSTOP,57,20,77,15
+    EDITTEXT        IDC_EDIT_PORT,177,21,53,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_USER,57,41,77,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PWD,177,41,53,14,ES_PASSWORD | ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_ENCODETYPE,57,114,176,128,CBS_DROPDOWN | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Begin talk",IDC_BTN_STARTTALK,55,218,50,14,WS_DISABLED
+    PUSHBUTTON      "Stop talk",IDC_BTN_STOPTALK,132,218,50,14,WS_DISABLED
+    GROUPBOX        "Device Login",IDC_STATIC,8,8,234,75
+    RTEXT           "Dev.IP:",IDC_STATIC,12,25,43,8
+    RTEXT           "Dev.Port:",IDC_STATIC,137,25,37,8
+    RTEXT           "Username:",IDC_STATIC,12,43,43,8
+    RTEXT           "Password:",IDC_STATIC,139,44,35,8
+    GROUPBOX        "Talk",IDC_STATIC,8,93,234,148
+    RTEXT           "Code type:",IDC_STATIC,16,115,41,8
+    CONTROL         "only speak",IDC_CHECK_SPEAK,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,31,173,56,10
+    GROUPBOX        "",IDC_STATIC,20,166,213,41
+    LTEXT           "speakerID:",IDC_STATIC,26,192,41,8
+    COMBOBOX        IDC_COMBO_SPEAKER,66,189,157,70,CBS_DROPDOWN | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "Transmit type:",IDC_STATIC,16,146,60,8,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO_TRANSMIT_TYPE,86,145,127,54,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DIALOG_SERVER DIALOG DISCARDABLE  0, 0, 249, 249
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Talk server"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "Login",IDC_BTN_LOGIN,55,63,50,14
+    PUSHBUTTON      "Logout",IDC_BTN_LOGOUT,132,63,50,14,WS_DISABLED
+    CONTROL         "IPAddress1",IDC_IPADDRESS_IP,"SysIPAddress32",
+                    WS_TABSTOP,57,20,77,15
+    EDITTEXT        IDC_EDIT_PORT,177,21,53,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_USER,57,41,77,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PWD,177,41,53,14,ES_PASSWORD | ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_ENCODETYPE,57,111,173,99,CBS_DROPDOWN | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Begin talk",IDC_BTN_STARTTALK,55,216,50,14,WS_DISABLED
+    PUSHBUTTON      "Stop talk",IDC_BTN_STOPTALK,132,216,50,14,WS_DISABLED
+    GROUPBOX        "Talk",IDC_STATIC,8,93,234,145
+    GROUPBOX        "Device Login",IDC_STATIC,8,8,234,75
+    RTEXT           "Dev.IP:",IDC_STATIC,12,25,43,8
+    RTEXT           "Dev.Port:",IDC_STATIC,137,25,37,8
+    RTEXT           "Username:",IDC_STATIC,13,44,42,8
+    RTEXT           "Password:",IDC_STATIC,137,44,37,8
+    RTEXT           "Code type:",IDC_STATIC,14,115,43,8
+    CONTROL         "only speak",IDC_CHECK_SPEAK,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,23,170,56,10
+    GROUPBOX        "",IDC_STATIC,13,162,224,41
+    LTEXT           "speakerID:",IDC_STATIC,23,188,41,8
+    EDITTEXT        IDC_EDIT_PWD2,177,41,53,14,ES_PASSWORD | ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_SPEAKER,59,185,170,70,CBS_DROPDOWN | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Transmit type:",IDC_STATIC,14,144,57,8
+    COMBOBOX        IDC_COMBO_TRANSMIT_TYPE,71,144,126,61,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "ClientDemo4 Microsoft \0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "ClientDemo4\0"
+            VALUE "LegalCopyright", "Copyright (C) 2008\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "ClientDemo4.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "ClientDemo4 \0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x809, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_CLIENTDEMO4_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 176
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 103
+    END
+
+    IDD_DIALOG_SERVER, DIALOG
+    BEGIN
+        VERTGUIDE, 133
+        VERTGUIDE, 155
+        BOTTOMMARGIN, 246
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "About ClientDemo4(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\ClientDemo4.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

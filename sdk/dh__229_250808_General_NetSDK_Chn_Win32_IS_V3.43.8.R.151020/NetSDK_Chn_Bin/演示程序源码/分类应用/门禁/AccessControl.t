@@ -1,0 +1,904 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\AccessControl.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\AccessControl.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 AccessControl"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "AccessControl 1.0 版",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2014",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_ACCESSCONTROL_DIALOG DIALOGEX 0, 0, 352, 141
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "AccessControl"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "IPAddress1",IDC_IPADDRESS,"SysIPAddress32",WS_TABSTOP,7,
+                    7,67,15
+    EDITTEXT        IDC_EDT_PORT,84,7,40,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDT_NAME,134,8,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDT_PWD,184,7,40,15,ES_PASSWORD | ES_AUTOHSCROLL
+    PUSHBUTTON      "Login",IDC_BTN_LOGIN,234,7,50,14
+    PUSHBUTTON      "Logout",IDC_BTN_LOGOUT,294,7,50,14
+    PUSHBUTTON      "Capability",IDC_BTN_CAPABILITY,7,30,50,14
+    LISTBOX         IDC_LIST_INFOPRINT,7,71,337,63,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_CMB_CONFIG,234,32,110,218,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Config",IDC_BTN_CONFIG,234,51,110,14
+    PUSHBUTTON      "Subscribe",IDC_BTN_SUBSCIBE,61,30,50,14
+    COMBOBOX        IDC_CMB_CONTROLQUERY,114,31,110,218,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Control&&Query",IDC_BTN_CONTROLQUERY,114,51,110,14
+    PUSHBUTTON      "Controller",IDC_BTN_RECORDSET_CONTROL,7,51,50,14
+    PUSHBUTTON      "Finder",IDC_BTN_RECORDSET_FIND,61,51,50,14
+END
+
+IDD_DLG_CAPABILITY DIALOG DISCARDABLE  0, 0, 320, 200
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Capability"
+FONT 9, "宋体"
+BEGIN
+    EDITTEXT        IDC_DLG_CAP_EDT_SHOW,7,7,306,149,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_READONLY | ES_WANTRETURN | 
+                    WS_VSCROLL
+    LISTBOX         IDC_DLG_CAP_LIST_ERR,7,161,306,32,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_DLG_SUBSCRIBE DIALOG DISCARDABLE  0, 0, 412, 240
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Subscribe"
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "Subscribe",IDC_SUBSCRIBE_BTN_SUB,15,19,50,14
+    PUSHBUTTON      "Stop",IDC_SUBSCRIBE_BTN_STOP,15,38,50,14
+    CONTROL         "List1",IDC_LIST_ALARM_REPORT,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,7,65,398,168
+    GROUPBOX        "",IDC_STATIC,7,4,388,57
+    PUSHBUTTON      "Capture",IDC_SUBSCRIBE_BTN_CAPTURE,334,39,50,14
+    RTEXT           "Channel:",IDC_STATIC,187,26,43,8
+    COMBOBOX        IDC_SUBSCRIBE_CMB_CHN,234,24,94,113,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "ReaderID:",IDC_STATIC,187,40,43,8
+    EDITTEXT        IDC_SUBSCRIBE_EDIT_READERID,234,38,93,14,ES_AUTOHSCROLL
+    GROUPBOX        "CaptureFingerPrint",IDC_STATIC,185,13,203,43
+END
+
+IDD_DLG_VERSION DIALOGEX 0, 0, 186, 101
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Version"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Refresh",IDC_VERSION_BTN_UPDATE,68,78,50,14
+    LTEXT           "",IDC_VERSION_STATIC_INFO,7,7,172,64,NOT WS_GROUP,
+                    WS_EX_STATICEDGE
+END
+
+IDD_DLG_CFG_NETWORK DIALOG DISCARDABLE  0, 0, 226, 166
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Network Configuration"
+FONT 9, "宋体"
+BEGIN
+    RTEXT           "Ip:",IDC_STATIC,16,31,45,8
+    CONTROL         "IPAddress1",IDC_NETWORK_IP,"SysIPAddress32",WS_TABSTOP,
+                    72,27,100,15
+    RTEXT           "Mask:",IDC_STATIC,15,61,46,8
+    CONTROL         "IPAddress2",IDC_NETWORK_MASK,"SysIPAddress32",
+                    WS_TABSTOP,71,58,100,15
+    RTEXT           "GateWay:",IDC_STATIC,14,92,47,8
+    CONTROL         "IPAddress3",IDC_NETWORK_GATEWAY,"SysIPAddress32",
+                    WS_TABSTOP,71,87,100,15
+    PUSHBUTTON      "Set",IDC_NETWORK_BTN_SET,53,123,38,14
+    PUSHBUTTON      "Cancel",IDC_NETWORK_BTN_CANCEL,121,123,38,14
+END
+
+IDD_DLG_OPT_ACCESS DIALOG DISCARDABLE  0, 0, 197, 99
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Access Control"
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "Channel:",IDC_STATIC,45,33,45,8
+    COMBOBOX        IDC_OPT_ACCESS_CMB_CHANNEL,98,30,53,94,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Open",IDC_OPT_ACCESS_BTN_OPEN,37,61,50,14
+    PUSHBUTTON      "Close",IDC_OPT_ACCESS_BTN_CANCEL,104,61,50,14
+END
+
+IDD_DLG_QUERY_LOG DIALOG DISCARDABLE  0, 0, 466, 286
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Query log"
+FONT 9, "宋体"
+BEGIN
+    COMBOBOX        IDC_QUERYLOG_COMBO_TYPE,14,4,79,129,CBS_DROPDOWNLIST | 
+                    NOT WS_VISIBLE | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "DateTimePicker2",IDC_QUERYLOG_DATETIMEPICKER_STARTTIME,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | NOT 
+                    WS_VISIBLE | WS_DISABLED | WS_TABSTOP | 0x8,166,4,54,15
+    CONTROL         "DateTimePicker2",IDC_QUERYLOG_DATETIMEPICKER_ENDTIME,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | NOT 
+                    WS_VISIBLE | WS_DISABLED | WS_TABSTOP | 0x8,306,4,53,15
+    CONTROL         "DateTimePicker4",IDC_QUERYLOG_DATETIMEPICKER_STARTDAY,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | NOT WS_VISIBLE | 
+                    WS_DISABLED | WS_TABSTOP,100,4,62,15
+    LTEXT           "To",IDC_STATIC,226,7,12,10,NOT WS_VISIBLE | WS_DISABLED
+    CONTROL         "DateTimePicker5",IDC_QUERYLOG_DATETIMEPICKER_ENDDAY,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | NOT WS_VISIBLE | 
+                    WS_DISABLED | WS_TABSTOP,241,4,61,15
+    PUSHBUTTON      "Stop",IDC_QUERYLOG_BTN_QUERYSTOP,395,38,50,14
+    PUSHBUTTON      "Start",IDC_QUERYLOG_BTN_QUERYSTART,280,38,50,14
+    PUSHBUTTON      "Next",IDC_QUERYLOG_BTN_QUERYNEXT,338,38,50,14
+    CONTROL         "List2",IDC_QUERYLOG_LIST_LOGLIST,"SysListView32",
+                    LVS_REPORT | LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,13,
+                    63,438,207
+    LTEXT           "PageLines:",IDC_STATIC,366,7,41,8,NOT WS_VISIBLE | 
+                    WS_DISABLED
+    EDITTEXT        IDC_QUERYLOG_EDIT_PAGELINES,411,4,40,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER | NOT WS_VISIBLE | WS_DISABLED
+    GROUPBOX        "Info",IDC_STATIC,13,19,255,39
+    GROUPBOX        "Query",IDC_STATIC,271,19,180,40
+    RTEXT           "TotalCount:",IDC_STATIC,19,42,58,8
+    PUSHBUTTON      "Fresh",IDC_QUERYLOG_BTN_TOTALCOUNT,134,40,50,14
+    EDITTEXT        IDC_QUERYLOG_EDT_TOTALCOUNT,87,40,40,14,ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+END
+
+IDD_DLG_DEVICETIME DIALOG DISCARDABLE  0, 0, 321, 93
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "DeviceTime"
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "Set",IDC_DEVICETIME_BTN_SET,169,57,50,14
+    PUSHBUTTON      "Get",IDC_DEVICETIME_BTN_GET,92,57,50,14
+    CONTROL         "DateTimePicker3",IDC_DEVICETIME_DTP_DATE,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,15,18,
+                    100,15
+    RTEXT           "Hour:",IDC_STATIC,121,21,21,8
+    COMBOBOX        IDC_DEVICETIME_CMB_HOUR,146,18,25,75,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Minute:",IDC_STATIC,178,21,29,8
+    COMBOBOX        IDC_DEVICETIME_CMB_MINUTE,209,18,29,75,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Second:",IDC_STATIC,244,21,29,8
+    COMBOBOX        IDC_DEVICETIME_CMB_SECOND,275,18,26,75,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DLG_UPGRADE DIALOG DISCARDABLE  0, 0, 275, 149
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "UpgradeDlg"
+FONT 10, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "Upgrade",IDC_UPGRADE_BTN_UPGRADE,84,130,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,141,130,50,14
+    RTEXT           "Path:",IDC_STATIC,21,23,34,8
+    EDITTEXT        IDC_UPGRADE_EDT_PATH,59,21,152,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_UPGRADE_BTN_PATH,218,21,50,14
+    CONTROL         "Progress1",IDC_UPGRADE_PROGRESS,"msctls_progress32",
+                    WS_BORDER,36,42,182,14
+    LTEXT           "",IDC_UPGRADE_STATIC_COUNT,230,44,35,8
+    LISTBOX         IDC_UPGRADE_LIST_INFO,36,66,229,54,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_SUBDLG_INFO_CARD DIALOG DISCARDABLE  0, 0, 213, 295
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Card"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,82,258,50,14
+    RTEXT           "RecNo:",IDC_STATIC,15,18,57,8
+    EDITTEXT        IDC_RECSET_CARD_EDT_RECNO,80,15,48,14,ES_AUTOHSCROLL
+    CONTROL         "DateTimePicker1",IDC_RECSET_CARD_DTP_CT_DATE,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | NOT 
+                    WS_VISIBLE | WS_DISABLED | WS_TABSTOP,80,35,57,15
+    RTEXT           "CreateTime:",IDC_STATIC,15,38,57,8,NOT WS_VISIBLE
+    RTEXT           "CardNo:",IDC_STATIC,15,60,57,8
+    EDITTEXT        IDC_RECSET_CARD_EDT_CARDNO,80,58,48,14,ES_AUTOHSCROLL
+    RTEXT           "UserID:",IDC_STATIC,15,80,57,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_RECSET_CARD_EDT_USERID,80,78,48,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER | NOT WS_VISIBLE | WS_DISABLED
+    RTEXT           "CardStatus:",IDC_STATIC,15,100,57,8
+    COMBOBOX        IDC_RECSET_CARD_CMB_CARDSTATUS,80,97,48,153,
+                    CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "CardType:",IDC_STATIC,16,117,57,8
+    COMBOBOX        IDC_RECSET_CARD_CMB_CARDTYPE,80,115,48,135,
+                    CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Password:",IDC_STATIC,15,137,57,8
+    EDITTEXT        IDC_RECSET_CARD_EDT_PWD,80,134,48,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    RTEXT           "UseTime:",IDC_STATIC,7,196,65,8
+    EDITTEXT        IDC_RECSET_CARD_EDT_USETIME,80,193,48,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    RTEXT           "ValidDateStart:",IDC_STATIC,7,217,65,8
+    CONTROL         "DateTimePicker1",IDC_RECSET_CARD_DTP_CT_TIME,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | NOT 
+                    WS_VISIBLE | WS_DISABLED | WS_TABSTOP | 0x8,142,35,57,15
+    CONTROL         "DateTimePicker3",IDC_RECSET_CARD_DTP_VDSTART,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,80,213,
+                    74,15
+    RTEXT           "ValidDateEnd:",IDC_STATIC,7,236,65,8
+    CONTROL         "DateTimePicker3",IDC_RECSET_CARD_DTP_VDEND,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,79,231,
+                    74,15
+    RTEXT           "Doors:",IDC_STATIC,26,156,46,8
+    PUSHBUTTON      "...",IDC_RECSET_CARD_BTN_DOORS,80,154,50,14
+    RTEXT           "TimeSection:",IDC_STATIC,7,175,65,8
+    PUSHBUTTON      "...",IDC_RECSET_CARD_BTN_TM,80,174,50,14
+    LTEXT           "(Hex)",IDC_STATIC,132,61,74,8
+END
+
+IDD_SUBDLG_INFO_PASSWORD DIALOG DISCARDABLE  0, 0, 219, 173
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Password"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,84,141,50,14
+    RTEXT           "RecNo:",IDC_STATIC,24,22,59,8
+    RTEXT           "UserID:",IDC_STATIC,24,43,59,8
+    RTEXT           "DoorOpenPwd:",IDC_STATIC,24,66,59,8
+    RTEXT           "AlarmPwd:",IDC_STATIC,24,89,59,8,NOT WS_VISIBLE
+    RTEXT           "Doors:",IDC_STATIC,25,110,59,8
+    EDITTEXT        IDC_SUBDLG_INFO_PASSWORD_EDIT_RECNO,89,19,57,14,
+                    ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_SUBDLG_INFO_PASSWORD_EDIT_USERID,89,41,57,14,
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_SUBDLG_INFO_PASSWORD_EDIT_DOOROPENPWD,89,64,57,14,
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_SUBDLG_INFO_PASSWORD_EDIT_ALARMPWD,89,87,57,14,
+                    ES_AUTOHSCROLL | NOT WS_VISIBLE
+    PUSHBUTTON      "...",IDC_SUBDLG_INFO_PASSWORD_BTN_DOORS,89,108,57,14
+END
+
+IDD_SUBDLG_INFO_ACCESS DIALOG DISCARDABLE  0, 0, 223, 241
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "AccessRecord"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,79,208,50,14
+    RTEXT           "RecNo:",IDC_STATIC,7,20,66,8
+    EDITTEXT        IDC_SUBDLG_INFO_ACCESS_EDIT_RECNO,79,17,63,14,
+                    ES_AUTOHSCROLL | ES_READONLY
+    RTEXT           "CardNo:",IDC_STATIC,30,47,43,8
+    EDITTEXT        IDC_SUBDLG_INFO_ACCESS_EDIT_CARDNO,79,45,63,14,
+                    ES_AUTOHSCROLL
+    RTEXT           "Pwd:",IDC_STATIC,30,77,43,8
+    EDITTEXT        IDC_SUBDLG_INFO_ACCESS_EDIT_PWD,79,73,63,14,
+                    ES_AUTOHSCROLL
+    RTEXT           "Time:",IDC_STATIC,30,105,43,8
+    CONTROL         "DateTimePicker1",
+                    IDC_SUBDLG_INFO_ACCESS_DATETIMEPICKER_DATE,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,79,100,
+                    63,15
+    CONTROL         "DateTimePicker2",
+                    IDC_SUBDLG_INFO_ACCESS_DATETIMEPICKER_TIME,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    WS_TABSTOP | 0x8,144,100,63,15
+    RTEXT           "Status:",IDC_STATIC,30,127,43,8
+    CONTROL         "",IDC_SUBDLG_INFO_ACCESS_CHECK_STATUS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,79,127,16,8
+    RTEXT           "Method:",IDC_STATIC,30,147,43,8
+    COMBOBOX        IDC_SUBDLG_INFO_ACCESS_COMBO_METHOD,79,145,91,66,
+                    CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "CardReader:",IDC_STATIC,7,171,66,8
+    EDITTEXT        IDC_SUBDLG_INFO_ACCESS_EDIT_DOORNO,79,168,63,14,
+                    ES_AUTOHSCROLL | ES_NUMBER
+END
+
+IDD_SUBDLG_INFO_HOLIDAY DIALOG DISCARDABLE  0, 0, 235, 217
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Holiday"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,93,179,50,14
+    RTEXT           "RecNo:",IDC_STATIC,30,26,54,8
+    RTEXT           "StartTime:",IDC_STATIC,30,53,54,8
+    RTEXT           "EndTime:",IDC_STATIC,30,80,54,8
+    RTEXT           "Enable:",IDC_STATIC,30,107,54,8,WS_DISABLED
+    RTEXT           "Doors:",IDC_STATIC,30,133,54,8
+    EDITTEXT        IDC_SUBDLG_INFO_HOLIDAY_EDIT_RECNO,91,22,40,14,
+                    ES_AUTOHSCROLL
+    CONTROL         "DateTimePicker1",
+                    IDC_SUBDLG_INFO_HOLIDAY_DATETIMEPICKER_STARTDATE,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,91,50,61,
+                    15
+    CONTROL         "DateTimePicker1",
+                    IDC_SUBDLG_INFO_HOLIDAY_DATETIMEPICKER_ENDDATE,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,91,79,61,
+                    15
+    CONTROL         "",IDC_SUBDLG_INFO_HOLIDAY_CHECK_ENABLE,"Button",
+                    BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,91,108,16,8
+    PUSHBUTTON      "...",IDC_SUBDLG_INFO_HOLIDAY_BUTTON_DOORS,91,130,50,14
+    RTEXT           "HolidayNo:",IDC_STATIC,30,155,54,8
+    EDITTEXT        IDC_SUBDLG_INFO_HOLIDAY_EDIT_HOLIDAYNO,91,153,40,14,
+                    ES_AUTOHSCROLL | ES_NUMBER
+END
+
+IDD_DLG_RECORDSET_FINDER DIALOG DISCARDABLE  0, 0, 212, 151
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "RecordSetFinder"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "StartQuery",IDC_RECORDSETFINDER_BTN_QUERYSTART,27,101,
+                    50,14
+    RTEXT           "DataType:",IDC_STATIC,27,23,72,8
+    COMBOBOX        IDC_RECORDSETFINDER_CMB_DATATYPE,107,21,48,107,
+                    CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Info:",IDC_STATIC,68,79,31,8
+    COMBOBOX        IDC_RECORDSETFINDER_CMB_RESULT,107,77,48,100,
+                    CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_RECORDSETFINDER_EDT_MAXNUM,107,39,48,14,
+                    ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "MaxNum:",IDC_STATIC,50,41,49,8
+    EDITTEXT        IDC_RECORDSETFINDER_EDT_RETNUM,107,58,48,14,
+                    ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    RTEXT           "RetNum:",IDC_STATIC,57,61,42,8
+    DEFPUSHBUTTON   "QueryNext",IDC_RECORDSETFINDER_BTN_QUERYNEXT,81,101,50,
+                    14
+    DEFPUSHBUTTON   "StopQuery",IDC_RECORDSETFINDER_BTN_QUERYSTOP,135,101,50,
+                    14
+    DEFPUSHBUTTON   "TotalCount",IDC_RECORDSETFINDER_BTN_COUNT,81,122,50,14
+END
+
+IDD_DLG_RECORDSET_CONTROL DIALOG DISCARDABLE  0, 0, 187, 100
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "RecordSetControl"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "Execute",IDD_RECORDSET_CTL_BTN_EXECUTE,68,66,50,14
+    RTEXT           "RecordSet Type:",IDC_STATIC,24,23,61,8
+    COMBOBOX        IDD_RECORDSET_CTL_CMB_SETTYPE,106,21,48,72,
+                    CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Control Type:",IDC_STATIC,32,41,53,8
+    COMBOBOX        IDD_RECORDSET_CTL_CMB_CTLTYPE,106,39,48,80,
+                    CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DLG_DOOR_CTL DIALOG DISCARDABLE  0, 0, 187, 100
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "DoorControl"
+FONT 10, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "OpenDoor",IDC_DOORCTL_BTN_OPEN,14,60,50,14
+    PUSHBUTTON      "CloseDoor",IDC_DOORCTL_BTN_CLOSE,68,60,50,14
+    COMBOBOX        IDC_DOORCTL_CMB_CHN,82,18,48,75,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "QueryStatus",IDC_DOORCTL_BTN_QUERY,122,60,50,14
+    RTEXT           "Channel:",IDC_STATIC,25,20,53,8
+    COMBOBOX        IDC_DOORCTL_CMB_STATUS,82,37,48,56,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Status:",IDC_STATIC,27,39,51,8
+END
+
+IDD_DLG_MODIFYPWD DIALOG DISCARDABLE  0, 0, 195, 122
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Modify Password"
+FONT 9, "宋体"
+BEGIN
+    RTEXT           "Old password:",IDC_STATIC,7,29,65,8
+    EDITTEXT        IDC_MODIFYPSW_EDT_OLD,78,25,66,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    RTEXT           "New password:",IDC_STATIC,6,49,66,8
+    EDITTEXT        IDC_MODIFYPSW_EDT_NEW,78,45,66,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    RTEXT           "Confirm:",IDC_STATIC,17,69,55,8
+    EDITTEXT        IDC_MODIFYPSW_EDT_CHECK,77,65,66,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    PUSHBUTTON      "Modify",IDC_MODIFYPSW_BTN_SET,43,94,50,14
+    PUSHBUTTON      "Cancel",IDC_MODIFYPSW_BTN_CANCEL,102,94,50,14
+    RTEXT           "Name:",IDC_STATIC,37,11,35,8
+    EDITTEXT        IDC_MODIFYPSW_EDT_NAME,78,7,66,14,ES_AUTOHSCROLL
+END
+
+IDD_DLG_CFG_ACCESS_CONTROL_GENERAL DIALOG DISCARDABLE  0, 0, 187, 100
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "CfgAccessControlGeneral"
+FONT 10, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "Get",IDC_ACCESSCONTROL_GENERAL_BTN_GET,41,72,50,14
+    PUSHBUTTON      "Set",IDC_ACCESSCONTROL_GENERAL_BTN_SET,95,72,50,14
+    RTEXT           "Project Pwd:",IDC_STATIC,34,30,49,8
+    EDITTEXT        IDC_ACCESSCONTROL_GENERAL_EDT_PROJECTPWD,89,28,58,14,
+                    ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "AccessProperty:",IDC_STATIC,7,48,76,8
+    COMBOBOX        IDC_ACCESSCONTROL_GENERAL_CMB_PROPERTY,89,47,48,93,
+                    CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DLG_CFG_ACCESSCONTROL DIALOG DISCARDABLE  0, 0, 305, 159
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "CfgAccessControl"
+FONT 10, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "Get",IDC_ACCESSCONTROL_BTN_GET,100,130,50,14
+    PUSHBUTTON      "Set",IDC_ACCESSCONTROL_BTN_SET,154,130,50,14
+    COMBOBOX        IDC_ACCESSCONTROL_CMB_OPENMETHOD,91,37,48,137,
+                    CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "DoorOpenMethod:",IDC_STATIC,7,38,79,8
+    RTEXT           "UnlockHold:",IDC_STATIC,7,57,79,8
+    EDITTEXT        IDC_ACCESSCONTROL_EDT_UNLOCKHOLD,91,54,48,14,
+                    ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "CloseTimeout:",IDC_STATIC,7,74,79,8
+    EDITTEXT        IDC_ACCESSCONTROL_EDT_CLOSETIMEOUT,91,72,48,14,
+                    ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "OpenTimeIndex:",IDC_STATIC,7,92,79,8
+    COMBOBOX        IDC_ACCESSCONTROL_CMB_OPENTIMEINDEX,91,90,48,84,
+                    CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "HolidayTimeRecNo:",IDC_STATIC,7,109,79,8
+    EDITTEXT        IDC_ACCESSCONTROL_EDT_HOLIDAYTIMERECNO,91,107,48,14,
+                    ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "BreakInAlarm:",IDC_STATIC,145,22,90,8
+    CONTROL         "",IDC_ACCESSCONTROL_CHK_BREAKINALARM,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,240,22,16,8
+    RTEXT           "RepeatEnterAlarm:",IDC_STATIC,145,38,90,8
+    CONTROL         "",IDC_ACCESSCONTROL_CHK_REPEATENTERALARM,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,240,39,16,8
+    RTEXT           "DoorNotCloseAlarm:",IDC_STATIC,145,57,90,8
+    CONTROL         "",IDC_ACCESSCONTROL_CHK_DOORNOTCLOSEALARM,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,240,57,16,8
+    RTEXT           "DuressAlarm:",IDC_STATIC,145,73,90,8
+    CONTROL         "",IDC_ACCESSCONTROL_CHK_DURESSALARM,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,240,74,16,8
+    RTEXT           "Sensor:",IDC_STATIC,145,91,90,8
+    CONTROL         "",IDC_ACCESSCONTROL_CHK_SENSOR,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,240,92,16,8
+    PUSHBUTTON      "...",IDC_ACCESSCONTROL_BTN_TIMESECTION,240,107,50,14
+    RTEXT           "DoorOpenTimeSection:",IDC_STATIC,145,109,90,8
+    COMBOBOX        IDC_ACCESSCONTROL_CMB_CHANNEL,91,20,48,137,
+                    CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Channel:",IDC_STATIC,7,22,79,8
+END
+
+IDD_SUBDLG_DOOR_OPEN_TIMESECTION DIALOG DISCARDABLE  0, 0, 213, 175
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "DoorOpenTimeSection"
+FONT 10, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,81,145,50,14
+    LTEXT           "WeekDay:",IDC_STATIC,29,19,33,8
+    COMBOBOX        IDC_DOOROPENTIMESECTION_CMB_WEEKDAY,66,17,48,151,
+                    CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "DateTimePicker1",IDC_DOOROPENTIMESECTION_DTP_ST1,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    WS_TABSTOP | 0x8,41,59,50,15
+    LTEXT           "Seg1:",IDC_STATIC,14,62,21,8
+    CONTROL         "DateTimePicker2",IDC_DOOROPENTIMESECTION_DTP_ET1,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    WS_TABSTOP | 0x8,96,59,47,15
+    COMBOBOX        IDC_DOOROPENTIMESECTION_CMB_OPENMETHOD1,150,60,48,108,
+                    CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "StartTime",IDC_STATIC,47,47,37,8
+    LTEXT           "EndTime",IDC_STATIC,99,47,29,8
+    LTEXT           "DoorOpenMethod",IDC_STATIC,145,47,57,8
+    CONTROL         "DateTimePicker1",IDC_DOOROPENTIMESECTION_DTP_ST2,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    WS_TABSTOP | 0x8,41,76,50,15
+    LTEXT           "Seg2:",IDC_STATIC,14,79,21,8
+    CONTROL         "DateTimePicker2",IDC_DOOROPENTIMESECTION_DTP_ET2,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    WS_TABSTOP | 0x8,96,76,47,15
+    COMBOBOX        IDC_DOOROPENTIMESECTION_CMB_OPENMETHOD2,150,77,48,91,
+                    CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "DateTimePicker1",IDC_DOOROPENTIMESECTION_DTP_ST3,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    WS_TABSTOP | 0x8,41,92,50,15
+    LTEXT           "Seg3:",IDC_STATIC,14,95,21,8
+    CONTROL         "DateTimePicker2",IDC_DOOROPENTIMESECTION_DTP_ET3,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    WS_TABSTOP | 0x8,96,92,47,15
+    COMBOBOX        IDC_DOOROPENTIMESECTION_CMB_OPENMETHOD3,150,93,48,75,
+                    CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "DateTimePicker1",IDC_DOOROPENTIMESECTION_DTP_ST4,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    WS_TABSTOP | 0x8,41,109,50,15
+    LTEXT           "Seg4:",IDC_STATIC,14,111,21,8
+    CONTROL         "DateTimePicker2",IDC_DOOROPENTIMESECTION_DTP_ET4,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    WS_TABSTOP | 0x8,96,109,47,15
+    COMBOBOX        IDC_DOOROPENTIMESECTION_CMB_OPENMETHOD4,150,110,48,85,
+                    CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DLG_CFG_TIMESECTION DIALOG DISCARDABLE  0, 0, 215, 178
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "CfgAccessTimeSchedule"
+FONT 10, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "Get",IDC_TIMESCHEDULE_BTN_GET,54,148,50,14
+    PUSHBUTTON      "Set",IDC_TIMESCHEDULE_BTN_SET,108,148,50,14
+    RTEXT           "Seg.1",IDC_STATIC,12,60,33,8
+    LTEXT           "StartTime",IDC_STATIC,57,44,37,8
+    LTEXT           "EndTime",IDC_STATIC,124,44,29,8
+    LTEXT           "Enable",IDC_STATIC,174,44,25,8
+    CONTROL         "DateTimePicker1",IDC_TIMESCHEDULE_DTP1_START,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    WS_TABSTOP | 0x8,55,57,55,15
+    CONTROL         "DateTimePicker1",IDC_TIMESCHEDULE_DTP1_END,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    WS_TABSTOP | 0x8,122,57,55,15
+    CONTROL         "",IDC_TIMESCHEDULE_CHK_SEG1_ENABLE,"Button",
+                    BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,183,60,16,8
+    RTEXT           "Seg.2",IDC_STATIC,12,80,33,8
+    CONTROL         "DateTimePicker1",IDC_TIMESCHEDULE_DTP2_START,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    WS_TABSTOP | 0x8,55,77,55,15
+    CONTROL         "DateTimePicker1",IDC_TIMESCHEDULE_DTP2_END,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    WS_TABSTOP | 0x8,122,77,55,15
+    CONTROL         "",IDC_TIMESCHEDULE_CHK_SEG2_ENABLE,"Button",
+                    BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,183,81,16,8
+    RTEXT           "Seg.3",IDC_STATIC,12,100,33,8
+    CONTROL         "DateTimePicker1",IDC_TIMESCHEDULE_DTP3_START,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    WS_TABSTOP | 0x8,55,98,55,14
+    CONTROL         "DateTimePicker1",IDC_TIMESCHEDULE_DTP3_END,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    WS_TABSTOP | 0x8,122,98,55,14
+    CONTROL         "",IDC_TIMESCHEDULE_CHK_SEG3_ENABLE,"Button",
+                    BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,183,100,16,8
+    RTEXT           "Seg.4",IDC_STATIC,12,121,33,8
+    CONTROL         "DateTimePicker1",IDC_TIMESCHEDULE_DTP4_START,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    WS_TABSTOP | 0x8,55,117,55,15
+    CONTROL         "DateTimePicker1",IDC_TIMESCHEDULE_DTP4_END,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    WS_TABSTOP | 0x8,122,117,55,15
+    CONTROL         "",IDC_TIMESCHEDULE_CHK_SEG4_ENABLE,"Button",
+                    BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,183,120,16,8
+    COMBOBOX        IDC_TIMESCHEDULE_CMB_WEEKDAY,146,16,55,237,
+                    CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "WeekDay:",IDC_STATIC,109,17,33,8
+    COMBOBOX        IDC_TIMESCHEDULE_CMB_INDEX,49,16,55,237,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Index:",IDC_STATIC,17,17,25,8
+END
+
+IDD_SUBDLG_SENSORINFO_DESCRIPTION DIALOG DISCARDABLE  0, 0, 187, 96
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,130,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,130,24,50,14
+END
+
+IDD_DLG_CFG_NTP DIALOG DISCARDABLE  0, 0, 187, 157
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "CfgNTP"
+FONT 10, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "Get",IDC_CFG_NTP_BTN_GET,42,128,50,14
+    PUSHBUTTON      "Set",IDC_CFG_NTP_BTN_SET,94,128,50,14
+    RTEXT           "Enable:",IDC_STATIC,44,12,38,8
+    CONTROL         "",IDC_CFG_NTP_CHK_ENABLE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,89,12,16,8
+    RTEXT           "Name:",IDC_STATIC,8,30,74,8
+    EDITTEXT        IDC_CFG_NTP_EDT_NAME,89,27,79,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    RTEXT           "Port:",IDC_STATIC,44,50,38,8
+    EDITTEXT        IDC_CFG_NTP_EDT_PORT,89,47,40,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER | WS_DISABLED
+    RTEXT           "UpdatePeriod:",IDC_STATIC,23,69,59,8
+    EDITTEXT        IDC_CFG_NTP_EDT_UPDATEPERIOD,89,66,40,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER | WS_DISABLED
+    RTEXT           "TimeZone:",IDC_STATIC,38,90,44,8
+    COMBOBOX        IDC_CFG_NTP_CMB_TIMEZONE,89,86,48,114,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Description:",IDC_STATIC,27,108,55,8
+    EDITTEXT        IDC_CFG_NTP_EDT_DESCRIPTION,89,105,79,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    LTEXT           "Min",IDC_STATIC,134,69,13,8
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "AccessControl Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "AccessControl\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2014\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "AccessControl.EXE\0"
+            VALUE "ProductName", "AccessControl 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_ACCESSCONTROL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 344
+        VERTGUIDE, 7
+        VERTGUIDE, 57
+        VERTGUIDE, 61
+        VERTGUIDE, 224
+        VERTGUIDE, 234
+        VERTGUIDE, 344
+        TOPMARGIN, 7
+        HORZGUIDE, 8
+        HORZGUIDE, 22
+        HORZGUIDE, 30
+        HORZGUIDE, 44
+        HORZGUIDE, 51
+        HORZGUIDE, 65
+        HORZGUIDE, 134
+    END
+
+    IDD_DLG_QUERY_LOG, DIALOG
+    BEGIN
+        VERTGUIDE, 13
+        VERTGUIDE, 271
+        VERTGUIDE, 451
+        HORZGUIDE, 19
+        HORZGUIDE, 38
+        HORZGUIDE, 58
+    END
+
+    IDD_SUBDLG_INFO_CARD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 206
+        VERTGUIDE, 72
+        VERTGUIDE, 80
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 288
+    END
+
+    IDD_SUBDLG_INFO_PASSWORD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 212
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 166
+    END
+
+    IDD_SUBDLG_INFO_ACCESS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 216
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 234
+    END
+
+    IDD_SUBDLG_INFO_HOLIDAY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        VERTGUIDE, 84
+        VERTGUIDE, 91
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 210
+    END
+
+    IDD_DLG_RECORDSET_FINDER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 205
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 144
+    END
+
+    IDD_DLG_RECORDSET_CONTROL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 93
+    END
+
+    IDD_DLG_DOOR_CTL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 93
+    END
+
+    IDD_DLG_CFG_ACCESS_CONTROL_GENERAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        VERTGUIDE, 83
+        VERTGUIDE, 89
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 93
+    END
+
+    IDD_DLG_CFG_ACCESSCONTROL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 298
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 152
+    END
+
+    IDD_SUBDLG_DOOR_OPEN_TIMESECTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 206
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+
+    IDD_DLG_CFG_TIMESECTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 208
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+    END
+
+    IDD_SUBDLG_SENSORINFO_DESCRIPTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 89
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 AccessControl(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\AccessControl.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility", "Utility.csproj", "{058F0F59-D21C-4DF0-A26F-BA04963EBDE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilityTest", "..\UtilityTest\UtilityTest.csproj", "{4018649A-A7B7-4F73-B2FC-A573DEAB7F3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{058F0F59-D21C-4DF0-A26F-BA04963EBDE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{058F0F59-D21C-4DF0-A26F-BA04963EBDE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{058F0F59-D21C-4DF0-A26F-BA04963EBDE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{058F0F59-D21C-4DF0-A26F-BA04963EBDE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4018649A-A7B7-4F73-B2FC-A573DEAB7F3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4018649A-A7B7-4F73-B2FC-A573DEAB7F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4018649A-A7B7-4F73-B2FC-A573DEAB7F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4018649A-A7B7-4F73-B2FC-A573DEAB7F3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

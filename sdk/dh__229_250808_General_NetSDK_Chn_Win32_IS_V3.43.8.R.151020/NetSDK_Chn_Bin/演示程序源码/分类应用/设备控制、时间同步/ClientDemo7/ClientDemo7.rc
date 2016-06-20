@@ -1,0 +1,357 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ClientDemo7.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\ClientDemo7.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 ClientDemo7"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "ClientDemo7 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2007",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_CLIENTDEMO7_DIALOG DIALOGEX 0, 0, 490, 304
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Control DEMO"
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "Login",IDC_BTN_LOGIN,393,20,38,14
+    CONTROL         "IPAddress1",IDC_IPADDRESS_DVRIP,"SysIPAddress32",
+                    WS_TABSTOP,58,19,72,15
+    EDITTEXT        IDC_EDIT_PORT,170,20,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_USERNAME,252,20,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_DVRPWD,336,20,40,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    PUSHBUTTON      "Logout",IDC_BTN_LOGOUT,438,20,38,14,WS_DISABLED
+    GROUPBOX        "Dev.Login",IDC_STATIC,7,7,476,36
+    RTEXT           "Dev.IP:",IDC_STATIC,10,23,46,8
+    RTEXT           "Dev.Port:",IDC_STATIC,132,23,36,8
+    RTEXT           "User:",IDC_STATIC,212,23,38,8
+    RTEXT           "Password:",IDC_STATIC,293,23,41,8
+    GROUPBOX        "Check DVR Time",IDC_STATIC,148,64,194,63
+    PUSHBUTTON      "Get",IDC_BUTTON_GET,296,79,38,14,WS_DISABLED
+    CONTROL         "DateTimePicker1",IDC_DATE_SET,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,154,101,
+                    75,15
+    CONTROL         "DateTimePicker2",IDC_TIME_SET,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,232,101,
+                    51,15
+    PUSHBUTTON      "Set",IDC_BUTTON_SET,296,102,38,14,WS_DISABLED
+    CONTROL         "DateTimePicker1",IDC_DATE_GET,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,154,78,
+                    75,15
+    CONTROL         "DateTimePicker2",IDC_TIME_GET,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,232,78,51,
+                    15
+    GROUPBOX        "Remote Reboot",IDC_STATIC,305,135,107,44
+    PUSHBUTTON      "Restart DVR",IDC_BUTTON_RESTART,335,151,50,14,WS_DISABLED
+    GROUPBOX        "Manage DVR Disk",IDC_STATIC,7,135,280,44
+    COMBOBOX        IDC_COMBO_DISK,53,153,64,144,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Disk:",IDC_STATIC,12,155,39,8
+    COMBOBOX        IDC_COMBO_OPERATE,165,153,64,85,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Operation:",IDC_STATIC,121,155,42,8
+    PUSHBUTTON      "Control",IDC_BUTTON_DISKCTRL,235,151,38,14
+    GROUPBOX        "Network Alarm Input",IDC_STATIC,7,64,128,63
+    COMBOBOX        IDC_COMBO_CHANNEL,59,79,64,144,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Input:",IDC_STATIC,11,81,46,8
+    PUSHBUTTON      "Begin",IDC_BUTTON_ALARMSTART,21,103,38,14,WS_DISABLED
+    PUSHBUTTON      "End",IDC_BUTTON_ALARMSTOP,85,103,38,14,WS_DISABLED
+    GROUPBOX        "Network Alarm Output",IDC_STATIC,355,64,128,63
+    COMBOBOX        IDC_COMBO_OUTCHANNEL,407,79,64,144,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Output:",IDC_STATIC,360,81,45,8
+    PUSHBUTTON      "Begin",IDC_BUTTON_OUTALARMSTART,369,103,38,14,
+                    WS_DISABLED
+    PUSHBUTTON      "End",IDC_BUTTON_OUTALARMSTOP,433,103,38,14,WS_DISABLED
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,1,50,489,1
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,1,190,489,1
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME,34,212,206,47
+    PUSHBUTTON      "0",IDC_BUTTON_NUM0,36,214,22,44
+    PUSHBUTTON      "1",IDC_BUTTON_NUM1,59,214,22,21
+    PUSHBUTTON      "2",IDC_BUTTON_NUM2,81,214,22,21
+    PUSHBUTTON      "3",IDC_BUTTON_NUM3,103,214,22,21
+    PUSHBUTTON      "4",IDC_BUTTON_NUM4,126,214,22,21
+    PUSHBUTTON      "5",IDC_BUTTON_NUM5,148,214,22,21
+    PUSHBUTTON      "6",IDC_BUTTON_NUM6,170,214,22,21
+    PUSHBUTTON      "7",IDC_BUTTON_NUM7,192,214,22,21
+    PUSHBUTTON      "8",IDC_BUTTON_NUM8,216,214,22,21
+    PUSHBUTTON      "9",IDC_BUTTON_NUM9,59,236,22,21
+    PUSHBUTTON      "10",IDC_BUTTON_NUM10,81,236,22,21
+    PUSHBUTTON      "11",IDC_BUTTON_NUM11,103,236,22,21
+    PUSHBUTTON      "12",IDC_BUTTON_NUM12,126,236,22,21
+    PUSHBUTTON      "13",IDC_BUTTON_NUM13,148,236,22,21
+    PUSHBUTTON      "14",IDC_BUTTON_NUM14,170,236,22,21
+    PUSHBUTTON      "15",IDC_BUTTON_NUM15,192,236,22,21
+    PUSHBUTTON      "16",IDC_BUTTON_NUM16,216,236,22,21
+    PUSHBUTTON      "Esc",IDC_BUTTON_ESC,242,214,22,21
+    PUSHBUTTON      "Fn1",IDC_BUTTON_FN1,242,236,22,21
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME,34,260,206,17
+    PUSHBUTTON      "Rec",IDC_BUTTON_REC,36,262,22,13
+    PUSHBUTTON      "Prew",IDC_BUTTON_PREW,59,262,22,13
+    PUSHBUTTON      "Slow",IDC_BUTTON_SLOW,81,262,22,13
+    PUSHBUTTON      "Play",IDC_BUTTON_PLAY,103,262,22,13
+    PUSHBUTTON      "Fast",IDC_BUTTON_FAST,126,262,22,13
+    PUSHBUTTON      "Next",IDC_BUTTON_NEXT,148,262,22,13
+    PUSHBUTTON      "Stop",IDC_BUTTON_STOP,170,262,22,13
+    PUSHBUTTON      "Jmp↑",IDC_BUTTON_JMPUP,192,262,22,13
+    PUSHBUTTON      "Jmp↓",IDC_BUTTON_JMPDOWN,216,262,22,13
+    PUSHBUTTON      "Fn2",IDC_BUTTON_FN2,242,258,22,21
+    PUSHBUTTON      "←",IDC_BUTTON_LEFT,266,236,22,21
+    PUSHBUTTON      "Enter",IDC_BUTTON_ENTER,289,236,22,21
+    PUSHBUTTON      "→",IDC_BUTTON_RIGHT,311,236,22,21
+    PUSHBUTTON      "↑",IDC_BUTTON_UP,289,214,22,21
+    PUSHBUTTON      "↓",IDC_BUTTON_DOWN,289,258,22,21
+    PUSHBUTTON      "Nine",IDC_BUTTON_NINE,335,214,22,21
+    PUSHBUTTON      "Addr",IDC_BUTTON_ADDR,357,258,22,21
+    PUSHBUTTON      "One",IDC_BUTTON_ONE,357,214,22,21
+    PUSHBUTTON      "Info",IDC_BUTTON_INFO,335,258,22,21
+    PUSHBUTTON      "Split",IDC_BUTTON_SPLIT,381,214,22,21
+    PUSHBUTTON      "Power",IDC_BUTTON_POWER,382,246,66,33,0,
+                    WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,33,210,418,71
+    GROUPBOX        "Network Front Panel",IDC_STATIC,7,197,476,94
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "ClientDemo7 Microsoft \0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "ClientDemo7\0"
+            VALUE "LegalCopyright", "Copyright (C) 2007\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "ClientDemo7.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "ClientDemo7 \0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x809, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "About ClientDemo7(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\ClientDemo7.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

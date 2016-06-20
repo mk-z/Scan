@@ -1,0 +1,183 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{32858150-D358-4F3C-AF5A-EE3E9A508E17}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SDKPlayDemo</RootNamespace>
+    <AssemblyName>SDKPlayDemo</AssemblyName>
+    <ApplicationIcon>NetIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>C:\Program Files (x86)\Microsoft Visual Studio 8\Team Tools\Static Analysis Tools\FxCop\\rules</CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>C:\Program Files (x86)\Microsoft Visual Studio 8\Team Tools\Static Analysis Tools\FxCop\\rules</CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDataRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDataRecord.Designer.cs">
+      <DependentUpon>frmDataRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDisplayRegion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDisplayRegion.Designer.cs">
+      <DependentUpon>frmDisplayRegion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDrawFunSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDrawFunSet.Designer.cs">
+      <DependentUpon>frmDrawFunSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Main.Designer.cs">
+      <DependentUpon>frm_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAbout.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDataRecord.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDataRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDisplayRegion.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDisplayRegion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDrawFunSet.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDrawFunSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Main.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\ico00008.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\FOLDER02.ICO" />
+    <None Include="images\FOLDER01.ICO" />
+    <None Include="images\ico00005.ico" />
+    <None Include="images\EYE.ICO" />
+    <None Include="images\AUDIO.ICO" />
+    <None Include="images\CAMERA.ICO" />
+    <None Include="images\help.ico" />
+    <None Include="images\CLEARBUF.ICO" />
+    <None Include="images\CUTFILE.ico" />
+    <None Include="images\FULLSCREEN.ico" />
+    <Content Include="NetIcon.ico" />
+    <Content Include="images\ico00009.ico" />
+    <None Include="Resources\dhText.bmp" />
+    <None Include="Resources\logo.bmp" />
+    <None Include="Resources\大华汉字标识.JPG" />
+    <None Include="Resources\大华标志.JPG" />
+    <None Include="images\LOOP.ICO" />
+    <None Include="images\WRENCH.ICO" />
+    <None Include="images\VOLUME01.ICO" />
+    <None Include="images\ico00010.ico" />
+    <None Include="images\icon2.ico" />
+    <None Include="images\RESUME.ico" />
+    <None Include="images\TOEND.ico" />
+    <None Include="images\TOBEGIN.ico" />
+    <None Include="images\W95MBX01.ICO" />
+    <None Include="images\icon19.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PlaySDKCS\PlaySDKCS.csproj">
+      <Project>{C79E29D6-9549-49B2-B038-C9AB45D391D5}</Project>
+      <Name>PlaySDKCS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utility\Utility.csproj">
+      <Project>{058F0F59-D21C-4DF0-A26F-BA04963EBDE6}</Project>
+      <Name>Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

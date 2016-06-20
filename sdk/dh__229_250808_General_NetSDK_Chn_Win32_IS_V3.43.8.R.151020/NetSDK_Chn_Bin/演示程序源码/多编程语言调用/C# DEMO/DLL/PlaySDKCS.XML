@@ -1,0 +1,1521 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PlaySDKCS</name>
+    </assembly>
+    <members>
+        <member name="F:PlaySDK.NETPlay.initialized">
+            <summary>
+            whether it has initialized
+            </summary>
+        </member>
+        <member name="F:PlaySDK.NETPlay.pShowException">
+            <summary>
+            whether shoot off mistake[default no pop,only return mistake to attribute LastOperationInfo]
+            </summary>
+        </member>
+        <member name="M:PlaySDK.NETPlay.NETThrowLastError(System.Int32)">
+            <summary>
+            When call SDK fail ,it shoot off abnormity and  when succeed,it return no abnormity and copy operational information to LastOperationInfo
+            </summary>
+            <param name="nPort">play channel</param>
+            <exception cref="T:System.ComponentModel.Win32Exception">primary anomalies,when call SDK failed,it strike.</exception>
+        </member>
+        <member name="M:PlaySDK.NETPlay.NETGetLastErrorName(System.UInt32)">
+            <summary>
+            The error code switch to normal discription of the error message
+            </summary>
+            <param name="errorCode">Error code</param>
+            <returns>Normal discription of the error message</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.NETSetShowException(System.Boolean)">
+            <summary>
+            Setup about whether shoot off error information in usage of this kind of program[Default no pop,only return error information to attribute'LastOperationInfo']
+            </summary>
+            <param name="blnShowException">
+            true:Shoot off error information,and return error information to attribute 'LastOperationInfo',let clients dispose voluntarily;
+            false:Not shoot off error information,and return error information to attribute 'LastOperationInfo',no any dispose,clients can judge whether there is errors by method`s return value or 
+                  'LastOperationInfo',then make corresponding processing
+            </param>
+        </member>
+        <member name="M:PlaySDK.NETPlay.NETPlayControl(PlaySDK.PLAY_COMMAND)">
+            <summary>
+            Play control
+            </summary>
+            <param name="pPlayCom">
+            Play order:
+            1.PLAY_COMMAND.StopSound:Stop voice
+            </param>
+            <returns>true:Succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.NETPlayControl(PlaySDK.PLAY_COMMAND,System.Int32,System.UInt32)">
+            <summary>
+            Play control
+            </summary>
+            <param name="pPlayCom">
+            Play order:
+            1.PLAY_COMMAND.SetVolume:Setup volume
+            2.PLAY_COMMAND.SetCurrentFrameNum:set play frame nu.
+            </param>
+            <param name="nPort">Play channel</param>
+            <param name="nValue">Order parameter value</param>
+            <returns>true:Succeed;false:Failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.NETPlayControl(PlaySDK.PLAY_COMMAND,System.Int32,System.Single@)">
+            <summary>
+            Play control
+            </summary>
+            <param name="pPlayCom">
+            Play order:
+            1.PLAY_COMMAND.SetPlayPos:Setup the relative position of file playing(precentage)
+            </param>
+            <param name="nPort">Play channel</param>
+            <param name="nValue">parameter value</param>
+            <returns>true:Succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.NETPlayControl(PlaySDK.PLAY_COMMAND,System.Int32,System.IntPtr)">
+            <summary>
+            Play control
+            </summary>
+            <param name="pPlayCom">
+            Play order:
+            1.PLAY_COMMAND.Start:Start play
+            </param>
+            <param name="nPort">Play channel number</param>
+            <param name="hWnd">Play case`s sentence handel</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.NETPlayControl(PlaySDK.PLAY_COMMAND,System.Int32,System.String)">
+            <summary>
+            play control
+            </summary>
+            <param name="pPlayCom">
+            play order:
+            1.PLAY_COMMAND.OpenFile:open file;
+            2.PLAY_COMMAND.CatchPic:catch picture;</param>
+            <param name="nPort">Play channel number</param>
+            <param name="sFileName">open/save file name</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.NETPlayControl(PlaySDK.PLAY_COMMAND,System.Int32)">
+            <summary>
+            play control
+            </summary>
+            <param name="pPlayCom">
+            play order:
+            1.PLAY_COMMAND.Stop:stop;
+            2.PLAY_COMMAND.CloseFile:close file;
+            3.PLAY_COMMAND.Pause:pause play;
+            4.PLAY_COMMAND.ReSume:keep on play;
+            5.PLAY_COMMAND.Fast:rapid play;
+            6.PLAY_COMMAND.Slow:slow play;
+            7.PLAY_COMMAND.OneByOne:single frame play;
+            8.PLAY_COMMAND.PlaySound:play sound;
+            9.PLAY_COMMAND.PlaySoundShare:share play sound;
+            10.PLAY_COMMAND.StopSoundShare:stop share play sound;
+            11.PLAY_COMMAND.OneByOneBack:single frame play back
+            12.PLAY_COMMAND.CloseStream:close data stream
+            13.PLAY_COMMAND.CloseStreamEx:close data stream(open stream in the way that video and audio detach)
+            </param>
+            <param name="nPort">play channel number</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.NETPlayControl(PlaySDK.PLAY_COMMAND,System.Int32,System.Boolean)">
+            <summary>
+            play control
+            </summary>
+            <param name="pPlayCom">
+            play order:
+            1.PLAY_COMMAND.GetCurrentFrameNum:get the list number of current frame;
+            2.PLAY_COMMAND.GetCurrentFrameRate:get current frame rate;
+            3.PLAY_COMMAND.GetFileTotalTime:get file`s total time length,unit is second;
+            4.PLAY_COMMAND.GetFileTotalFrames:get file`s total number of frame;
+            5.PLAY_COMMAND.GetPlayedTime:get the time of current play,unit is second;
+            6.PLAY_COMMAND.GetPlayedTimeEx:get the current play`s time ,unit is millisecond;
+            7.PLAY_COMMAND.GetVolume:get current setting`s voice;
+            </param>
+            <param name="nPort">play channel number</param>
+            <param name="blnReturnValue">this parameter is invalid,just to different over loading,must input a bool value</param>
+            <returns>corresponding order`s value</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.NETPlayControl(PlaySDK.PLAY_COMMAND,System.Int32,System.UInt32,PlaySDK.COLOR_STRUCT@)">
+            <summary>
+            play control
+            </summary>
+            <param name="pPlayCom">
+            play order:
+            1.PLAY_COMMAND.GetColor:get color value
+            </param>
+            <param name="nPort">play channel number</param>
+            <param name="nRegionNum">show area</param>
+            <param name="returnColor">color`s reback value</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.NETPlayControl(PlaySDK.PLAY_COMMAND,System.Int32,PlaySDK.FRAME_INFO@)">
+            <summary>
+            play control
+            </summary>
+            <param name="pPlayCom">
+            play order:
+            1.PLAY_COMMAND.GetPictureSize:get frame`s original picture size
+            </param>
+            <param name="nPort">play channel</param>
+            <param name="frameInfo">frame information</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.NETPlayControl(PlaySDK.PLAY_COMMAND,System.Int32,System.IntPtr,System.Int32,System.Int32@)">
+            <summary>
+            play control
+            </summary>
+            <param name="pPlayCom">
+            play order:
+            1.PLAY_COMMAND.GetDateTimeInfo:get date time
+            </param>
+            <param name="nPort">play channel</param>
+            <param name="pBuf">buf to store datetime</param>
+            <param name="nBufLen">lenth of buf</param>
+            <param name="pRetLen">return availible lenth</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.NETPlayControl(PlaySDK.PLAY_COMMAND,System.Int32,PlaySDK.BUF_TYPE)">
+            <summary>
+            Play control
+            </summary>
+            <param name="pPlayCom">
+            Play order:
+            1.PLAY_COMMAND.ResetBuffer:Reset play buffer
+            </param>
+            <param name="nPort">Play channel</param>
+            <param name="nBufType">buffer type, enum BUF_TYPE</param>
+            <returns>true:Succeed;false:Failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.NETPlayControl(PlaySDK.PLAY_COMMAND,System.Int32,System.IntPtr,System.UInt32,System.UInt32)">
+            <summary>
+            play control
+            </summary>
+            <param name="pPlayCom">
+            play order:
+            1.PLAY_COMMAND.OpenStream:open frame interface
+            2.PLAY_COMMAND.OpenStreamEx:open frame in the way that video and audio is apart 
+            </param>
+            <param name="nPort">channel number</param>
+            <param name="pFileHeadBuff">nonuse now,fill NULL</param>
+            <param name="nSize">nonuse,fill 0</param>
+            <param name="nBufPoolSize">
+            setup the size of buffer to storage data in player
+            range is SOURCE_BUF_MIN~ SOURCE_BUF_MAX。
+            set 900*1024 generally,if the send data is equal relatively,can make this value small,if the data`s transport is not equal,can make the value big</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.NETPlayControl(PlaySDK.PLAY_COMMAND,System.Int32,System.IntPtr,System.UInt32)">
+            <summary>
+            play control
+            </summary>
+            <param name="pPlayCom">
+            play order:
+            1.PLAY_COMMAND.OpenStream:input the frame data get from card ；open frame and transfer PLAY_Play,only then can you input data
+            2.PLAY_COMMAND.InputVideoData:input the video frame get from the card (can be complex stream,but audio data will be ignored);data can be input only after open frame 
+            3.PLAY_COMMAND.InputAudioData:input the audio frame get from the card；data can be input only after audio open
+            </param>
+            <param name="nPort">channel number</param>
+            <param name="pBuf">buffer address</param>
+            <param name="nSize">buffer size</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.NETRigisterDrawFun(System.Int32,PlaySDK.DrawFun,System.Int32)">
+            <summary>
+            register a call-back function,get current external device context, you can draw(or write) on this DC,just like drawing on the cilent block of the window,
+            but this DC is not the DC of cilent block`s window ,it is the DC on the external of off-Screen in DirectDraw。notice,if use overlay external ,this port is invailed,
+            you can draw pictures on windows directly ,it will not be covered only it is not transparent
+            </summary>
+            <param name="nPort">player`s channel number</param>
+            <param name="privateDrawFun">call-back function`s sentence handle</param>
+            <param name="nUser">user`s data</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.NETSetDisplayRegion(System.Int32,System.UInt32,System.IntPtr,System.IntPtr,System.Boolean)">
+            <summary>
+            setup and add show areas。can do local enlarged display
+            </summary>
+            <param name="nPort">player channel number</param>
+            <param name="nRegionNum">show area`s serial number,0~(MAX_DISPLAY_WND-1)。if nRegionNum is 0,mean to primary display in windows</param>
+            <param name="pSrcRect">local display area</param>
+            <param name="hDestWnd">display window sentence handle</param>
+            <param name="bEnable">open (setup) or close display area</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.NETRefreshPlayEx(System.Int32,System.UInt32)">
+            <summary>
+            refresh display,refresh window of multi areas display
+            </summary>
+            <param name="nPort">player channel number</param>
+            <param name="nRegionNum">display area`s serial number</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.NETStartDataRecord(System.Int32,System.String,System.Int32)">
+            <summary>
+            start stream data recording。only be useful to stream pattern,transfer after PLAY_Play
+            </summary>
+            <param name="nPort">player channel number</param>
+            <param name="sFileName">video file name,if there is nonexistent folder in file name ,then creat this folder. </param>
+            <param name="idataType">0:original data stream;1:AVI</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.NETStopDataRecord(System.Int32)">
+            <summary>
+            stop stream data record
+            </summary>
+            <param name="nPort">player channel number</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.NETSetDecCallBack(System.Int32,PlaySDK.DecCBFun)">
+            <summary>
+            setup call-back function
+            </summary>
+            <param name="nPort">port</param>
+            <param name="cbFun">call-back function</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.NETSetDecCBStream(System.Int32,PlaySDK.STREAM_TYPE)">
+            <summary>
+            setup the kind of decoding call-back stream
+            </summary>
+            <param name="nPort">play channel number</param>
+            <param name="streamType">decode call-back stream type</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.NETSetDisplayCallBack(System.Int32,PlaySDK.DisplayCBFun,System.Int32)">
+            <summary>
+            setup video picture data call-back,can use to catch picture.if want to stop call-back,can set the call-back function index DisplayCBFun to NULL。
+            once setup call-back function,it will always efficient,until process exit.this function can call-back at any time
+            </summary>
+            <param name="nPort">play channel number</param>
+            <param name="dCBFun">DisplayCBFun`s call-back function</param>
+            <param name="nUser">user-defined data,default 0</param>
+            <returns>true:succeed;false:filed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.NETSetDisplayCallBack(System.Int32,PlaySDK.DisplayCBFun)">
+            <summary>
+            setup video picture data call-back,can use to catch picture.if want to stop call-back,can set the call-back function index DisplayCBFun to NULL。
+            once setup call-back function,it will always efficient,until process exit.this function can call-back at any time
+            </summary>
+            <param name="nPort">play channel number</param>
+            <param name="dCBFun">DisplayCBFun`s call-back function</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <!-- 对于成员“M:PlaySDK.NETPlay.NETSetAudioCallBack(System.Int32,PlaySDK.FunAudio,System.Int32)”忽略有格式错误的 XML 注释 -->
+        <member name="M:PlaySDK.NETPlay.NETGetSdkVersion">
+            <summary>
+            get current player sdk`s main version number、sub version number and mend number
+            </summary>
+            <returns>
+            high 16 bit mean current main version number.
+            9~16 bit mean sub version number,1~8 bit mean mend number.
+            for example：return value 0x00030107 mean：main version number is 3,sub version number is 1,mend number is 7
+            </returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.NETGetSdkVersion(System.String)">
+            <summary>
+            return current player sdk`s version number as appointed format
+            </summary>
+            <param name="verFormatStyle">version format character string:A:main version number;B:sub version number;C:mend number;</param>
+            <returns>version number of player`s SDK</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.NETSetStreamOpenMode(System.Int32,PlaySDK.PLAY_MODE)">
+            <summary>
+            setup the mode of frame play.Must setup before play
+            </summary>
+            <param name="nPort">player channel number</param>
+            <param name="nMode">play mode</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <!-- 对于成员“M:PlaySDK.NETPlay.NETConvertToTime(System.UInt32,System.Decimal,System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="M:PlaySDK.NETPlay.PLAY_OpenFile(System.Int32,System.String)">
+            <summary>
+            open the file
+            </summary>
+            <param name="nPort">play the channel number</param>
+            <param name="sFileName">file name</param>
+            <returns>true:succeed ;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_Play(System.Int32,System.IntPtr)">
+            <summary>
+            Start play.If it has played ,change the current play condition to normal speed to play
+            </summary>
+            <param name="nPort">play channel number</param>
+            <param name="hWnd">play window's sentence handel</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_Stop(System.Int32)">
+            <summary>
+            stop play
+            </summary>
+            <param name="nPort">play channel number</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_CloseFile(System.Int32)">
+            <summary>
+            close the played file
+            </summary>
+            <param name="nPort">play channel number</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_SetCurrentFrameNum(System.Int32,System.UInt32)">
+            <summary>
+            set the current playing position to defined frame number；fix the playing position based on the frame number.This function must be invoke after the file index generate.
+            </summary>
+            <param name="nPort">play channel number</param>
+            <param name="nFrameNum">frame number</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_SetPlayedTimeEx(System.Int32,System.UInt32)">
+            <summary>
+            set the file playing position based on the time ,this port use more time than PLAY_SetPlayPos,but if control the schedule bar rely on time（use with PLAY_GetPlayedTime(Ex)）,the schedule bar can move smoothly
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <param name="nTime">set file's playing position to defined time.Unit is millisecond</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_SetPlayPos(System.Int32,System.Single)">
+            <summary>
+            set the relative position of file's playing indicator（percentage）
+            </summary>
+            <param name="nPort">play channel number</param>
+            <param name="fRelativePos">range 0-100%</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_GetPlayPos(System.Int32)">
+            <summary>
+            get the relative position of file's playing index
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <returns>range 0-100%</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_SetColor(System.Int32,System.UInt32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            set picture's video parameter ,play a part immediately
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <param name="nRegionNum">display area,refer to PLAY_SetDisplayRegion；if there is only one display area(under normal condition),set 0</param>
+            <param name="nBrightness">brigthness,default 64； range 0-128</param>
+            <param name="nContrast">contrast,default64； range 0-128</param>
+            <param name="nSaturation">saturation,default64；range 0-128</param>
+            <param name="nHue">tone,default 64； range 0-128</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_SetStreamOpenMode(System.Int32,System.UInt32)">
+            <summary>
+            set the model of frame's playing.Must be set before playing .
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <param name="nMode">
+            STREAME_REALTIME:real time model（default）
+            STREAME_FILE:file model
+            </param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_PlaySound(System.Int32)">
+            <summary>
+            open voice
+            [only one channel voice at the same time.if there has voice opened,close the original opened voice.]
+            **Notice：default voice is closed**
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_StopSound">
+            <summary>
+            close voice
+            </summary>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_PlaySoundShare(System.Int32)">
+            <summary>
+            play the voice in the sharing way,play this channel's voice but not shut up other channel's voice
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_StopSoundShare(System.Int32)">
+            <summary>
+            Close the voice in the sharing way.PLAY_PlaySound和PLAY_StopSound is play the voice in monopolize way.
+            **Notice：in the same process,every channel must play or close the voice in the same way**
+            </summary>
+            <param name="nPort">play the channel number</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_SetVolume(System.Int32,System.UInt32)">
+            <summary>
+            set volume
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <param name="nVolume">volume,range 0-0XFFFF</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_GetVolume(System.Int32)">
+            <summary>
+            get the voice of present set
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_AdjustWaveAudio(System.Int32,System.Int32)">
+            <summary>
+            change WAVE wave form,and can change the volume.the difference between it and PLAY_SetVolume is that it just change the voice data
+            just affect this channel,but PLAY_SetVolume change the volume of sound card,affect the total system.this function has not come true.
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <param name="nCoefficient">adjusted parameter,range is from MIN_WAVE_COEF to MAX_WAVE_COEF,0 is not adjust</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_OpenStream(System.Int32,System.IntPtr,System.UInt32,System.UInt32)">
+            <summary>
+            open stream port（like open file）
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <param name="pFileHeadBuf">not use present,fill IntPtr.Zero</param>
+            <param name="nSize">not use present,fill 0</param>
+            <param name="nBufPoolSize">
+            set the buffer's size of storage data frame in player 
+            range is DATABUF_SIZE.SOURCE_BUF_MIN~ DATABUF_SIZE.SOURCE_BUF_MAX
+            set 900*1024 ordinary,if the data is realatively unique when sending,this value can be changed smaller,if not unique,can change big
+            </param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_InputData(System.Int32,System.IntPtr,System.UInt32)">
+            <summary>
+            input the data frame read from the card；only after open stream and invoke PLAY_Play,data can be input
+            </summary>
+            <param name="nPort"> channel number</param>
+            <param name="pBuf">buffer's address</param>
+            <param name="nSize">buffer's size</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_CloseStream(System.Int32)">
+            <summary>
+            close data stream（like close file）
+            </summary>
+            <param name="nPort">channel number</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_OpenStreamEx(System.Int32,System.IntPtr,System.UInt32,System.UInt32)">
+            <summary>
+            open the stream in the way that audio and video is apart 
+            </summary>
+            <param name="nPort">channel number</param>
+            <param name="pFileHeadBuf">the data of file head that user get from the card</param>
+            <param name="nSize">file head 's length</param>
+            <param name="nBufPoolSize">set the buffer's size of storage data frame in player .range is SOURCE_BUF_MIN~ SOURCE_BUF_MAX</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_InputVideoData(System.Int32,System.IntPtr,System.UInt32)">
+            <summary>
+            input the video stream get from the card (it can be complex stream ,but audio data will be ignored)；
+            data can be input after open stream
+            </summary>
+            <param name="nPort">channel number</param>
+            <param name="pBuf">buffer's address</param>
+            <param name="nSize">buffer's size</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_InputAudioData(System.Int32,System.IntPtr,System.UInt32)">
+            <summary>
+            input the video stream get from the card；data can be input after voice is opened
+            </summary>
+            <param name="nPort">channel number</param>
+            <param name="pBuf">buffer's address</param>
+            <param name="nSize">buffer's size</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_CloseStreamEx(System.Int32)">
+            <summary>
+            close data stream
+            </summary>
+            <param name="nPort">channel number</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_SetSecurityKey(System.Int32,System.IntPtr,System.UInt32)">
+            <summary>
+            open secret port
+            </summary>
+            <param name="nPort"></param>
+            <param name="?"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_ResetBuffer(System.Int32,System.UInt32)">
+            <summary>
+            clearn play buffer
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <param name="nBufType">choose which type of buffer to clearn</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_Pause(System.Int32,System.UInt32)">
+            <summary>
+            channel's number
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <param name="nPause">1:suspend;0:recover</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_Fast(System.Int32)">
+            <summary>
+            rapid play.playing speed is divide into 9 grade,playing speed is 
+            1,3,6,12,25,50,75,100,125 frames pictures every second respectively.every time call playing speed promote one grade 
+            can be call 4 time most,if want to recovery normal playing,call PLAY_Play,start normal playing from current position
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_Slow(System.Int32)">
+            <summary>
+            low speeding play,idem.every time call playing speed fall one grade ;call 4 times most,if want recover normal play ,callPLAY_Play
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_OneByOne(System.Int32)">
+            <summary>
+            one frame play.if want to recover normal play ,transfer PLAY_ Play
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_OneByOneBack(System.Int32)">
+            <summary>
+            one frame playback.reverse one frame in every call.this function only can be revoked after file index generated
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_GetLastError(System.Int32)">
+            <summary>
+            get present error's error code.User should revoke this function to get the detail of error after revoke one function is failed.
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_SetDecCallBack(System.Int32,PlaySDK.DecCBFun@)">
+            <summary>
+            set revoke function,replace player's display part,user control display himsself,this function is revoked before PLAY_Play,
+            lose effectiveness automatic when PLAY_Stop,it need to be set again before next time revoke PLAY_Play.
+            decoded part not control the speed,only return from the revoke function by user,decoder will decode next part's data.
+            【Notice】This function's usage need users should have enough understanding of video's display and audio's play.
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <param name="cbFun">revoke function index</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_SetDecCBStream(System.Int32,System.UInt32)">
+            <summary>
+            set decode revoke frame's form
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <param name="nStream">
+            1:video stream;
+            2:audio stream;
+            3:complex stream;
+            </param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_SetDisplayCallBack(System.Int32,PlaySDK.DisplayCBFun,System.Int32)">
+            <summary>
+            set video picture data's revoke,can be used to catch picture.if want to stop revoke ,can set revoke index DisplayCBFun to NULL.Once set revoke function,it will effective always until the process is exit.this function can be revoke at anytime.
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <param name="dCBFun">revoke function</param>
+            <param name="nUser">user's self-defineded data</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_SetAudioCallBack(System.Int32,PlaySDK.FunAudio,System.Int32)">
+            <summary>
+            wave data revoke of audio's frame after decode
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <param name="funAudio">audio revoke function</param>
+            <param name="nUser">user's self-defineded data</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_SetDisplayRegion(System.Int32,System.UInt32,System.IntPtr,System.IntPtr,System.Boolean)">
+            <summary>
+            set or add displaying area.can amplifly display of some apart.
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <param name="nRegionNum">show area's serial number,0~(MAX_DISPLAY_WND-1).if nRegionNum is 0,it means in main display window</param>
+            <param name="pSrcRect">part display area</param>
+            <param name="hDestWnd">show window sentence handel</param>
+            <param name="bEnable">open(set)or close display </param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_RefreshPlayEx(System.Int32,System.UInt32)">
+            <summary>
+            refresh display,refresh many areas display's windows
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <param name="nRegionNum">show areas's serial number</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_GetCurrentFrameNum(System.Int32)">
+            <summary>
+            get present playing frame serial number.but PLAY_GetPlayedFrames is total decode's frame.
+            if the file playing position is not changed,then this two function's return value should be very adjacent,unless code stream is lost.
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <returns>play current frame serial number</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_GetFileTime(System.Int32)">
+            <summary>
+            get the file's total time length,unit is second
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <returns>ile's total time length</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_GetCaps">
+            <summary>
+            test some system function which player need.
+            </summary>
+            <returns>attribute value,get 1~9 bit by bit ,which expess the meaning below（bit and TRUE mean support）：
+            SUPPORT_DDRAW		   	support DIRECTDRAW；if not support ,player can not work.
+            SUPPORT_BLT			  VGA Card support BLT operation；if not support ,player can not work. 
+            SUPPORT_BLTFOURCC		VGA Card BLT support color conversion；if not support ,player will use software way to make RGB conversion.
+            SUPPORT_BLTSHRINKX      VGA Card BLT support X axle shrink；if not support ,player will use software way to make RGB conversion. 
+            SUPPORT_BLTSHRINKY      VGA Card BLT support Y axle shrink；if not support ,player will use software way to make RGB conversion. 
+            SUPPORT_BLTSTRETCHX	    VGA Card BLT support X axle magnify；if not support ,player will use software way to make RGB conversion. 
+            SUPPORT_BLTSTRETCHY	    VGA Card BLT support Y axle magnify；if not support ,player will use software way to make RGB conversion.
+            SUPPORT_SSE CPU		    support SSE order,above Intel Pentium3 support SSE order. 
+            SUPPORT_MMX CPU		    support MMX order set.
+            </returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_GetColor(System.Int32,System.UInt32,System.Int32@,System.Int32@,System.Int32@,System.Int32@)">
+            <summary>
+            get relevant color value
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <param name="nRegionNum">display area,refer to PLAY_SetDisplayRegion；if there is only one display area(generally)set 0</param>
+            <param name="pBrightness">brightness</param>
+            <param name="pContrast">contrast</param>
+            <param name="pSaturation">saturation</param>
+            <param name="pHue">tone</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_GetCurrentFrameRate(System.Int32)">
+            <summary>
+            get the frame rate when coding in current frame stream 
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <returns>frame rate value of current when decoding in curent frame stream</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_GetFileTotalFrames(System.Int32)">
+            <summary>
+            get the total frame number in the file 
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <returns>the total frame number </returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_GetPlayedTime(System.Int32)">
+            <summary>
+            get the file's current playing time ,unit is second
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <returns>file's current playing time</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_GetPlayedTimeEx(System.Int32)">
+            <summary>
+            get the file's current playing time ,unit is millisecond
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <returns>file's current playing time</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_GetPictureSize(System.Int32,System.Int32@,System.Int32@)">
+            <summary>
+            get the original picture's size in the code stream,set the window's area by this size,can not use VGA Card to do scaling,
+            it is very useful to those VGA Card that not support hardware zoom
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <param name="pWidth">original image's wide.in PAL and CIF format is 352</param>
+            <param name="pHeight">original image's tall.in PAL and CIFformat is 288</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_QueryInfo(System.Int32,System.Int32,System.IntPtr,System.Int32,System.Int32@)">
+            <summary>
+            query play info
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <param name="nType">query type</param>
+            <param name="pBuf">query buffer</param>
+            <param name="nBufLen">the lenth of query buffer</param>
+            <param name="pRetLen">availible buffer</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_GetSdkVersion">
+            <summary>
+            get current player sdk's main version number、sub version number and patch number
+            </summary>
+            <returns>
+            high is 16 bit means current main version number.
+            9~16bit mean sub version number,1~8 bit means patch number.
+            for example：returned value 0x00030107 means：main version number is 3,sub version number is 1,patch number is 7</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_ConvertToBmpFile(System.String@,System.Int32,System.Int32,System.Int32,System.Int32,System.String@)">
+            <summary>
+            save the picture data getting from catching picture to BMP file.changeing function occupy cpu resource,if not need to save picture,it needn't invoke.
+            </summary>
+            <param name="pBuf">like the parameter in catching invoke function</param>
+            <param name="nSize">like the parameter in catching invoke function</param>
+            <param name="nWidth">like the parameter in catching invoke function</param>
+            <param name="nHeight">like the parameter in catching invoke function</param>
+            <param name="nType">like the parameter in catching invoke function</param>
+            <param name="sFileName">the file name which need to save.sever BMP as filename extension is better</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_CatchPic(System.Int32,System.String)">
+            <summary>
+            screenshot
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <param name="sFileName">file name</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_StartDataRecord(System.Int32,System.String,System.Int32)">
+            <summary>
+            begining stream's data video.just useful to stream pattern,invoke after PLAY_Play.
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <param name="sFileName">video file name,if there is not existing file in file name,creat this file</param>
+            <param name="idataType">0:original code stream;1:AVI</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_StopDataRecord(System.Int32)">
+            <summary>
+            stop stream data's video
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_GetFreePort(System.IntPtr)">
+            <summary>
+            Get Free channel
+            </summary>
+            <param name="nPort">player's channel number ptr</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_ReleasePort(System.Int32)">
+            <summary>
+            Release channel
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_SetPlayDirection(System.Int32,System.UInt32)">
+            <summary>
+            set play direction
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <param name="emDirection">0:forward;1:backward</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="M:PlaySDK.NETPlay.PLAY_RigisterDrawFun(System.Int32,PlaySDK.DrawFun,System.Int32)">
+            <summary>
+            character superimposition
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <param name="privateDrawFun">callback function handle</param>
+            <param name="nUser">user data</param>
+            <returns>true:succeed;false:failed</returns>
+        </member>
+        <member name="T:PlaySDK.DrawFun">
+            <summary>
+            character superimposition callback function
+            </summary>
+            <param name="nPort">channel number</param>
+            <param name="hDc">OffScreen surface set context,you can do like operate displaying windows cilent area DC</param>
+            <param name="nUser">cilent's data</param>
+        </member>
+        <member name="T:PlaySDK.DecCBFun">
+            <summary>
+            player's data invoke
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <param name="pBuf">audio and video data after decode</param>
+            <param name="nSize">the length of audio and video data pBuf after decode</param>
+            <param name="pFrameInfo">picture and voice's frame information</param>
+            <param name="nReserved1">retention parameter</param>
+            <param name="nReserved2">retention parameter</param>
+        </member>
+        <member name="T:PlaySDK.pFileRefDone">
+            <summary>
+            
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <param name="nUser">cilent's data</param>
+        </member>
+        <member name="T:PlaySDK.funEncChange">
+            <summary>
+            
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <param name="nUser">cilent's data</param>
+        </member>
+        <member name="T:PlaySDK.DisplayCBFun">
+            <summary>
+            set invoking function entrust of video picture data
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <param name="pBuf">return picture data</param>
+            <param name="nSize">return picture data's size</param>
+            <param name="nWidth">picture wide,unit pixel</param>
+            <param name="nHeight">picture tall</param>
+            <param name="nStamp">time sign information,unit millisecond</param>
+            <param name="nType">data type, T_RGB32,T_UYVY,detail is in decoding invoke video frame type instruction.</param>
+            <param name="nReceaved">reserve</param>
+        </member>
+        <member name="T:PlaySDK.FunAudio">
+            <summary>
+            wave data's invoking entrust of audio frame after decode
+            </summary>
+            <param name="nPort">player's channel number</param>
+            <param name="pAudioBuf">form audio data</param>
+            <param name="nSize">audio data length</param>
+            <param name="nStamp">time mark(ms)</param>
+            <param name="nType">audio typeT_AUDIO16, sampling rate8000,one track,every sampling point 16 bits mean</param>
+            <param name="nUser">user self defined data</param>
+        </member>
+        <member name="T:PlaySDK.FRAME_POS">
+            <summary>
+            frame position
+            </summary>
+        </member>
+        <member name="F:PlaySDK.FRAME_POS.nFilePos">
+            <summary>
+            pointed frame's skewing position in file
+            </summary>
+        </member>
+        <member name="F:PlaySDK.FRAME_POS.nFrameNum">
+            <summary>
+            frame serial number
+            </summary> 
+        </member>
+        <member name="F:PlaySDK.FRAME_POS.nFrameTime">
+            <summary>
+            frame time
+            </summary>
+        </member>
+        <member name="F:PlaySDK.FRAME_POS.nErrorFrameNum">
+            <summary>
+            wrong frame number
+            </summary>
+        </member>
+        <member name="F:PlaySDK.FRAME_POS.pErrorTime">
+            <summary>
+            wrong frame time
+            </summary>
+        </member>
+        <member name="F:PlaySDK.FRAME_POS.nErrorLostFrameNum">
+            <summary>
+            wrong frame number
+            </summary>
+        </member>
+        <member name="F:PlaySDK.FRAME_POS.nErrorFrameSize">
+            <summary>
+            wrong frame size
+            </summary>
+        </member>
+        <member name="T:PlaySDK.SYSTEM_TIME">
+            <summary>
+            system's time form(C++)
+            </summary>
+        </member>
+        <member name="F:PlaySDK.SYSTEM_TIME.wYear">
+            <summary>
+            year
+            </summary>
+        </member>
+        <member name="F:PlaySDK.SYSTEM_TIME.wMonth">
+            <summary>
+            mouth
+            </summary>
+        </member>
+        <member name="F:PlaySDK.SYSTEM_TIME.wDayOfWeek">
+            <summary>
+            week
+            </summary>
+        </member>
+        <member name="F:PlaySDK.SYSTEM_TIME.wDay">
+            <summary>
+            day
+            </summary>
+        </member>
+        <member name="F:PlaySDK.SYSTEM_TIME.wHour">
+            <summary>
+            hour
+            </summary>
+        </member>
+        <member name="F:PlaySDK.SYSTEM_TIME.wMinute">
+            <summary>
+            minute
+            </summary>
+        </member>
+        <member name="F:PlaySDK.SYSTEM_TIME.wSecond">
+            <summary>
+            second
+            </summary>
+        </member>
+        <member name="F:PlaySDK.SYSTEM_TIME.wMilliseconds">
+            <summary>
+            millisecond
+            </summary>
+        </member>
+        <member name="T:PlaySDK.COLOR_STRUCT">
+            <summary>
+            custom color's construction
+            </summary>
+        </member>
+        <member name="F:PlaySDK.COLOR_STRUCT.pBrightness">
+            <summary>
+            brightness[range:0-128]
+            </summary>
+        </member>
+        <member name="F:PlaySDK.COLOR_STRUCT.pContrast">
+            <summary>
+            contrast[range:0-128]
+            </summary>
+        </member>
+        <member name="F:PlaySDK.COLOR_STRUCT.pSaturation">
+            <summary>
+            saturation[range:0-128]
+            </summary>
+        </member>
+        <member name="F:PlaySDK.COLOR_STRUCT.pHue">
+            <summary>
+            tone[range:0-128]
+            </summary>
+        </member>
+        <member name="T:PlaySDK.FRAME_INFO">
+            <summary>
+            frame information
+            </summary>
+        </member>
+        <member name="F:PlaySDK.FRAME_INFO.nWidth">
+            <summary>
+            frame width,unit is pixel.if it is audio data ,the result is 0
+            </summary>
+        </member>
+        <member name="F:PlaySDK.FRAME_INFO.nHeight">
+            <summary>
+            frame height.if it is audio data ,the result is 0
+            </summary>
+        </member>
+        <member name="F:PlaySDK.FRAME_INFO.nStamp">
+            <summary>
+            time mark information,unit is millisecond
+            </summary>
+        </member>
+        <member name="F:PlaySDK.FRAME_INFO.nType">
+            <summary>
+            data type,T_AUDIO16,T_RGB32, T_YV12,detail is in macro fefinition instruction.
+            </summary>
+        </member>
+        <member name="F:PlaySDK.FRAME_INFO.nFrameRate">
+            <summary>
+            picture's frame rate generated in decoding
+            </summary>
+        </member>
+        <member name="T:PlaySDK.FRAME_TYPE">
+            <summary>
+            frame type
+            </summary>
+        </member>
+        <member name="F:PlaySDK.FRAME_TYPE.pDataBuf">
+            <summary>
+            frame data
+            </summary>
+        </member>
+        <member name="F:PlaySDK.FRAME_TYPE.nSize">
+            <summary>
+            frame size
+            </summary>
+        </member>
+        <member name="F:PlaySDK.FRAME_TYPE.nFrameNum">
+            <summary>
+            frame serial number
+            </summary>
+        </member>
+        <member name="F:PlaySDK.FRAME_TYPE.bIsAudio">
+            <summary>
+            audio frame or not(TRUE:1;FALSE:0)
+            </summary>
+        </member>
+        <member name="F:PlaySDK.FRAME_TYPE.nReserved">
+            <summary>
+            reserved word
+            </summary>
+        </member>
+        <member name="T:PlaySDK.DATETIME_INFO">
+            <summary>
+            datetime type
+            </summary>
+        </member>
+        <member name="F:PlaySDK.DATETIME_INFO.nYear">
+            <summary>
+            nYear
+            </summary>
+        </member>
+        <member name="F:PlaySDK.DATETIME_INFO.nMonth">
+            <summary>
+            nMonth
+            </summary>
+        </member>
+        <!-- 对于成员“F:PlaySDK.DATETIME_INFO.nDay”忽略有格式错误的 XML 注释 -->
+        <member name="F:PlaySDK.DATETIME_INFO.nHour">
+            <summary>
+            nHour
+            </summary>
+        </member>
+        <member name="F:PlaySDK.DATETIME_INFO.nMinute">
+            <summary>
+            nDay
+            </summary>
+        </member>
+        <member name="F:PlaySDK.DATETIME_INFO.nSecond">
+            <summary>
+            nHour
+            </summary>
+        </member>
+        <member name="T:PlaySDK.OPERATION_INFO">
+            <summary>
+            wrong content
+            </summary>
+        </member>
+        <member name="F:PlaySDK.OPERATION_INFO.errCode">
+            <summary>
+            wrong code
+            </summary>
+        </member>
+        <member name="F:PlaySDK.OPERATION_INFO.errMessage">
+            <summary>
+            wrong description
+            </summary>
+        </member>
+        <member name="M:PlaySDK.OPERATION_INFO.ToString(System.String)">
+            <summary>
+            return wrong content character string base self-defined form
+            </summary>
+            <param name="FormatStyle">wrong content character string form：errcode replace wrong code;errmsg replace wrong description</param>
+            <returns>self-defined form's wrong content character string</returns>
+        </member>
+        <member name="T:PlaySDK.STREAM_TYPE">
+            <summary>
+            decoding invoking stream type
+            </summary>
+        </member>
+        <member name="F:PlaySDK.STREAM_TYPE.STREAM_WITHOUT">
+            <summary>
+            decoding invoking stream :no
+            </summary>
+        </member>
+        <member name="F:PlaySDK.STREAM_TYPE.STREAM_AUDIO">
+            <summary>
+            decoding invoking stream:audio
+            </summary>
+        </member>
+        <member name="F:PlaySDK.STREAM_TYPE.STREAM_VIDEO">
+            <summary>
+            decoding invoking stream:video
+            </summary>
+        </member>
+        <member name="F:PlaySDK.STREAM_TYPE.STREAM_MIX">
+            <summary>
+            decoding invoking stream:mix
+            </summary>
+        </member>
+        <member name="T:PlaySDK.PLAY_COMMAND">
+            <summary>
+            play control order
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.Start">
+            <summary>
+            start playing
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.Pause">
+            <summary>
+            pause playing
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.ReSume">
+            <summary>
+            continue playing 
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.Stop">
+            <summary>
+            stop playing
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.Forward">
+            <summary>
+             play forward
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.Backward">
+            <summary>
+            play backward
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.OpenFile">
+            <summary>
+            open file
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.CloseFile">
+            <summary>
+            close file
+            </summary>
+        </member>
+        <!-- 对于成员“F:PlaySDK.PLAY_COMMAND.Fast”忽略有格式错误的 XML 注释 -->
+        <member name="F:PlaySDK.PLAY_COMMAND.Slow">
+            <summary>
+            low speeding play,idem.every time call playing speed fall one grade ;call 4 times most,if want recover normal play ,callPLAY_Play
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.OneByOne">
+            <summary>
+            one frame play.if want to recover normal play ,transfer PLAY_ Play
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.OneByOneBack">
+            <summary>
+            one frame playback.(reverse one frame in every call.if want to recover normal playing invokePLAY_ Play)
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.CatchPic">
+            <summary>
+            screenshot
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.GetCurrentFrameNum">
+            <summary>
+            get current frame serial number
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.SetCurrentFrameNum">
+            <summary>
+            set current playing position to pointed frame number
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.GetCurrentFrameRate">
+            <summary>
+            gain current frame rate
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.GetFileTotalFrames">
+            <summary>
+            gain file's total frame number 
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.GetFileTotalTime">
+            <summary>
+            gain file's total time length,unit is second
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.GetPlayedTime">
+            <summary>
+            gain file's current playing time,unit is second
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.GetPlayedTimeEx">
+            <summary>
+            gain file's current playing time,unit is millisecond
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.SetPlayedTimeEx">
+            <summary>
+            set file's playing position based on the time
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.GetColor">
+            <summary>
+            get color value
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.SetColor">
+            <summary>
+            set color property
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.PlaySound">
+            <summary>
+            play audio[only one channel voice in the same time]
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.StopSound">
+            <summary>
+            stop audio
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.PlaySoundShare">
+            <summary>
+            play audio in sharing mode[play this channel's audio and not other's]
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.StopSoundShare">
+            <summary>
+            close audio in the sharing way
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.SetVolume">
+            <summary>
+            set volume[range:0-0XFFFF(0-65535)]
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.GetVolume">
+            <summary>
+            get current the volume's setting
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.AdjustWaveAudio">
+            <summary>
+            set WAVE form,can change audio's size[the difference between it and SetVolume is ,it change the audio's data,only work to this channel,
+            but SetVolume is change the sound card's volume,it work to the whole system]
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.GetPlayPos">
+            <summary>
+            gain file's playing position
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.SetPlayPos">
+            <summary>
+            set file's playing position
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.GetPictureSize">
+            <summary>
+            gain frame original picture's size
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.GetDateTimeInfo">
+            <summary>
+            get datetime
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.ToBegin">
+            <summary>
+            set the position to the video's head
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.ToEnd">
+            <summary>
+            set the poisition to the end of video
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.OpenStream">
+            <summary>
+            open stream port
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.InputData">
+            <summary>
+            get the stream data from the card；data can be input only after open stream and invoke PLAY_Play
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.CloseStream">
+            <summary>
+            close data stream
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.OpenStreamEx">
+            <summary>
+            open stream in the way that audio and video is apart
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.InputVideoData">
+            <summary>
+            get the stream data from the card (it can be complete stream,but audio data will be ignored)
+            data can be input only after stream is opened
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.InputAudioData">
+            <summary>
+            input the audio stream getting from the card;data can be input only after audio is opened
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_COMMAND.CloseStreamEx">
+            <summary>
+            close data stream
+            </summary>
+        </member>
+        <!-- 对于成员“F:PlaySDK.PLAY_COMMAND.ReleasePort”忽略有格式错误的 XML 注释 -->
+        <member name="F:PlaySDK.PLAY_COMMAND.ResetBuffer">
+            <summary>
+            clearn play buffer
+            </summary>
+        </member>
+        <member name="T:PlaySDK.SYSFUN_TYPE">
+            <summary>
+            system function
+            </summary>
+        </member>
+        <member name="F:PlaySDK.SYSFUN_TYPE.SUPPORT_DDRAW">
+            <summary>
+            support DIRECTDRAW(if not support ,player can not work)
+            </summary>
+        </member>
+        <member name="F:PlaySDK.SYSFUN_TYPE.SUPPORT_BLT">
+            <summary>
+            VGA card support BLT operation(if not support ,player can not work)
+            </summary>
+        </member>
+        <member name="F:PlaySDK.SYSFUN_TYPE.SUPPORT_BLTFOURCC">
+            <summary>
+            VGA card BLT support color conversion
+            </summary>
+        </member>
+        <member name="F:PlaySDK.SYSFUN_TYPE.SUPPORT_BLTSHRINKX">
+            <summary>
+            VGA card BLT support X axle shrink
+            </summary>
+        </member>
+        <member name="F:PlaySDK.SYSFUN_TYPE.SUPPORT_BLTSHRINKY">
+            <summary>
+            VGA card BLT support Y axle shrink
+            </summary>
+        </member>
+        <member name="F:PlaySDK.SYSFUN_TYPE.SUPPORT_BLTSTRETCHX">
+            <summary>
+            VGA card BLT support X axle magnify
+            </summary>
+        </member>
+        <member name="F:PlaySDK.SYSFUN_TYPE.SUPPORT_BLTSTRETCHY">
+            <summary>
+            VGA card BLT support Y axle magnify
+            </summary>
+        </member>
+        <member name="F:PlaySDK.SYSFUN_TYPE.SUPPORT_SSE">
+            <summary>
+            CPU support SSE order,above Intel Pentium3 support SSE order
+            </summary>
+        </member>
+        <member name="F:PlaySDK.SYSFUN_TYPE.SUPPORT_MMX">
+            <summary>
+            CPU support MMX order set
+            </summary>
+        </member>
+        <member name="T:PlaySDK.VIDEO_TYPE">
+            <summary>
+            decode invoking video frame type
+            </summary>
+        </member>
+        <member name="T:PlaySDK.AUDIO_TYPE">
+            <summary>
+            decode invoking audio frame type
+            </summary>
+        </member>
+        <member name="T:PlaySDK.PLAY_MODE">
+            <summary>
+            data stream playing pattern
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_MODE.STREAME_REALTIME">
+            <summary>
+            most real time way
+            </summary>
+        </member>
+        <member name="F:PlaySDK.PLAY_MODE.STREAME_FILE">
+            <summary>
+            most fluent way
+            </summary>
+        </member>
+        <member name="T:PlaySDK.DATABUF_SIZE">
+            <summary>
+            data stream original buffer size
+            </summary>
+        </member>
+        <member name="F:PlaySDK.DATABUF_SIZE.SOURCE_BUF_MAX">
+            <summary>
+            max original buffer(1024*100000)
+            </summary>
+        </member>
+        <member name="F:PlaySDK.DATABUF_SIZE.SOURCE_BUF_MIN">
+            <summary>
+            minimum original buffer(1024*50)
+            </summary>
+        </member>
+        <member name="T:PlaySDK.GOTO_TYPE">
+            <summary>
+            location type
+            </summary>
+        </member>
+        <member name="F:PlaySDK.GOTO_TYPE.BY_FRAMENUM">
+            <summary>
+            by frame number
+            </summary>
+        </member>
+        <member name="F:PlaySDK.GOTO_TYPE.BY_FRAMETIME">
+            <summary>
+            by time
+            </summary>
+        </member>
+        <member name="T:PlaySDK.BUF_FRAME_NUM">
+            <summary>
+            decode buffer frame number
+            </summary>
+        </member>
+        <member name="F:PlaySDK.BUF_FRAME_NUM.MAX_DIS_FRAMES">
+            <summary>
+            maximum decode buffer frame number
+            </summary>
+        </member>
+        <member name="F:PlaySDK.BUF_FRAME_NUM.MIN_DIS_FRAMES">
+            <summary>
+            minimum decode buffer frame number
+            </summary>
+        </member>
+        <member name="T:PlaySDK.DISPLAY_MODE">
+            <summary>
+            display type and maximum area display number 
+            </summary>
+        </member>
+        <member name="F:PlaySDK.DISPLAY_MODE.DISPLAY_NORMAL">
+            <summary>
+            show in normal resolution ratio
+            </summary>
+        </member>
+        <member name="F:PlaySDK.DISPLAY_MODE.DISPLAY_QUARTER">
+            <summary>
+            show in quarter resolution ratio以
+            </summary>
+        </member>
+        <member name="F:PlaySDK.DISPLAY_MODE.MAX_DISPLAY_WND">
+            <summary>
+            maximum area display number(open 4 areas display windows most in the same time)
+            </summary>
+        </member>
+        <member name="T:PlaySDK.BUF_TYPE">
+            <summary>
+            buffer type
+            </summary>
+        </member>
+        <member name="F:PlaySDK.BUF_TYPE.BUF_VIDEO_SRC">
+            <summary>
+            video origin buffer
+            </summary>
+        </member>
+        <member name="F:PlaySDK.BUF_TYPE.BUF_AUDIO_SRC">
+            <summary>
+            audio origin buffer
+            </summary>
+        </member>
+        <member name="F:PlaySDK.BUF_TYPE.BUF_VIDEO_RENDER">
+            <summary>
+            video data buffer after decode
+            </summary>
+        </member>
+        <member name="F:PlaySDK.BUF_TYPE.BUF_AUDIO_RENDER">
+            <summary>
+            audio data buffer after decode
+            </summary>
+        </member>
+    </members>
+</doc>

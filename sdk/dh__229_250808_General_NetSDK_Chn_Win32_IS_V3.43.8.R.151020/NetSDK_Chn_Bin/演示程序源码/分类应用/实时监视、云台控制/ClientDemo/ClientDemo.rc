@@ -1,0 +1,344 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ClientDemo.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\ClientDemo.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 ClientDemo"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "ClientDemo 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2007",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_CLIENTDEMO_DIALOG DIALOGEX 0, 0, 538, 433
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "RealPlay DEMO"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_SCREEN_WINDOW,"Static",SS_WHITEFRAME,0,0,387,296
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,396,22,138,88
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,396,112,138,68
+    PUSHBUTTON      "Login",IDC_BT_Login,415,94,38,14
+    PUSHBUTTON      "Play",IDC_BUTTON_Play,417,163,35,14,WS_DISABLED
+    PUSHBUTTON      "Logout",IDC_BT_Leave,471,94,36,14,WS_DISABLED
+    RTEXT           "Dev. IP:",IDC_STATIC,403,28,45,10
+    RTEXT           "Port:",IDC_STATIC,403,45,43,10
+    EDITTEXT        IDC_EDIT_Port,448,42,47,14,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "User name:",IDC_STATIC,403,61,43,11
+    EDITTEXT        IDC_EDIT_UserName,448,58,47,14,ES_AUTOHSCROLL
+    RTEXT           "Password:",IDC_STATIC,402,78,44,12
+    EDITTEXT        IDC_EDIT_Password,448,75,47,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    RTEXT           "Channel:",IDC_STATIC,401,118,44,8
+    RTEXT           "Screen:",IDC_STATIC,400,133,45,8
+    CONTROL         "IPAddress1",IDC_DvrIPAddress,"SysIPAddress32",
+                    WS_TABSTOP,448,25,71,14
+    COMBOBOX        IDC_COMBO_DispNum,448,130,61,70,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Stop",IDC_BUTTON_STOP,471,163,35,14
+    COMBOBOX        IDC_COMBO_Channel,448,114,61,66,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,396,181,138,117
+    RTEXT           "Speed:",IDC_STATIC,400,186,57,8
+    PUSHBUTTON      "Up",IDC_PTZ_UP,447,200,25,14,BS_FLAT
+    PUSHBUTTON      "Down",IDC_PTZ_DOWN,447,234,25,14,BS_FLAT
+    PUSHBUTTON      "L-Up",IDC_PTZ_LEFTUP,417,200,25,14,BS_FLAT
+    PUSHBUTTON      "R-Up",IDC_PTZ_RIGHTUP,477,200,25,14,BS_FLAT
+    PUSHBUTTON      "L-Down",IDC_PTZ_LEFTDOWN,417,234,25,14,BS_FLAT
+    PUSHBUTTON      "R-Down",IDC_PTZ_RIGHTDOWN,477,234,25,14,BS_FLAT
+    PUSHBUTTON      "Left",IDC_PTZ_LEFT,417,217,25,14,BS_FLAT
+    PUSHBUTTON      "Right",IDC_PTZ_RIGHT,477,217,25,14,BS_FLAT
+    PUSHBUTTON      "-",IDC_ZOOM_WIDE,403,252,20,14,BS_FLAT
+    CTEXT           "Zoom",IDC_STATIC,406,270,17,8
+    PUSHBUTTON      "+",IDC_ZOOM_TELE,403,281,20,14,BS_FLAT
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,399,249,28,48
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,430,249,28,48
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,461,249,28,48
+    PUSHBUTTON      "-",IDC_FOCUS_NEAR,434,252,20,14,BS_FLAT
+    PUSHBUTTON      "-",IDC_IRIS_CLOSE,465,252,20,14,BS_FLAT
+    CTEXT           "Focus",IDC_STATIC,436,270,17,8
+    CTEXT           "Iris",IDC_STATIC,467,270,17,8
+    PUSHBUTTON      "+",IDC_FOCUS_FAR,434,281,20,14,BS_FLAT
+    PUSHBUTTON      "+",IDC_IRIS_OPEN,465,281,20,14,BS_FLAT
+    COMBOBOX        IDC_COMBO_PTZDATA,461,183,42,54,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CTEXT           "",IDC_PTZSTATUS,447,219,25,8
+    CONTROL         "",IDC_SEPERATOR,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,
+                    0,304,536,1
+    PUSHBUTTON      "PTZ",IDC_BTN_PTZMENU,494,251,35,14
+    PUSHBUTTON      "Advance>>",IDC_BTN_PTZEXCTRL,490,270,42,27,BS_MULTILINE
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,12,308,137,118
+    RTEXT           "Preset Point:",IDC_STATIC,16,315,37,8
+    PUSHBUTTON      "Setup",IDC_PRESET_ADD,28,334,38,14,BS_FLAT
+    PUSHBUTTON      "Call",IDC_PRESET_SET,102,312,36,14,BS_FLAT
+    PUSHBUTTON      "Delete",IDC_PRESET_DELE,90,334,38,14,BS_FLAT
+    PUSHBUTTON      "Add Tour",IDC_CRUISE_ADD_POINT,25,382,50,14,BS_FLAT
+    RTEXT           "AutoTour:",IDC_STATIC,16,363,38,8
+    PUSHBUTTON      "Del Tour",IDC_CRUISE_DEL_POINT,85,382,50,14,BS_FLAT
+    PUSHBUTTON      "Del tour group",IDC_CRUISE_DEL_GROUP,45,401,72,14,
+                    BS_FLAT
+    PUSHBUTTON      "Start Tour",IDC_START_CRUISE,100,360,45,14,BS_FLAT
+    EDITTEXT        IDC_PRESET_DATA,57,312,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME | SS_SUNKEN,12,353,
+                    135,1
+    EDITTEXT        IDC_CRUISE_GROUP,56,360,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,152,308,133,118
+    RTEXT           "Pattern:",IDC_STATIC,156,315,50,8
+    EDITTEXT        IDC_MODE_NO,209,312,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "Program Start",IDC_MODE_SET_BEGIN,162,334,54,14,BS_FLAT
+    PUSHBUTTON      "Start Pattern",IDC_MODE_START,222,334,54,14,BS_FLAT
+    PUSHBUTTON      "Delete",IDC_MODE_SET_DELETE,189,355,63,14,BS_FLAT
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME | SS_SUNKEN,152,374,
+                    133,1
+    LTEXT           "Auto Scan:",IDC_STATIC,164,380,37,8
+    PUSHBUTTON      "Left Limit",IDC_LINE_SET_LEFT,164,392,50,14,BS_FLAT
+    PUSHBUTTON      "Right Limit",IDC_LINE_SET_RIGHT,222,392,50,14,BS_FLAT
+    PUSHBUTTON      "Start",IDC_LINE_START,193,409,50,14,BS_FLAT
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,287,308,124,118
+    RTEXT           "SIT:",IDC_STATIC,293,375,54,8
+    LTEXT           "X:",IDC_STATIC,301,318,23,8
+    EDITTEXT        IDC_POS_X,333,315,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_POS_Y,333,329,40,14,ES_AUTOHSCROLL
+    LTEXT           "Y:",IDC_STATIC,301,332,23,8
+    LTEXT           "ZOOM:",IDC_STATIC,301,351,23,8
+    EDITTEXT        IDC_POS_ZOOM,333,348,40,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,415,308,116,118
+    PUSHBUTTON      "SIT",IDC_FAST_GO,355,373,50,14,BS_FLAT
+    RTEXT           "Auto pan:",IDC_STATIC,417,317,37,8
+    PUSHBUTTON      "Start",IDC_ROTATE_START,420,333,50,14,BS_FLAT
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME | SS_SUNKEN,421,357,
+                    109,1
+    RTEXT           "AUX No.:",IDC_STATIC,418,363,37,8
+    COMBOBOX        IDC_COMBO_AUX_NO,447,376,50,64,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Aux Open",IDC_AUX_OPEN,421,401,50,14,BS_FLAT
+    PUSHBUTTON      "Stop",IDC_ROTATE_STOP,480,333,50,14,BS_FLAT
+    PUSHBUTTON      "Aux Close",IDC_AUX_CLOSE,481,401,50,14,BS_FLAT
+    COMBOBOX        IDC_COMBO_PLAYMODE,448,146,61,46,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Play Type:",IDC_STATIC,401,149,44,8
+    RTEXT           "Run info:",IDC_STATIC,393,6,45,8
+    LTEXT           "normal",IDC_LAST_ERROR,441,6,88,8
+    PUSHBUTTON      "EXACTGO",IDC_EXACT_GO,298,404,50,14,BS_FLAT
+    PUSHBUTTON      "RESETZERO",IDC_RESET,357,403,50,14,BS_FLAT
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME | SS_SUNKEN,295,395,
+                    109,1
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME | SS_SUNKEN,295,364,
+                    109,1
+END
+
+IDD_CPtzMenu DIALOG DISCARDABLE  0, 0, 156, 73
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Ptz Menu"
+FONT 10, "System"
+BEGIN
+    PUSHBUTTON      "Up",IDC_OPR_UP,40,7,29,14,BS_FLAT
+    PUSHBUTTON      "Right",IDC_OPR_RIGHT,69,22,29,14,BS_FLAT
+    PUSHBUTTON      "Left",IDC_OPR_LEFT,11,22,29,14,BS_FLAT
+    PUSHBUTTON      "Down",IDC_OPR_DOWN,40,37,29,14,BS_FLAT
+    PUSHBUTTON      "Enter Menu",IDC_OPR_OPENMENU,113,7,37,14,BS_FLAT
+    PUSHBUTTON      "Close Menu",IDC_OPR_CLOSEMENU,113,22,37,14,BS_FLAT
+    PUSHBUTTON      "Ok",IDC_OPR_OK,113,37,37,14,BS_FLAT
+    PUSHBUTTON      "Cancel",IDC_OPR_CANCEL,113,52,37,14,BS_FLAT
+END
+
+IDD_DIALOG_MULTIPLAY DIALOG DISCARDABLE  0, 0, 187, 108
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Multi_Preview"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,41,77,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,102,77,50,14
+    RTEXT           "Preview Num:",IDC_STATIC,11,18,55,8
+    COMBOBOX        IDC_COMBO_MULTI,77,15,72,59,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Start Channel:",IDC_STATIC,9,42,57,8
+    COMBOBOX        IDC_COMBO_BEGINCHANNEL,77,39,72,64,CBS_DROPDOWN | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "ClientDemo Microsoft \0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "ClientDemo\0"
+            VALUE "LegalCopyright", "Copyright (C) 2007\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "ClientDemo.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "ClientDemo \0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x809, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_CLIENTDEMO_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 536
+        BOTTOMMARGIN, 432
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "About ClientDemo(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\ClientDemo.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

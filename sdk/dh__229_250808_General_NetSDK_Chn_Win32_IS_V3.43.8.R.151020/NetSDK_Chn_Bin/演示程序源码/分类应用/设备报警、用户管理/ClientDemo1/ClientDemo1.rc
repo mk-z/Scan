@@ -1,0 +1,858 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ClientDemo1.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\ClientDemo1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 ClientDemo1"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "ClientDemo1 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2007",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_CLIENTDEMO1_DIALOG DIALOGEX 0, 0, 534, 574
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "User Manage And Device Alarm"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Login",IDC_BTN_LOGIN,420,21,38,14
+    CONTROL         "IPAddress1",IDC_IPADDRESS_DVRIP,"SysIPAddress32",
+                    WS_TABSTOP,57,20,73,15
+    EDITTEXT        IDC_EDIT_PORT,178,21,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_USERNAME,264,21,50,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_DVRPWD,357,21,50,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    CONTROL         "Tab1",IDC_TAB1,"SysTabControl32",TCS_FIXEDWIDTH,7,50,
+                    519,508
+    GROUPBOX        "Dev.Login",IDC_STATIC,7,7,519,37
+    RTEXT           "Dev.IP:",IDC_STATIC,16,24,37,8
+    RTEXT           "Dev.Port:",IDC_STATIC,132,24,41,8
+    RTEXT           "UserName:",IDC_STATIC,220,24,40,8
+    RTEXT           "Password:",IDC_STATIC,318,24,36,8
+    PUSHBUTTON      "Logout",IDC_BTN_LOGOUT,471,21,38,14,WS_DISABLED
+END
+
+IDD_DIALOG_USERMANAGE DIALOG DISCARDABLE  0, 0, 464, 297
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "Tree1",IDC_TREE_USERS,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | 
+                    WS_BORDER | WS_TABSTOP,0,0,148,297
+    PUSHBUTTON      "Add User",IDC_ADD_USER,388,43,65,14
+    PUSHBUTTON      "Modify User",IDC_MODIFY_USER,388,63,65,14
+    PUSHBUTTON      "Delete User",IDC_DELETE_USER,388,83,66,14
+    PUSHBUTTON      "Modify Password",IDC_MODIFY_PSW,388,103,67,14
+    PUSHBUTTON      "Add Group",IDC_ADD_GROUP,388,160,65,14
+    PUSHBUTTON      "Delete Group",IDC_DELETE_GROUP,388,178,65,14
+    PUSHBUTTON      "Modify Group",IDC_MODIFY_GROUP,388,196,66,14
+    CONTROL         "Tree1",IDC_TREE_LEVELS,"SysTreeView32",
+                    TVS_DISABLEDRAGDROP | TVS_CHECKBOXES | WS_BORDER | 
+                    WS_TABSTOP,157,0,216,297
+END
+
+IDD_DIALOG_EQUIPALARM DIALOG DISCARDABLE  0, 0, 428, 271
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    RTEXT           "Disk Error:",IDC_STATIC,29,213,59,22
+    RTEXT           "Disk no space:",IDC_STATIC,26,241,62,16
+    RTEXT           "Alarm Shelter:",IDC_STATIC,31,67,57,8
+    RTEXT           "Alarm Input:",IDC_STATIC,35,97,53,8
+    RTEXT           "Dynamic Detecting:",IDC_STATIC,27,127,61,22
+    RTEXT           "Video Lost:",IDC_STATIC,32,157,56,8
+    RTEXT           "Audio Alarm:",IDC_STATIC,32,187,56,8
+    CHECKBOX        "",IDC_ALARM_INPUT0,97,97,9,8
+    CHECKBOX        "",IDC_ALARM_INPUT1,115,97,9,8
+    CHECKBOX        "",IDC_ALARM_INPUT2,133,97,9,8
+    CHECKBOX        "",IDC_ALARM_INPUT3,151,97,9,8
+    CHECKBOX        "",IDC_ALARM_INPUT4,169,97,9,8
+    CHECKBOX        "",IDC_ALARM_INPUT5,187,97,9,8
+    CHECKBOX        "",IDC_ALARM_INPUT6,205,97,9,8
+    CHECKBOX        "",IDC_ALARM_INPUT7,223,97,9,8
+    LTEXT           "0",IDC_STATIC,99,49,8,8
+    LTEXT           "1",IDC_STATIC,117,49,8,8
+    LTEXT           "2",IDC_STATIC,135,49,8,8
+    LTEXT           "3",IDC_STATIC,153,49,8,8
+    LTEXT           "4",IDC_STATIC,171,49,8,8
+    LTEXT           "5",IDC_STATIC,189,49,8,8
+    LTEXT           "6",IDC_STATIC,207,49,8,8
+    LTEXT           "7",IDC_STATIC,225,49,8,8
+    LTEXT           "8",IDC_STATIC,243,49,8,8
+    LTEXT           "9",IDC_STATIC,261,49,8,8
+    LTEXT           "10",IDC_STATIC,279,49,8,8
+    LTEXT           "11",IDC_STATIC,297,49,8,8
+    LTEXT           "12",IDC_STATIC,315,49,8,8
+    LTEXT           "13",IDC_STATIC,333,49,8,8
+    LTEXT           "14",IDC_STATIC,351,49,8,8
+    LTEXT           "15",IDC_STATIC,369,49,8,8
+    CHECKBOX        "",IDC_ALARM_INPUT8,241,97,9,8
+    CHECKBOX        "",IDC_ALARM_INPUT9,259,97,9,8
+    CHECKBOX        "",IDC_ALARM_INPUT10,277,97,9,8
+    CHECKBOX        "",IDC_ALARM_INPUT11,295,97,9,8
+    CHECKBOX        "",IDC_ALARM_INPUT12,313,97,9,8
+    CHECKBOX        "",IDC_ALARM_INPUT13,331,97,9,8
+    CHECKBOX        "",IDC_ALARM_INPUT14,349,97,9,8
+    CHECKBOX        "",IDC_ALARM_INPUT15,367,97,9,8
+    CHECKBOX        "",IDC_ALARM_SHELTER0,97,67,9,8
+    CHECKBOX        "",IDC_ALARM_SHELTER1,115,67,9,8
+    CHECKBOX        "",IDC_ALARM_SHELTER2,133,67,9,8
+    CHECKBOX        "",IDC_ALARM_SHELTER3,151,67,9,8
+    CHECKBOX        "",IDC_ALARM_SHELTER4,169,67,9,8
+    CHECKBOX        "",IDC_ALARM_SHELTER5,187,67,9,8
+    CHECKBOX        "",IDC_ALARM_SHELTER6,205,67,9,8
+    CHECKBOX        "",IDC_ALARM_SHELTER7,223,67,9,8
+    CHECKBOX        "",IDC_ALARM_SHELTER8,241,67,9,8
+    CHECKBOX        "",IDC_ALARM_SHELTER9,259,67,9,8
+    CHECKBOX        "",IDC_ALARM_SHELTER10,277,67,9,8
+    CHECKBOX        "",IDC_ALARM_SHELTER11,295,67,9,8
+    CHECKBOX        "",IDC_ALARM_SHELTER12,313,67,9,8
+    CHECKBOX        "",IDC_ALARM_SHELTER13,331,67,9,8
+    CHECKBOX        "",IDC_ALARM_SHELTER14,349,67,9,8
+    CHECKBOX        "",IDC_ALARM_SHELTER15,367,67,9,8
+    CHECKBOX        "",IDC_ALARM_MOTION0,97,127,9,8
+    CHECKBOX        "",IDC_ALARM_MOTION1,115,127,9,8
+    CHECKBOX        "",IDC_ALARM_MOTION2,133,127,9,8
+    CHECKBOX        "",IDC_ALARM_MOTION3,151,127,9,8
+    CHECKBOX        "",IDC_ALARM_MOTION4,169,127,9,8
+    CHECKBOX        "",IDC_ALARM_MOTION5,187,127,9,8
+    CHECKBOX        "",IDC_ALARM_MOTION6,205,127,9,8
+    CHECKBOX        "",IDC_ALARM_MOTION7,223,127,9,8
+    CHECKBOX        "",IDC_ALARM_MOTION8,241,127,9,8
+    CHECKBOX        "",IDC_ALARM_MOTION9,259,127,9,8
+    CHECKBOX        "",IDC_ALARM_MOTION10,277,127,9,8
+    CHECKBOX        "",IDC_ALARM_MOTION11,295,127,9,8
+    CHECKBOX        "",IDC_ALARM_MOTION12,313,127,9,8
+    CHECKBOX        "",IDC_ALARM_MOTION13,331,127,9,8
+    CHECKBOX        "",IDC_ALARM_MOTION14,349,127,9,8
+    CHECKBOX        "",IDC_ALARM_MOTION15,367,127,9,8
+    CHECKBOX        "",IDC_ALARM_VIDEOLOST0,97,157,9,8
+    CHECKBOX        "",IDC_ALARM_VIDEOLOST1,115,157,9,8
+    CHECKBOX        "",IDC_ALARM_VIDEOLOST2,133,157,9,8
+    CHECKBOX        "",IDC_ALARM_VIDEOLOST3,151,157,9,8
+    CHECKBOX        "",IDC_ALARM_VIDEOLOST4,169,157,9,8
+    CHECKBOX        "",IDC_ALARM_VIDEOLOST5,187,157,9,8
+    CHECKBOX        "",IDC_ALARM_VIDEOLOST6,205,157,9,8
+    CHECKBOX        "",IDC_ALARM_VIDEOLOST7,223,157,9,8
+    CHECKBOX        "",IDC_ALARM_VIDEOLOST8,241,157,9,8
+    CHECKBOX        "",IDC_ALARM_VIDEOLOST9,259,157,9,8
+    CHECKBOX        "",IDC_ALARM_VIDEOLOST10,281,157,9,8
+    CHECKBOX        "",IDC_ALARM_VIDEOLOST11,301,157,9,8
+    CHECKBOX        "",IDC_ALARM_VIDEOLOST12,313,157,9,8
+    CHECKBOX        "",IDC_ALARM_VIDEOLOST13,331,157,9,8
+    CHECKBOX        "",IDC_ALARM_VIDEOLOST14,349,157,9,8
+    CHECKBOX        "",IDC_ALARM_VIDEOLOST15,367,157,9,8
+    CHECKBOX        "",IDC_ALARM_SOUND0,97,187,9,8
+    CHECKBOX        "",IDC_ALARM_SOUND1,115,187,9,8
+    CHECKBOX        "",IDC_ALARM_SOUND2,133,187,9,8
+    CHECKBOX        "",IDC_ALARM_SOUND3,151,187,9,8
+    CHECKBOX        "",IDC_ALARM_SOUND4,169,187,9,8
+    CHECKBOX        "",IDC_ALARM_SOUND5,187,187,9,8
+    CHECKBOX        "",IDC_ALARM_SOUND6,205,187,9,8
+    CHECKBOX        "",IDC_ALARM_SOUND7,223,187,9,8
+    CHECKBOX        "",IDC_ALARM_SOUND8,241,187,9,8
+    CHECKBOX        "",IDC_ALARM_SOUND9,259,187,9,8
+    CHECKBOX        "",IDC_ALARM_SOUND10,277,187,9,8
+    CHECKBOX        "",IDC_ALARM_SOUND11,295,187,9,8
+    CHECKBOX        "",IDC_ALARM_SOUND12,313,187,9,8
+    CHECKBOX        "",IDC_ALARM_SOUND13,331,187,9,8
+    CHECKBOX        "",IDC_ALARM_SOUND14,349,187,9,8
+    CHECKBOX        "",IDC_ALARM_SOUND15,367,187,9,8
+    EDITTEXT        IDC_ALARM_DISKERROR,97,213,280,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    CHECKBOX        "",IDC_ALARM_DISKFULL,97,240,16,8
+    GROUPBOX        "Device version is lower 2.6",IDC_STATIC,23,33,378,226
+END
+
+IDD_ADD_USER DIALOG DISCARDABLE  0, 0, 310, 216
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Add User"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "Add",IDOK,180,154,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,245,154,50,14
+    RTEXT           "User Group:",IDC_STATIC,173,20,45,8
+    RTEXT           "UserName:",IDC_STATIC,181,44,37,8
+    RTEXT           "Password:",IDC_STATIC,181,68,37,8
+    RTEXT           "Memo:",IDC_STATIC,197,92,21,8
+    RTEXT           "Reuseable:",IDC_STATIC,177,114,41,8
+    EDITTEXT        IDC_EDIT_GROUP,221,18,77,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_USERNAME,221,42,77,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PASSWORD,221,66,77,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_USERMEMO,221,90,77,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_CHECK_REUSEABLE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,221,113,16,8
+    CONTROL         "",IDC_RLIST_FRAME,"Static",SS_BLACKFRAME,6,7,153,203
+END
+
+IDD_MODIFY_USER DIALOG DISCARDABLE  0, 0, 311, 223
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Modify User"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,174,194,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,247,194,50,14
+    CONTROL         "",IDC_MODIFY_FRAME,"Static",SS_BLACKFRAME,8,7,144,210
+    RTEXT           "User Group:",IDC_STATIC,164,13,45,8
+    EDITTEXT        IDC_EDIT_GROUP,215,11,67,14,ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "Primary user info",IDC_STATIC,159,33,143,74
+    RTEXT           "UserName:",IDC_STATIC,164,48,43,8
+    EDITTEXT        IDC_EDIT_USERNAME,215,45,67,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    RTEXT           "Memo:",IDC_STATIC,165,68,44,8
+    EDITTEXT        IDC_EDIT_MEMO,215,67,67,14,ES_AUTOHSCROLL | WS_DISABLED
+    RTEXT           "Reuseable:",IDC_STATIC,169,89,40,8
+    CONTROL         "",IDC_CHECK_REUSEABLE,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,215,90,16,8
+    GROUPBOX        "New user info",IDC_STATIC,159,113,143,74
+    RTEXT           "UserName:",IDC_STATIC,164,131,44,8
+    RTEXT           "Memo:",IDC_STATIC,163,151,45,8
+    EDITTEXT        IDC_EDIT_NEWNAME,215,127,67,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_NEWMEMO,215,148,67,14,ES_AUTOHSCROLL
+    RTEXT           "Reuseable:",IDC_STATIC,163,170,45,8
+    CONTROL         "",IDC_CHECK_NEWREUSEABLE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,215,170,16,8
+END
+
+IDD_MODIFY_PWD DIALOG DISCARDABLE  0, 0, 151, 123
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Modify Password"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,16,97,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,84,97,50,14
+    RTEXT           "UserName:",IDC_STATIC,5,11,44,8
+    RTEXT           "Old PSW:",IDC_STATIC,5,32,44,8
+    RTEXT           "New PSW:",IDC_STATIC,4,52,45,8
+    RTEXT           "PSW Check:",IDC_STATIC,3,72,46,8
+    EDITTEXT        IDC_EDIT_USERNAME,55,9,84,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    EDITTEXT        IDC_EDIT_OLDPWD,55,29,84,14,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_NEWPWD1,55,49,84,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_NEWPWD2,55,69,84,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+END
+
+IDD_ADD_GROUP DIALOG DISCARDABLE  0, 0, 253, 215
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Add Group"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,56,194,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,150,194,50,14
+    CONTROL         "",IDC_RLIST_FRAME,"Static",SS_BLACKFRAME,6,7,239,155
+    RTEXT           "Group Name:",IDC_STATIC,20,172,45,8
+    EDITTEXT        IDC_EDIT_GROUPNAME,67,170,66,14,ES_AUTOHSCROLL
+    RTEXT           "Memo:",IDC_STATIC,146,172,21,8
+    EDITTEXT        IDC_EDIT_MEMO,169,170,66,14,ES_AUTOHSCROLL
+END
+
+IDD_MODIFY_GROUP DIALOG DISCARDABLE  0, 0, 316, 229
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Modify group "
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,190,172,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,253,172,50,14
+    CONTROL         "",IDC_RLIST_FRAME,"Static",SS_BLACKFRAME,6,8,163,214
+    GROUPBOX        "Primary group info",IDC_STATIC,175,16,133,59
+    RTEXT           "Group name:",IDC_STATIC,179,32,51,8
+    EDITTEXT        IDC_EDIT_GROUPNAME,235,29,65,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    RTEXT           "Memo:",IDC_STATIC,181,55,49,8
+    EDITTEXT        IDC_EDIT_MEMO,235,52,65,14,ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "New group info",IDC_STATIC,175,89,133,59
+    RTEXT           "Group name:",IDC_STATIC,181,105,47,8
+    RTEXT           "Memo:",IDC_STATIC,181,130,49,8
+    EDITTEXT        IDC_EDIT_NEWGROUPNAME,235,103,65,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_NEWMEMO,235,126,65,14,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_NEW_ALARM DIALOG DISCARDABLE  0, 0, 523, 458
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    RTEXT           "Alarm Shelter:",IDC_STATIC,29,61,71,11
+    RTEXT           "output alarm:",IDC_STATIC,27,87,73,11
+    RTEXT           "Dynamic Detecting:",IDC_STATIC,28,111,72,11
+    RTEXT           "Video Lost:",IDC_STATIC,31,142,69,11
+    RTEXT           "Urgency alarm:",IDC_STATIC,30,176,70,11
+    LTEXT           "0",IDC_STATIC,108,27,8,8
+    LTEXT           "1",IDC_STATIC,128,27,8,8
+    LTEXT           "2",IDC_STATIC,148,27,8,8
+    LTEXT           "3",IDC_STATIC,168,27,8,8
+    LTEXT           "4",IDC_STATIC,188,27,8,8
+    LTEXT           "5",IDC_STATIC,208,27,8,8
+    LTEXT           "6",IDC_STATIC,228,27,8,8
+    LTEXT           "7",IDC_STATIC,248,27,8,8
+    LTEXT           "8",IDC_STATIC,268,27,8,8
+    LTEXT           "9",IDC_STATIC,288,27,8,8
+    LTEXT           "10",IDC_STATIC,308,27,8,8
+    LTEXT           "11",IDC_STATIC,328,27,8,8
+    LTEXT           "12",IDC_STATIC,348,27,8,8
+    LTEXT           "13",IDC_STATIC,368,27,8,8
+    LTEXT           "14",IDC_STATIC,388,27,8,8
+    LTEXT           "15",IDC_STATIC,408,27,8,8
+    RTEXT           "Wireless alarm:",IDC_STATIC,31,201,68,11
+    RTEXT           "Coder alarm:",IDC_STATIC,30,229,70,11
+    RTEXT           "Sound Detect alarm:",IDC_STATIC,27,360,68,16
+    EDITTEXT        IDC_EDIT_SOUND_DETECT,108,358,309,12,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_READONLY | WS_DISABLED
+    RTEXT           "Diskfull alarm:",IDC_STATIC,26,263,73,11
+    RTEXT           "DiskError alarm:",IDC_STATIC,26,296,74,11
+    GROUPBOX        "Device version is greater or equal to 2.6",IDC_STATIC,0,
+                    12,499,438
+    CHECKBOX        "",IDC_ARRAY_DECODER10,278,372,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER11,294,372,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER12,312,372,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER13,330,372,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER14,348,372,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER15,368,372,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER16,388,372,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER17,408,372,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER00,108,372,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER01,124,372,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER02,142,372,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER03,160,372,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER04,178,372,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER05,198,372,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER06,218,372,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER07,238,372,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER30,278,386,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER31,294,386,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER32,312,386,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER33,330,386,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER34,348,386,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER35,368,386,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER36,388,386,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER37,408,386,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER20,108,386,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER21,125,386,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER22,142,386,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER23,160,386,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER24,178,386,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER25,198,386,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER26,218,386,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER27,238,386,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER50,278,402,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER51,294,402,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER52,312,402,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER53,330,402,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER54,348,402,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER55,368,402,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER56,388,402,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER57,408,402,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER40,108,402,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER41,124,402,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER42,142,402,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER43,160,402,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER44,178,402,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER45,198,402,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER46,218,402,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER47,238,402,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER70,278,416,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER71,294,416,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER72,312,416,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER73,330,416,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER74,348,416,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER75,368,416,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER76,388,416,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER77,408,416,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER60,108,416,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER61,124,416,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER62,142,416,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER63,160,416,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER64,178,416,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER65,198,416,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER66,218,416,8,18,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_DECODER67,238,416,8,18,NOT WS_TABSTOP
+    RTEXT           "Alarm decoder alarm",IDC_STATIC,30,383,55,39
+    LTEXT           "0",IDC_STATIC,89,379,10,10
+    LTEXT           "1",IDC_STATIC,260,378,10,10
+    LTEXT           "3",IDC_STATIC,260,392,10,10
+    LTEXT           "5",IDC_STATIC,260,409,10,10
+    LTEXT           "7",IDC_STATIC,260,422,10,10
+    LTEXT           "2",IDC_STATIC,88,392,10,10
+    LTEXT           "4",IDC_STATIC,88,409,10,10
+    LTEXT           "6",IDC_STATIC,88,422,10,10
+    RTEXT           "Static alarm:",IDC_STATIC,26,329,74,11
+    LTEXT           "",IDC_STATIC_SHELTER,101,59,316,19
+    LTEXT           "",IDC_STATIC_OUTPUT,101,83,318,19
+    LTEXT           "",IDC_STATIC_DYNAMIC,101,108,320,22
+    LTEXT           "",IDC_STATIC_VIDEOLOST,101,138,319,26
+    LTEXT           "",IDC_STATIC_URGENCY,101,174,321,24
+    LTEXT           "",IDC_STATIC_WIRELESS,101,203,317,24
+    LTEXT           "",IDC_STATIC_CODER,101,231,323,22
+    LTEXT           "",IDC_STATIC_DISKFULL,100,265,322,22
+    LTEXT           "",IDC_STATIC_DISKERROR,101,297,322,25
+    LTEXT           "",IDC_STATIC_STATIC,101,328,321,26
+    CONTROL         "arm_disarm_state",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,421,420,80,10
+    LTEXT           "16",IDC_STATIC,105,43,8,8
+    LTEXT           "17",IDC_STATIC,125,43,8,8
+    LTEXT           "18",IDC_STATIC,145,43,8,8
+    LTEXT           "19",IDC_STATIC,165,43,8,8
+    LTEXT           "20",IDC_STATIC,185,43,8,8
+    LTEXT           "21",IDC_STATIC,205,43,8,8
+    LTEXT           "22",IDC_STATIC,225,43,8,8
+    LTEXT           "23",IDC_STATIC,245,43,8,8
+    LTEXT           "24",IDC_STATIC,265,43,8,8
+    LTEXT           "25",IDC_STATIC,285,43,8,8
+    LTEXT           "26",IDC_STATIC,305,43,8,8
+    LTEXT           "27",IDC_STATIC,325,43,8,8
+    LTEXT           "28",IDC_STATIC,345,43,8,8
+    LTEXT           "29",IDC_STATIC,365,43,8,8
+    LTEXT           "30",IDC_STATIC,385,43,8,8
+    LTEXT           "31",IDC_STATIC,405,43,8,8
+END
+
+IDD_DIALOG_QUERYALARMSTATE DIALOG DISCARDABLE  0, 0, 366, 274
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "Query",IDC_BUTTON_QUERY,147,157,65,17
+    CONTROL         "Check1",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,73,65,10,11
+    CONTROL         "Check1",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,92,65,10,11
+    CONTROL         "Check1",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,109,65,10,11
+    CONTROL         "Check1",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,128,65,10,11
+    CONTROL         "Check1",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,144,65,10,11
+    CONTROL         "Check1",IDC_CHECK6,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,160,65,10,11
+    CONTROL         "Check1",IDC_CHECK7,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,177,65,10,11
+    CONTROL         "Check1",IDC_CHECK8,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,193,65,10,11
+    CONTROL         "Check1",IDC_CHECK9,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,209,65,10,11
+    CONTROL         "Check1",IDC_CHECK10,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,225,65,10,11
+    CONTROL         "Check1",IDC_CHECK11,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,241,65,10,11
+    CONTROL         "Check1",IDC_CHECK12,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,255,65,10,11
+    CONTROL         "Check1",IDC_CHECK13,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,270,65,10,11
+    CONTROL         "Check1",IDC_CHECK14,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,286,65,10,11
+    CONTROL         "Check1",IDC_CHECK15,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,301,65,10,11
+    CONTROL         "Check1",IDC_CHECK16,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,317,65,10,11
+    CONTROL         "Check1",IDC_CHECK17,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,73,83,10,11
+    CONTROL         "Check1",IDC_CHECK18,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,92,83,10,11
+    CONTROL         "Check1",IDC_CHECK19,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,109,83,10,11
+    CONTROL         "Check1",IDC_CHECK20,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,128,83,10,11
+    CONTROL         "Check1",IDC_CHECK21,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,144,83,10,11
+    CONTROL         "Check1",IDC_CHECK22,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,160,83,10,11
+    CONTROL         "Check1",IDC_CHECK23,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,177,83,10,11
+    CONTROL         "Check1",IDC_CHECK24,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,193,83,10,11
+    CONTROL         "Check1",IDC_CHECK25,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,209,83,10,11
+    CONTROL         "Check1",IDC_CHECK26,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,225,83,10,11
+    CONTROL         "Check1",IDC_CHECK27,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,241,83,10,11
+    CONTROL         "Check1",IDC_CHECK28,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,255,83,10,11
+    CONTROL         "Check1",IDC_CHECK29,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,270,83,10,11
+    CONTROL         "Check1",IDC_CHECK30,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,286,83,10,11
+    CONTROL         "Check1",IDC_CHECK31,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,301,83,10,11
+    CONTROL         "Check1",IDC_CHECK32,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,317,83,10,11
+    CONTROL         "Check1",IDC_CHECK33,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,73,97,10,11
+    CONTROL         "Check1",IDC_CHECK34,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,92,97,10,11
+    CONTROL         "Check1",IDC_CHECK35,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,109,97,10,11
+    CONTROL         "Check1",IDC_CHECK36,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,128,97,10,11
+    CONTROL         "Check1",IDC_CHECK37,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,144,97,10,11
+    CONTROL         "Check1",IDC_CHECK38,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,160,97,10,11
+    CONTROL         "Check1",IDC_CHECK39,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,177,97,10,11
+    CONTROL         "Check1",IDC_CHECK40,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,193,97,10,11
+    CONTROL         "Check1",IDC_CHECK41,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,209,97,10,11
+    CONTROL         "Check1",IDC_CHECK42,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,225,97,10,11
+    CONTROL         "Check1",IDC_CHECK43,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,241,97,10,11
+    CONTROL         "Check1",IDC_CHECK44,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,255,97,10,11
+    CONTROL         "Check1",IDC_CHECK45,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,270,97,10,11
+    CONTROL         "Check1",IDC_CHECK46,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,286,97,10,11
+    CONTROL         "Check1",IDC_CHECK47,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,301,97,10,11
+    CONTROL         "Check1",IDC_CHECK48,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,317,97,10,11
+    RTEXT           "Out alarm",IDC_STATIC,7,67,57,8
+    RTEXT           "video lost",IDC_STATIC,7,83,57,8
+    RTEXT           "dynamic detecting",IDC_STATIC,7,99,56,15
+    LTEXT           "1",IDC_STATIC,94,51,9,10
+    LTEXT           "2",IDC_STATIC,109,51,9,10
+    LTEXT           "3",IDC_STATIC,127,51,9,10
+    LTEXT           "4",IDC_STATIC,144,51,9,10
+    LTEXT           "5",IDC_STATIC,161,51,9,10
+    LTEXT           "6",IDC_STATIC,179,51,9,10
+    LTEXT           "7",IDC_STATIC,195,51,9,10
+    LTEXT           "8",IDC_STATIC,210,51,9,10
+    LTEXT           "9",IDC_STATIC,227,51,9,10
+    LTEXT           "10",IDC_STATIC,242,51,9,10
+    LTEXT           "11",IDC_STATIC,258,51,9,10
+    LTEXT           "12",IDC_STATIC,272,51,9,10
+    LTEXT           "13",IDC_STATIC,287,51,9,10
+    LTEXT           "14",IDC_STATIC,303,51,9,10
+    LTEXT           "15",IDC_STATIC,317,51,9,10
+    LTEXT           "0",IDC_STATIC,76,51,12,10
+    CONTROL         "Check1",IDC_CHECK49,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,73,114,10,11
+    CONTROL         "Check1",IDC_CHECK50,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,92,114,10,11
+    CONTROL         "Check1",IDC_CHECK51,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,109,114,10,11
+    CONTROL         "Check1",IDC_CHECK52,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,128,114,10,11
+    CONTROL         "Check1",IDC_CHECK53,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,144,114,10,11
+    CONTROL         "Check1",IDC_CHECK54,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,160,114,10,11
+    CONTROL         "Check1",IDC_CHECK55,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,177,114,10,11
+    CONTROL         "Check1",IDC_CHECK56,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,193,114,10,11
+    CONTROL         "Check1",IDC_CHECK57,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,209,114,10,11
+    CONTROL         "Check1",IDC_CHECK58,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,225,114,10,11
+    CONTROL         "Check1",IDC_CHECK59,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,241,114,10,11
+    CONTROL         "Check1",IDC_CHECK60,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,255,114,10,11
+    CONTROL         "Check1",IDC_CHECK61,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,270,114,10,11
+    CONTROL         "Check1",IDC_CHECK62,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,286,114,10,11
+    CONTROL         "Check1",IDC_CHECK63,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,301,114,10,11
+    CONTROL         "Check1",IDC_CHECK64,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,317,114,10,11
+    CONTROL         "Check1",IDC_CHECK65,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,73,132,10,11
+    CONTROL         "Check1",IDC_CHECK66,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,92,132,10,11
+    CONTROL         "Check1",IDC_CHECK67,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,109,132,10,11
+    CONTROL         "Check1",IDC_CHECK68,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,128,132,10,11
+    CONTROL         "Check1",IDC_CHECK69,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,144,132,10,11
+    CONTROL         "Check1",IDC_CHECK70,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,160,132,10,11
+    CONTROL         "Check1",IDC_CHECK71,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,177,132,10,11
+    CONTROL         "Check1",IDC_CHECK72,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,193,132,10,11
+    CONTROL         "Check1",IDC_CHECK73,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,209,132,10,11
+    CONTROL         "Check1",IDC_CHECK74,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,225,132,10,11
+    CONTROL         "Check1",IDC_CHECK75,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,241,132,10,11
+    CONTROL         "Check1",IDC_CHECK76,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,255,132,10,11
+    CONTROL         "Check1",IDC_CHECK77,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,270,132,10,11
+    CONTROL         "Check1",IDC_CHECK78,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,286,132,10,11
+    CONTROL         "Check1",IDC_CHECK79,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,301,132,10,11
+    CONTROL         "Check1",IDC_CHECK80,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,317,132,10,11
+    RTEXT           "Shelter alarm",IDC_STATIC,7,115,57,8
+    RTEXT           "Static alarm",IDC_STATIC,7,133,57,8
+    CONTROL         "Alarm_Arm_Disarm",IDC_CHECK_ARM_DISARM,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,73,31,80,10
+END
+
+IDD_DIALOG_CHN DIALOG DISCARDABLE  0, 0, 324, 27
+STYLE WS_CHILD
+FONT 9, "@新宋体"
+BEGIN
+    CHECKBOX        "",IDC_ARRAY_00,6,3,8,8,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_01,23,3,8,8,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_02,42,3,8,8,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_03,62,3,8,8,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_04,83,3,8,8,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_05,105,3,8,8,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_06,127,3,8,8,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_07,146,3,8,8,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_08,167,3,8,8,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_09,190,3,8,8,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_0A,212,3,8,8,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_0B,231,3,8,8,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_0C,249,3,8,8,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_0D,266,3,8,8,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_0E,286,3,8,8,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_0F,306,3,8,8,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_90,5,16,8,8,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_91,23,16,8,8,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_92,41,16,8,8,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_93,61,16,8,8,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_94,83,16,8,8,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_95,104,16,8,8,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_96,126,16,8,8,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_97,145,16,8,8,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_98,167,16,8,8,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_99,190,16,8,8,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_9A,211,16,8,8,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_9B,231,16,8,8,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_9C,249,16,8,8,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_9D,266,16,8,8,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_9E,285,16,8,8,NOT WS_TABSTOP
+    CHECKBOX        "",IDC_ARRAY_9F,305,16,8,8,NOT WS_TABSTOP
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "ClientDemo1 Microsoft \0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "ClientDemo1\0"
+            VALUE "LegalCopyright", "Copyright (C) 2007\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "ClientDemo1.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "ClientDemo1\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x809, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_CLIENTDEMO1_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 526
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 567
+    END
+
+    IDD_DIALOG_EQUIPALARM, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 420
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 266
+    END
+
+    IDD_ADD_GROUP, DIALOG
+    BEGIN
+        RIGHTMARGIN, 239
+    END
+
+    IDD_DIALOG_NEW_ALARM, DIALOG
+    BEGIN
+        RIGHTMARGIN, 510
+        TOPMARGIN, 12
+        BOTTOMMARGIN, 450
+    END
+
+    IDD_DIALOG_QUERYALARMSTATE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 359
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 267
+    END
+
+    IDD_DIALOG_CHN, DIALOG
+    BEGIN
+        RIGHTMARGIN, 322
+        BOTTOMMARGIN, 24
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "About ClientDemo1(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\ClientDemo1.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

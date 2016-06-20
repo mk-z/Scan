@@ -1,0 +1,570 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\IVS_VDemo.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\IVS_VDemo.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About IVS_VDemo"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,21,21
+    LTEXT           "IVS_VDemo 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2012",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_IVS_VDemo_DIALOG DIALOGEX 0, 0, 526, 405
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "IVS_VDemo"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "ProfileConfig",IDC_BTN_PROFILE_CFG,88,7,59,14
+    PUSHBUTTON      "TaskConfig",IDC_BTN_TASK_CFG,154,7,59,14
+    PUSHBUTTON      "ProjectConfig",IDC_BTN_PROJECT_CFG,220,7,59,14
+    PUSHBUTTON      "GetRealResult",IDC_BTN_LISTEN,286,7,59,14
+    PUSHBUTTON      "QueryReult",IDC_BTN_QUERY,352,7,59,14
+    GROUPBOX        "",IDC_STATIC_MAIN,107,40,405,349,NOT WS_VISIBLE
+    GROUPBOX        "DeviceList",IDC_STATIC_DEVLIST,13,40,94,349,NOT 
+                    WS_VISIBLE
+    PUSHBUTTON      "Login",IDC_BTN_LOGIN,6,7,50,14
+    GROUPBOX        "",IDC_STATIC_TEST,6,27,513,370
+END
+
+IDD_DLG_PROFILE DIALOG DISCARDABLE  0, 0, 518, 333
+STYLE WS_CHILD | WS_BORDER
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "Set",IDC_BTN_SET,461,317,50,14
+    CONTROL         "Tree1",IDC_TREE_PROFILE,"SysTreeView32",WS_BORDER | 
+                    WS_TABSTOP,3,14,93,256
+    PUSHBUTTON      "Add",IDC_BTN_ADD,13,280,63,14
+    PUSHBUTTON      "Delete",IDC_BTN_DELETE,13,300,63,14
+    GROUPBOX        "ProfileConfig",IDC_CONFIG_AREA,124,2,387,298
+    PUSHBUTTON      "Get",IDC_BTN_GET,389,317,50,14
+    GROUPBOX        "ProfilesTable",IDC_STATIC,1,2,99,323
+    PUSHBUTTON      "SavePage",IDC_BTN_SAVEPAGE,317,317,50,14,NOT WS_VISIBLE
+END
+
+IDD_DLG_TASK DIALOG DISCARDABLE  0, 0, 413, 319
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "Add",IDC_BTN_ADD_TASK,221,278,50,14
+    PUSHBUTTON      "GetTask",IDC_BTN_GET_TASK,273,305,50,14
+    GROUPBOX        "task",IDC_STATIC,11,6,375,34
+    LTEXT           "TaskName",IDC_STATIC,23,20,36,8
+    EDITTEXT        IDC_EDIT_TASKNAME,66,18,56,12,ES_AUTOHSCROLL
+    LTEXT           "ProfileName",IDC_STATIC,130,20,48,8
+    LTEXT           "DurationTime",IDC_STATIC,269,20,50,8
+    COMBOBOX        IDC_COMBO_DURATION,328,18,48,89,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "SubTasks",IDC_STATIC,12,45,375,222
+    COMBOBOX        IDC_COMBO_TASKLIST,169,280,48,98,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "TaskList",IDC_STATIC,120,284,40,8
+    CONTROL         "List1",IDC_LIST_SUBTASK,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,19,59,358,184
+    COMBOBOX        IDC_COMBO_PROFILENAME,183,18,80,90,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "SetTask",IDC_BTN_SET_TASK,325,305,50,14
+    PUSHBUTTON      "Modify",IDC_BTN_MODIFY_TASK,326,278,50,14,WS_DISABLED
+    PUSHBUTTON      "Delete",IDC_BTN_DELETE_TASK,274,278,50,14
+    GROUPBOX        "",IDC_STATIC,5,0,392,294
+    PUSHBUTTON      "DeleteItem",IDC_BTN_DEL_ITEM,274,252,50,14
+    PUSHBUTTON      "ClearItem",IDC_BTN_CLEAR_ITEM,325,252,50,14
+END
+
+IDD_DLG_PROJECT DIALOG DISCARDABLE  0, 0, 518, 340
+STYLE WS_CHILD | WS_BORDER
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "Set",IDC_BTN_SET,366,318,65,14
+    PUSHBUTTON      "Get",IDC_BTN_GET,441,318,65,14
+    COMBOBOX        IDC_COMBO_PROJECT,210,292,65,88,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Project List",IDC_STATIC,158,293,38,8
+    PUSHBUTTON      "AddProject",IDC_BTN_ADD,289,291,65,14
+    PUSHBUTTON      "DeleteProject",IDC_BTN_DEL,366,290,65,14
+    GROUPBOX        "OneProject",IDC_STATIC,7,7,504,257
+    GROUPBOX        "ProjectList",IDC_STATIC,135,280,374,30
+    GROUPBOX        "Project",IDC_STATIC,11,18,148,30
+    LTEXT           "Name",IDC_STATIC,16,30,20,8
+    EDITTEXT        IDC_EDIT_PROJECT_NAME,44,28,106,14,ES_AUTOHSCROLL
+    GROUPBOX        "TaskControl",IDC_STATIC,14,76,144,178
+    LTEXT           "task name",IDC_STATIC,17,94,40,8
+    LTEXT           "Start time",IDC_STATIC,17,125,43,8
+    LTEXT           "End time",IDC_STATIC,17,154,43,8
+    PUSHBUTTON      "AddItem",IDC_BTN_ADD_TASK,72,186,65,14
+    PUSHBUTTON      "DeleteItem",IDC_BTN_DEL_TASK,72,207,65,14
+    COMBOBOX        IDC_COMBO_TASK,64,93,83,98,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "ProjectInfo",IDC_STATIC,169,18,331,236
+    CONTROL         "List1",IDC_LIST_PROJECT_INFO,"SysListView32",WS_BORDER | 
+                    WS_TABSTOP,174,30,320,217
+    CONTROL         "DateTimePicker1",IDC_DATETIMEPICKER_START,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    WS_TABSTOP | 0x8,63,122,83,15
+    CONTROL         "DateTimePicker2",IDC_DATETIMEPICKER_END,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    WS_TABSTOP | 0x8,63,149,83,15
+    PUSHBUTTON      "ModifyProject",IDC_BTN_MODIFY,441,289,65,14,WS_DISABLED
+END
+
+IDD_DLG_GLOBAL DIALOG DISCARDABLE  0, 0, 304, 166
+STYLE WS_CHILD
+FONT 9, "宋体-PUA"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,247,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,247,24,50,14
+END
+
+IDD_DLG_LISTEN DIALOG DISCARDABLE  0, 0, 516, 342
+STYLE WS_CHILD | WS_BORDER
+FONT 9, "宋体"
+BEGIN
+    GROUPBOX        "ListenCondition",IDC_STATIC,5,10,505,70
+    CONTROL         "All",IDC_RADIO_LISTEN_ALL_DEVICES,"Button",
+                    BS_AUTORADIOBUTTON,245,30,53,10
+    CONTROL         "One Device",IDC_RADIO_LISTEN_ONE_DEVICE,"Button",
+                    BS_AUTORADIOBUTTON | WS_DISABLED,245,55,7,15
+    PUSHBUTTON      "Listen",IDC_BTN_START_LISTEN,396,25,53,15
+    CONTROL         "IPAddress1",IDC_LISTEN_IPADDRESS,"SysIPAddress32",
+                    WS_DISABLED | WS_TABSTOP,257,55,50,15
+    PUSHBUTTON      "StopListen",IDC_BTN_STOP_LISTEN,396,55,53,15
+    GROUPBOX        "Devices",IDC_STATIC,242,20,70,55
+    GROUPBOX        "Result",IDC_STATIC,10,95,500,201
+    CONTROL         "List1",IDC_LISTEN_LIST_RESULT,"SysListView32",
+                    LVS_REPORT | WS_BORDER | WS_TABSTOP,15,105,485,185
+    DEFPUSHBUTTON   "<<",IDC_LISTEN_BTN_PREPAGE,144,305,24,11
+    PUSHBUTTON      ">>",IDC_LISTEN_BTN_NEXTPAGE,285,305,24,11
+    EDITTEXT        IDC_LISTEN_EDIT_PAGEINDEX,175,305,30,11,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_LISTEN_EDIT_PAGESUM,235,305,30,11,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "Page/",IDC_STATIC,207,305,23,8
+    LTEXT           "Page",IDC_STATIC,268,305,19,8
+    PUSHBUTTON      ">>|",IDC_LISTEN_BTN_ENDPAGE,312,305,24,11
+    PUSHBUTTON      "|<<",IDC_LISTEN_BTN_FIRSTPAGE,117,305,24,11
+    EDITTEXT        IDC_LISTEN_EDIT_GOPAGE,342,305,28,11,ES_AUTOHSCROLL
+    PUSHBUTTON      "Go",IDC_LISTEN_BTN_GOPAGE,375,305,24,11
+    LTEXT           "WaitTime(s)",IDC_STATIC,326,32,56,8
+    EDITTEXT        IDC_LISTEN_EDIT_WAITTIME,326,55,59,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RESULT_TYPE,10,53,70,15,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Result Type",IDC_STATIC,15,32,56,8
+    LTEXT           "Result",IDC_STATIC,95,32,56,8
+    LTEXT           "Fail Cause",IDC_STATIC,165,32,56,8
+    EDITTEXT        IDC_COLLECTIVITY_STATE,90,53,70,15,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_FAILED_CAUSE,170,53,70,15,ES_AUTOHSCROLL | 
+                    ES_READONLY
+END
+
+IDD_DLG_QUERY DIALOG DISCARDABLE  0, 0, 518, 340
+STYLE WS_CHILD | WS_BORDER
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "<<",IDC_BTN_PREPAGE,179,319,32,14
+    PUSHBUTTON      ">>",IDC_BTN_NEXTPAGE,352,319,32,14
+    GROUPBOX        "QueryCondition",IDC_STATIC,7,7,504,80
+    GROUPBOX        "Result",IDC_STATIC,7,92,504,204
+    CONTROL         "List1",IDC_LIST_RESULT,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,9,102,495,188
+    LTEXT           "Start time",IDC_STATIC,12,29,32,8
+    LTEXT           "End time",IDC_STATIC,13,58,30,8
+    CONTROL         "DateTimePicker1",IDC_DATETIMEPICKER_START_DATE,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,49,23,63,
+                    15
+    CONTROL         "DateTimePicker2",IDC_DATETIMEPICKER_END_DATE,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,49,51,62,
+                    15
+    CONTROL         "DateTimePicker3",IDC_DATETIMEPICKER_START_TIME,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    WS_TABSTOP | 0x8,123,23,53,15
+    CONTROL         "DateTimePicker4",IDC_DATETIMEPICKER_END_TIME,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    WS_TABSTOP | 0x8,123,51,52,15
+    CONTROL         "All",IDC_RADIO_ALL_DEVICES,"Button",BS_AUTORADIOBUTTON,
+                    191,29,70,10
+    CONTROL         "One Device",IDC_RADIO_ONE_DEVICE,"Button",
+                    BS_AUTORADIOBUTTON | WS_DISABLED,191,52,9,10
+    PUSHBUTTON      "Query",IDC_BTN_QUERY,416,22,71,16
+    EDITTEXT        IDC_EDIT_PAGEINDEX,221,319,40,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT_PAGESUM,285,319,40,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "Page/",IDC_STATIC,263,322,20,8
+    LTEXT           "Page",IDC_STATIC,329,322,18,8
+    PUSHBUTTON      ">>|",IDC_BTN_ENDPAGE,387,319,32,14
+    PUSHBUTTON      "|<<",IDC_BTN_FIRSTPAGE,144,319,32,14
+    EDITTEXT        IDC_EDIT_GOPAGE,428,319,37,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Go",IDC_BTN_GOPAGE,471,319,32,14
+    CONTROL         "IPAddress1",IDC_IPADDRESS1,"SysIPAddress32",WS_DISABLED | 
+                    WS_TABSTOP,206,51,57,15
+    LTEXT           "WaitTime(ms)",IDC_STATIC,276,30,56,8
+    EDITTEXT        IDC_EDIT_WAITTIME,338,24,59,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "StopQuery",IDC_BTN_STOP_QUERY,417,50,70,16
+    GROUPBOX        "Devices",IDC_STATIC,186,17,84,59
+END
+
+IDD_DLG_DEVICE DIALOG DISCARDABLE  0, 0, 80, 350
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "Add",IDC_BTN_ADD,0,334,35,14
+    PUSHBUTTON      "Delete",IDC_BTN_DELETE,45,334,35,14
+    CONTROL         "Tree1",IDC_TREE_DEVICE,"SysTreeView32",WS_BORDER | 
+                    WS_TABSTOP,0,4,80,318
+END
+
+IDD_DLG_LOGIN DIALOG DISCARDABLE  0, 0, 187, 94
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Login"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,73,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,68,73,50,14
+    CONTROL         "IPAddress1",IDC_EDIT_IP,"SysIPAddress32",WS_TABSTOP,52,
+                    7,75,12
+    EDITTEXT        IDC_EDIT_PORT,136,7,30,11,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_USERNAME,52,28,75,11,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PASSWORD,52,47,75,11,ES_AUTOHSCROLL
+    LTEXT           "Ip && Port",IDC_STATIC,9,12,37,8
+    LTEXT           "UserName",IDC_STATIC,9,33,36,8
+    LTEXT           "Password",IDC_STATIC,9,52,33,8
+    PUSHBUTTON      "Quit",IDC_BTN_QUIT,129,73,50,14
+END
+
+IDD_DLG_PROFILE_INFO1 DIALOG DISCARDABLE  0, 0, 308, 221
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "ProfileName",IDC_STATIC_NAME,7,7,57,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,7,23,294,1
+    EDITTEXT        IDC_EDIT_PROFILE_NAME,76,7,88,12,ES_AUTOHSCROLL
+    CONTROL         "Enable",IDC_CHECK_ENABLE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,26,39,10
+    LTEXT           "MinDuration",IDC_STATIC_MINDURATION,7,43,56,8
+    LTEXT           "Threshold1",IDC_STATIC_1,7,60,38,8
+    LTEXT           "Threshold2",IDC_STATIC_2,7,100,38,8
+    EDITTEXT        IDC_EDIT_PROFILE_MINDURATION,75,38,56,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PROFILE_THRESHOLD1,75,57,56,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PROFILE_THRESHOLD2,75,96,56,12,ES_AUTOHSCROLL
+    LTEXT           "(0~65535)",IDC_STATIC,139,40,32,8
+    LTEXT           "(0~100)",IDC_STATIC,139,60,24,8
+    LTEXT           "(0~100)",IDC_STATIC,139,98,24,8
+    LTEXT           "Threshold1Up",IDC_STATIC_1UP,7,79,55,8
+    EDITTEXT        IDC_EDIT_PROFILE_THRESHOLD1_UP,75,76,56,12,
+                    ES_AUTOHSCROLL
+    LTEXT           "(0~100)",IDC_STATIC,139,79,24,8
+    LTEXT           "Threshold2Up",IDC_STATIC_2UP,7,122,55,8
+    EDITTEXT        IDC_EDIT_PROFILE_THRESHOLD2_UP,74,121,56,12,
+                    ES_AUTOHSCROLL
+    LTEXT           "(0~100)",IDC_STATIC,139,123,24,8
+    CONTROL         "UVDetection",IDC_CHECK_UVD,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,75,26,56,10
+END
+
+IDD_DLG_ADDDEVICE DIALOG DISCARDABLE  0, 0, 173, 108
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Add Device"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,87,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,116,87,50,14
+    CONTROL         "IPAddress1",IDC_EDIT_IP,"SysIPAddress32",WS_TABSTOP,52,
+                    7,75,12
+    EDITTEXT        IDC_EDIT_PORT,136,7,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_USERNAME,52,28,75,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PASSWORD,52,47,75,12,ES_AUTOHSCROLL
+    LTEXT           "Ip && Port",IDC_STATIC,9,12,38,8
+    LTEXT           "UserName",IDC_STATIC,8,33,36,8
+    LTEXT           "Password",IDC_STATIC,6,52,33,8
+    LTEXT           "ProtocolType",IDC_STATIC,8,67,44,8
+    EDITTEXT        IDC_EDIT1,52,66,75,12,ES_AUTOHSCROLL | WS_DISABLED
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "IVS_VDemo Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "IVS_VDemo\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2012\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "IVS_VDemo.EXE\0"
+            VALUE "ProductName", "IVS_VDemo 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_IVS_VDemo_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 519
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 397
+    END
+
+    IDD_DLG_PROFILE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 511
+        BOTTOMMARGIN, 331
+    END
+
+    IDD_DLG_TASK, DIALOG
+    BEGIN
+        RIGHTMARGIN, 405
+    END
+
+    IDD_DLG_PROJECT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 511
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 333
+    END
+
+    IDD_DLG_GLOBAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 297
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 159
+    END
+
+    IDD_DLG_LISTEN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 509
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 335
+    END
+
+    IDD_DLG_QUERY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 511
+        VERTGUIDE, 487
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 333
+        HORZGUIDE, 38
+        HORZGUIDE, 66
+    END
+
+    IDD_DLG_DEVICE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 71
+        BOTTOMMARGIN, 348
+    END
+
+    IDD_DLG_LOGIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_DLG_PROFILE_INFO1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 301
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 214
+    END
+
+    IDD_DLG_ADDDEVICE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 166
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 101
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "配置(&P)"
+    BEGIN
+        MENUITEM "参数表配置(&C)",              ID_MPROFILE
+        MENUITEM "任务表配置(&T)",              ID_MTASK
+        MENUITEM "计划表配置(&P)",              ID_MPROJECT
+        MENUITEM "全局表配置(&G)",              ID_MGLOBAL
+    END
+    POPUP "测试(&T)"
+    BEGIN
+        MENUITEM "订阅诊断结果",                ID_MLISTEN
+        MENUITEM "查询诊断结果",                ID_MFIND
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_DEVICETREEIMAGE     BITMAP  DISCARDABLE     "res\\DeviceTree.BMP"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 IVS_VDemo(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\IVS_VDemo.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

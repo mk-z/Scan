@@ -1,0 +1,918 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\DemoIVSb.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\DemoIVSb.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 DemoIVSb"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "DemoIVSb 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2012",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_DEMOIVSB_DIALOG DIALOGEX 0, 0, 652, 400
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "DemoIVSb"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "AlarmOn",IDC_MAIN_CHK_SWITCH,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,4,4,50,14
+    PUSHBUTTON      "Preview",IDC_MAIN_BTN_PREVIEW,60,4,50,14
+    PUSHBUTTON      "Config",IDC_MAIN_BTN_CONFIG,116,4,50,14
+    PUSHBUTTON      "AlarmInfo",IDC_MAIN_BTN_ALARM,172,4,50,14
+    PUSHBUTTON      "Logout",IDC_MAIN_BTN_LOGOUT,228,4,50,14
+END
+
+IDD_LOGIN DIALOG DISCARDABLE  0, 0, 164, 123
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_CAPTION | WS_SYSMENU
+CAPTION "Login"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "IPAddress1",IDC_LOGIN_IPADDR_IP,"SysIPAddress32",
+                    WS_TABSTOP,58,18,76,15
+    EDITTEXT        IDC_LOGIN_EDT_PORTNUM,58,38,40,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_LOGIN_EDT_USERNAME,58,57,58,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LOGIN_EDT_PSW,58,76,58,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    RTEXT           "IP",IDC_STATIC,16,20,36,15
+    RTEXT           "Port",IDC_STATIC,16,40,36,14
+    RTEXT           "UserName",IDC_STATIC,16,59,36,14
+    RTEXT           "Psw",IDC_STATIC,16,78,36,14
+    DEFPUSHBUTTON   "Login",IDOK,37,103,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,93,103,50,14
+    GROUPBOX        "",IDC_STATIC,6,2,152,96
+END
+
+IDD_SWITCH DIALOG DISCARDABLE  0, 0, 160, 280
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Switch"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "Start",IDOK,28,256,50,14
+    PUSHBUTTON      "Exit",IDCANCEL,81,256,50,14
+    GROUPBOX        "ChnSelect",IDC_SWITCH_STATIC_CHN,10,6,140,244
+    CONTROL         "Tree1",IDC_SWITCH_TREE_CHN,"SysTreeView32",
+                    TVS_CHECKBOXES | WS_TABSTOP,20,20,120,206
+    PUSHBUTTON      "SelAll",IDC_SWITCH_BTN_CHNSELALL,28,231,50,14
+    PUSHBUTTON      "CancelAll",IDC_SWITCH_BTN_CHNCOUNTERSEL,81,231,50,14
+END
+
+IDD_CONFIG DIALOG DISCARDABLE  0, 0, 652, 382
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "Tab2",IDC_CONFIG_TAB,"SysTabControl32",0x0,4,4,644,374
+END
+
+IDD_CONFIG_GLOBAL DIALOG DISCARDABLE  0, 0, 640, 358
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "CurrentChannel",IDC_STATIC,4,4,57,8
+    EDITTEXT        IDC_CFGGLO_EDT_CHANNELNAME,4,18,100,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "Scene",IDC_STATIC,4,40,21,8
+    COMBOBOX        IDC_CFGGLO_CMB_SCENE,4,54,100,58,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "SetCfg",IDC_CFGGLO_BTN_SET,14,340,36,14
+    PUSHBUTTON      "GetCfg",IDC_CFGGLO_BTN_GET,58,340,36,14
+    CONTROL         "Tree1",IDC_CFGGLO_TREE_REGION,"SysTreeView32",
+                    TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | 
+                    WS_BORDER | WS_TABSTOP,530,17,98,226
+    PUSHBUTTON      "AddArea",IDC_CFGGLO_BTN_ADDAERA,530,248,48,14
+    PUSHBUTTON      "DelArea",IDC_CFGGLO_BTN_DELAREA,580,248,48,14
+    GROUPBOX        "CalibrateZone",IDC_STATIC,522,4,114,350
+    GROUPBOX        "Staff",IDC_STATIC,526,268,106,78
+    PUSHBUTTON      "AddStaff",IDC_CFGGLO_BTN_ADDRULER,530,322,48,14
+    PUSHBUTTON      "DelStaff",IDC_CFGGLO_BTN_DELRULER,580,322,48,14
+    CONTROL         "VerStaff",IDC_CFGGLO_RADIO_VRULER,"Button",
+                    BS_AUTORADIOBUTTON,530,288,48,10
+    CONTROL         "HorStaff",IDC_CFGGLO_RADIO_HRULER,"Button",
+                    BS_AUTORADIOBUTTON,580,288,48,10
+    EDITTEXT        IDC_CFGGLO_EDT_REALLEN,580,303,30,14,ES_AUTOHSCROLL
+    LTEXT           "RealLen",IDC_STATIC,530,305,29,8
+    LTEXT           "m",IDC_STATIC,620,304,8,8
+    PUSHBUTTON      "出厂设置",IDC_CFGGLO_BTN_RESET,36,318,36,14,NOT 
+                    WS_VISIBLE
+    PUSHBUTTON      "重建背景",IDC_CFGGLO_BTN_REDRAW,36,296,36,14,NOT 
+                    WS_VISIBLE
+    CONTROL         "",IDC_CFGGLO_STATIC_PREVIEW,"Static",SS_GRAYRECT,108,4,
+                    410,350
+END
+
+IDD_CONFIG_MODULE DIALOG DISCARDABLE  0, 0, 640, 358
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    GROUPBOX        "ModuleInfo",IDC_STATIC,522,4,114,350
+    CONTROL         "Snap",IDC_CFGMOD_CHK_ENCAP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,526,16,32,10
+    CONTROL         "Tree1",IDC_CFGMOD_TREE_TRACKREGION,"SysTreeView32",
+                    TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | 
+                    WS_BORDER | WS_TABSTOP,526,30,106,215
+    PUSHBUTTON      "AddDetect",IDC_CFGMOD_BTN_ADDDETEC,525,250,53,14
+    PUSHBUTTON      "AddExclude",IDC_CFGMOD_BTN_ADDEXCLUD,580,250,53,14
+    PUSHBUTTON      "Redraw",IDC_CFGMOD_BTN_REDRAW,525,265,53,14
+    PUSHBUTTON      "Delete",IDC_CFGMOD_BTN_DELREGION,580,265,53,14
+    LTEXT           "ObjType",IDC_STATIC,526,285,53,8
+    COMBOBOX        IDC_CFGMOD_CMB_OBJTYPE,584,283,48,56,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Balance",IDC_STATIC,526,301,53,8
+    COMBOBOX        IDC_CFGMOD_CMB_BANLANCE,584,300,48,49,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Sensi",IDC_STATIC,526,321,21,8
+    CONTROL         "Slider1",IDC_CFGMOD_SLID_SENSI,"msctls_trackbar32",
+                    TBS_TOP | TBS_NOTICKS | WS_TABSTOP,573,321,37,10
+    LTEXT           "Low",IDC_STATIC,562,321,13,8
+    LTEXT           "High",IDC_STATIC,615,322,17,8
+    PUSHBUTTON      "Filter",IDC_CFGMOD_BTN_FILTER,582,336,50,14
+    CONTROL         "Enable",IDC_CFGMOD_CHK_ENFILTER,"Button",
+                    BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,531,338,40,
+                    10
+    LTEXT           "CurrentChannel",IDC_STATIC,4,4,57,8
+    GROUPBOX        "ModuleList",IDC_STATIC,4,38,100,270
+    EDITTEXT        IDC_CFGMOD_EDT_CHANNELNAME,4,18,100,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    PUSHBUTTON      "SetCfg",IDC_CFGMOD_BTN_SET,14,340,36,14
+    PUSHBUTTON      "GetCfg",IDC_CFGMOD_BTN_GET,58,340,36,14
+    CONTROL         "Tree1",IDC_CFGMOD_TREE_MODLIST,"SysTreeView32",
+                    TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | 
+                    WS_BORDER | WS_TABSTOP,14,49,80,253
+    PUSHBUTTON      "AddMod",IDC_CFGMOD_BTN_ADDMOD,14,322,36,14
+    PUSHBUTTON      "DelMod",IDC_CFGMOD_BTN_DELMOD,58,322,36,14
+    CONTROL         "",IDC_CFGMOD_STATIC_PREVIEW,"Static",SS_GRAYRECT,108,4,
+                    410,350
+END
+
+IDD_CONFIG_RULES DIALOG DISCARDABLE  0, 0, 640, 358
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "AddRule",IDC_CFGRULE_BTN_ADDRULE,526,4,50,14
+    PUSHBUTTON      "DelRule",IDC_CFGRULE_BTN_DELRULE,582,4,50,14
+    GROUPBOX        "RuleInfo",IDC_STATIC,522,22,114,332
+    EDITTEXT        IDC_CFGRULE_EDT_RULENAME,576,30,56,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_CFGRULE_CMB_RULETYPE,576,46,56,132,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "RuleName",IDC_STATIC,526,33,33,8
+    LTEXT           "RuleType",IDC_STATIC,526,49,33,8
+    CONTROL         "",IDC_CFGRULE_STATIC_PREVIEW,"Static",SS_GRAYRECT,108,4,
+                    410,350
+    LTEXT           "CurrentChannel",IDC_STATIC,4,4,57,8
+    GROUPBOX        "RuleList",IDC_STATIC,4,38,100,270
+    EDITTEXT        IDC_CFGRULE_EDT_CHANNELNAME,4,18,100,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    PUSHBUTTON      "SetCfg",IDC_CFGRULE_BTN_SET,14,340,36,14
+    PUSHBUTTON      "GetCfg",IDC_CFGRULE_BTN_GET,58,340,36,14
+    PUSHBUTTON      "Redraw",IDC_CFGRULE_BTN_REDRAW,36,318,36,14
+    CONTROL         "Tree1",IDC_CFGRULE_TREE_RULELIST,"SysTreeView32",
+                    TVS_CHECKBOXES | WS_BORDER | WS_TABSTOP,14,49,80,253
+END
+
+IDD_PREVIEW DIALOG DISCARDABLE  0, 0, 652, 382
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "",IDC_PREVIEW_STATIC_PREVIEW,"Static",SS_GRAYRECT | 
+                    SS_NOTIFY,4,4,500,374
+    COMBOBOX        IDC_PREVIEW_CMB_CHANNEL,508,4,140,374,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "List1",IDC_PREVIEW_LIST_ALARM,"SysListView32",
+                    LVS_REPORT | WS_BORDER | WS_TABSTOP,508,22,140,356
+END
+
+IDD_ALARM DIALOG DISCARDABLE  0, 0, 652, 382
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "List1",IDC_ALARM_LIST_ALARMINFO,"SysListView32",
+                    LVS_REPORT | WS_BORDER | WS_TABSTOP,508,22,140,356
+    CONTROL         "DateTimePicker1",IDC_ALARM_DTP_STARTDATE,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,45,342,
+                    59,15
+    CONTROL         "DateTimePicker2",IDC_ALARM_DTP_STARTTIME,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    WS_TABSTOP | 0x8,113,342,51,15
+    CONTROL         "DateTimePicker1",IDC_ALARM_DTP_ENDDATE,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,45,362,
+                    59,15
+    CONTROL         "DateTimePicker2",IDC_ALARM_DTP_ENDTIME,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    WS_TABSTOP | 0x8,113,362,51,15
+    CTEXT           "Begin Time",IDC_STATIC,4,345,41,8
+    CTEXT           "End Time",IDC_STATIC,4,365,41,8
+    CONTROL         "Tree1",IDC_ALARM_TREE_RULESEL,"SysTreeView32",
+                    TVS_CHECKBOXES | WS_BORDER | WS_TABSTOP,177,342,327,36
+    CONTROL         "",IDC_ALARM_STATIC_VIEW,"Static",SS_GRAYRECT,4,4,500,
+                    334
+    COMBOBOX        IDC_ALARM_CMB_CHANNEL,508,4,140,224,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_SUBDLG_RULE01_CROSSFENCE DIALOG DISCARDABLE  0, 0, 106, 288
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "SupportedObjType",IDC_STATIC,0,0,105,8
+    CONTROL         "Tree1",IDC_RULE1_TREE_OBJTYPE,"SysTreeView32",
+                    TVS_CHECKBOXES | WS_BORDER | WS_TABSTOP,0,10,105,50
+    LTEXT           "Direction",IDC_STATIC,0,64,37,8
+    COMBOBOX        IDC_RULE1_CMB_DIRECTION,51,62,55,62,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Filter",IDC_STATIC,0,80,105,34
+    CONTROL         "Global",IDC_RULE1_RADIO_GFILTER,"Button",
+                    BS_AUTORADIOBUTTON,8,94,40,10
+    CONTROL         "Custom",IDC_RULE1_RADIO_CFILTER,"Button",
+                    BS_AUTORADIOBUTTON,52,94,40,10
+END
+
+IDD_SUBDLG_RULE02_CROSSLINE DIALOG DISCARDABLE  0, 0, 106, 288
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "SupportedObjType",IDC_STATIC,0,0,105,8
+    CONTROL         "Tree1",IDC_RULE2_TREE_OBJTYPE,"SysTreeView32",
+                    TVS_CHECKBOXES | WS_BORDER | WS_TABSTOP,0,10,105,50
+    LTEXT           "Direction",IDC_STATIC,0,64,37,8
+    COMBOBOX        IDC_RULE2_CMB_DIRECTION,51,62,55,54,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Filter",IDC_STATIC,1,98,105,34
+    CONTROL         "Global",IDC_RULE2_RADIO_GFILTER,"Button",
+                    BS_AUTORADIOBUTTON,8,112,40,10
+    CONTROL         "Custom",IDC_RULE2_RADIO_CFILTER,"Button",
+                    BS_AUTORADIOBUTTON,53,112,40,10
+    LTEXT           "TriggerPos",IDC_STATIC,0,82,41,8
+    COMBOBOX        IDC_RULE2_CMB_TRIGGERPOS,51,80,55,72,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_SUBDLG_RULE03_CROSSREGION DIALOG DISCARDABLE  0, 0, 106, 288
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "SupportedObjType",IDC_STATIC,0,0,105,8
+    CONTROL         "Tree1",IDC_RULE3_TREE_OBJTYPE,"SysTreeView32",
+                    TVS_CHECKBOXES | WS_BORDER | WS_TABSTOP,0,10,105,50
+    LTEXT           "SupportedActionType",IDC_STATIC,0,62,105,8
+    CONTROL         "Tree2",IDC_RULE3_TREE_ACTIONTYPE,"SysTreeView32",
+                    TVS_CHECKBOXES | WS_BORDER | WS_TABSTOP,0,72,105,50
+    LTEXT           "Direction",IDC_STATIC,0,126,36,8
+    COMBOBOX        IDC_RULE3_CMB_DIRECTION,52,124,55,52,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_RULE3_EDT_MINTARG,52,140,40,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_RULE3_EDT_MAXTARG,52,158,40,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_RULE3_EDT_MINDUR,52,176,40,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "MinTargNum",IDC_STATIC,0,143,52,8
+    LTEXT           "MaxTargNum",IDC_STATIC,0,161,52,8
+    LTEXT           "MinDurTime",IDC_STATIC,0,179,52,8
+    LTEXT           "RepInterval",IDC_STATIC,0,197,45,8
+    EDITTEXT        IDC_RULE3_EDT_REPORTINTERVAL,52,194,40,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "Sec",IDC_STATIC,93,179,13,8
+    LTEXT           "Sec",IDC_STATIC,93,197,13,8
+    GROUPBOX        "Filter",IDC_STATIC,0,212,105,34
+    CONTROL         "Global",IDC_RULE3_RADIO_GFILTER,"Button",
+                    BS_AUTORADIOBUTTON,8,226,40,10
+    CONTROL         "Custom",IDC_RULE3_RADIO_CFILTER,"Button",
+                    BS_AUTORADIOBUTTON,52,226,40,10
+END
+
+IDD_SUBDLG_RULE04_MOVE DIALOG DISCARDABLE  0, 0, 106, 288
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "SupportedObjType",IDC_STATIC,0,0,105,8
+    CONTROL         "Tree1",IDC_RULE4_TREE_OBJTYPE,"SysTreeView32",
+                    TVS_CHECKBOXES | WS_BORDER | WS_TABSTOP,0,10,105,50
+    LTEXT           "DetectType",IDC_STATIC,0,62,105,8
+    CONTROL         "Tree2",IDC_RULE4_TREE_DETECTTYPE,"SysTreeView32",
+                    TVS_CHECKBOXES | WS_BORDER | WS_TABSTOP,0,72,105,50
+    LTEXT           "Sensi",IDC_STATIC,0,128,33,8
+    CONTROL         "Slider1",IDC_RULE4_SLID_SENSI,"msctls_trackbar32",
+                    TBS_TOP | TBS_NOTICKS | WS_TABSTOP,47,128,37,10
+    LTEXT           "Low",IDC_STATIC,36,128,13,8
+    LTEXT           "High",IDC_STATIC,89,128,17,8
+    EDITTEXT        IDC_RULE4_EDT_MINDUR,52,144,40,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "MinDurTime",IDC_STATIC,0,147,41,8
+    LTEXT           "Sec",IDC_STATIC,93,147,13,8
+    GROUPBOX        "Filter",IDC_STATIC,1,164,105,34
+    CONTROL         "Global",IDC_RULE4_RADIO_GFILTER,"Button",
+                    BS_AUTORADIOBUTTON,8,178,40,10
+    CONTROL         "Custom",IDC_RULE4_RADIO_CFILTER,"Button",
+                    BS_AUTORADIOBUTTON,53,178,40,10
+END
+
+IDD_SUBDLG_RULE05_LEFT DIALOG DISCARDABLE  0, 0, 106, 288
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "TriggerPos",IDC_STATIC,0,2,41,8
+    COMBOBOX        IDC_RULE5_CMB_TRIGGERPOS,51,0,55,72,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_RULE5_EDT_MINDUR,52,18,40,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "MinDurTime",IDC_STATIC,0,21,41,8
+    LTEXT           "Sec",IDC_STATIC,93,21,13,8
+    GROUPBOX        "Filter",IDC_STATIC,1,38,105,34
+    CONTROL         "Global",IDC_RULE5_RADIO_GFILTER,"Button",
+                    BS_AUTORADIOBUTTON,8,52,40,10
+    CONTROL         "Custom",IDC_RULE5_RADIO_CFILTER,"Button",
+                    BS_AUTORADIOBUTTON,53,52,40,10
+END
+
+IDD_SUBDLG_RULE06_PARKING DIALOG DISCARDABLE  0, 0, 106, 288
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "TriggerPos",IDC_STATIC,0,2,41,8
+    COMBOBOX        IDC_RULE6_CMB_TRIGGERPOS,51,0,55,70,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_RULE6_EDT_MINDUR,52,18,40,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "MinDurTime",IDC_STATIC,0,21,41,8
+    LTEXT           "Sec",IDC_STATIC,93,21,13,8
+    GROUPBOX        "Filter",IDC_STATIC,1,38,105,34
+    CONTROL         "Global",IDC_RULE6_RADIO_GFILTER,"Button",
+                    BS_AUTORADIOBUTTON,8,52,40,10
+    CONTROL         "Custom",IDC_RULE6_RADIO_CFILTER,"Button",
+                    BS_AUTORADIOBUTTON,53,52,40,10
+END
+
+IDD_SUBDLG_RULE07_PRESERV DIALOG DISCARDABLE  0, 0, 106, 288
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    EDITTEXT        IDC_RULE7_EDT_MINDUR,52,0,40,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "MinDurTime",IDC_STATIC,0,3,41,8
+    LTEXT           "Sec",IDC_STATIC,93,3,13,8
+END
+
+IDD_SUBDLG_RULE08_RETROGRA DIALOG DISCARDABLE  0, 0, 106, 288
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "SupportedObjType",IDC_STATIC,0,0,105,8
+    CONTROL         "Tree1",IDC_RULE8_TREE_OBJTYPE,"SysTreeView32",
+                    TVS_CHECKBOXES | WS_BORDER | WS_TABSTOP,0,10,105,50
+    LTEXT           "TriggerPos",IDC_STATIC,0,68,41,8
+    COMBOBOX        IDC_RULE8_CMB_TRIGGERPOS,51,66,55,68,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Sensi",IDC_STATIC,0,84,21,8
+    CONTROL         "Slider1",IDC_RULE8_SLID_SENSI,"msctls_trackbar32",
+                    TBS_TOP | TBS_NOTICKS | WS_TABSTOP,49,84,37,10
+    LTEXT           "Low",IDC_STATIC,36,84,13,8
+    LTEXT           "High",IDC_STATIC,89,84,17,8
+    GROUPBOX        "Filter",IDC_STATIC,0,100,105,34
+    CONTROL         "Global",IDC_RULE8_RADIO_GFILTER,"Button",
+                    BS_AUTORADIOBUTTON,8,114,40,10
+    CONTROL         "Custom",IDC_RULE8_RADIO_CFILTER,"Button",
+                    BS_AUTORADIOBUTTON,49,114,50,10
+    PUSHBUTTON      "绘制方向线",IDC_RULE8_BTN_DRAWDIRECTION,27,140,50,14,
+                    NOT WS_VISIBLE
+END
+
+IDD_SUBDLG_RULE09_STAY DIALOG DISCARDABLE  0, 0, 106, 288
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "SupportedObjType",IDC_STATIC,0,0,105,8
+    CONTROL         "Tree1",IDC_RULE9_TREE_OBJTYPE,"SysTreeView32",
+                    TVS_CHECKBOXES | WS_BORDER | WS_TABSTOP,0,10,105,50
+    EDITTEXT        IDC_RULE9_EDT_MINDUR,52,66,40,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "MinDurTime",IDC_STATIC,0,69,41,8
+    LTEXT           "RepInterval",IDC_STATIC,0,87,45,8
+    EDITTEXT        IDC_RULE9_EDT_REPORTINTERVAL,52,84,40,14,ES_AUTOHSCROLL
+    LTEXT           "Sec",IDC_STATIC,93,69,13,8
+    LTEXT           "Sec",IDC_STATIC,93,87,13,8
+    GROUPBOX        "Filter",IDC_STATIC,0,102,105,34
+    CONTROL         "Global",IDC_RULE9_RADIO_GFILTER,"Button",
+                    BS_AUTORADIOBUTTON,8,116,40,10
+    CONTROL         "Custom",IDC_RULE9_RADIO_CFILTER,"Button",
+                    BS_AUTORADIOBUTTON,52,116,40,10
+END
+
+IDD_SUBDLG_RULE10_TAKENAWAY DIALOG DISCARDABLE  0, 0, 106, 288
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "TriggerPos",IDC_STATIC,0,2,41,8
+    COMBOBOX        IDC_RULE10_CMB_TRIGGERPOS,51,0,55,72,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_RULE10_EDT_MINDUR,52,18,40,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "MinDurTime",IDC_STATIC,0,21,41,8
+    LTEXT           "Sec",IDC_STATIC,93,21,13,8
+    GROUPBOX        "Filter",IDC_STATIC,1,38,105,34
+    CONTROL         "Global",IDC_RULE10_RADIO_GFILTER,"Button",
+                    BS_AUTORADIOBUTTON,8,52,40,10
+    CONTROL         "Custom",IDC_RULE10_RADIO_CFILTER,"Button",
+                    BS_AUTORADIOBUTTON,53,52,40,10
+END
+
+IDD_SUBDLG_RULE11_VIDEOABNORMAL DIALOG DISCARDABLE  0, 0, 106, 288
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "DetectType",IDC_STATIC,0,0,105,8
+    CONTROL         "Tree2",IDC_RULE11_TREE_DETECTTYPE,"SysTreeView32",
+                    TVS_CHECKBOXES | WS_BORDER | WS_TABSTOP,0,10,105,50
+    EDITTEXT        IDC_RULE11_EDT_MINDUR,52,66,40,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "MinDurTime",IDC_STATIC,0,69,41,8
+    LTEXT           "Sec",IDC_STATIC,93,69,13,8
+    LTEXT           "Sensi",IDC_STATIC,0,86,21,8
+    CONTROL         "Slider1",IDC_RULE11_SLID_SENSI,"msctls_trackbar32",
+                    TBS_TOP | TBS_NOTICKS | WS_TABSTOP,47,86,42,10
+    LTEXT           "Low",IDC_STATIC,36,86,13,8
+    LTEXT           "High",IDC_STATIC,89,86,17,8
+END
+
+IDD_SUBDLG_RULE12_WANDER DIALOG DISCARDABLE  0, 0, 106, 288
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "SupportedObjType",IDC_STATIC,0,0,105,8
+    CONTROL         "Tree1",IDC_RULE12_TREE_OBJTYPE,"SysTreeView32",
+                    TVS_CHECKBOXES | WS_BORDER | WS_TABSTOP,0,10,105,50
+    EDITTEXT        IDC_RULE12_EDT_MINDUR,52,66,40,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "MinDurTime",IDC_STATIC,0,69,41,8
+    LTEXT           "RepInterval",IDC_STATIC,0,87,45,8
+    EDITTEXT        IDC_RULE12_EDT_REPORTINTERVAL,52,84,40,14,ES_AUTOHSCROLL
+    LTEXT           "Sec",IDC_STATIC,93,69,13,8
+    LTEXT           "Sec",IDC_STATIC,93,87,13,8
+    GROUPBOX        "Filter",IDC_STATIC,0,102,105,34
+    CONTROL         "Global",IDC_RULE12_RADIO_GFILTER,"Button",
+                    BS_AUTORADIOBUTTON,8,116,40,10
+    CONTROL         "Custom",IDC_RULE12_RADIO_CFILTER,"Button",
+                    BS_AUTORADIOBUTTON,52,116,40,10
+END
+
+IDD_SUBDLG_LOGO DIALOGEX 0, 0, 187, 46
+STYLE WS_POPUP
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "Progress1",IDC_PROGRESS,"msctls_progress32",WS_BORDER,6,
+                    5,175,16
+    CONTROL         "Initializing...",IDC_STATIC,"Static",SS_SIMPLE | 
+                    SS_CENTERIMAGE | WS_BORDER | WS_GROUP,6,26,175,14,
+                    WS_EX_CLIENTEDGE
+END
+
+IDD_TARGET_FILTER DIALOG DISCARDABLE  0, 0, 523, 305
+STYLE DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Target Filter"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    LTEXT           "",IDC_STATIC_VEDIO_VIEW,7,7,356,283
+    GROUPBOX        "TargetFilter",IDC_STATIC,365,7,151,215
+    LTEXT           "FilterType",IDC_STATIC,373,18,39,10
+    COMBOBOX        IDC_COMBO_FILTER_PATTERN,427,15,68,88,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "FilterInfo",IDC_STATIC,375,36,133,174
+    CONTROL         "HeightWidth",IDC_CHECK_RECTANGLE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,385,49,64,11
+    LTEXT           "FilterMode",IDC_STATIC,383,72,41,8
+    COMBOBOX        IDC_COMBO_FILTER_TYPE,427,70,68,72,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "OK",IDC_BTN_FILTER_OK,374,265,50,14
+    PUSHBUTTON      "Cancel",IDC_BTN_FILTER_CANCEL,441,265,50,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "DemoIVSb Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "DemoIVSb\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2012\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "DemoIVSb.EXE\0"
+            VALUE "ProductName", "DemoIVSb 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_DEMOIVSB_DIALOG, DIALOG
+    BEGIN
+        VERTGUIDE, 4
+        VERTGUIDE, 54
+        VERTGUIDE, 60
+        VERTGUIDE, 110
+        VERTGUIDE, 116
+        VERTGUIDE, 166
+        VERTGUIDE, 172
+        VERTGUIDE, 222
+        VERTGUIDE, 228
+        VERTGUIDE, 648
+        HORZGUIDE, 4
+        HORZGUIDE, 18
+        HORZGUIDE, 22
+        HORZGUIDE, 382
+    END
+
+    IDD_LOGIN, DIALOG
+    BEGIN
+        VERTGUIDE, 6
+        VERTGUIDE, 16
+        VERTGUIDE, 52
+        VERTGUIDE, 58
+        VERTGUIDE, 116
+        VERTGUIDE, 158
+        HORZGUIDE, 6
+        HORZGUIDE, 18
+        HORZGUIDE, 33
+        HORZGUIDE, 38
+        HORZGUIDE, 52
+        HORZGUIDE, 57
+        HORZGUIDE, 71
+        HORZGUIDE, 76
+        HORZGUIDE, 90
+        HORZGUIDE, 117
+    END
+
+    IDD_SWITCH, DIALOG
+    BEGIN
+        VERTGUIDE, 4
+        VERTGUIDE, 10
+        VERTGUIDE, 20
+        VERTGUIDE, 28
+        VERTGUIDE, 131
+        VERTGUIDE, 140
+        VERTGUIDE, 150
+        HORZGUIDE, 10
+        HORZGUIDE, 20
+        HORZGUIDE, 226
+        HORZGUIDE, 250
+        HORZGUIDE, 256
+        HORZGUIDE, 270
+        HORZGUIDE, 276
+    END
+
+    IDD_CONFIG, DIALOG
+    BEGIN
+        VERTGUIDE, 4
+        VERTGUIDE, 648
+        HORZGUIDE, 4
+        HORZGUIDE, 378
+    END
+
+    IDD_CONFIG_GLOBAL, DIALOG
+    BEGIN
+        VERTGUIDE, 4
+        VERTGUIDE, 104
+        VERTGUIDE, 108
+        VERTGUIDE, 518
+        VERTGUIDE, 522
+        VERTGUIDE, 526
+        VERTGUIDE, 530
+        VERTGUIDE, 580
+        VERTGUIDE, 628
+        VERTGUIDE, 632
+        VERTGUIDE, 636
+        HORZGUIDE, 4
+        HORZGUIDE, 354
+    END
+
+    IDD_CONFIG_MODULE, DIALOG
+    BEGIN
+        VERTGUIDE, 4
+        VERTGUIDE, 104
+        VERTGUIDE, 108
+        VERTGUIDE, 518
+        VERTGUIDE, 522
+        VERTGUIDE, 526
+        VERTGUIDE, 579
+        VERTGUIDE, 632
+        VERTGUIDE, 636
+        HORZGUIDE, 4
+        HORZGUIDE, 16
+        HORZGUIDE, 26
+        HORZGUIDE, 30
+        HORZGUIDE, 336
+        HORZGUIDE, 350
+        HORZGUIDE, 354
+    END
+
+    IDD_CONFIG_RULES, DIALOG
+    BEGIN
+        VERTGUIDE, 4
+        VERTGUIDE, 14
+        VERTGUIDE, 36
+        VERTGUIDE, 72
+        VERTGUIDE, 94
+        VERTGUIDE, 104
+        VERTGUIDE, 108
+        VERTGUIDE, 518
+        VERTGUIDE, 522
+        VERTGUIDE, 526
+        VERTGUIDE, 576
+        VERTGUIDE, 632
+        VERTGUIDE, 636
+        HORZGUIDE, 4
+        HORZGUIDE, 18
+        HORZGUIDE, 38
+        HORZGUIDE, 49
+        HORZGUIDE, 62
+        HORZGUIDE, 302
+        HORZGUIDE, 308
+        HORZGUIDE, 318
+        HORZGUIDE, 354
+    END
+
+    IDD_PREVIEW, DIALOG
+    BEGIN
+        VERTGUIDE, 4
+        VERTGUIDE, 504
+        VERTGUIDE, 508
+        VERTGUIDE, 648
+        HORZGUIDE, 4
+        HORZGUIDE, 16
+        HORZGUIDE, 22
+        HORZGUIDE, 378
+    END
+
+    IDD_ALARM, DIALOG
+    BEGIN
+        VERTGUIDE, 4
+        VERTGUIDE, 45
+        VERTGUIDE, 504
+        VERTGUIDE, 508
+        VERTGUIDE, 648
+        HORZGUIDE, 4
+        HORZGUIDE, 16
+        HORZGUIDE, 22
+        HORZGUIDE, 338
+        HORZGUIDE, 342
+        HORZGUIDE, 359
+        HORZGUIDE, 362
+        HORZGUIDE, 378
+    END
+
+    IDD_SUBDLG_RULE01_CROSSFENCE, DIALOG
+    BEGIN
+        VERTGUIDE, 8
+        HORZGUIDE, 8
+        HORZGUIDE, 10
+        HORZGUIDE, 60
+        HORZGUIDE, 62
+        HORZGUIDE, 74
+        HORZGUIDE, 80
+        HORZGUIDE, 94
+    END
+
+    IDD_SUBDLG_RULE02_CROSSLINE, DIALOG
+    BEGIN
+        VERTGUIDE, 8
+        HORZGUIDE, 74
+        HORZGUIDE, 80
+        HORZGUIDE, 92
+        HORZGUIDE, 98
+        HORZGUIDE, 112
+    END
+
+    IDD_SUBDLG_RULE03_CROSSREGION, DIALOG
+    BEGIN
+        VERTGUIDE, 8
+        VERTGUIDE, 52
+        HORZGUIDE, 8
+        HORZGUIDE, 10
+        HORZGUIDE, 60
+        HORZGUIDE, 62
+        HORZGUIDE, 70
+        HORZGUIDE, 72
+        HORZGUIDE, 122
+        HORZGUIDE, 124
+        HORZGUIDE, 136
+        HORZGUIDE, 140
+        HORZGUIDE, 154
+        HORZGUIDE, 158
+        HORZGUIDE, 172
+        HORZGUIDE, 176
+        HORZGUIDE, 190
+        HORZGUIDE, 194
+        HORZGUIDE, 208
+        HORZGUIDE, 212
+        HORZGUIDE, 226
+    END
+
+    IDD_SUBDLG_RULE04_MOVE, DIALOG
+    BEGIN
+        VERTGUIDE, 8
+        VERTGUIDE, 84
+        HORZGUIDE, 122
+        HORZGUIDE, 128
+        HORZGUIDE, 138
+        HORZGUIDE, 144
+        HORZGUIDE, 158
+        HORZGUIDE, 164
+        HORZGUIDE, 178
+    END
+
+    IDD_SUBDLG_RULE05_LEFT, DIALOG
+    BEGIN
+        VERTGUIDE, 8
+        VERTGUIDE, 49
+        VERTGUIDE, 99
+        HORZGUIDE, 12
+        HORZGUIDE, 18
+        HORZGUIDE, 52
+    END
+
+    IDD_SUBDLG_RULE06_PARKING, DIALOG
+    BEGIN
+        VERTGUIDE, 8
+        HORZGUIDE, 52
+    END
+
+    IDD_SUBDLG_RULE09_STAY, DIALOG
+    BEGIN
+        HORZGUIDE, 60
+        HORZGUIDE, 66
+    END
+
+    IDD_SUBDLG_RULE12_WANDER, DIALOG
+    BEGIN
+        HORZGUIDE, 60
+        HORZGUIDE, 66
+    END
+
+    IDD_SUBDLG_LOGO, DIALOG
+    BEGIN
+        VERTGUIDE, 6
+        VERTGUIDE, 181
+        HORZGUIDE, 5
+        HORZGUIDE, 21
+        HORZGUIDE, 26
+        HORZGUIDE, 40
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 DemoIVSb(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\DemoIVSb.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

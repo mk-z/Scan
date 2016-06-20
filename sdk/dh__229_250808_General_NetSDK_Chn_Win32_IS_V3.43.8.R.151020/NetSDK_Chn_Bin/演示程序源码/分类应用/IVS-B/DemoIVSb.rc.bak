@@ -1,0 +1,718 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\DemoIVSb.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\DemoIVSb.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 DemoIVSb"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "DemoIVSb 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2012",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_DEMOIVSB_DIALOG DIALOGEX 0, 0, 652, 400
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "DemoIVSb"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "开启检测",IDC_MAIN_CHK_SWITCH,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,4,4,50,14
+    PUSHBUTTON      "预览图像",IDC_MAIN_BTN_PREVIEW,60,4,50,14
+    PUSHBUTTON      "配置设备",IDC_MAIN_BTN_CONFIG,116,4,50,14
+    PUSHBUTTON      "查看报警",IDC_MAIN_BTN_ALARM,172,4,50,14
+    PUSHBUTTON      "登出设备",IDC_MAIN_BTN_LOGOUT,228,4,50,14
+END
+
+IDD_LOGIN DIALOG DISCARDABLE  0, 0, 164, 123
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_CAPTION | WS_SYSMENU
+CAPTION "Login"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "IPAddress1",IDC_LOGIN_IPADDR_IP,"SysIPAddress32",
+                    WS_TABSTOP,58,18,76,15
+    EDITTEXT        IDC_LOGIN_EDT_PORTNUM,58,38,40,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_LOGIN_EDT_USERNAME,58,57,58,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LOGIN_EDT_PSW,58,76,58,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    LTEXT           "IP",IDC_STATIC,22,18,30,15
+    LTEXT           "Port",IDC_STATIC,22,38,30,14
+    LTEXT           "Name",IDC_STATIC,22,57,30,14
+    LTEXT           "Psw",IDC_STATIC,22,76,30,14
+    DEFPUSHBUTTON   "OK",IDOK,37,103,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,93,103,50,14
+    GROUPBOX        "",IDC_STATIC,6,2,152,96
+END
+
+IDD_SWITCH DIALOG DISCARDABLE  0, 0, 320, 280
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Dialog"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "启动",IDOK,104,256,50,14
+    PUSHBUTTON      "退出",IDCANCEL,166,256,50,14
+    GROUPBOX        "通道选择",IDC_STATIC,10,6,150,244
+    GROUPBOX        "规则选择",IDC_STATIC,160,6,150,244
+    CONTROL         "Tree1",IDC_SWITCH_TREE_CHN,"SysTreeView32",WS_BORDER | 
+                    WS_TABSTOP,20,20,120,206
+    CONTROL         "Tree2",IDC_SWITCH_TREE_RULE,"SysTreeView32",WS_BORDER | 
+                    WS_TABSTOP,180,20,120,206
+    PUSHBUTTON      "全选",IDC_SWITCH_BTN_CHNSELALL,28,231,50,14
+    PUSHBUTTON      "反选",IDC_SWITCH_BTN_CHNCOUNTERSEL,81,231,50,14
+    PUSHBUTTON      "全选",IDC_SWITCH_BTN_RULESELALL,188,231,50,14
+    PUSHBUTTON      "反选",IDC_SWITCH_BTN_RULECOUNTERSEL,242,231,50,14
+END
+
+IDD_CONFIG DIALOG DISCARDABLE  0, 0, 652, 382
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "Tab2",IDC_CONFIG_TAB,"SysTabControl32",0x0,4,4,644,374
+END
+
+IDD_CONFIG_GLOBAL DIALOG DISCARDABLE  0, 0, 640, 358
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "当前通道号",IDC_STATIC,4,4,41,8
+    EDITTEXT        IDC_CFGGLO_EDT_CHANNELNAME,4,18,100,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "场景列表",IDC_STATIC,4,40,33,8
+    COMBOBOX        IDC_CFGGLO_CMB_SCENE,4,54,100,58,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "应用",IDC_CFGGLO_BTN_SET,14,340,36,14
+    PUSHBUTTON      "获取",IDC_CFGGLO_BTN_GET,58,340,36,14
+    CONTROL         "Tree1",IDC_CFGGLO_TREE_REGION,"SysTreeView32",WS_BORDER | 
+                    WS_TABSTOP,530,17,98,226
+    PUSHBUTTON      "添加标定区",IDC_CFGGLO_BTN_ADDAERA,530,248,48,14
+    PUSHBUTTON      "删除标定区",IDC_CFGGLO_BTN_DELAREA,580,248,48,14
+    GROUPBOX        "标定区域",IDC_STATIC,522,4,114,350
+    GROUPBOX        "标尺",IDC_STATIC,526,268,106,78
+    PUSHBUTTON      "添加标尺",IDC_CFGGLO_BTN_ADDRULER,530,322,48,14
+    PUSHBUTTON      "删除标尺",IDC_CFGGLO_BTN_DELRULER,580,322,48,14
+    CONTROL         "垂直标尺",IDC_CFGGLO_RADIO_VRULER,"Button",
+                    BS_AUTORADIOBUTTON,530,288,48,10
+    CONTROL         "水平标尺",IDC_CFGGLO_RADIO_HRULER,"Button",
+                    BS_AUTORADIOBUTTON,580,288,48,10
+    EDITTEXT        IDC_CFGGLO_EDT_REALLEN,580,303,30,14,ES_AUTOHSCROLL
+    LTEXT           "实际长度",IDC_STATIC,530,305,33,8
+    LTEXT           "m",IDC_STATIC,620,304,8,8
+    PUSHBUTTON      "出厂设置",IDC_CFGGLO_BTN_RESET,36,318,36,14
+    PUSHBUTTON      "重建背景",IDC_CFGGLO_BTN_REDRAW,36,296,36,14
+    CONTROL         "",IDC_CFGGLO_STATIC_PREVIEW,"Static",SS_GRAYRECT,108,4,
+                    410,350
+END
+
+IDD_CONFIG_MODULE DIALOG DISCARDABLE  0, 0, 640, 358
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    GROUPBOX        "模块信息",IDC_STATIC,522,4,114,350
+    CONTROL         "抓图使能",IDC_CFGMOD_CHK_ENCAP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,531,16,48,10
+    CONTROL         "Tree1",IDC_CFGMOD_TREE_TRACKREGION,"SysTreeView32",
+                    WS_BORDER | WS_TABSTOP,526,30,106,215
+    PUSHBUTTON      "添加检测区",IDC_CFGMOD_BTN_ADDDETEC,525,250,53,14
+    PUSHBUTTON      "添加排除区",IDC_CFGMOD_BTN_ADDEXCLUD,580,250,53,14
+    PUSHBUTTON      "重绘",IDC_CFGMOD_BTN_REDRAW,525,265,53,14
+    PUSHBUTTON      "删除",IDC_CFGMOD_BTN_DELREGION,580,265,53,14
+    LTEXT           "物体类型",IDC_STATIC,526,285,33,8
+    COMBOBOX        IDC_CFGMOD_CMB_OBJTYPE,584,283,48,56,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "漏误检平衡",IDC_STATIC,526,301,41,8
+    COMBOBOX        IDC_CFGMOD_CMB_,584,300,48,49,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "灵敏度",IDC_STATIC,526,321,25,8
+    CONTROL         "Slider1",IDC_CFGMOD_SLID_SENSI,"msctls_trackbar32",
+                    TBS_TOP | TBS_NOTICKS | WS_TABSTOP,573,321,46,10
+    LTEXT           "低",IDC_STATIC,562,321,9,8
+    LTEXT           "高",IDC_STATIC,623,322,9,8
+    PUSHBUTTON      "目标过滤",IDC_CFGMOD_BTN_FILTER,582,336,50,14
+    CONTROL         "启用",IDC_CFGMOD_CHK_ENFILTER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,531,338,32,10
+    LTEXT           "当前通道号",IDC_STATIC,4,4,41,8
+    GROUPBOX        "模块列表",IDC_STATIC,4,38,100,270
+    EDITTEXT        IDC_CFGMOD_EDT_CHANNELNAME,4,18,100,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    PUSHBUTTON      "应用",IDC_CFGMOD_BTN_SET,14,340,36,14
+    PUSHBUTTON      "获取",IDC_CFGMOD_BTN_GET,58,340,36,14
+    CONTROL         "Tree1",IDC_CFGMOD_TREE_MODLIST,"SysTreeView32",
+                    TVS_CHECKBOXES | WS_BORDER | WS_TABSTOP,14,49,80,253
+    PUSHBUTTON      "添加模块",IDC_CFGMOD_BTN_ADDMOD,14,322,36,14
+    PUSHBUTTON      "删除模块",IDC_CFGMOD_BTN_DELMOD,58,322,36,14
+    CONTROL         "",IDC_CFGMOD_STATIC_PREVIEW,"Static",SS_GRAYRECT,108,4,
+                    410,350
+END
+
+IDD_CONFIG_RULES DIALOG DISCARDABLE  0, 0, 640, 358
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "添加规则",IDC_CFGRULE_BTN_ADDRULE,526,4,50,14
+    PUSHBUTTON      "删除规则",IDC_CFGRULE_BTN_DELRULE,582,4,50,14
+    GROUPBOX        "规则信息",IDC_STATIC,522,22,114,332
+    EDITTEXT        IDC_CFGRULE_EDT_RULENAME,576,30,56,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_CFGRULE_CMB_RULETYPE,576,46,56,132,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "名称",IDC_STATIC,526,33,17,8
+    LTEXT           "类型",IDC_STATIC,526,49,17,8
+    CONTROL         "",IDC_CFGRULE_STATIC_PREVIEW,"Static",SS_GRAYRECT,108,4,
+                    410,350
+    LTEXT           "当前通道号",IDC_STATIC,4,4,41,8
+    GROUPBOX        "规则列表",IDC_STATIC,4,38,100,270
+    EDITTEXT        IDC_CFGRULE_CHANNELNAME,4,18,100,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    PUSHBUTTON      "应用",IDC_CFGRULE_BTN_SET,14,340,36,14
+    PUSHBUTTON      "获取",IDC_CFGRULE_BTN_GET,58,340,36,14
+    PUSHBUTTON      "重绘",IDC_CFGRULE_BTN_REDRAW,36,318,36,14
+    CONTROL         "Tree1",IDC_CFGRULE_TREE_RULELIST,"SysTreeView32",
+                    TVS_CHECKBOXES | WS_BORDER | WS_TABSTOP,14,49,80,253
+END
+
+IDD_PREVIEW DIALOG DISCARDABLE  0, 0, 652, 382
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "",IDC_PREVIEW_STATIC_PREVIEW,"Static",SS_GRAYRECT,4,4,
+                    500,374
+    COMBOBOX        IDC_PREVIEW_CMB_CHANNEL,508,4,140,30,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "List1",IDC_PREVIEW_LIST_ALARM,"SysListView32",
+                    LVS_REPORT | WS_BORDER | WS_TABSTOP,508,22,140,356
+END
+
+IDD_ALARM DIALOG DISCARDABLE  0, 0, 652, 382
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "List1",IDC_ALARM_LIST_ALARMINFO,"SysListView32",
+                    LVS_REPORT | WS_BORDER | WS_TABSTOP,508,4,140,374
+    CONTROL         "DateTimePicker1",IDC_ALARM_DTP_STARTDATE,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,45,342,
+                    59,15
+    CONTROL         "DateTimePicker2",IDC_ALARM_DTP_STARTTIME,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    WS_TABSTOP | 0x8,113,342,51,15
+    CONTROL         "DateTimePicker1",IDC_ALARM_DTP_ENDDATE,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,45,362,
+                    59,15
+    CONTROL         "DateTimePicker2",IDC_ALARM_DTP_ENDTIME,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    WS_TABSTOP | 0x8,113,362,51,15
+    CTEXT           "开始时间",IDC_STATIC,4,345,41,8
+    CTEXT           "结束时间",IDC_STATIC,4,365,41,8
+    CONTROL         "Tree1",IDC_ALARM_TREE_RULESEL,"SysTreeView32",
+                    TVS_CHECKBOXES | WS_BORDER | WS_TABSTOP,177,342,327,36
+    CONTROL         "",IDC_ALARM_STATIC_VIEW,"Static",SS_GRAYRECT,4,4,500,
+                    334
+END
+
+IDD_SUBDLG_RULE01_CROSSFENCE DIALOG DISCARDABLE  0, 0, 106, 288
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "支持的物体类型",IDC_STATIC,0,0,105,8
+    CONTROL         "Tree1",IDC_RULE1_TREE_OBJTYPE,"SysTreeView32",
+                    TVS_CHECKBOXES | WS_BORDER | WS_TABSTOP,0,10,105,50
+    LTEXT           "方向",IDC_STATIC,0,64,17,8
+    COMBOBOX        IDC_RULE1_CMB_DIRECTION,51,62,55,30,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "目标过滤",IDC_STATIC,0,80,105,34
+    CONTROL         "全局",IDC_RULE3_RADIO_GFILTER,"Button",
+                    BS_AUTORADIOBUTTON,20,94,32,10
+    CONTROL         "自定义",IDC_RULE3_RADIO_CFILTER,"Button",
+                    BS_AUTORADIOBUTTON,52,94,40,10
+END
+
+IDD_SUBDLG_RULE02_CROSSLINE DIALOG DISCARDABLE  0, 0, 106, 288
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "支持的物体类型",IDC_STATIC,0,0,105,8
+    CONTROL         "Tree1",IDC_RULE2_TREE_OBJTYPE,"SysTreeView32",
+                    TVS_CHECKBOXES | WS_BORDER | WS_TABSTOP,0,10,105,50
+    LTEXT           "方向",IDC_STATIC,0,64,17,8
+    COMBOBOX        IDC_RULE2_CMB_DIRECTION,51,62,55,30,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "目标过滤",IDC_STATIC,1,98,105,34
+    CONTROL         "全局",IDC_RULE2_RADIO_GFILTER,"Button",
+                    BS_AUTORADIOBUTTON,21,112,32,10
+    CONTROL         "自定义",IDC_RULE2_RADIO_CFILTER,"Button",
+                    BS_AUTORADIOBUTTON,53,112,40,10
+    LTEXT           "报警触发位置",IDC_STATIC,0,82,49,8
+    COMBOBOX        IDC_RULE2_CMB_TRIGGERPOS,51,80,55,30,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_SUBDLG_RULE03_CROSSREGION DIALOG DISCARDABLE  0, 0, 106, 288
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "支持的物体类型",IDC_STATIC,0,0,105,8
+    CONTROL         "Tree1",IDC_RULE3_TREE_OBJTYPE,"SysTreeView32",
+                    TVS_CHECKBOXES | WS_BORDER | WS_TABSTOP,0,10,105,50
+    LTEXT           "检测动作列表",IDC_STATIC,0,62,105,8
+    CONTROL         "Tree2",IDC_RULE3_TREE_ACTIONTYPE,"SysTreeView32",
+                    TVS_CHECKBOXES | WS_BORDER | WS_TABSTOP,0,72,105,50
+    LTEXT           "方向",IDC_STATIC,0,126,17,8
+    COMBOBOX        IDC_RULE3_CMB_DIRECTION,52,124,55,30,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_RULE3_EDT_MINTARG,52,140,40,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_RULE3_EDT_MAXTARG,52,158,40,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_RULE3_EDT_MINDUR,52,176,40,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "最小目标个数",IDC_STATIC,0,143,49,8
+    LTEXT           "最大目标个数",IDC_STATIC,0,161,49,8
+    LTEXT           "最短持续时间",IDC_STATIC,0,179,49,8
+    LTEXT           "报告间隔时间",IDC_STATIC,0,197,49,8
+    EDITTEXT        IDC_RULE3_EDT_REPORTINTERVAL,52,194,40,14,ES_AUTOHSCROLL
+    LTEXT           "秒",IDC_STATIC,97,179,9,8
+    LTEXT           "秒",IDC_STATIC,97,197,9,8
+    GROUPBOX        "目标过滤",IDC_STATIC,0,212,105,34
+    CONTROL         "全局",IDC_RULE3_RADIO_GFILTER,"Button",
+                    BS_AUTORADIOBUTTON,20,226,32,10
+    CONTROL         "自定义",IDC_RULE3_RADIO_CFILTER,"Button",
+                    BS_AUTORADIOBUTTON,52,226,40,10
+END
+
+IDD_SUBDLG_RULE04_MOVE DIALOG DISCARDABLE  0, 0, 187, 100
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+END
+
+IDD_SUBDLG_RULE05_LEFT DIALOG DISCARDABLE  0, 0, 187, 99
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+END
+
+IDD_SUBDLG_RULE06_PARKING DIALOG DISCARDABLE  0, 0, 187, 100
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+END
+
+IDD_SUBDLG_RULE07_PRESERV DIALOG DISCARDABLE  0, 0, 187, 99
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+END
+
+IDD_SUBDLG_RULE08_RETROGRA DIALOG DISCARDABLE  0, 0, 187, 100
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,130,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,130,24,50,14
+END
+
+IDD_SUBDLG_RULE09_STAY DIALOG DISCARDABLE  0, 0, 187, 99
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,130,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,130,24,50,14
+END
+
+IDD_SUBDLG_RULE10_TAKENAWAY DIALOG DISCARDABLE  0, 0, 187, 99
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,130,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,130,24,50,14
+END
+
+IDD_SUBDLG_RULE11_VIDEOABNORMAL DIALOG DISCARDABLE  0, 0, 187, 100
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,130,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,130,24,50,14
+END
+
+IDD_SUBDLG_RULE12_WANDER DIALOG DISCARDABLE  0, 0, 187, 99
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,130,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,130,24,50,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "DemoIVSb Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "DemoIVSb\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2012\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "DemoIVSb.EXE\0"
+            VALUE "ProductName", "DemoIVSb 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_DEMOIVSB_DIALOG, DIALOG
+    BEGIN
+        VERTGUIDE, 4
+        VERTGUIDE, 54
+        VERTGUIDE, 60
+        VERTGUIDE, 110
+        VERTGUIDE, 116
+        VERTGUIDE, 166
+        VERTGUIDE, 172
+        VERTGUIDE, 222
+        VERTGUIDE, 228
+        VERTGUIDE, 648
+        HORZGUIDE, 4
+        HORZGUIDE, 18
+        HORZGUIDE, 22
+        HORZGUIDE, 382
+    END
+
+    IDD_LOGIN, DIALOG
+    BEGIN
+        VERTGUIDE, 6
+        VERTGUIDE, 22
+        VERTGUIDE, 52
+        VERTGUIDE, 58
+        VERTGUIDE, 116
+        VERTGUIDE, 158
+        HORZGUIDE, 6
+        HORZGUIDE, 18
+        HORZGUIDE, 33
+        HORZGUIDE, 38
+        HORZGUIDE, 52
+        HORZGUIDE, 57
+        HORZGUIDE, 71
+        HORZGUIDE, 76
+        HORZGUIDE, 90
+        HORZGUIDE, 117
+    END
+
+    IDD_SWITCH, DIALOG
+    BEGIN
+        VERTGUIDE, 4
+        VERTGUIDE, 10
+        VERTGUIDE, 20
+        VERTGUIDE, 140
+        VERTGUIDE, 154
+        VERTGUIDE, 160
+        VERTGUIDE, 166
+        VERTGUIDE, 180
+        VERTGUIDE, 300
+        VERTGUIDE, 310
+        VERTGUIDE, 316
+        HORZGUIDE, 10
+        HORZGUIDE, 20
+        HORZGUIDE, 226
+        HORZGUIDE, 250
+        HORZGUIDE, 256
+        HORZGUIDE, 270
+        HORZGUIDE, 276
+    END
+
+    IDD_CONFIG, DIALOG
+    BEGIN
+        VERTGUIDE, 4
+        VERTGUIDE, 648
+        HORZGUIDE, 4
+        HORZGUIDE, 378
+    END
+
+    IDD_CONFIG_GLOBAL, DIALOG
+    BEGIN
+        VERTGUIDE, 4
+        VERTGUIDE, 104
+        VERTGUIDE, 108
+        VERTGUIDE, 518
+        VERTGUIDE, 522
+        VERTGUIDE, 526
+        VERTGUIDE, 530
+        VERTGUIDE, 580
+        VERTGUIDE, 628
+        VERTGUIDE, 632
+        VERTGUIDE, 636
+        HORZGUIDE, 4
+        HORZGUIDE, 354
+    END
+
+    IDD_CONFIG_MODULE, DIALOG
+    BEGIN
+        VERTGUIDE, 4
+        VERTGUIDE, 104
+        VERTGUIDE, 108
+        VERTGUIDE, 518
+        VERTGUIDE, 522
+        VERTGUIDE, 526
+        VERTGUIDE, 579
+        VERTGUIDE, 632
+        VERTGUIDE, 636
+        HORZGUIDE, 4
+        HORZGUIDE, 16
+        HORZGUIDE, 26
+        HORZGUIDE, 30
+        HORZGUIDE, 336
+        HORZGUIDE, 350
+        HORZGUIDE, 354
+    END
+
+    IDD_CONFIG_RULES, DIALOG
+    BEGIN
+        VERTGUIDE, 4
+        VERTGUIDE, 14
+        VERTGUIDE, 36
+        VERTGUIDE, 72
+        VERTGUIDE, 94
+        VERTGUIDE, 104
+        VERTGUIDE, 108
+        VERTGUIDE, 518
+        VERTGUIDE, 522
+        VERTGUIDE, 526
+        VERTGUIDE, 576
+        VERTGUIDE, 632
+        VERTGUIDE, 636
+        HORZGUIDE, 4
+        HORZGUIDE, 18
+        HORZGUIDE, 38
+        HORZGUIDE, 49
+        HORZGUIDE, 62
+        HORZGUIDE, 302
+        HORZGUIDE, 308
+        HORZGUIDE, 318
+        HORZGUIDE, 354
+    END
+
+    IDD_PREVIEW, DIALOG
+    BEGIN
+        VERTGUIDE, 4
+        VERTGUIDE, 504
+        VERTGUIDE, 508
+        VERTGUIDE, 648
+        HORZGUIDE, 4
+        HORZGUIDE, 16
+        HORZGUIDE, 22
+        HORZGUIDE, 378
+    END
+
+    IDD_ALARM, DIALOG
+    BEGIN
+        VERTGUIDE, 4
+        VERTGUIDE, 45
+        VERTGUIDE, 504
+        VERTGUIDE, 508
+        VERTGUIDE, 648
+        HORZGUIDE, 4
+        HORZGUIDE, 338
+        HORZGUIDE, 342
+        HORZGUIDE, 359
+        HORZGUIDE, 362
+        HORZGUIDE, 378
+    END
+
+    IDD_SUBDLG_RULE01_CROSSFENCE, DIALOG
+    BEGIN
+        HORZGUIDE, 8
+        HORZGUIDE, 10
+        HORZGUIDE, 60
+        HORZGUIDE, 62
+        HORZGUIDE, 74
+        HORZGUIDE, 80
+    END
+
+    IDD_SUBDLG_RULE02_CROSSLINE, DIALOG
+    BEGIN
+        HORZGUIDE, 74
+        HORZGUIDE, 80
+        HORZGUIDE, 92
+        HORZGUIDE, 98
+    END
+
+    IDD_SUBDLG_RULE03_CROSSREGION, DIALOG
+    BEGIN
+        VERTGUIDE, 52
+        HORZGUIDE, 8
+        HORZGUIDE, 10
+        HORZGUIDE, 60
+        HORZGUIDE, 62
+        HORZGUIDE, 70
+        HORZGUIDE, 72
+        HORZGUIDE, 122
+        HORZGUIDE, 124
+        HORZGUIDE, 136
+        HORZGUIDE, 140
+        HORZGUIDE, 154
+        HORZGUIDE, 158
+        HORZGUIDE, 172
+        HORZGUIDE, 176
+        HORZGUIDE, 190
+        HORZGUIDE, 194
+        HORZGUIDE, 208
+        HORZGUIDE, 212
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 DemoIVSb(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\DemoIVSb.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

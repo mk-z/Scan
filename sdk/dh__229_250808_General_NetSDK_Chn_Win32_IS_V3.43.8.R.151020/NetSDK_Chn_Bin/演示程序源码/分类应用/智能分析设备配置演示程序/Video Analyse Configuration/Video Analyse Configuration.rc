@@ -1,0 +1,657 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Video Analyse Configuration.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Video Analyse Configuration.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 Video Analyse Configuration"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Video Analyse Configuration 1.0 版",IDC_STATIC,40,10,
+                    119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2010",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_VIDEOANALYSECONFIGURATION_DIALOG DIALOGEX 0, 0, 538, 406
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Video Analyse Configuration"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Device Log",IDC_STATIC,8,3,522,41
+    EDITTEXT        IDC_EDIT_IP,39,19,59,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PORT,137,19,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_USERNAME,241,19,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PASSWORD,339,19,40,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    PUSHBUTTON      "Login",IDC_BUTTON_LOGIN,401,19,41,14
+    PUSHBUTTON      "Logout",IDC_BUTTON_LOGOUT,465,19,41,14,WS_DISABLED
+    CONTROL         "Tab1",IDC_TAB_ATTRIBUTE,"SysTabControl32",0x0,13,68,514,
+                    326
+    RTEXT           "IP:",IDC_STATIC,22,22,13,8
+    LTEXT           "Port:",IDC_STATIC,113,22,21,8
+    LTEXT           "User Name:",IDC_STATIC,199,22,41,8
+    LTEXT           "PassWord:",IDC_STATIC,301,22,37,8
+    GROUPBOX        "Configuration",IDC_STATIC,7,54,522,344
+END
+
+IDD_CONFIG_TRAFFICSCENE DIALOG DISCARDABLE  0, 0, 490, 283
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    RTEXT           "Channel:",IDC_STATIC,12,13,42,8
+    COMBOBOX        IDC_COMBO_CHANNEL_T,54,11,69,85,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,7,34,477,1
+    RTEXT           "Sence:",IDC_STATIC,12,48,41,8
+    RTEXT           "CameraHight:",IDC_STATIC,75,75,49,8
+    EDITTEXT        IDC_EDIT_CAMERAH_T,131,72,40,14,ES_AUTOHSCROLL
+    RTEXT           "CameraDistance:",IDC_STATIC,200,75,61,8
+    EDITTEXT        IDC_EDIT_CAMERAD_T,264,71,40,14,ES_AUTOHSCROLL
+    RTEXT           "NearDetectPoint:",IDC_STATIC,44,94,65,8
+    EDITTEXT        IDC_EDIT_NDPX_T,131,91,40,14,ES_AUTOHSCROLL
+    RTEXT           "X:",IDC_STATIC,115,94,9,8
+    EDITTEXT        IDC_EDIT_NDPY_T,225,91,40,14,ES_AUTOHSCROLL
+    RTEXT           "Y:",IDC_STATIC,209,94,9,8
+    EDITTEXT        IDC_EDIT_NDPTCD_T,375,91,40,14,ES_AUTOHSCROLL
+    RTEXT           "ToCameraDistance:",IDC_STATIC,304,94,69,8
+    RTEXT           "FarDectectPoint:",IDC_STATIC,44,114,65,8
+    EDITTEXT        IDC_EDIT_FDPX_T,131,111,40,14,ES_AUTOHSCROLL
+    RTEXT           "X:",IDC_STATIC,115,114,9,8
+    EDITTEXT        IDC_EDIT_FDPY_T,225,111,40,14,ES_AUTOHSCROLL
+    RTEXT           "Y:",IDC_STATIC,209,113,9,8
+    EDITTEXT        IDC_EDIT_FDPTCD_T,375,111,40,14,ES_AUTOHSCROLL
+    RTEXT           "ToCameraDistance:",IDC_STATIC,304,114,69,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,7,249,477,1
+    PUSHBUTTON      "Save",IDC_BUTTON_SAVE_T,123,259,50,14
+    PUSHBUTTON      "Refresh",IDC_BUTTON_REFRESH_T,307,259,50,14
+    COMBOBOX        IDC_COMBO_SCENE_T,54,46,69,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "m",IDC_STATIC,174,76,8,8
+    LTEXT           "m",IDC_STATIC,418,94,8,8
+    LTEXT           "m",IDC_STATIC,417,114,8,8
+    LTEXT           "(0~8192)",IDC_STATIC,175,95,33,8
+    LTEXT           "(0~8192)",IDC_STATIC,173,114,33,8
+    LTEXT           "(0~8192)",IDC_STATIC,267,114,33,8
+    LTEXT           "(0~8192)",IDC_STATIC,267,94,33,8
+    GROUPBOX        "BaseInfo",IDC_STATIC,22,63,430,68
+    GROUPBOX        "Road Info",IDC_STATIC,22,136,430,106
+    CONTROL         "List1",IDC_LIST_ROAD,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,39,148,386,70
+    PUSHBUTTON      "Add",IDC_BUTTON_ADDROAD,93,223,50,14
+    PUSHBUTTON      "Delet",IDC_BUTTON_DELETROAD,213,223,50,14
+    PUSHBUTTON      "Change",IDC_BUTTON_CHANGEROAD,323,223,50,14
+    LTEXT           "m",IDC_STATIC,305,75,8,8
+END
+
+IDD_CONFIG_MODULE DIALOG DISCARDABLE  0, 0, 490, 283
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    RTEXT           "Channel:",IDC_STATIC,13,13,40,9
+    COMBOBOX        IDC_COMBO_CHANNEL_M,54,11,73,85,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,7,33,477,1
+    RTEXT           "ObjectType:",IDC_STATIC,172,58,49,8
+    CONTROL         "Snap",IDC_CHECK_SNAP_M,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,293,58,45,10
+    RTEXT           "FilterType:",IDC_STATIC,172,87,49,8
+    COMBOBOX        IDC_COMBO_FILTERTYPE_M,226,85,48,37,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "MinHight:",IDC_STATIC,178,107,46,8
+    EDITTEXT        IDC_EDIT_MINSX_M,227,103,26,14,ES_AUTOHSCROLL
+    RTEXT           "MinWidth:",IDC_STATIC,298,107,46,8
+    EDITTEXT        IDC_EDIT_MINSY_M,347,103,26,14,ES_AUTOHSCROLL
+    RTEXT           "MaxHight:",IDC_STATIC,178,153,46,8
+    EDITTEXT        IDC_EDIT_MAXSX_M,227,149,26,14,ES_AUTOHSCROLL
+    RTEXT           "MaxWidth:",IDC_STATIC,298,153,46,8
+    EDITTEXT        IDC_EDIT_MAXSY_M,347,149,26,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,7,250,477,1
+    PUSHBUTTON      "Save",IDC_BUTTON_SAVE_M,92,259,50,14
+    PUSHBUTTON      "Refresh",IDC_BUTTON_REFRESH_M,279,259,50,14
+    COMBOBOX        IDC_COMBO_OBJTYPE,226,56,48,46,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "ModuleInfo",IDC_STATIC,150,38,265,204
+    PUSHBUTTON      "AddMod",IDC_BUTTON_ADDMOD,27,208,74,14
+    PUSHBUTTON      "DeletSelectMod",IDC_BUTTON_DELETSELMOD,27,227,74,14
+    RTEXT           "MinArea:",IDC_STATIC,178,129,46,8
+    EDITTEXT        IDC_EDIT_MINSA_M,227,126,26,14,ES_AUTOHSCROLL
+    RTEXT           "MaxArea:",IDC_STATIC,178,173,46,8
+    EDITTEXT        IDC_EDIT_MAXSA_M,227,170,26,14,ES_AUTOHSCROLL
+    CONTROL         "Tree1",IDC_TREE_MODULE,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | 
+                    WS_BORDER | WS_TABSTOP,13,43,103,153
+    LTEXT           "pix",IDC_STATIC,257,153,26,8
+    LTEXT           "pix",IDC_STATIC,378,153,26,8
+    LTEXT           "pix",IDC_STATIC,257,107,26,8
+    LTEXT           "pix",IDC_STATIC,378,107,26,8
+    PUSHBUTTON      "Set",IDC_BUTTON_SET_DETECTREGION,276,203,50,14
+    CTEXT           "pix*pix",IDC_STATIC,255,173,41,8
+    CTEXT           "pix*pix",IDC_STATIC,255,129,41,8
+    RTEXT           "DetectandTrackRegionSet:",IDC_STATIC_ROADID,166,206,97,
+                    8
+    GROUPBOX        "ObjectSizeInfo",IDC_STATIC,169,72,237,122
+END
+
+IDD_CONFIG_RULES DIALOG DISCARDABLE  0, 0, 507, 283
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,7,250,477,1
+    PUSHBUTTON      "Save",IDC_BUTTON_SAVE_R,123,259,50,14
+    PUSHBUTTON      "Refresh",IDC_BUTTON_REFRESH_R,307,259,50,14
+    RTEXT           "Channel:",IDC_STATIC,13,13,39,9
+    COMBOBOX        IDC_COMBO_CHANNEL_R,53,11,73,85,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,6,35,489,1
+    PUSHBUTTON      "Add Rule",IDC_BUTTON_ADDRULE_R,22,227,43,14
+    PUSHBUTTON      "Delet Rule",IDC_BUTTON_DELETRULE_R,76,227,43,14
+    CONTROL         "Tree1",IDC_TREE_RULES,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | 
+                    WS_BORDER | WS_TABSTOP,18,43,103,154
+    CONTROL         "",IDC_STATIC_VEDIO,"Static",SS_BLACKFRAME,150,43,282,
+                    198
+    EDITTEXT        IDC_EDIT_RULENAME,70,206,40,14,ES_AUTOHSCROLL
+    RTEXT           "RuleName:",IDC_STATIC,31,209,37,8
+END
+
+IDD_CONFIG_TRAFFICGATE DIALOG DISCARDABLE  0, 0, 282, 192
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    RTEXT           "RuleName:",IDC_STATIC,15,28,35,8
+    EDITTEXT        IDC_EDIT_RULENAME_TG,52,25,40,14,ES_AUTOHSCROLL
+    CONTROL         "Enable",IDC_CHECK_ENABLE_TG,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,108,24,52,10
+    CONTROL         "List1",IDC_LIST_OBJTYPE_TG,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,27,58,60,81
+    GROUPBOX        "ObjectType",IDC_STATIC,21,48,73,97
+    LTEXT           "SpeedWeight:",IDC_STATIC,113,90,49,8
+    EDITTEXT        IDC_EDIT_SPEEDWGT_TG,180,87,40,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    LTEXT           "SpeedUpperLimit:",IDC_STATIC,112,69,65,8
+    EDITTEXT        IDC_EDIT_SPEEDUL_TG,180,66,40,14,ES_AUTOHSCROLL
+    LTEXT           "SpeedLowerLimit:",IDC_STATIC,113,111,67,8
+    EDITTEXT        IDC_EDIT_SPEEDLL_TG,180,108,40,14,ES_AUTOHSCROLL
+    LTEXT           "MetricDistance:",IDC_STATIC,113,132,61,8
+    EDITTEXT        IDC_EDIT_METRICDIS,180,129,40,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    LTEXT           "CarWayID:",IDC_STATIC,112,48,38,8
+    EDITTEXT        IDC_EDIT_CARWAYID_TG,180,45,40,14,ES_AUTOHSCROLL
+    CTEXT           "km/h",IDC_STATIC,223,69,39,8
+    CTEXT           "km/h",IDC_STATIC,224,111,39,8
+    RTEXT           "RoadlineAndDetectline:",IDC_STATIC,20,158,89,8
+    PUSHBUTTON      "Set",IDC_BUTTON_SET_RULELINES_TG,112,155,50,14
+    GROUPBOX        "BaseInfo",IDC_STATIC,1,3,277,186
+END
+
+IDD_PICTURE_SHOW DIALOG DISCARDABLE  0, 0, 253, 183
+STYLE WS_CHILD
+FONT 10, "System"
+BEGIN
+END
+
+IDD_SCENESHOW_DIALOG DIALOG DISCARDABLE  0, 0, 378, 339
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 9, "新宋体"
+BEGIN
+    CONTROL         "Radio1",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | NOT 
+                    WS_VISIBLE | WS_GROUP,22,297,51,10
+    CONTROL         "Radio2",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | NOT 
+                    WS_VISIBLE,78,297,51,10
+    CONTROL         "Radio3",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON | NOT 
+                    WS_VISIBLE,134,297,51,10
+    CONTROL         "Radio4",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON | NOT 
+                    WS_VISIBLE,190,297,51,10
+    CONTROL         "Radio5",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON | NOT 
+                    WS_VISIBLE,246,297,51,10
+    DEFPUSHBUTTON   "OK",IDOK,231,319,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,309,319,50,14
+    CONTROL         "",IDC_STATIC_SHOW,"Static",SS_BLACKFRAME,7,7,364,280
+    RTEXT           "RoadId:",IDC_STATIC_ROADID,20,321,29,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_ROADID,52,319,40,14,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE
+    RTEXT           "Direction:",IDC_STATIC_DIRECTION,105,322,41,8,NOT 
+                    WS_VISIBLE
+    COMBOBOX        IDC_COMBO_DIRECTION,148,319,48,53,CBS_DROPDOWN | NOT 
+                    WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Repaint",IDC_BUTTON_REPAINT,309,295,50,14
+END
+
+IDD_COFNIG_CROSSLINE_RULE DIALOG DISCARDABLE  0, 0, 277, 186
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    GROUPBOX        "BaseInfo",IDC_STATIC,0,0,277,185
+    LTEXT           "RuleName:",IDC_STATIC,14,24,37,8
+    EDITTEXT        IDC_EDIT_RULENAME_TG,54,21,40,14,ES_AUTOHSCROLL
+    CONTROL         "Enable",IDC_CHECK_ENABLE_TG,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,116,23,49,10
+    GROUPBOX        "ObjectType",IDC_STATIC,19,49,73,97
+    CONTROL         "List1",IDC_LIST_OBJTYPE_TG,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,25,59,60,81
+    PUSHBUTTON      "Set",IDC_BUTTON_SET_RULELINES_TG,181,101,50,14
+    LTEXT           "direction:",IDC_STATIC_DIRECTION,113,51,41,8
+    COMBOBOX        IDC_COMBO_DIRECT,181,50,50,78,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "TriggerPosition:",IDC_STATIC_TriggerPosition,113,76,65,
+                    8
+    COMBOBOX        IDC_COMBO_TriggerPosition,181,73,50,62,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "DetectLine:",IDC_STATIC,113,103,54,8
+END
+
+IDD_COFNIG_FACEDETECT_RULE DIALOG DISCARDABLE  0, 0, 277, 186
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    GROUPBOX        "BaseInfo",IDC_STATIC,0,0,277,185
+    LTEXT           "RuleName:",IDC_STATIC1,14,24,36,8
+    EDITTEXT        IDC_EDIT_RULENAME_TG,54,21,40,14,ES_AUTOHSCROLL
+    CONTROL         "Enable",IDC_CHECK_ENABLE_TG,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,113,24,46,8
+    GROUPBOX        "ObjectType",IDC_STATIC,19,49,73,97
+    CONTROL         "List1",IDC_LIST_OBJTYPE_TG,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,25,59,60,81
+    PUSHBUTTON      "Set",IDC_BUTTON_SET_RULELINES_TG,171,52,50,14
+    LTEXT           "DetectRegion:",IDC_STATIC,113,55,52,8
+END
+
+IDD_CONFIG_CROSSREGION_RULE DIALOG DISCARDABLE  0, 0, 277, 186
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    GROUPBOX        "BaseInfo",IDC_STATIC,0,0,277,185
+    LTEXT           "RuleName:",IDC_STATIC,14,25,36,8
+    EDITTEXT        IDC_EDIT_RULENAME_TG,53,22,40,14,ES_AUTOHSCROLL
+    CONTROL         "Enable",IDC_CHECK_ENABLE_TG,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,113,25,46,8
+    GROUPBOX        "ObjectType",IDC_STATIC,14,49,73,97
+    CONTROL         "List1",IDC_LIST_OBJTYPE_TG,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,20,57,60,81
+    PUSHBUTTON      "Set",IDC_BUTTON_SET_RULELINES_TG,186,164,50,14
+    COMBOBOX        IDC_COMBO_ACTIONTYPE_TG,186,66,40,73,CBS_DROPDOWNLIST | 
+                    WS_TABSTOP
+    LTEXT           "ActionType:",IDC_STATIC,113,70,65,9
+    LTEXT           "direction:",IDC_STATIC_DIRECTION,113,51,44,10
+    COMBOBOX        IDC_COMBO_DIRECT,186,48,40,78,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_MinTargets,186,84,40,14,ES_AUTOHSCROLL
+    LTEXT           "MinTargets:",IDC_STATIC,113,90,63,8
+    LTEXT           "MaxTargets:",IDC_STATIC,113,109,59,8
+    EDITTEXT        IDC_EDIT_MaxTargets,186,104,40,14,ES_AUTOHSCROLL
+    LTEXT           "MinDuration:",IDC_STATIC,113,128,63,8
+    EDITTEXT        IDC_EDIT_MinDuration,186,124,40,14,ES_AUTOHSCROLL
+    LTEXT           "ReportInterval:",IDC_STATIC,113,147,64,8
+    EDITTEXT        IDC_EDIT_ReportInterval,186,144,40,14,ES_AUTOHSCROLL
+    LTEXT           "DetectRegion:",IDC_STATIC,113,167,52,8
+END
+
+IDD_CONFIG_WANDER_RULE DIALOG DISCARDABLE  0, 0, 277, 186
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    GROUPBOX        "BaseInfo",IDC_STATIC,0,0,276,184
+    LTEXT           "RuleName:",IDC_STATIC,14,22,36,14
+    EDITTEXT        IDC_EDIT_RULENAME_TG,53,21,40,14,ES_AUTOHSCROLL
+    CONTROL         "Enable",IDC_CHECK_ENABLE_TG,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,113,23,51,8
+    GROUPBOX        "ObjectType",IDC_STATIC,21,48,73,97
+    CONTROL         "List1",IDC_LIST_OBJTYPE_TG,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,29,57,60,81
+    PUSHBUTTON      "Set",IDC_BUTTON_SET_RULELINES_TG,201,135,50,14
+    LTEXT           "TriggerPosition:",IDC_STATIC_TriggerPosition,113,53,69,
+                    10
+    COMBOBOX        IDC_COMBO_TriggerPosition,201,51,40,62,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "TriggerTargetsNumber:",IDC_STATIC,113,79,85,8
+    EDITTEXT        IDC_EDIT_TriggerTargetsNumber,201,76,40,14,
+                    ES_AUTOHSCROLL
+    LTEXT           "ReportInterval:",IDC_STATIC,113,107,62,8
+    EDITTEXT        IDC_EDIT_ReportInterval,201,105,40,14,ES_AUTOHSCROLL
+    LTEXT           "s",IDC_STATIC,243,107,8,8
+    LTEXT           "DetectRegion:",IDC_STATIC,113,137,52,8
+END
+
+IDD_CONFIG_RIOTER_RULE DIALOG DISCARDABLE  0, 0, 277, 186
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    GROUPBOX        "BaseInfo",IDC_STATIC,3,0,273,185
+    LTEXT           "RuleName:",IDC_STATIC,14,23,36,11
+    EDITTEXT        IDC_EDIT_RULENAME_TG,53,22,40,14,ES_AUTOHSCROLL
+    CONTROL         "Enable",IDC_CHECK_ENABLE_TG,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,116,25,49,8
+    GROUPBOX        "ObjectType",IDC_STATIC,14,46,73,97
+    CONTROL         "List1",IDC_LIST_OBJTYPE_TG,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,21,55,60,81
+    PUSHBUTTON      "Set",IDC_BUTTON_SET_RULELINES_TG,176,106,50,14
+    LTEXT           "AreaPercent:",IDC_STATIC,113,53,58,8
+    EDITTEXT        IDC_EDIT_AreaPercent,178,50,40,14,ES_AUTOHSCROLL
+    LTEXT           "MinDuration:",IDC_STATIC,113,83,50,8
+    EDITTEXT        IDC_EDIT_MinDuration,178,80,40,14,ES_AUTOHSCROLL
+    LTEXT           "DetectRegion:",IDC_STATIC,113,109,52,8
+END
+
+IDD_CONFIG_PASTE_RULE DIALOG DISCARDABLE  0, 0, 277, 186
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    GROUPBOX        "BaseInfo",IDC_STATIC,0,0,277,185
+    LTEXT           "RuleName:",IDC_STATIC,15,27,36,8
+    EDITTEXT        IDC_EDIT_RULENAME_TG,53,22,40,14,ES_AUTOHSCROLL
+    CONTROL         "Enable",IDC_CHECK_ENABLE_TG,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,113,25,50,8
+    GROUPBOX        "ObjectType",IDC_STATIC,14,45,73,97
+    CONTROL         "List1",IDC_LIST_OBJTYPE_TG,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,21,55,60,81
+    PUSHBUTTON      "Set",IDC_BUTTON_SET_RULELINES_TG,175,55,50,14
+    LTEXT           "DetectRegion:",IDC_STATIC,113,58,52,8
+END
+
+IDD_CONFIG_ATM_SCENE DIALOG DISCARDABLE  0, 0, 490, 283
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "Save",IDC_BUTTON_SAVE_T,123,259,50,14
+    PUSHBUTTON      "Refresh",IDC_BUTTON_REFRESH_T,307,260,50,14
+    RTEXT           "Channel:",IDC_STATIC,22,16,32,8
+    COMBOBOX        IDC_COMBO_CHANNEL_T,54,14,69,85,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,33,489,1
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,248,489,1
+    RTEXT           "Sence:",IDC_STATIC,12,47,41,8
+    COMBOBOX        IDC_COMBO_SCENE_T,54,45,69,52,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Video Analyse Configuration Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Video Analyse Configuration\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2010\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Video Analyse Configuration.EXE\0"
+            VALUE "ProductName", "Video Analyse Configuration 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_CONFIG_TRAFFICSCENE, DIALOG
+    BEGIN
+        VERTGUIDE, 22
+        VERTGUIDE, 54
+        VERTGUIDE, 123
+        VERTGUIDE, 307
+        HORZGUIDE, 28
+        HORZGUIDE, 34
+        HORZGUIDE, 249
+        HORZGUIDE, 273
+    END
+
+    IDD_CONFIG_TRAFFICGATE, DIALOG
+    BEGIN
+        VERTGUIDE, 21
+        VERTGUIDE, 50
+        VERTGUIDE, 112
+        HORZGUIDE, 39
+        HORZGUIDE, 45
+    END
+
+    IDD_PICTURE_SHOW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 246
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_SCENESHOW_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 371
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 333
+    END
+
+    IDD_COFNIG_CROSSLINE_RULE, DIALOG
+    BEGIN
+        VERTGUIDE, 14
+        VERTGUIDE, 50
+        VERTGUIDE, 113
+        HORZGUIDE, 39
+        HORZGUIDE, 45
+    END
+
+    IDD_COFNIG_FACEDETECT_RULE, DIALOG
+    BEGIN
+        VERTGUIDE, 14
+        VERTGUIDE, 50
+        VERTGUIDE, 113
+        BOTTOMMARGIN, 185
+        HORZGUIDE, 39
+        HORZGUIDE, 45
+    END
+
+    IDD_CONFIG_CROSSREGION_RULE, DIALOG
+    BEGIN
+        VERTGUIDE, 14
+        VERTGUIDE, 50
+        VERTGUIDE, 113
+        VERTGUIDE, 186
+        HORZGUIDE, 39
+        HORZGUIDE, 45
+    END
+
+    IDD_CONFIG_WANDER_RULE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 276
+        VERTGUIDE, 14
+        VERTGUIDE, 50
+        VERTGUIDE, 113
+        VERTGUIDE, 201
+        BOTTOMMARGIN, 184
+        HORZGUIDE, 39
+        HORZGUIDE, 45
+    END
+
+    IDD_CONFIG_RIOTER_RULE, DIALOG
+    BEGIN
+        VERTGUIDE, 14
+        VERTGUIDE, 50
+        VERTGUIDE, 113
+        HORZGUIDE, 39
+        HORZGUIDE, 45
+    END
+
+    IDD_CONFIG_PASTE_RULE, DIALOG
+    BEGIN
+        VERTGUIDE, 14
+        VERTGUIDE, 50
+        VERTGUIDE, 113
+        HORZGUIDE, 39
+        HORZGUIDE, 45
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_MY_CROSS            CURSOR  DISCARDABLE     "res\\cursor1.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_SCENESHOW_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO_DIRECTION, 0x403, 1, 0
+"\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 Video Analyse Configuration(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\Video Analyse Configuration.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

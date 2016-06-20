@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ED9B98F5-5DB6-4E7E-A7E3-ADE56B9D3672}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NetSDKSample</RootNamespace>
+    <AssemblyName>NetSDKSample</AssemblyName>
+    <ApplicationIcon>NetIcon.ico</ApplicationIcon>
+    <StartupObject>NetSDKSample.Program</StartupObject>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <ApplicationRevision>0</ApplicationRevision>
+    <UpgradeBackupLocation />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>C:\Program Files (x86)\Microsoft Visual Studio 8\Team Tools\Static Analysis Tools\FxCop\\rules</CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmMultiDVRSample.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMultiDVRSample.Designer.cs">
+      <DependentUpon>frmMultiDVRSample.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MultiPlay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MultiPlay.Designer.cs">
+      <DependentUpon>frm_MultiPlay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PTZControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PTZControl.Designer.cs">
+      <DependentUpon>frm_PTZControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_AddDevice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_AddDevice.Designer.cs">
+      <DependentUpon>frm_AddDevice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MainC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MainC.Designer.cs">
+      <DependentUpon>frm_MainC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PlayBackByFileSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PlayBackByFileSet.Designer.cs">
+      <DependentUpon>frm_PlayBackByFileSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PlayBackByTimeSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PlayBackByTimeSet.Designer.cs">
+      <DependentUpon>frm_PlayBackByTimeSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmMultiDVRSample.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMultiDVRSample.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MultiPlay.resx">
+      <DependentUpon>frm_MultiPlay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PTZControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm_PTZControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_AddDevice.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm_AddDevice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MainC.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm_MainC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PlayBackByFileSet.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm_PlayBackByFileSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PlayBackByTimeSet.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm_PlayBackByTimeSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NetSDKCS\NetSDKCS.csproj">
+      <Project>{149A62F0-7073-4F54-B91E-E0B041C1A3EC}</Project>
+      <Name>NetSDKCS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PlaySDKCS\PlaySDKCS.csproj">
+      <Project>{C79E29D6-9549-49B2-B038-C9AB45D391D5}</Project>
+      <Name>PlaySDKCS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utility\Utility.csproj">
+      <Project>{058F0F59-D21C-4DF0-A26F-BA04963EBDE6}</Project>
+      <Name>Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\NetLogo.ico" />
+    <Content Include="images\Icon1.ico" />
+    <Content Include="images\ARW02DN.ICO" />
+    <Content Include="images\ARW02LT.ICO" />
+    <Content Include="images\ARW02RT.ICO" />
+    <Content Include="images\ARW02UP.ICO" />
+    <Content Include="images\ARW09DN.ICO" />
+    <Content Include="images\ARW09UP.ICO" />
+    <Content Include="images\CAMERA.ICO" />
+    <Content Include="images\ARW10NE.ICO" />
+    <Content Include="images\ARW10NW.ICO" />
+    <Content Include="images\ARW10SE.ICO" />
+    <Content Include="images\ARW10SW.ICO" />
+    <Content Include="images\D.ico" />
+    <Content Include="images\Icon2.ico" />
+    <Content Include="images\MISC13.ICO" />
+    <Content Include="images\MISC14.ICO" />
+    <Content Include="images\MOON05.ICO" />
+    <Content Include="images\P.ico" />
+    <Content Include="NetIcon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,420 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\IVSFDemo.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\IVSFDemo.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 IVSFDemo"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "IVSFDemo 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2012",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_IVSFDEMO_DIALOG DIALOGEX 0, 0, 653, 455
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "IVS-F"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "AlarmViwe",IDC_BUTTON_PREVIWE,80,6,59,14,WS_DISABLED
+    PUSHBUTTON      "IVS-F Config",IDC_BUTTON_CONFIG,153,6,59,14,WS_DISABLED
+    PUSHBUTTON      "LogIn",IDC_BUTTON_LOG,226,6,59,14
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,25,650,1
+    CONTROL         "",IDC_STATIC_BACKGROUND,"Static",SS_BLACKRECT,1,30,646,
+                    422
+    PUSHBUTTON      "AlarmOn",IDC_BUTTON_ALARMON,7,6,59,14,WS_DISABLED
+END
+
+IDD_DIALOG_PREVIEW DIALOG DISCARDABLE  0, 0, 646, 427
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "",IDC_STATIC_PREVIEW,"Static",SS_GRAYRECT,3,0,464,263
+    COMBOBOX        IDC_COMBO_CHANNEL,468,5,65,56,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL
+    PUSHBUTTON      "Start View",IDC_BUTTON_STARTVIEW,538,6,45,14
+    PUSHBUTTON      "Stop View",IDC_BUTTON_STOPVIEW,596,5,45,14,WS_DISABLED
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,468,25,174,1
+    GROUPBOX        "Face recognition event preview",IDC_STATIC,469,35,173,
+                    229
+    CONTROL         "List3",IDC_LIST_EVENT,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,469,51,173,210
+    CONTROL         "",IDC_STATIC_ALARMVIEW,"Static",SS_BLACKFRAME,3,268,641,
+                    155
+END
+
+IDD_DIALOG_DEVLOGIN DIALOG DISCARDABLE  0, 0, 182, 146
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Login"
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "Login",IDC_BUTTON_LOGIN,29,109,50,14
+    PUSHBUTTON      "Cancle",IDC_BUTTON_LOGOUT,90,109,50,14
+    LTEXT           "Dev IP:",IDC_STATIC,41,26,29,8
+    EDITTEXT        IDC_EDIT_IP,74,23,64,14,ES_AUTOHSCROLL
+    LTEXT           "Port:",IDC_STATIC,49,46,21,8
+    EDITTEXT        IDC_EDIT_PORT,74,43,64,14,ES_AUTOHSCROLL
+    LTEXT           "User Name:",IDC_STATIC,29,66,41,8
+    EDITTEXT        IDC_EDIT_USERNAME,74,63,64,14,ES_AUTOHSCROLL
+    LTEXT           "PassWord:",IDC_STATIC,33,86,37,8
+    EDITTEXT        IDC_EDIT_PASSWORD,74,83,64,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_ALARMON DIALOG DISCARDABLE  0, 0, 121, 173
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "AlarmOn"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "start",IDOK,7,153,50,14
+    PUSHBUTTON      "Sel All",IDC_BUTTON_SELALL,5,7,50,14
+    PUSHBUTTON      "Anti Sel",IDC_BUTTON_ANTISEL,63,7,50,14
+    CONTROL         "List1",IDC_LIST_CHANNEL,"SysListView32",LVS_LIST | 
+                    WS_BORDER | WS_TABSTOP,6,29,106,117
+    PUSHBUTTON      "stop",IDC_BUTTON_STOP,62,153,50,14
+END
+
+IDD_DIALOG_ALARMSHOW DIALOG DISCARDABLE  0, 0, 593, 168
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+END
+
+IDD_DIALOG_CFG_SCENCE DIALOGEX 0, 0, 646, 331
+STYLE WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    RTEXT           "CameraHeight:",IDC_STATIC,19,14,53,8
+    EDITTEXT        IDC_EDIT_CAMERAHEIGHT,78,11,47,14,ES_AUTOHSCROLL
+    LTEXT           "m",IDC_STATIC,131,14,8,8
+    GROUPBOX        "",IDC_STATIC,15,37,215,257
+    RTEXT           "FaceAngleUpDown:",IDC_STATIC,19,54,74,8
+    EDITTEXT        IDC_EDIT_FACEANGLE_DOWN,97,51,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_FACEANGLEUP,176,51,40,14,ES_AUTOHSCROLL
+    LTEXT           "---",IDC_STATIC,153,54,13,8
+    LTEXT           "o",IDC_STATIC,141,54,8,8
+    LTEXT           "o",IDC_STATIC,217,54,8,8
+    RTEXT           "FaceAngleLeftRight:",IDC_STATIC,19,175,77,8
+    EDITTEXT        IDC_EDIT_FACEANGLE_LEFT,97,172,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_FACEANGLE_RIGHT,176,172,40,14,ES_AUTOHSCROLL
+    LTEXT           "---",IDC_STATIC,153,175,13,8
+    LTEXT           "o",IDC_STATIC,142,175,8,8
+    LTEXT           "o",IDC_STATIC,217,175,8,8
+    CONTROL         147,IDC_STATIC_FACEUD,"Static",SS_BITMAP | SS_SUNKEN | 
+                    WS_BORDER,40,72,165,74,WS_EX_CLIENTEDGE | 
+                    WS_EX_STATICEDGE
+    CONTROL         148,IDC_STATIC_FACERL,"Static",SS_BITMAP | SS_SUNKEN | 
+                    WS_BORDER,40,196,165,75,WS_EX_CLIENTEDGE | 
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_STATIC_SCENEVIEW,"Static",SS_BLACKRECT,256,41,373,
+                    284
+    RTEXT           "MainDirection:",IDC_STATIC,257,17,55,8
+    EDITTEXT        IDC_EDIT_MAINDIR_1,313,13,55,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MAINDIR_2,376,13,55,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Draw",IDC_BUTTON_DRAW,449,13,50,14
+    PUSHBUTTON      "Delete",IDC_BUTTON_DELETE,507,13,50,14
+END
+
+IDD_DIALOG_CONFIG DIALOG DISCARDABLE  0, 0, 646, 422
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "Tab1",IDC_TAB_CONFIG,"SysTabControl32",0x0,3,5,636,353
+    PUSHBUTTON      "Save",IDC_BUTTON_SAVE,491,383,50,14
+    PUSHBUTTON      "Read",IDC_BUTTON_READ,559,382,50,14
+    LTEXT           "ChannleID:",IDC_STATIC,373,386,41,8
+    COMBOBOX        IDC_COMBO_CHANNEL,417,384,52,30,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DIALOG_CFG_RULE DIALOG DISCARDABLE  0, 0, 646, 331
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    RTEXT           "RuleName:",IDC_STATIC,39,24,37,8
+    EDITTEXT        IDC_EDIT_RULENAME,81,21,53,14,ES_AUTOHSCROLL
+    RTEXT           "Mode:",IDC_STATIC,55,45,21,8
+    COMBOBOX        IDC_COMBO_MODE,81,43,53,65,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "Eyebrow",IDC_CHECK_EYEBROW,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,81,65,44,10
+    CONTROL         "Eye",IDC_CHECK_EYE,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,131,65,28,10
+    CONTROL         "Nose",IDC_CHECK_NOSE,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,165,65,32,10
+    CONTROL         "Mouth",IDC_CHECK_MOUTH,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,203,65,36,10
+    CONTROL         "Face",IDC_CHECK_FACE,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,245,65,32,10
+    RTEXT           "ImportantRank:",IDC_STATIC,19,89,57,8
+    LTEXT           "(1~10)the higher value the more important",IDC_STATIC,
+                    139,89,178,8
+    RTEXT           "Accuracy:",IDC_STATIC,39,110,37,8
+    LTEXT           "(1~10)the higher value the more accurate",IDC_STATIC,
+                    139,110,168,8
+    GROUPBOX        "param of threshold",IDC_STATIC,17,129,159,63
+    RTEXT           "Similarity:",IDC_STATIC,31,150,45,8
+    EDITTEXT        IDC_EDIT_SIMILARITY,81,147,53,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_IMPORTANTRANK,81,86,53,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ACCURACY,81,107,53,14,ES_AUTOHSCROLL
+    RTEXT           "MaxCandidate:",IDC_STATIC,23,173,53,8
+    EDITTEXT        IDC_EDIT_MAXCANDIDATE,81,170,53,14,ES_AUTOHSCROLL
+    LTEXT           "(1~100)",IDC_STATIC,140,151,28,8
+    LTEXT           "(0~50)",IDC_STATIC,141,173,28,8
+END
+
+IDD_DIALOG_CFG_MODULE DIALOG DISCARDABLE  0, 0, 646, 331
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "",IDC_STATIC_MODULE,"Static",SS_BLACKRECT,256,41,373,
+                    284
+    GROUPBOX        "FaceDetectZone",IDC_STATIC,15,37,215,79
+    GROUPBOX        "FaceDetectWidth",IDC_STATIC,15,131,215,80
+    EDITTEXT        IDC_EDT_ZONE_LEFTTOP,48,61,56,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDT_ZONE_RIGHTBOTTOM,127,61,56,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Draw",IDC_BTN_ZONE_DRAW,54,87,50,14
+    PUSHBUTTON      "Clear",IDC_BTN_ZONE_CLEAR,127,87,50,14
+    EDITTEXT        IDC_EDT_WIDTHMAX,102,145,47,14,ES_AUTOHSCROLL
+    LTEXT           "MaxWidth",IDC_STATIC,47,147,51,8
+    LTEXT           "Pixel",IDC_STATIC,159,148,21,8
+    EDITTEXT        IDC_EDT_WIDTHMIN,102,163,47,14,ES_AUTOHSCROLL
+    LTEXT           "MinWidth",IDC_STATIC,47,165,51,8
+    LTEXT           "Pixel",IDC_STATIC,159,166,21,8
+    PUSHBUTTON      "Draw",IDC_BTN_WIDTH_DRAW,54,185,50,14
+    PUSHBUTTON      "Clear",IDC_BTN_WIDTH_CLEAR,127,185,50,14
+    CONTROL         "Slider1",IDC_SLIDER_ACCURACY,"msctls_trackbar32",
+                    WS_TABSTOP,94,229,89,23
+    RTEXT           "Accuracy",IDC_STATIC,27,237,33,8
+    LTEXT           "Low",IDC_STATIC,79,237,13,8
+    LTEXT           "High",IDC_STATIC,187,237,17,8
+    CONTROL         "Slider1",IDC_SLIDER_SENSITIVITY,"msctls_trackbar32",
+                    WS_TABSTOP,95,259,88,23
+    RTEXT           "Sensitivity",IDC_STATIC,15,267,45,8
+    LTEXT           "Low",IDC_STATIC,79,267,13,8
+    LTEXT           "High",IDC_STATIC,187,267,17,8
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "IVSFDemo Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "IVSFDemo\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2012\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "IVSFDemo.EXE\0"
+            VALUE "ProductName", "IVSFDemo 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_IVSFDEMO_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 650
+    END
+
+    IDD_DIALOG_DEVLOGIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 175
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 139
+    END
+
+    IDD_DIALOG_ALARMON, DIALOG
+    BEGIN
+        RIGHTMARGIN, 120
+        TOPMARGIN, 1
+    END
+
+    IDD_DIALOG_ALARMSHOW, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 154
+    END
+
+    IDD_DIALOG_CFG_SCENCE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 644
+    END
+
+    IDD_DIALOG_CONFIG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 644
+        BOTTOMMARGIN, 421
+    END
+
+    IDD_DIALOG_CFG_RULE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 644
+        BOTTOMMARGIN, 329
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_DU           BITMAP  DISCARDABLE     "res\\d&u.bmp"
+IDB_BITMAP_RL           BITMAP  DISCARDABLE     "res\\r&l.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 IVSFDemo(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\IVSFDemo.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

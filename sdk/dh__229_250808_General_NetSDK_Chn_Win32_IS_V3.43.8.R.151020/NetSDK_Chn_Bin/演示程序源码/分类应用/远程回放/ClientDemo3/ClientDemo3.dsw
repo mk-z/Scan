@@ -1,0 +1,31 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "ClientDemo3"=".\ClientDemo3.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+    {CD2D4B6A-F5BE-45AD-93BE-AC72FB797B00}
+    {239852BA-EDB9-4A43-9DAC-43A585E1A130}
+}}}
+
+###############################################################################
+

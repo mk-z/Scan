@@ -1,0 +1,1977 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AccessControl - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/AccessControl.res" /d "NDEBUG" "F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\门禁\AccessControl.rc"" 
+Creating temporary file "D:\Temp\RSPCF49.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/AccessControl.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\门禁\AccessControl.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\门禁\AccessControlDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\门禁\AlarmSubscribe.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\门禁\DlgCapability.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\门禁\DlgDeviceTime.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\门禁\DlgDoorControl.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\门禁\DlgQueryLog.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\门禁\DlgRecordSetControl.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\门禁\DlgSubDlgInfoAccessRecord.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\门禁\DlgSubDlgInfoHoliday.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\门禁\DlgSubDlgInfoPassword.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\门禁\DlgUpgrade.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\门禁\DlgUserManage.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\门禁\DlgVersion.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\门禁\Include\mdump.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\门禁\RecordSetFinder.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\门禁\SubDlgCfgDoorOpenTimeSection.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\门禁\SubDlgInfoCard.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\门禁\SubDlgSensorInfoDescription.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\门禁\DlgCfgAccessControl.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\门禁\DlgCfgAccessControlGeneral.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\门禁\DlgCfgNetwork.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\门禁\DlgCfgNTP.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\门禁\DlgCfgTimeSchedule.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF49.tmp" 
+Creating temporary file "D:\Temp\RSPCF4A.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/AccessControl.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\门禁\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF4A.tmp" 
+Creating temporary file "D:\Temp\RSPCF4B.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Bin/AccessControl.pdb" /debug /machine:I386 /out:"Bin/AccessControl.exe" 
+".\Release\AccessControl.obj"
+".\Release\AccessControlDlg.obj"
+".\Release\AlarmSubscribe.obj"
+".\Release\DlgCapability.obj"
+".\Release\DlgDeviceTime.obj"
+".\Release\DlgDoorControl.obj"
+".\Release\DlgQueryLog.obj"
+".\Release\DlgRecordSetControl.obj"
+".\Release\DlgSubDlgInfoAccessRecord.obj"
+".\Release\DlgSubDlgInfoHoliday.obj"
+".\Release\DlgSubDlgInfoPassword.obj"
+".\Release\DlgUpgrade.obj"
+".\Release\DlgUserManage.obj"
+".\Release\DlgVersion.obj"
+".\Release\mdump.obj"
+".\Release\RecordSetFinder.obj"
+".\Release\StdAfx.obj"
+".\Release\SubDlgCfgDoorOpenTimeSection.obj"
+".\Release\SubDlgInfoCard.obj"
+".\Release\SubDlgSensorInfoDescription.obj"
+".\Release\DlgCfgAccessControl.obj"
+".\Release\DlgCfgAccessControlGeneral.obj"
+".\Release\DlgCfgNetwork.obj"
+".\Release\DlgCfgNTP.obj"
+".\Release\DlgCfgTimeSchedule.obj"
+".\Release\AccessControl.res"
+]
+Creating command line "link.exe @D:\Temp\RSPCF4B.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AccessControl.cpp
+AccessControlDlg.cpp
+AlarmSubscribe.cpp
+DlgCapability.cpp
+DlgDeviceTime.cpp
+DlgDoorControl.cpp
+DlgQueryLog.cpp
+DlgRecordSetControl.cpp
+DlgSubDlgInfoAccessRecord.cpp
+DlgSubDlgInfoHoliday.cpp
+DlgSubDlgInfoPassword.cpp
+DlgUpgrade.cpp
+DlgUserManage.cpp
+DlgVersion.cpp
+mdump.cpp
+RecordSetFinder.cpp
+SubDlgCfgDoorOpenTimeSection.cpp
+SubDlgInfoCard.cpp
+SubDlgSensorInfoDescription.cpp
+DlgCfgAccessControl.cpp
+Generating Code...
+Compiling...
+DlgCfgAccessControlGeneral.cpp
+DlgCfgNetwork.cpp
+DlgCfgNTP.cpp
+DlgCfgTimeSchedule.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+AccessControl.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: AlarmDevice - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/AlarmDevice.res" /d "NDEBUG" "F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\AlarmDevice.rc"" 
+Creating temporary file "D:\Temp\RSPCF4D.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/AlarmDevice.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgCfgAirCondition.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgCfgAlarm.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgCfgAlarmCenter.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgCfgAlarmChassisIntrusion.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgCfgAlarmExAlarmBox.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgCfgAlarmKeyboard.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgCfgAlarmOut.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgCfgAlarmPowerFault.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgCfgAlarmSlotBond.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgCfgAlarmSubSystem.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgCfgAlarmUrgency.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgCfgAnalogAlarm.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgCfgAutoMaintain.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgCfgBatteryLowPower.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgCfgExAlarmInput.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgCfgExAlarmOutput.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgCfgGuard.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgCfgIPConflict.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgCfgLocales.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgCfgMacConflict.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgCfgMobile.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgCfgNetAbort.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgCfgNetCollection.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgCfgNetwork.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgCfgNTP.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgCfgPhoneNotify.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgCfgPSTNAlarmServer.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgCfgPSTNBreakLine.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgCfgRCEmergencyCall.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgCfgSensorInfoOfVW.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgCfgSensorSampling.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgCfgSerial.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgCfgSnapLinkage.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgCfgSTP.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgCfgWireless.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\AddUserInfo.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\AirConditionOperate.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\AlarmDevice.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\AlarmDeviceDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\AlarmSubscribe.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\AudioBoardcastDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\BSWndContainer.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DHPtzMenu.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgAccess.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgActivatedDefenceArea.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgAlarmBell.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgAlarmChannel.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgAlarmOutSet.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgAlarmState.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgAlarmSubSystem.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgAnalogAlarmChannels.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgAnalogAlarmData.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgBypassCtl.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgCapability.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgCfgAlarmBell.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgDeviceTime.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgExAlarmChannel.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgExAlarmEventHandler.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgExAlarmHandler.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgExtendedBypass.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgFileList.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgFileManager.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgLocalBypass.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgLowRateWPAN.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgOptAccess.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgOptPlaysound.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgQueryLog.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgRecoverConfig.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgRestoreCfgNew.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgSetArmMode.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgSetBypass.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgSetNetWorkParam.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgStateBattery.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgTalk.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgUpgrade.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgUserInfo.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgUserManage.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\DlgVersion.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\ExButton.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\FlashLabel.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\LoginDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\Include\mdump.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\ModifyPwd.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\ModifyUserInfo.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\MultiPlay.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\PlayApi.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\PlayWnd.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\PtzScreen.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\SubDlgCfgEventHandler.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\SubDlgCfgTimeSection.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\SubDlgSensorInfoDescription.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\TabUserManageDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\VideoNodeInfo.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF4D.tmp" 
+Creating temporary file "D:\Temp\RSPCF4E.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/AlarmDevice.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\报警主机\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF4E.tmp" 
+Creating temporary file "D:\Temp\RSPCF4F.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Bin/AlarmDevice.pdb" /debug /machine:I386 /out:"Bin/AlarmDevice.exe" 
+".\Release\DlgCfgAirCondition.obj"
+".\Release\DlgCfgAlarm.obj"
+".\Release\DlgCfgAlarmCenter.obj"
+".\Release\DlgCfgAlarmChassisIntrusion.obj"
+".\Release\DlgCfgAlarmExAlarmBox.obj"
+".\Release\DlgCfgAlarmKeyboard.obj"
+".\Release\DlgCfgAlarmOut.obj"
+".\Release\DlgCfgAlarmPowerFault.obj"
+".\Release\DlgCfgAlarmSlotBond.obj"
+".\Release\DlgCfgAlarmSubSystem.obj"
+".\Release\DlgCfgAlarmUrgency.obj"
+".\Release\DlgCfgAnalogAlarm.obj"
+".\Release\DlgCfgAutoMaintain.obj"
+".\Release\DlgCfgBatteryLowPower.obj"
+".\Release\DlgCfgExAlarmInput.obj"
+".\Release\DlgCfgExAlarmOutput.obj"
+".\Release\DlgCfgGuard.obj"
+".\Release\DlgCfgIPConflict.obj"
+".\Release\DlgCfgLocales.obj"
+".\Release\DlgCfgMacConflict.obj"
+".\Release\DlgCfgMobile.obj"
+".\Release\DlgCfgNetAbort.obj"
+".\Release\DlgCfgNetCollection.obj"
+".\Release\DlgCfgNetwork.obj"
+".\Release\DlgCfgNTP.obj"
+".\Release\DlgCfgPhoneNotify.obj"
+".\Release\DlgCfgPSTNAlarmServer.obj"
+".\Release\DlgCfgPSTNBreakLine.obj"
+".\Release\DlgCfgRCEmergencyCall.obj"
+".\Release\DlgCfgSensorInfoOfVW.obj"
+".\Release\DlgCfgSensorSampling.obj"
+".\Release\DlgCfgSerial.obj"
+".\Release\DlgCfgSnapLinkage.obj"
+".\Release\DlgCfgSTP.obj"
+".\Release\DlgCfgWireless.obj"
+".\Release\AddUserInfo.obj"
+".\Release\AirConditionOperate.obj"
+".\Release\AlarmDevice.obj"
+".\Release\AlarmDeviceDlg.obj"
+".\Release\AlarmSubscribe.obj"
+".\Release\AudioBoardcastDlg.obj"
+".\Release\BSWndContainer.obj"
+".\Release\DHPtzMenu.obj"
+".\Release\DlgAccess.obj"
+".\Release\DlgActivatedDefenceArea.obj"
+".\Release\DlgAlarmBell.obj"
+".\Release\DlgAlarmChannel.obj"
+".\Release\DlgAlarmOutSet.obj"
+".\Release\DlgAlarmState.obj"
+".\Release\DlgAlarmSubSystem.obj"
+".\Release\DlgAnalogAlarmChannels.obj"
+".\Release\DlgAnalogAlarmData.obj"
+".\Release\DlgBypassCtl.obj"
+".\Release\DlgCapability.obj"
+".\Release\DlgCfgAlarmBell.obj"
+".\Release\DlgDeviceTime.obj"
+".\Release\DlgExAlarmChannel.obj"
+".\Release\DlgExAlarmEventHandler.obj"
+".\Release\DlgExAlarmHandler.obj"
+".\Release\DlgExtendedBypass.obj"
+".\Release\DlgFileList.obj"
+".\Release\DlgFileManager.obj"
+".\Release\DlgLocalBypass.obj"
+".\Release\DlgLowRateWPAN.obj"
+".\Release\DlgOptAccess.obj"
+".\Release\DlgOptPlaysound.obj"
+".\Release\DlgQueryLog.obj"
+".\Release\DlgRecoverConfig.obj"
+".\Release\DlgRestoreCfgNew.obj"
+".\Release\DlgSetArmMode.obj"
+".\Release\DlgSetBypass.obj"
+".\Release\DlgSetNetWorkParam.obj"
+".\Release\DlgStateBattery.obj"
+".\Release\DlgTalk.obj"
+".\Release\DlgUpgrade.obj"
+".\Release\DlgUserInfo.obj"
+".\Release\DlgUserManage.obj"
+".\Release\DlgVersion.obj"
+".\Release\ExButton.obj"
+".\Release\FlashLabel.obj"
+".\Release\LoginDlg.obj"
+".\Release\mdump.obj"
+".\Release\ModifyPwd.obj"
+".\Release\ModifyUserInfo.obj"
+".\Release\MultiPlay.obj"
+".\Release\PlayApi.obj"
+".\Release\PlayWnd.obj"
+".\Release\PtzScreen.obj"
+".\Release\StdAfx.obj"
+".\Release\SubDlgCfgEventHandler.obj"
+".\Release\SubDlgCfgTimeSection.obj"
+".\Release\SubDlgSensorInfoDescription.obj"
+".\Release\TabUserManageDlg.obj"
+".\Release\VideoNodeInfo.obj"
+".\Release\AlarmDevice.res"
+]
+Creating command line "link.exe @D:\Temp\RSPCF4F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DlgCfgAirCondition.cpp
+DlgCfgAlarm.cpp
+DlgCfgAlarmCenter.cpp
+DlgCfgAlarmChassisIntrusion.cpp
+DlgCfgAlarmExAlarmBox.cpp
+DlgCfgAlarmKeyboard.cpp
+DlgCfgAlarmOut.cpp
+DlgCfgAlarmPowerFault.cpp
+DlgCfgAlarmSlotBond.cpp
+DlgCfgAlarmSubSystem.cpp
+DlgCfgAlarmUrgency.cpp
+DlgCfgAnalogAlarm.cpp
+DlgCfgAutoMaintain.cpp
+DlgCfgBatteryLowPower.cpp
+DlgCfgExAlarmInput.cpp
+DlgCfgExAlarmOutput.cpp
+DlgCfgGuard.cpp
+DlgCfgIPConflict.cpp
+DlgCfgLocales.cpp
+DlgCfgMacConflict.cpp
+Generating Code...
+Compiling...
+DlgCfgMobile.cpp
+DlgCfgNetAbort.cpp
+DlgCfgNetCollection.cpp
+DlgCfgNetwork.cpp
+DlgCfgNTP.cpp
+DlgCfgPhoneNotify.cpp
+DlgCfgPSTNAlarmServer.cpp
+DlgCfgPSTNBreakLine.cpp
+DlgCfgRCEmergencyCall.cpp
+DlgCfgSensorInfoOfVW.cpp
+DlgCfgSensorSampling.cpp
+DlgCfgSerial.cpp
+DlgCfgSnapLinkage.cpp
+DlgCfgSTP.cpp
+DlgCfgWireless.cpp
+AddUserInfo.cpp
+AirConditionOperate.cpp
+AlarmDevice.cpp
+AlarmDeviceDlg.cpp
+AlarmSubscribe.cpp
+Generating Code...
+Compiling...
+AudioBoardcastDlg.cpp
+BSWndContainer.cpp
+DHPtzMenu.cpp
+DlgAccess.cpp
+DlgActivatedDefenceArea.cpp
+DlgAlarmBell.cpp
+DlgAlarmChannel.cpp
+DlgAlarmOutSet.cpp
+DlgAlarmState.cpp
+DlgAlarmSubSystem.cpp
+DlgAnalogAlarmChannels.cpp
+DlgAnalogAlarmData.cpp
+DlgBypassCtl.cpp
+DlgCapability.cpp
+DlgCfgAlarmBell.cpp
+DlgDeviceTime.cpp
+DlgExAlarmChannel.cpp
+DlgExAlarmEventHandler.cpp
+DlgExAlarmHandler.cpp
+DlgExtendedBypass.cpp
+Generating Code...
+Compiling...
+DlgFileList.cpp
+DlgFileManager.cpp
+DlgLocalBypass.cpp
+DlgLowRateWPAN.cpp
+DlgOptAccess.cpp
+DlgOptPlaysound.cpp
+DlgQueryLog.cpp
+DlgRecoverConfig.cpp
+DlgRestoreCfgNew.cpp
+DlgSetArmMode.cpp
+DlgSetBypass.cpp
+DlgSetNetWorkParam.cpp
+DlgStateBattery.cpp
+DlgTalk.cpp
+DlgUpgrade.cpp
+DlgUserInfo.cpp
+DlgUserManage.cpp
+DlgVersion.cpp
+ExButton.cpp
+FlashLabel.cpp
+Generating Code...
+Compiling...
+LoginDlg.cpp
+mdump.cpp
+ModifyPwd.cpp
+ModifyUserInfo.cpp
+MultiPlay.cpp
+PlayApi.cpp
+PlayWnd.cpp
+PtzScreen.cpp
+SubDlgCfgEventHandler.cpp
+SubDlgCfgTimeSection.cpp
+SubDlgSensorInfoDescription.cpp
+TabUserManageDlg.cpp
+VideoNodeInfo.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+AlarmDevice.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: CapturePicture - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/CapturePicture.res" /d "NDEBUG" /d "_AFXDLL" "F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\远程抓图\CapturePicture\CapturePicture.rc"" 
+Creating temporary file "D:\Temp\RSPCF51.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "CFG_RELEASE_HEADER" /Fp"Release/CapturePicture.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\远程抓图\CapturePicture\CapturePicture.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\远程抓图\CapturePicture\CapturePictureDlg.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF51.tmp" 
+Creating temporary file "D:\Temp\RSPCF52.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "CFG_RELEASE_HEADER" /Fp"Release/CapturePicture.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\远程抓图\CapturePicture\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF52.tmp" 
+Creating temporary file "D:\Temp\RSPCF53.tmp" with contents
+[
+DhDecode.lib dhnetsdk.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/CapturePicture.pdb" /machine:I386 /out:"Release/CapturePicture.exe" 
+".\Release\CapturePicture.obj"
+".\Release\CapturePictureDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\CapturePicture.res"
+".\dhconfigsdk.lib"
+]
+Creating command line "link.exe @D:\Temp\RSPCF53.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CapturePicture.cpp
+CapturePictureDlg.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4089: all references to "GDI32.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+CapturePicture.exe - 0 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: ClientDemo - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/ClientDemo.res" /d "NDEBUG" /d "_AFXDLL" "F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\实时监视、云台控制\ClientDemo\ClientDemo.rc"" 
+Creating temporary file "D:\Temp\RSPCF55.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/ClientDemo.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\实时监视、云台控制\ClientDemo\BSWndContainer.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\实时监视、云台控制\ClientDemo\ClientDemo.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\实时监视、云台控制\ClientDemo\ClientDemoDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\实时监视、云台控制\ClientDemo\ExButton.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\实时监视、云台控制\ClientDemo\MultiPlay.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\实时监视、云台控制\ClientDemo\PlayWnd.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\实时监视、云台控制\ClientDemo\PtzMenu.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\实时监视、云台控制\ClientDemo\PtzScreen.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\实时监视、云台控制\ClientDemo\VideoNodeInfo.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF55.tmp" 
+Creating temporary file "D:\Temp\RSPCF56.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/ClientDemo.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\实时监视、云台控制\ClientDemo\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF56.tmp" 
+Creating temporary file "D:\Temp\RSPCF57.tmp" with contents
+[
+dhplay.lib dhnetsdk.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/ClientDemo.pdb" /machine:I386 /out:"Release/ClientDemo.exe" /libpath:"./Lib_32" 
+".\Release\BSWndContainer.obj"
+".\Release\ClientDemo.obj"
+".\Release\ClientDemoDlg.obj"
+".\Release\ExButton.obj"
+".\Release\MultiPlay.obj"
+".\Release\PlayWnd.obj"
+".\Release\PtzMenu.obj"
+".\Release\PtzScreen.obj"
+".\Release\StdAfx.obj"
+".\Release\VideoNodeInfo.obj"
+".\Release\ClientDemo.res"
+]
+Creating command line "link.exe @D:\Temp\RSPCF57.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+BSWndContainer.cpp
+ClientDemo.cpp
+ClientDemoDlg.cpp
+ExButton.cpp
+MultiPlay.cpp
+PlayWnd.cpp
+PtzMenu.cpp
+PtzScreen.cpp
+VideoNodeInfo.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ClientDemo.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: ClientDemo1 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/ClientDemo1.res" /d "NDEBUG" /d "_AFXDLL" "F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\设备报警、用户管理\ClientDemo1\ClientDemo1.rc"" 
+Creating temporary file "D:\Temp\RSPCF59.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ClientDemo1.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\设备报警、用户管理\ClientDemo1\AddGroupInfo.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\设备报警、用户管理\ClientDemo1\AddUserInfo.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\设备报警、用户管理\ClientDemo1\AlarmInfo.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\设备报警、用户管理\ClientDemo1\ClientDemo1.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\设备报警、用户管理\ClientDemo1\ClientDemo1Dlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\设备报警、用户管理\ClientDemo1\DlgChn.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\设备报警、用户管理\ClientDemo1\ModifyGroupInfo.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\设备报警、用户管理\ClientDemo1\ModifyPwd.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\设备报警、用户管理\ClientDemo1\ModifyUserInfo.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\设备报警、用户管理\ClientDemo1\NewAlarm.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\设备报警、用户管理\ClientDemo1\QueryAlarmState.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\设备报警、用户管理\ClientDemo1\TabAlarmDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\设备报警、用户管理\ClientDemo1\TabUserManageDlg.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF59.tmp" 
+Creating temporary file "D:\Temp\RSPCF5A.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ClientDemo1.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\设备报警、用户管理\ClientDemo1\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF5A.tmp" 
+Creating temporary file "D:\Temp\RSPCF5B.tmp" with contents
+[
+dhnetsdk.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/ClientDemo1.pdb" /machine:I386 /out:"Release/ClientDemo1.exe" 
+".\Release\AddGroupInfo.obj"
+".\Release\AddUserInfo.obj"
+".\Release\AlarmInfo.obj"
+".\Release\ClientDemo1.obj"
+".\Release\ClientDemo1Dlg.obj"
+".\Release\DlgChn.obj"
+".\Release\ModifyGroupInfo.obj"
+".\Release\ModifyPwd.obj"
+".\Release\ModifyUserInfo.obj"
+".\Release\NewAlarm.obj"
+".\Release\QueryAlarmState.obj"
+".\Release\StdAfx.obj"
+".\Release\TabAlarmDlg.obj"
+".\Release\TabUserManageDlg.obj"
+".\Release\ClientDemo1.res"
+]
+Creating command line "link.exe @D:\Temp\RSPCF5B.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AddGroupInfo.cpp
+AddUserInfo.cpp
+AlarmInfo.cpp
+ClientDemo1.cpp
+ClientDemo1Dlg.cpp
+DlgChn.cpp
+ModifyGroupInfo.cpp
+ModifyPwd.cpp
+ModifyUserInfo.cpp
+NewAlarm.cpp
+QueryAlarmState.cpp
+TabAlarmDlg.cpp
+TabUserManageDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ClientDemo1.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: ClientDemo3 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/ClientDemo3.res" /d "NDEBUG" /d "_AFXDLL" "F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\远程回放\ClientDemo3\ClientDemo3.rc"" 
+Creating temporary file "D:\Temp\RSPCF5D.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ClientDemo3.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\远程回放\ClientDemo3\ChannelOneDialog.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\远程回放\ClientDemo3\ClientDemo3.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\远程回放\ClientDemo3\ClientDemo3Dlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\远程回放\ClientDemo3\daytimepicksdk.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\远程回放\ClientDemo3\ExSliderCtrl.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\远程回放\ClientDemo3\FourChannelsDialog.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\远程回放\ClientDemo3\PlaybackByFile.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\远程回放\ClientDemo3\PlaybackByTime.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\远程回放\ClientDemo3\PlaybackMulty.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF5D.tmp" 
+Creating temporary file "D:\Temp\RSPCF5E.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ClientDemo3.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\远程回放\ClientDemo3\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF5E.tmp" 
+Creating temporary file "D:\Temp\RSPCF5F.tmp" with contents
+[
+dhnetsdk.lib dhplay.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/ClientDemo3.pdb" /machine:I386 /out:"Release/ClientDemo3.exe" 
+".\Release\ChannelOneDialog.obj"
+".\Release\ClientDemo3.obj"
+".\Release\ClientDemo3Dlg.obj"
+".\Release\daytimepicksdk.obj"
+".\Release\ExSliderCtrl.obj"
+".\Release\FourChannelsDialog.obj"
+".\Release\PlaybackByFile.obj"
+".\Release\PlaybackByTime.obj"
+".\Release\PlaybackMulty.obj"
+".\Release\StdAfx.obj"
+".\Release\ClientDemo3.res"
+]
+Creating command line "link.exe @D:\Temp\RSPCF5F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChannelOneDialog.cpp
+ClientDemo3.cpp
+ClientDemo3Dlg.cpp
+daytimepicksdk.cpp
+ExSliderCtrl.cpp
+FourChannelsDialog.cpp
+PlaybackByFile.cpp
+PlaybackByTime.cpp
+PlaybackMulty.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ClientDemo3.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: ClientDemo4 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/ClientDemo4.res" /d "NDEBUG" /d "_AFXDLL" "F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\语音对讲\ClientDemo4\ClientDemo4.rc"" 
+Creating temporary file "D:\Temp\RSPCF61.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ClientDemo4.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\语音对讲\ClientDemo4\ClientDemo4.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\语音对讲\ClientDemo4\ClientDemo4Dlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\语音对讲\ClientDemo4\ClientDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\语音对讲\ClientDemo4\ServerDlg.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF61.tmp" 
+Creating temporary file "D:\Temp\RSPCF62.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ClientDemo4.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\语音对讲\ClientDemo4\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF62.tmp" 
+Creating temporary file "D:\Temp\RSPCF63.tmp" with contents
+[
+dhplay.lib amrnb.lib dhnetsdk.lib LibAACEnc.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/ClientDemo4.pdb" /machine:I386 /out:"Release/ClientDemo4.exe" 
+".\Release\ClientDemo4.obj"
+".\Release\ClientDemo4Dlg.obj"
+".\Release\ClientDlg.obj"
+".\Release\ServerDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\ClientDemo4.res"
+]
+Creating command line "link.exe @D:\Temp\RSPCF63.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ClientDemo4.cpp
+ClientDemo4Dlg.cpp
+ClientDlg.cpp
+ServerDlg.cpp
+F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\语音对讲\ClientDemo4\ServerDlg.cpp(242) : warning C4305: '+=' : truncation from 'const int' to 'char'
+F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\语音对讲\ClientDemo4\ServerDlg.cpp(444) : warning C4305: '=' : truncation from 'const int' to 'char'
+F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\语音对讲\ClientDemo4\ServerDlg.cpp(444) : warning C4309: '=' : truncation of constant value
+F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\语音对讲\ClientDemo4\ServerDlg.cpp(476) : warning C4305: '=' : truncation from 'const int' to 'char'
+F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\语音对讲\ClientDemo4\ServerDlg.cpp(476) : warning C4309: '=' : truncation of constant value
+F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\语音对讲\ClientDemo4\ServerDlg.cpp(511) : warning C4305: '=' : truncation from 'const int' to 'char'
+F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\语音对讲\ClientDemo4\ServerDlg.cpp(511) : warning C4309: '=' : truncation of constant value
+F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\语音对讲\ClientDemo4\ServerDlg.cpp(543) : warning C4305: '=' : truncation from 'const int' to 'char'
+F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\语音对讲\ClientDemo4\ServerDlg.cpp(543) : warning C4309: '=' : truncation of constant value
+F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\语音对讲\ClientDemo4\ServerDlg.cpp(594) : warning C4305: '=' : truncation from 'const int' to 'char'
+F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\语音对讲\ClientDemo4\ServerDlg.cpp(594) : warning C4309: '=' : truncation of constant value
+F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\语音对讲\ClientDemo4\ServerDlg.cpp(690) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Generating Code...
+Linking...
+   Creating library Release/ClientDemo4.lib and object Release/ClientDemo4.exp
+LINK : warning LNK4098: defaultlib "LIBC" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+ClientDemo4.exe - 0 error(s), 13 warning(s)
+<h3>
+--------------------Configuration: ClientDemo5 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/ClientDemo5.res" /d "NDEBUG" /d "_AFXDLL" "F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\ClientDemo5.rc"" 
+Creating temporary file "D:\Temp\RSPCF67.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ClientDemo5.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\AlarmInputDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\AlarmMotion.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\AlarmShelter.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\AlarmVLostDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\AreaDraw.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\ClientDemo5.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\ClientDemo5Dlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\Common.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\ConfigAlarm.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\ConfigAlarmMotionArea.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\ConfigAlarmMotionAreaBlock.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\ConfigChannel.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\ConfigChannelEx.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\ConfigComm.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\ConfigCover.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\ConfigFile.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\ConfigFTP.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\ConfigFTPEx.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\ConfigFTPMain.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\ConfigNetwork.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\ConfigNetworkMulticastAdd.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\ConfigRecord.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\ConfigServer.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\ConfigStrategy.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\ConfigVideoIn.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\DlgChn.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\DlgDVR.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\DlgIPC.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\DlgMsgHandle.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\DriveRecordChn.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\IPFileterDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\MacFilteDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\StrategyDownload.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\StrategyEncryption.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\StrategyTrans.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF67.tmp" 
+Creating temporary file "D:\Temp\RSPCF68.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ClientDemo5.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF68.tmp" 
+Creating temporary file "D:\Temp\RSPCF69.tmp" with contents
+[
+dhnetsdk.lib dhconfigsdk.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/ClientDemo5.pdb" /machine:I386 /out:"Release/ClientDemo5.exe" 
+".\Release\AlarmInputDlg.obj"
+".\Release\AlarmMotion.obj"
+".\Release\AlarmShelter.obj"
+".\Release\AlarmVLostDlg.obj"
+".\Release\AreaDraw.obj"
+".\Release\ClientDemo5.obj"
+".\Release\ClientDemo5Dlg.obj"
+".\Release\Common.obj"
+".\Release\ConfigAlarm.obj"
+".\Release\ConfigAlarmMotionArea.obj"
+".\Release\ConfigAlarmMotionAreaBlock.obj"
+".\Release\ConfigChannel.obj"
+".\Release\ConfigChannelEx.obj"
+".\Release\ConfigComm.obj"
+".\Release\ConfigCover.obj"
+".\Release\ConfigFile.obj"
+".\Release\ConfigFTP.obj"
+".\Release\ConfigFTPEx.obj"
+".\Release\ConfigFTPMain.obj"
+".\Release\ConfigNetwork.obj"
+".\Release\ConfigNetworkMulticastAdd.obj"
+".\Release\ConfigRecord.obj"
+".\Release\ConfigServer.obj"
+".\Release\ConfigStrategy.obj"
+".\Release\ConfigVideoIn.obj"
+".\Release\DlgChn.obj"
+".\Release\DlgDVR.obj"
+".\Release\DlgIPC.obj"
+".\Release\DlgMsgHandle.obj"
+".\Release\DriveRecordChn.obj"
+".\Release\IPFileterDlg.obj"
+".\Release\MacFilteDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\StrategyDownload.obj"
+".\Release\StrategyEncryption.obj"
+".\Release\StrategyTrans.obj"
+".\Release\ClientDemo5.res"
+]
+Creating command line "link.exe @D:\Temp\RSPCF69.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AlarmInputDlg.cpp
+AlarmMotion.cpp
+F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\AlarmMotion.cpp(23) : warning C4355: 'this' : used in base member initializer list
+AlarmShelter.cpp
+AlarmVLostDlg.cpp
+AreaDraw.cpp
+ClientDemo5.cpp
+ClientDemo5Dlg.cpp
+Common.cpp
+F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\Common.cpp(989) : warning C4018: '!=' : signed/unsigned mismatch
+ConfigAlarm.cpp
+ConfigAlarmMotionArea.cpp
+ConfigAlarmMotionAreaBlock.cpp
+ConfigChannel.cpp
+ConfigChannelEx.cpp
+ConfigComm.cpp
+ConfigCover.cpp
+ConfigFile.cpp
+ConfigFTP.cpp
+ConfigFTPEx.cpp
+ConfigFTPMain.cpp
+ConfigNetwork.cpp
+Generating Code...
+Compiling...
+ConfigNetworkMulticastAdd.cpp
+ConfigRecord.cpp
+ConfigServer.cpp
+ConfigStrategy.cpp
+ConfigVideoIn.cpp
+F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\ConfigVideoIn.cpp(762) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\ConfigVideoIn.cpp(763) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\参数配置\ClientDemo5\ConfigVideoIn.cpp(764) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+DlgChn.cpp
+DlgDVR.cpp
+DlgIPC.cpp
+DlgMsgHandle.cpp
+DriveRecordChn.cpp
+IPFileterDlg.cpp
+MacFilteDlg.cpp
+StrategyDownload.cpp
+StrategyEncryption.cpp
+StrategyTrans.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ClientDemo5.exe - 0 error(s), 5 warning(s)
+<h3>
+--------------------Configuration: ClientDemo6 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/ClientDemo6.res" /d "NDEBUG" /d "_AFXDLL" "F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\日志查询\ClientDemo6\ClientDemo6.rc"" 
+Creating temporary file "D:\Temp\RSPCF6B.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ClientDemo6.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\日志查询\ClientDemo6\ClientDemo6.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\日志查询\ClientDemo6\ClientDemo6Dlg.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF6B.tmp" 
+Creating temporary file "D:\Temp\RSPCF6C.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ClientDemo6.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\日志查询\ClientDemo6\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF6C.tmp" 
+Creating temporary file "D:\Temp\RSPCF6D.tmp" with contents
+[
+dhnetsdk.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/ClientDemo6.pdb" /machine:I386 /out:"Release/ClientDemo6.exe" 
+".\Release\ClientDemo6.obj"
+".\Release\ClientDemo6Dlg.obj"
+".\Release\StdAfx.obj"
+".\Release\ClientDemo6.res"
+".\dhnetsdk.lib"
+]
+Creating command line "link.exe @D:\Temp\RSPCF6D.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ClientDemo6.cpp
+ClientDemo6Dlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ClientDemo6.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: ClientDemo7 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/ClientDemo7.res" /d "NDEBUG" /d "_AFXDLL" "F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\设备控制、时间同步\ClientDemo7\ClientDemo7.rc"" 
+Creating temporary file "D:\Temp\RSPCF6F.tmp" with contents
+[
+/nologo /MD /W3 /GX /O1 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ClientDemo7.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\设备控制、时间同步\ClientDemo7\ClientDemo7.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\设备控制、时间同步\ClientDemo7\ClientDemo7Dlg.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF6F.tmp" 
+Creating temporary file "D:\Temp\RSPCF70.tmp" with contents
+[
+/nologo /MD /W3 /GX /O1 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ClientDemo7.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\设备控制、时间同步\ClientDemo7\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF70.tmp" 
+Creating command line "link.exe dhnetsdk.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/ClientDemo7.pdb" /machine:I386 /out:"Release/ClientDemo7.exe"  ".\Release\ClientDemo7.obj" ".\Release\ClientDemo7Dlg.obj" ".\Release\StdAfx.obj" ".\Release\ClientDemo7.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ClientDemo7.cpp
+ClientDemo7Dlg.cpp
+F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\设备控制、时间同步\ClientDemo7\ClientDemo7Dlg.cpp(501) : warning C4018: '<' : signed/unsigned mismatch
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ClientDemo7.exe - 0 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: DemoIVSb - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/DemoIVSb.res" /d "NDEBUG" /d "_AFXDLL" "F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-B\DemoIVSb.rc"" 
+Creating temporary file "D:\Temp\RSPCF72.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/DemoIVSb.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-B\RuleCrossFence.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-B\RuleCrossLine.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-B\RuleCrossRegion.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-B\RuleLeft.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-B\RuleMove.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-B\RuleParking.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-B\RulePreservation.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-B\RuleRetrogradation.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-B\RuleStay.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-B\RuleTakenAway.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-B\RuleVideoAbnormal.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-B\RuleWander.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-B\IvsGlobalPreview.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-B\IvsModulePreview.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-B\IvsRulePreview.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-B\TargetFilter.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-B\TargetFilterPreview.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-B\Alarm.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-B\Config.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-B\ConfigGlobal.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-B\ConfigModule.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-B\ConfigRules.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-B\DemoIVSb.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-B\DemoIVSbDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-B\Login.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-B\Logo.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-B\PlayApi.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-B\Preview.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-B\Switch.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF72.tmp" 
+Creating temporary file "D:\Temp\RSPCF73.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/DemoIVSb.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-B\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF73.tmp" 
+Creating temporary file "D:\Temp\RSPCF74.tmp" with contents
+[
+/nologo /stack:0x400000 /subsystem:windows /incremental:no /pdb:"Release/DemoIVSb.pdb" /machine:I386 /out:"Release/DemoIVSb.exe" 
+".\Release\RuleCrossFence.obj"
+".\Release\RuleCrossLine.obj"
+".\Release\RuleCrossRegion.obj"
+".\Release\RuleLeft.obj"
+".\Release\RuleMove.obj"
+".\Release\RuleParking.obj"
+".\Release\RulePreservation.obj"
+".\Release\RuleRetrogradation.obj"
+".\Release\RuleStay.obj"
+".\Release\RuleTakenAway.obj"
+".\Release\RuleVideoAbnormal.obj"
+".\Release\RuleWander.obj"
+".\Release\IvsGlobalPreview.obj"
+".\Release\IvsModulePreview.obj"
+".\Release\IvsRulePreview.obj"
+".\Release\TargetFilter.obj"
+".\Release\TargetFilterPreview.obj"
+".\Release\Alarm.obj"
+".\Release\Config.obj"
+".\Release\ConfigGlobal.obj"
+".\Release\ConfigModule.obj"
+".\Release\ConfigRules.obj"
+".\Release\DemoIVSb.obj"
+".\Release\DemoIVSbDlg.obj"
+".\Release\Login.obj"
+".\Release\Logo.obj"
+".\Release\PlayApi.obj"
+".\Release\Preview.obj"
+".\Release\StdAfx.obj"
+".\Release\Switch.obj"
+".\Release\DemoIVSb.res"
+]
+Creating command line "link.exe @D:\Temp\RSPCF74.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+RuleCrossFence.cpp
+RuleCrossLine.cpp
+RuleCrossRegion.cpp
+RuleLeft.cpp
+RuleMove.cpp
+RuleParking.cpp
+RulePreservation.cpp
+RuleRetrogradation.cpp
+RuleStay.cpp
+RuleTakenAway.cpp
+RuleVideoAbnormal.cpp
+RuleWander.cpp
+IvsGlobalPreview.cpp
+IvsModulePreview.cpp
+IvsRulePreview.cpp
+TargetFilter.cpp
+TargetFilterPreview.cpp
+Alarm.cpp
+Config.cpp
+ConfigGlobal.cpp
+Generating Code...
+Compiling...
+ConfigModule.cpp
+ConfigRules.cpp
+DemoIVSb.cpp
+DemoIVSbDlg.cpp
+Login.cpp
+Logo.cpp
+PlayApi.cpp
+Preview.cpp
+Switch.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+DemoIVSb.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: DemoMonitorWall - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/DemoMonitorWall.res" /d "NDEBUG" "F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\电视墙\src\DemoMonitorWall.rc"" 
+Creating temporary file "D:\Temp\RSPCF76.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/DemoMonitorWall.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\电视墙\src\CollectionDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\电视墙\src\DemoMonitorWall.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\电视墙\src\DemoMonitorWallDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\电视墙\src\Device.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\电视墙\src\LanguageManager.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\电视墙\src\LoginDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\电视墙\src\MonitorWallWnd.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\电视墙\src\PowerDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\电视墙\src\SpliceScreenConfigDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\电视墙\src\ToolBarEx.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\电视墙\src\Util.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\电视墙\src\VideoScreen.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\电视墙\src\VideoWnd.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF76.tmp" 
+Creating temporary file "D:\Temp\RSPCF77.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/DemoMonitorWall.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\电视墙\src\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF77.tmp" 
+Creating temporary file "D:\Temp\RSPCF78.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/DemoMonitorWall.pdb" /machine:I386 /out:"../bin/DemoMonitorWall.exe" 
+".\Release\CollectionDlg.obj"
+".\Release\DemoMonitorWall.obj"
+".\Release\DemoMonitorWallDlg.obj"
+".\Release\Device.obj"
+".\Release\LanguageManager.obj"
+".\Release\LoginDlg.obj"
+".\Release\MonitorWallWnd.obj"
+".\Release\PowerDlg.obj"
+".\Release\SpliceScreenConfigDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\ToolBarEx.obj"
+".\Release\Util.obj"
+".\Release\VideoScreen.obj"
+".\Release\VideoWnd.obj"
+".\Release\DemoMonitorWall.res"
+]
+Creating command line "link.exe @D:\Temp\RSPCF78.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CollectionDlg.cpp
+DemoMonitorWall.cpp
+DemoMonitorWallDlg.cpp
+Device.cpp
+LanguageManager.cpp
+LoginDlg.cpp
+MonitorWallWnd.cpp
+PowerDlg.cpp
+SpliceScreenConfigDlg.cpp
+ToolBarEx.cpp
+Util.cpp
+VideoScreen.cpp
+VideoWnd.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4089: all references to "SHELL32.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+DemoMonitorWall.exe - 0 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: IVSFDemo - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/IVSFDemo.res" /d "NDEBUG" /d "_AFXDLL" "F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVSFDemo\IVSFDemo.rc"" 
+Creating temporary file "D:\Temp\RSPCF7A.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/IVSFDemo.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVSFDemo\AlarmOnDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVSFDemo\AlarmShow.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVSFDemo\ConfigDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVSFDemo\ItemPanel.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVSFDemo\IVSFDemo.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVSFDemo\IVSFDemoDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVSFDemo\IvsSceneDraw.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVSFDemo\LoginDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVSFDemo\ModuleCfgdlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVSFDemo\Picture.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVSFDemo\PlayApi.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVSFDemo\PreviewDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVSFDemo\RuleCfgdlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVSFDemo\SenceCfgdlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVSFDemo\TargetFilterPreview.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF7A.tmp" 
+Creating temporary file "D:\Temp\RSPCF7B.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/IVSFDemo.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVSFDemo\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF7B.tmp" 
+Creating temporary file "D:\Temp\RSPCF7C.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/IVSFDemo.pdb" /machine:I386 /out:"Release/IVSFDemo.exe" 
+".\Release\AlarmOnDlg.obj"
+".\Release\AlarmShow.obj"
+".\Release\ConfigDlg.obj"
+".\Release\ItemPanel.obj"
+".\Release\IVSFDemo.obj"
+".\Release\IVSFDemoDlg.obj"
+".\Release\IvsSceneDraw.obj"
+".\Release\LoginDlg.obj"
+".\Release\ModuleCfgdlg.obj"
+".\Release\Picture.obj"
+".\Release\PlayApi.obj"
+".\Release\PreviewDlg.obj"
+".\Release\RuleCfgdlg.obj"
+".\Release\SenceCfgdlg.obj"
+".\Release\StdAfx.obj"
+".\Release\TargetFilterPreview.obj"
+".\Release\IVSFDemo.res"
+]
+Creating command line "link.exe @D:\Temp\RSPCF7C.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AlarmOnDlg.cpp
+AlarmShow.cpp
+ConfigDlg.cpp
+ItemPanel.cpp
+IVSFDemo.cpp
+IVSFDemoDlg.cpp
+IvsSceneDraw.cpp
+LoginDlg.cpp
+ModuleCfgdlg.cpp
+Picture.cpp
+PlayApi.cpp
+PreviewDlg.cpp
+RuleCfgdlg.cpp
+SenceCfgdlg.cpp
+TargetFilterPreview.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+IVSFDemo.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: IVSPC - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/DemoIVSPC.res" /d "NDEBUG" /d "_AFXDLL" "F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-PC\DemoIVSPC\DemoIVSPC.rc"" 
+Creating temporary file "D:\Temp\RSPCF7E.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/IVSPC.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-PC\DemoIVSPC\Config.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-PC\DemoIVSPC\ConfigGlobal.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-PC\DemoIVSPC\ConfigModule.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-PC\DemoIVSPC\ConfigRules.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-PC\DemoIVSPC\DemoIVSPC.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-PC\DemoIVSPC\DemoIVSPCDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-PC\DemoIVSPC\DlgQuery.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-PC\DemoIVSPC\DrawFrame.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-PC\DemoIVSPC\GlobalDef.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-PC\DemoIVSPC\IvsGlobalPreview.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-PC\DemoIVSPC\IvsModulePreview.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-PC\DemoIVSPC\IvsRulePreview.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-PC\DemoIVSPC\Login.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-PC\DemoIVSPC\Logo.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-PC\DemoIVSPC\PictureWnd.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-PC\DemoIVSPC\PlayApi.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-PC\DemoIVSPC\Preview.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-PC\DemoIVSPC\RuleTreeCtrl.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-PC\DemoIVSPC\SubDlgNumberStatInfo.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-PC\DemoIVSPC\TargetFilter.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-PC\DemoIVSPC\TargetFilterPreview.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF7E.tmp" 
+Creating temporary file "D:\Temp\RSPCF7F.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/IVSPC.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-PC\DemoIVSPC\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF7F.tmp" 
+Creating temporary file "D:\Temp\RSPCF80.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/IVSPC.pdb" /machine:I386 /out:"Release/IVSPC.exe" 
+".\Release\Config.obj"
+".\Release\ConfigGlobal.obj"
+".\Release\ConfigModule.obj"
+".\Release\ConfigRules.obj"
+".\Release\DemoIVSPC.obj"
+".\Release\DemoIVSPCDlg.obj"
+".\Release\DlgQuery.obj"
+".\Release\DrawFrame.obj"
+".\Release\GlobalDef.obj"
+".\Release\IvsGlobalPreview.obj"
+".\Release\IvsModulePreview.obj"
+".\Release\IvsRulePreview.obj"
+".\Release\Login.obj"
+".\Release\Logo.obj"
+".\Release\PictureWnd.obj"
+".\Release\PlayApi.obj"
+".\Release\Preview.obj"
+".\Release\RuleTreeCtrl.obj"
+".\Release\StdAfx.obj"
+".\Release\SubDlgNumberStatInfo.obj"
+".\Release\TargetFilter.obj"
+".\Release\TargetFilterPreview.obj"
+".\Release\DemoIVSPC.res"
+]
+Creating command line "link.exe @D:\Temp\RSPCF80.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Config.cpp
+ConfigGlobal.cpp
+ConfigModule.cpp
+ConfigRules.cpp
+DemoIVSPC.cpp
+DemoIVSPCDlg.cpp
+DlgQuery.cpp
+DrawFrame.cpp
+GlobalDef.cpp
+IvsGlobalPreview.cpp
+IvsModulePreview.cpp
+IvsRulePreview.cpp
+Login.cpp
+Logo.cpp
+PictureWnd.cpp
+F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-PC\DemoIVSPC\PictureWnd.cpp(104) : warning C4101: 'e' : unreferenced local variable
+F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-PC\DemoIVSPC\PictureWnd.cpp(109) : warning C4101: 'e' : unreferenced local variable
+F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS-PC\DemoIVSPC\PictureWnd.cpp(114) : warning C4101: 'e' : unreferenced local variable
+PlayApi.cpp
+Preview.cpp
+RuleTreeCtrl.cpp
+SubDlgNumberStatInfo.cpp
+TargetFilter.cpp
+Generating Code...
+Compiling...
+TargetFilterPreview.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4089: all references to "OLEPRO32.DLL" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+IVSPC.exe - 0 error(s), 4 warning(s)
+<h3>
+--------------------Configuration: IVS_VDemo - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/IVS_VDemo.res" /d "NDEBUG" /d "_AFXDLL" "F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS_V\IVS_VDemo.rc"" 
+Creating temporary file "D:\Temp\RSPCF82.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/IVS_VDemo.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS_V\DeviceListDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS_V\control\virtTree.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS_V\GlobalCfg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS_V\ProfileCfg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS_V\ProjectCfg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS_V\TaskCfg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS_V\LoginDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS_V\IVS_VDemo.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS_V\IVS_VDemoDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS_V\ListenDiagnosisRes.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS_V\QueryDiagnosisRes.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS_V\ProfileInfo1.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS_V\SdkCallback.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF82.tmp" 
+Creating temporary file "D:\Temp\RSPCF83.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/IVS_VDemo.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS_V\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF83.tmp" 
+Creating temporary file "D:\Temp\RSPCF84.tmp" with contents
+[
+dhnetsdk.lib dhconfigsdk.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/IVS_VDemo.pdb" /machine:I386 /out:"Release/IVS_VDemo.exe" /libpath:"include" 
+".\Release\DeviceListDlg.obj"
+".\Release\virtTree.obj"
+".\Release\GlobalCfg.obj"
+".\Release\ProfileCfg.obj"
+".\Release\ProjectCfg.obj"
+".\Release\TaskCfg.obj"
+".\Release\LoginDlg.obj"
+".\Release\IVS_VDemo.obj"
+".\Release\IVS_VDemoDlg.obj"
+".\Release\ListenDiagnosisRes.obj"
+".\Release\QueryDiagnosisRes.obj"
+".\Release\StdAfx.obj"
+".\Release\ProfileInfo1.obj"
+".\Release\SdkCallback.obj"
+".\Release\IVS_VDemo.res"
+]
+Creating command line "link.exe @D:\Temp\RSPCF84.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DeviceListDlg.cpp
+virtTree.cpp
+GlobalCfg.cpp
+ProfileCfg.cpp
+ProjectCfg.cpp
+TaskCfg.cpp
+LoginDlg.cpp
+IVS_VDemo.cpp
+IVS_VDemoDlg.cpp
+ListenDiagnosisRes.cpp
+QueryDiagnosisRes.cpp
+ProfileInfo1.cpp
+SdkCallback.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+IVS_VDemo.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: IVS_VDemo - Win32 Release pdb--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\Temp\RSPCF86.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/IVS_VDemo.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS_V\DeviceListDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS_V\ProjectCfg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\IVS_V\LoginDlg.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF86.tmp" 
+Creating temporary file "D:\Temp\RSPCF87.tmp" with contents
+[
+dhnetsdk.lib dhconfigsdk.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/IVS_VDemo.pdb" /debug /machine:I386 /out:"Release/IVS_VDemo.exe" /libpath:"include" 
+".\Release\DeviceListDlg.obj"
+".\Release\virtTree.obj"
+".\Release\GlobalCfg.obj"
+".\Release\ProfileCfg.obj"
+".\Release\ProjectCfg.obj"
+".\Release\TaskCfg.obj"
+".\Release\LoginDlg.obj"
+".\Release\IVS_VDemo.obj"
+".\Release\IVS_VDemoDlg.obj"
+".\Release\ListenDiagnosisRes.obj"
+".\Release\QueryDiagnosisRes.obj"
+".\Release\StdAfx.obj"
+".\Release\ProfileInfo1.obj"
+".\Release\SdkCallback.obj"
+".\Release\IVS_VDemo.res"
+]
+Creating command line "link.exe @D:\Temp\RSPCF87.tmp"
+<h3>Output Window</h3>
+Compiling...
+DeviceListDlg.cpp
+ProjectCfg.cpp
+LoginDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+IVS_VDemo.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NVDSDKDemo - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/NVDSDKDemo.res" /d "NDEBUG" /d "_AFXDLL" "F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\NVD视频上墙\NVDSDKDemo\NVDSDKDemo.rc"" 
+Creating temporary file "D:\Temp\RSPCF89.tmp" with contents
+[
+/nologo /MD /W3 /GX /O1 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Release/NVDSDKDemo.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\NVD视频上墙\NVDSDKDemo\AddDecoderDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\NVD视频上墙\NVDSDKDemo\AddDeviceDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\NVD视频上墙\NVDSDKDemo\AudioTalkDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\NVD视频上墙\NVDSDKDemo\DecodePolicyDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\NVD视频上墙\NVDSDKDemo\DecoderInfoDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\NVD视频上墙\NVDSDKDemo\DecTourDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\NVD视频上墙\NVDSDKDemo\DevByFileDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\NVD视频上墙\NVDSDKDemo\DevByTimeDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\NVD视频上墙\NVDSDKDemo\ExSliderCtrl.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\NVD视频上墙\NVDSDKDemo\NVDSDKDemo.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\NVD视频上墙\NVDSDKDemo\NVDSDKDemoDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\NVD视频上墙\NVDSDKDemo\PannelDecoder.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\NVD视频上墙\NVDSDKDemo\PannelEncoder.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\NVD视频上墙\NVDSDKDemo\PlayBackProcess.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\NVD视频上墙\NVDSDKDemo\ReadWriteMutex.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\NVD视频上墙\NVDSDKDemo\SearchTVDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\NVD视频上墙\NVDSDKDemo\ShowChannelStateDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\NVD视频上墙\NVDSDKDemo\TourCfg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\NVD视频上墙\NVDSDKDemo\TVAdjustdlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\NVD视频上墙\NVDSDKDemo\VideoOutDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\NVD视频上墙\NVDSDKDemo\include\MonitorWnd.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\NVD视频上墙\NVDSDKDemo\include\PlayWnd.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\NVD视频上墙\NVDSDKDemo\include\VideoWindow.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\NVD视频上墙\NVDSDKDemo\include\WndContainer.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF89.tmp" 
+Creating temporary file "D:\Temp\RSPCF8A.tmp" with contents
+[
+/nologo /MD /W3 /GX /O1 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Release/NVDSDKDemo.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\NVD视频上墙\NVDSDKDemo\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF8A.tmp" 
+Creating temporary file "D:\Temp\RSPCF8B.tmp" with contents
+[
+dhnetsdk.lib Ws2_32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/NVDSDKDemo.pdb" /machine:I386 /out:"Release/NVDSDKDemo.exe" 
+".\Release\AddDecoderDlg.obj"
+".\Release\AddDeviceDlg.obj"
+".\Release\AudioTalkDlg.obj"
+".\Release\DecodePolicyDlg.obj"
+".\Release\DecoderInfoDlg.obj"
+".\Release\DecTourDlg.obj"
+".\Release\DevByFileDlg.obj"
+".\Release\DevByTimeDlg.obj"
+".\Release\ExSliderCtrl.obj"
+".\Release\NVDSDKDemo.obj"
+".\Release\NVDSDKDemoDlg.obj"
+".\Release\PannelDecoder.obj"
+".\Release\PannelEncoder.obj"
+".\Release\PlayBackProcess.obj"
+".\Release\ReadWriteMutex.obj"
+".\Release\SearchTVDlg.obj"
+".\Release\ShowChannelStateDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\TourCfg.obj"
+".\Release\TVAdjustdlg.obj"
+".\Release\VideoOutDlg.obj"
+".\Release\MonitorWnd.obj"
+".\Release\PlayWnd.obj"
+".\Release\VideoWindow.obj"
+".\Release\WndContainer.obj"
+".\Release\NVDSDKDemo.res"
+]
+Creating command line "link.exe @D:\Temp\RSPCF8B.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AddDecoderDlg.cpp
+AddDeviceDlg.cpp
+AudioTalkDlg.cpp
+DecodePolicyDlg.cpp
+DecoderInfoDlg.cpp
+DecTourDlg.cpp
+DevByFileDlg.cpp
+DevByTimeDlg.cpp
+ExSliderCtrl.cpp
+NVDSDKDemo.cpp
+NVDSDKDemoDlg.cpp
+PannelDecoder.cpp
+PannelEncoder.cpp
+PlayBackProcess.cpp
+ReadWriteMutex.cpp
+SearchTVDlg.cpp
+ShowChannelStateDlg.cpp
+TourCfg.cpp
+TVAdjustdlg.cpp
+VideoOutDlg.cpp
+Generating Code...
+Compiling...
+MonitorWnd.cpp
+PlayWnd.cpp
+VideoWindow.cpp
+WndContainer.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+NVDSDKDemo.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NetSDKDemo - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/NetSDKDemo.res" /d "NDEBUG" /d "_AFXDLL" "F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\NetSDKDemo.rc"" 
+Creating temporary file "D:\Temp\RSPCF8D.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Release/NetSDKDemo.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\AddDeviceDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\AdvanceBtnPannel.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\AlarmCtrlDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\AudioBroadcastDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\AutoMaintenance.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\BSWndContainer.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\ClientState.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\ColorPannel.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\ConfigAlarm.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\ConfigAlarmAlarm.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\ConfigAlarmBlind.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\ConfigAlarmDisk.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\ConfigAlarmMotion.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\ConfigAlarmMotionArea.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\ConfigAlarmMotionAreaBlock.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\ConfigAlarmVlost.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\ConfigChannel.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\ConfigComm.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\ConfigMainDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\ConfigNetwork.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\ConfigRecord.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\ConfigServer.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\CycleChild.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\CycleMonitor.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\DDNS_QueryIP.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\DeviceWorkState.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\DevMgr.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\DiskControl.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\DownloadByTime.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\ExButton.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\ExSliderCtrl.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\ExtPtzCtrl.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\font.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\NetSDKDemo.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\NetSDKDemoDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\NetUpgrade.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\NormalBtnPannel.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\PlayBackByTime.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\PlayCtrlPannel.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\PlayWnd.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\PreviewParmsDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\PtzMenu.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\PTZPannel.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\RecordCtrlDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\RuntimeMsgPannel.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\SaveDataPannel.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\ScreenPannel.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\SearchRecord.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\SelectPannel.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\setdeviceconfig.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\SplitInfoDlg.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\SystemConfig.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\TransCom.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\User_AddGroup.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\User_AddUser.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\User_ModifyGroup.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\User_ModifyPsw.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\User_ModifyUser.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\UserManage.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF8D.tmp" 
+Creating temporary file "D:\Temp\RSPCF8E.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Release/NetSDKDemo.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF8E.tmp" 
+Creating temporary file "D:\Temp\RSPCF8F.tmp" with contents
+[
+/nologo /subsystem:windows /pdb:none /debug /machine:I386 /out:"Release/NetSDKDemo.exe" 
+".\Release\AddDeviceDlg.obj"
+".\Release\AdvanceBtnPannel.obj"
+".\Release\AlarmCtrlDlg.obj"
+".\Release\AudioBroadcastDlg.obj"
+".\Release\AutoMaintenance.obj"
+".\Release\BSWndContainer.obj"
+".\Release\ClientState.obj"
+".\Release\ColorPannel.obj"
+".\Release\ConfigAlarm.obj"
+".\Release\ConfigAlarmAlarm.obj"
+".\Release\ConfigAlarmBlind.obj"
+".\Release\ConfigAlarmDisk.obj"
+".\Release\ConfigAlarmMotion.obj"
+".\Release\ConfigAlarmMotionArea.obj"
+".\Release\ConfigAlarmMotionAreaBlock.obj"
+".\Release\ConfigAlarmVlost.obj"
+".\Release\ConfigChannel.obj"
+".\Release\ConfigComm.obj"
+".\Release\ConfigMainDlg.obj"
+".\Release\ConfigNetwork.obj"
+".\Release\ConfigRecord.obj"
+".\Release\ConfigServer.obj"
+".\Release\CycleChild.obj"
+".\Release\CycleMonitor.obj"
+".\Release\DDNS_QueryIP.obj"
+".\Release\DeviceWorkState.obj"
+".\Release\DevMgr.obj"
+".\Release\DiskControl.obj"
+".\Release\DownloadByTime.obj"
+".\Release\ExButton.obj"
+".\Release\ExSliderCtrl.obj"
+".\Release\ExtPtzCtrl.obj"
+".\Release\font.obj"
+".\Release\NetSDKDemo.obj"
+".\Release\NetSDKDemoDlg.obj"
+".\Release\NetUpgrade.obj"
+".\Release\NormalBtnPannel.obj"
+".\Release\PlayBackByTime.obj"
+".\Release\PlayCtrlPannel.obj"
+".\Release\PlayWnd.obj"
+".\Release\PreviewParmsDlg.obj"
+".\Release\PtzMenu.obj"
+".\Release\PTZPannel.obj"
+".\Release\RecordCtrlDlg.obj"
+".\Release\RuntimeMsgPannel.obj"
+".\Release\SaveDataPannel.obj"
+".\Release\ScreenPannel.obj"
+".\Release\SearchRecord.obj"
+".\Release\SelectPannel.obj"
+".\Release\setdeviceconfig.obj"
+".\Release\SplitInfoDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\SystemConfig.obj"
+".\Release\TransCom.obj"
+".\Release\User_AddGroup.obj"
+".\Release\User_AddUser.obj"
+".\Release\User_ModifyGroup.obj"
+".\Release\User_ModifyPsw.obj"
+".\Release\User_ModifyUser.obj"
+".\Release\UserManage.obj"
+".\Release\NetSDKDemo.res"
+".\Depend\dhnetsdk.lib"
+".\Depend\dhconfigsdk.lib"
+]
+Creating command line "link.exe @D:\Temp\RSPCF8F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AddDeviceDlg.cpp
+AdvanceBtnPannel.cpp
+AlarmCtrlDlg.cpp
+AudioBroadcastDlg.cpp
+AutoMaintenance.cpp
+BSWndContainer.cpp
+ClientState.cpp
+ColorPannel.cpp
+ConfigAlarm.cpp
+ConfigAlarmAlarm.cpp
+ConfigAlarmBlind.cpp
+ConfigAlarmDisk.cpp
+ConfigAlarmMotion.cpp
+ConfigAlarmMotionArea.cpp
+ConfigAlarmMotionAreaBlock.cpp
+ConfigAlarmVlost.cpp
+ConfigChannel.cpp
+ConfigComm.cpp
+ConfigMainDlg.cpp
+ConfigNetwork.cpp
+Generating Code...
+Compiling...
+ConfigRecord.cpp
+ConfigServer.cpp
+CycleChild.cpp
+CycleMonitor.cpp
+DDNS_QueryIP.cpp
+DeviceWorkState.cpp
+DevMgr.cpp
+DiskControl.cpp
+DownloadByTime.cpp
+ExButton.cpp
+ExSliderCtrl.cpp
+ExtPtzCtrl.cpp
+font.cpp
+NetSDKDemo.cpp
+NetSDKDemoDlg.cpp
+NetUpgrade.cpp
+NormalBtnPannel.cpp
+PlayBackByTime.cpp
+PlayCtrlPannel.cpp
+PlayWnd.cpp
+Generating Code...
+Compiling...
+PreviewParmsDlg.cpp
+PtzMenu.cpp
+PTZPannel.cpp
+RecordCtrlDlg.cpp
+RuntimeMsgPannel.cpp
+SaveDataPannel.cpp
+ScreenPannel.cpp
+SearchRecord.cpp
+SelectPannel.cpp
+setdeviceconfig.cpp
+SplitInfoDlg.cpp
+SystemConfig.cpp
+TransCom.cpp
+User_AddGroup.cpp
+User_AddUser.cpp
+User_ModifyGroup.cpp
+User_ModifyPsw.cpp
+User_ModifyUser.cpp
+UserManage.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+NetSDKDemo.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Real Load Picture - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/Real Load Picture.res" /d "NDEBUG" /d "_AFXDLL" "F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\智能分析设备演示程序\Video Analyse Device\Real Load Picture.rc"" 
+Creating temporary file "D:\Temp\RSPCF91.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Real Load Picture.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\智能分析设备演示程序\Video Analyse Device\DialogConfig.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\智能分析设备演示程序\Video Analyse Device\DialogEventRule.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\智能分析设备演示程序\Video Analyse Device\DialogPCQuery.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\智能分析设备演示程序\Video Analyse Device\IvsModule.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\智能分析设备演示程序\Video Analyse Device\PictureWnd.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\智能分析设备演示程序\Video Analyse Device\PlayApi.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\智能分析设备演示程序\Video Analyse Device\Real Load Picture.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\智能分析设备演示程序\Video Analyse Device\Real Load PictureDlg.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF91.tmp" 
+Creating temporary file "D:\Temp\RSPCF92.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Real Load Picture.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\智能分析设备演示程序\Video Analyse Device\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF92.tmp" 
+Creating temporary file "D:\Temp\RSPCF93.tmp" with contents
+[
+winmm.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Video Analyse Device.pdb" /debug /machine:I386 /out:"Release/Video Analyse Device.exe" 
+".\Release\DialogConfig.obj"
+".\Release\DialogEventRule.obj"
+".\Release\DialogPCQuery.obj"
+".\Release\IvsModule.obj"
+".\Release\PictureWnd.obj"
+".\Release\PlayApi.obj"
+".\Release\Real Load Picture.obj"
+".\Release\Real Load PictureDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\Real Load Picture.res"
+]
+Creating command line "link.exe @D:\Temp\RSPCF93.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DialogConfig.cpp
+DialogEventRule.cpp
+DialogPCQuery.cpp
+IvsModule.cpp
+PictureWnd.cpp
+F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\智能分析设备演示程序\Video Analyse Device\PictureWnd.cpp(104) : warning C4101: 'e' : unreferenced local variable
+F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\智能分析设备演示程序\Video Analyse Device\PictureWnd.cpp(109) : warning C4101: 'e' : unreferenced local variable
+F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\智能分析设备演示程序\Video Analyse Device\PictureWnd.cpp(114) : warning C4101: 'e' : unreferenced local variable
+PlayApi.cpp
+Real Load Picture.cpp
+F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\智能分析设备演示程序\Video Analyse Device\Real Load Picture.cpp(175) : warning C4101: 'e' : unreferenced local variable
+F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\智能分析设备演示程序\Video Analyse Device\Real Load Picture.cpp(180) : warning C4101: 'e' : unreferenced local variable
+F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\智能分析设备演示程序\Video Analyse Device\Real Load Picture.cpp(185) : warning C4101: 'e' : unreferenced local variable
+Real Load PictureDlg.cpp
+Generating Code...
+D:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afx.inl(27) : warning C4786: 'std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >' : identifier was truncated to '255' characters in the debug information
+D:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afx.inl(27) : warning C4786: 'std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::_Kfn' : identifier was truncated to '255' characters in the debug information
+D:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afx.inl(27) : warning C4786: 'std::binary_function<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,bool>' : identifier was truncated to '255' characters in the debug information
+D:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afx.inl(27) : warning C4786: 'std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::value_compare' : identifier was truncated to '255' characters in the debug information
+D:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afx.inl(27) : warning C4786: 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >' : identifier was truncated to '255' characters in the debug information
+D:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afx.inl(27) : warning C4786: 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::_Redbl' : identifier was truncated to '255' characters in the debug information
+D:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afx.inl(27) : warning C4786: 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::iterator' : identifier was truncated to '255' characters in the debug information
+D:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afx.inl(27) : warning C4786: 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::const_iterator' : identifier was truncated to '255' characters in the debug information
+D:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afx.inl(27) : warning C4786: 'std::pair<std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::iterator,bool>' : identifier was truncated to '255' characters in the debug information
+D:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afx.inl(27) : warning C4786: 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,__ALARM_ITEM>,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,__ALARM_ITEM,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<__ALARM_ITEM> >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<__ALARM_ITEM> >' : identifier was truncated to '255' characters in the debug information
+D:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afx.inl(27) : warning C4786: 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,__ALARM_ITEM>,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,__ALARM_ITEM,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<__ALARM_ITEM> >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<__ALARM_ITEM> >::_Redbl' : identifier was truncated to '255' characters in the debug information
+D:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afx.inl(27) : warning C4786: 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,__ALARM_ITEM>,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,__ALARM_ITEM,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<__ALARM_ITEM> >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<__ALARM_ITEM> >::iterator' : identifier was truncated to '255' characters in the debug information
+D:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afx.inl(27) : warning C4786: 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,__ALARM_ITEM>,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,__ALARM_ITEM,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<__ALARM_ITEM> >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<__ALARM_ITEM> >::_Node' : identifier was truncated to '255' characters in the debug information
+D:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afx.inl(27) : warning C4786: 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,__ALARM_ITEM>,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,__ALARM_ITEM,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<__ALARM_ITEM> >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<__ALARM_ITEM> >::const_iterator' : identifier was truncated to '255' characters in the debug information
+D:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afx.inl(27) : warning C4786: 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::_Node' : identifier was truncated to '255' characters in the debug information
+D:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afxwin2.inl(525) : warning C4786: 'std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >' : identifier was truncated to '255' characters in the debug information
+D:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afxwin2.inl(525) : warning C4786: 'std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::_Kfn' : identifier was truncated to '255' characters in the debug information
+D:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afxwin2.inl(525) : warning C4786: 'std::binary_function<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,bool>' : identifier was truncated to '255' characters in the debug information
+D:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afxwin2.inl(525) : warning C4786: 'std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::value_compare' : identifier was truncated to '255' characters in the debug information
+D:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afxwin2.inl(525) : warning C4786: 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >' : identifier was truncated to '255' characters in the debug information
+D:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afxwin2.inl(525) : warning C4786: 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::_Redbl' : identifier was truncated to '255' characters in the debug information
+D:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afxwin2.inl(525) : warning C4786: 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::iterator' : identifier was truncated to '255' characters in the debug information
+D:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afxwin2.inl(525) : warning C4786: 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::const_iterator' : identifier was truncated to '255' characters in the debug information
+D:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afxwin2.inl(525) : warning C4786: 'std::pair<std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::iterator,bool>' : identifier was truncated to '255' characters in the debug information
+D:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afxwin2.inl(525) : warning C4786: 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::_Node' : identifier was truncated to '255' characters in the debug information
+D:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afxwin2.inl(525) : warning C4786: 'std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >' : identifier was truncated to '255' characters in the debug information
+D:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afxwin2.inl(525) : warning C4786: 'std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::_Kfn' : identifier was truncated to '255' characters in the debug information
+D:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afxwin2.inl(525) : warning C4786: 'std::binary_function<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,bool>' : identifier was truncated to '255' characters in the debug information
+D:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afxwin2.inl(525) : warning C4786: 'std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::value_compare' : identifier was truncated to '255' characters in the debug information
+D:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afxwin2.inl(525) : warning C4786: 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >' : identifier was truncated to '255' characters in the debug information
+D:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afxwin2.inl(525) : warning C4786: 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::_Redbl' : identifier was truncated to '255' characters in the debug information
+D:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afxwin2.inl(525) : warning C4786: 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::iterator' : identifier was truncated to '255' characters in the debug information
+D:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afxwin2.inl(525) : warning C4786: 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::const_iterator' : identifier was truncated to '255' characters in the debug information
+D:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afxwin2.inl(525) : warning C4786: 'std::pair<std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::iterator,bool>' : identifier was truncated to '255' characters in the debug information
+D:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afxwin2.inl(525) : warning C4786: 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::_Node' : identifier was truncated to '255' characters in the debug information
+Linking...
+
+
+
+<h3>Results</h3>
+Video Analyse Device.exe - 0 error(s), 41 warning(s)
+<h3>
+--------------------Configuration: Video Analyse Configuration - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/Video Analyse Configuration.res" /d "NDEBUG" /d "_AFXDLL" "F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\智能分析设备配置演示程序\Video Analyse Configuration\Video Analyse Configuration.rc"" 
+Creating temporary file "D:\Temp\RSPCF95.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Video Analyse Configuration.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\智能分析设备配置演示程序\Video Analyse Configuration\ConfigAtmScene.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\智能分析设备配置演示程序\Video Analyse Configuration\ConfigCrossLineRule.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\智能分析设备配置演示程序\Video Analyse Configuration\ConfigCrossRegion.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\智能分析设备配置演示程序\Video Analyse Configuration\ConfigFaceRule.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\智能分析设备配置演示程序\Video Analyse Configuration\ConfigModule.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\智能分析设备配置演示程序\Video Analyse Configuration\ConfigPasteRule.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\智能分析设备配置演示程序\Video Analyse Configuration\ConfigRioterRule.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\智能分析设备配置演示程序\Video Analyse Configuration\ConfigRules.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\智能分析设备配置演示程序\Video Analyse Configuration\ConfigTraffic.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\智能分析设备配置演示程序\Video Analyse Configuration\ConfigTrafficGateRule.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\智能分析设备配置演示程序\Video Analyse Configuration\ConfigWanderRule.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\智能分析设备配置演示程序\Video Analyse Configuration\DrawObject.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\智能分析设备配置演示程序\Video Analyse Configuration\PictrueDialog.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\智能分析设备配置演示程序\Video Analyse Configuration\SceneShow.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\智能分析设备配置演示程序\Video Analyse Configuration\Video Analyse Configuration.cpp"
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\智能分析设备配置演示程序\Video Analyse Configuration\Video Analyse ConfigurationDlg.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF95.tmp" 
+Creating temporary file "D:\Temp\RSPCF96.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Video Analyse Configuration.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\智能分析设备配置演示程序\Video Analyse Configuration\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPCF96.tmp" 
+Creating temporary file "D:\Temp\RSPCF97.tmp" with contents
+[
+dhnetsdk.lib dhconfigsdk.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Video Analyse Configuration.pdb" /machine:I386 /out:"Release/Video Analyse Configuration.exe" 
+".\Release\ConfigAtmScene.obj"
+".\Release\ConfigCrossLineRule.obj"
+".\Release\ConfigCrossRegion.obj"
+".\Release\ConfigFaceRule.obj"
+".\Release\ConfigModule.obj"
+".\Release\ConfigPasteRule.obj"
+".\Release\ConfigRioterRule.obj"
+".\Release\ConfigRules.obj"
+".\Release\ConfigTraffic.obj"
+".\Release\ConfigTrafficGateRule.obj"
+".\Release\ConfigWanderRule.obj"
+".\Release\DrawObject.obj"
+".\Release\PictrueDialog.obj"
+".\Release\SceneShow.obj"
+".\Release\StdAfx.obj"
+".\Release\Video Analyse Configuration.obj"
+".\Release\Video Analyse ConfigurationDlg.obj"
+".\Release\Video Analyse Configuration.res"
+".\dhconfigsdk.lib"
+".\dhnetsdk.lib"
+]
+Creating command line "link.exe @D:\Temp\RSPCF97.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ConfigAtmScene.cpp
+ConfigCrossLineRule.cpp
+ConfigCrossRegion.cpp
+ConfigFaceRule.cpp
+ConfigModule.cpp
+F:\jk_w32\workspace\SDK_NetSDK_Win32\NetSDK_Chn_Bin\演示程序源码\分类应用\智能分析设备配置演示程序\Video Analyse Configuration\ConfigModule.cpp(478) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+ConfigPasteRule.cpp
+ConfigRioterRule.cpp
+ConfigRules.cpp
+ConfigTraffic.cpp
+ConfigTrafficGateRule.cpp
+ConfigWanderRule.cpp
+DrawObject.cpp
+PictrueDialog.cpp
+SceneShow.cpp
+Video Analyse Configuration.cpp
+Video Analyse ConfigurationDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Video Analyse Configuration.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

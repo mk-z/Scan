@@ -1,0 +1,257 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\CapturePicture.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\CapturePicture.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 CapturePicture"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "CapturePicture 1.0 版",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2008",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_CAPTUREPICTURE_DIALOG DIALOGEX 0, 0, 471, 339
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Snap picture DEMO"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "Login",IDC_BUTTON_LOGIN,364,16,42,14
+    DEFPUSHBUTTON   "Logout",IDC_BUTTON_LOGOUT,413,16,39,14,WS_DISABLED
+    CONTROL         "IPAddress1",IDC_IPADDRESS_IP,"SysIPAddress32",
+                    WS_TABSTOP,54,15,70,15
+    EDITTEXT        IDC_EDIT_PORT,160,16,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_USER,237,16,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PWD,309,16,40,14,ES_PASSWORD | ES_AUTOHSCROLL
+    PUSHBUTTON      "Snap",IDC_BUTTON_START,270,56,72,14
+    PUSHBUTTON      "Start",IDC_BTN_STARTSNAP,28,187,50,14
+    PUSHBUTTON      "Stop",IDC_BTN_STOPSNAP,92,187,50,14
+    CONTROL         "Snap a picture",IDC_RADIO_SNAPONE,"Button",
+                    BS_AUTORADIOBUTTON | BS_MULTILINE,35,163,58,20
+    CONTROL         "time-lapse snap",IDC_RADIO_SNAPTIME,"Button",
+                    BS_AUTORADIOBUTTON | BS_MULTILINE,97,163,57,20
+    GROUPBOX        "Device login",IDC_STATIC,8,5,455,34
+    RTEXT           "Dev.IP:",IDC_STATIC,15,20,37,8
+    RTEXT           "Port:",IDC_STATIC,126,20,32,8
+    RTEXT           "User:",IDC_STATIC,200,20,35,8
+    RTEXT           "Pwd:",IDC_STATIC,280,20,28,8
+    GROUPBOX        "net trigger device snap",IDC_STATIC,8,44,455,35
+    GROUPBOX        "telent snap",IDC_STATIC,8,84,455,250
+    CONTROL         "",IDC_SHOWPICTURE,"Static",SS_BLACKFRAME,164,88,299,227
+    RTEXT           "channel:",IDC_STATIC,20,109,41,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,15,98,141,54
+    COMBOBOX        IDC_COMBO_CHANNEL,65,105,67,78,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Request sequence:",IDC_STATIC,19,127,40,20
+    EDITTEXT        IDC_EDIT_SERIAL,65,126,67,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,15,156,141,55
+    RTEXT           "Snap space:",IDC_STATIC,19,247,45,8
+    PUSHBUTTON      "Open enable",IDC_BTN_ENABLE,15,317,64,14,NOT WS_VISIBLE | 
+                    WS_DISABLED
+    GROUPBOX        "Snap Config",IDC_STATIC_SNAP_CFG,15,216,141,100
+    RTEXT           "Card ID:",IDC_STATIC,63,61,53,8
+    EDITTEXT        IDC_EDIT_CARD,121,57,112,14,ES_AUTOHSCROLL | ES_NUMBER
+    CTEXT           "notice: only some device have this ablity,at present.like BAR,GB-U.",
+                    IDC_STATIC,103,321,269,8
+    COMBOBOX        IDC_COMBO_SNAP_SPACE,69,245,80,88,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Snap Mode:",IDC_STATIC,23,231,41,8
+    COMBOBOX        IDC_COMBO_SNAP_MODE,69,229,44,88,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Resolution:",IDC_STATIC,19,264,45,8
+    COMBOBOX        IDC_COMBO_SNAP_SIZE,69,262,79,88,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Quality:",IDC_STATIC,31,280,33,8
+    COMBOBOX        IDC_COMBO_SNAP_QUALITY,69,279,79,88,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Enable",IDC_CHECK_TIME_ENABLE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,115,233,40,10
+    PUSHBUTTON      "Get",IDC_BTN_GET,26,298,50,14
+    PUSHBUTTON      "Set",IDC_BTN_Set,91,298,50,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "CapturePicture Microsoft \0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "CapturePicture\0"
+            VALUE "LegalCopyright", "Copyright (C) 2008\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "CapturePicture.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "CapturePicture \0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x809, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_CAPTUREPICTURE_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 470
+        BOTTOMMARGIN, 338
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "About CapturePicture(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\CapturePicture.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

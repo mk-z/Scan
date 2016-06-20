@@ -1,0 +1,78 @@
+﻿生成启动时间为 2016/6/15 11:24:03。
+     1>项目“F:\work\other\大华，鑫鹏安全\大华__229_250808_General_NetSDK_Chn_Win32_IS_V3.43.8.R.151020\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\NetSDKDemo.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\NetSDKDemo.pch" /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt RecordCtrlDlg.cpp
+         RecordCtrlDlg.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\work\other\大华，鑫鹏安全\大华__229_250808_General_NetSDK_Chn_Win32_IS_V3.43.8.R.151020\NetSDK_Chn_Bin\库文件\NetSDKDemo_d.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"F:\work\other\大华，鑫鹏安全\大华__229_250808_General_NetSDK_Chn_Win32_IS_V3.43.8.R.151020\NetSDK_Chn_Bin\库文件\NetSDKDemo_d.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\work\other\大华，鑫鹏安全\大华__229_250808_General_NetSDK_Chn_Win32_IS_V3.43.8.R.151020\NetSDK_Chn_Bin\库文件\NetSDKDemo_d.lib" /MACHINE:X86 /SAFESEH .\Debug\NetSDKDemo.res
+         .\Debug\AddDeviceDlg.obj
+         .\Debug\AdvanceBtnPannel.obj
+         .\Debug\AlarmCtrlDlg.obj
+         .\Debug\AudioBroadcastDlg.obj
+         .\Debug\AutoMaintenance.obj
+         .\Debug\BSWndContainer.obj
+         .\Debug\ClientState.obj
+         .\Debug\ColorPannel.obj
+         .\Debug\ConfigAlarm.obj
+         .\Debug\ConfigAlarmAlarm.obj
+         .\Debug\ConfigAlarmBlind.obj
+         .\Debug\ConfigAlarmDisk.obj
+         .\Debug\ConfigAlarmMotion.obj
+         .\Debug\ConfigAlarmMotionArea.obj
+         .\Debug\ConfigAlarmMotionAreaBlock.obj
+         .\Debug\ConfigAlarmVlost.obj
+         .\Debug\ConfigChannel.obj
+         .\Debug\ConfigComm.obj
+         .\Debug\ConfigMainDlg.obj
+         .\Debug\ConfigNetwork.obj
+         .\Debug\ConfigRecord.obj
+         .\Debug\ConfigServer.obj
+         .\Debug\CycleChild.obj
+         .\Debug\CycleMonitor.obj
+         .\Debug\DDNS_QueryIP.obj
+         .\Debug\DeviceWorkState.obj
+         .\Debug\DevMgr.obj
+         .\Debug\DiskControl.obj
+         .\Debug\DownloadByTime.obj
+         .\Debug\ExButton.obj
+         .\Debug\ExSliderCtrl.obj
+         .\Debug\ExtPtzCtrl.obj
+         .\Debug\font.obj
+         .\Debug\NetSDKDemo.obj
+         .\Debug\NetSDKDemoDlg.obj
+         .\Debug\NetUpgrade.obj
+         .\Debug\NormalBtnPannel.obj
+         .\Debug\PlayBackByTime.obj
+         .\Debug\PlayCtrlPannel.obj
+         .\Debug\PlayWnd.obj
+         .\Debug\PreviewParmsDlg.obj
+         .\Debug\PtzMenu.obj
+         .\Debug\PTZPannel.obj
+         .\Debug\RecordCtrlDlg.obj
+         .\Debug\RuntimeMsgPannel.obj
+         .\Debug\SaveDataPannel.obj
+         .\Debug\ScreenPannel.obj
+         .\Debug\SearchRecord.obj
+         .\Debug\SelectPannel.obj
+         .\Debug\setdeviceconfig.obj
+         .\Debug\SplitInfoDlg.obj
+         .\Debug\StdAfx.obj
+         .\Debug\SystemConfig.obj
+         .\Debug\TransCom.obj
+         .\Debug\UserManage.obj
+         .\Debug\User_AddGroup.obj
+         .\Debug\User_AddUser.obj
+         .\Debug\User_ModifyGroup.obj
+         .\Debug\User_ModifyPsw.obj
+         .\Debug\User_ModifyUser.obj
+         Depend\dhconfigsdk.lib
+         Depend\dhnetsdk.lib
+         NetSDKDemo.vcxproj -> F:\work\other\大华，鑫鹏安全\大华__229_250808_General_NetSDK_Chn_Win32_IS_V3.43.8.R.151020\NetSDK_Chn_Bin\库文件\NetSDKDemo_d.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o".\Debug\NetSDKDemo.bsc" .\Debug\AddDeviceDlg.sbr .\Debug\AdvanceBtnPannel.sbr .\Debug\AlarmCtrlDlg.sbr .\Debug\AudioBroadcastDlg.sbr .\Debug\AutoMaintenance.sbr .\Debug\BSWndContainer.sbr .\Debug\ClientState.sbr .\Debug\ColorPannel.sbr .\Debug\ConfigAlarm.sbr .\Debug\ConfigAlarmAlarm.sbr .\Debug\ConfigAlarmBlind.sbr .\Debug\ConfigAlarmDisk.sbr .\Debug\ConfigAlarmMotion.sbr .\Debug\ConfigAlarmMotionArea.sbr .\Debug\ConfigAlarmMotionAreaBlock.sbr .\Debug\ConfigAlarmVlost.sbr .\Debug\ConfigChannel.sbr .\Debug\ConfigComm.sbr .\Debug\ConfigMainDlg.sbr .\Debug\ConfigNetwork.sbr .\Debug\ConfigRecord.sbr .\Debug\ConfigServer.sbr .\Debug\CycleChild.sbr .\Debug\CycleMonitor.sbr .\Debug\DDNS_QueryIP.sbr .\Debug\DeviceWorkState.sbr .\Debug\DevMgr.sbr .\Debug\DiskControl.sbr .\Debug\DownloadByTime.sbr .\Debug\ExButton.sbr .\Debug\ExSliderCtrl.sbr .\Debug\ExtPtzCtrl.sbr .\Debug\font.sbr .\Debug\NetSDKDemo.sbr .\Debug\NetSDKDemoDlg.sbr .\Debug\NetUpgrade.sbr .\Debug\NormalBtnPannel.sbr .\Debug\PlayBackByTime.sbr .\Debug\PlayCtrlPannel.sbr .\Debug\PlayWnd.sbr .\Debug\PreviewParmsDlg.sbr .\Debug\PtzMenu.sbr .\Debug\PTZPannel.sbr .\Debug\RecordCtrlDlg.sbr .\Debug\RuntimeMsgPannel.sbr .\Debug\SaveDataPannel.sbr .\Debug\ScreenPannel.sbr .\Debug\SearchRecord.sbr .\Debug\SelectPannel.sbr .\Debug\setdeviceconfig.sbr .\Debug\SplitInfoDlg.sbr .\Debug\StdAfx.sbr .\Debug\SystemConfig.sbr .\Debug\TransCom.sbr .\Debug\UserManage.sbr .\Debug\User_AddGroup.sbr .\Debug\User_AddUser.sbr .\Debug\User_ModifyGroup.sbr .\Debug\User_ModifyPsw.sbr .\Debug\User_ModifyUser.sbr
+     1>已完成生成项目“F:\work\other\大华，鑫鹏安全\大华__229_250808_General_NetSDK_Chn_Win32_IS_V3.43.8.R.151020\NetSDK_Chn_Bin\演示程序源码\综合应用\VC_Demo\NetSDKDemo.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.46

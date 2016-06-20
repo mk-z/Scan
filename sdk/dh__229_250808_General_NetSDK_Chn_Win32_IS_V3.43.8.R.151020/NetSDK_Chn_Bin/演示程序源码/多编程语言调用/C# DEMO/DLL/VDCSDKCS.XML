@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VDCSDKCS</name>
+    </assembly>
+    <members>
+        <member name="M:VDCSDK.VDC.VDCInitDecDevice(System.Int32@)">
+            <summary>
+            Initialization Device 
+            </summary>
+            <param name="pDeviceTotal">Initialization Successful Channl Number</param>
+            <returns>Error Code</returns>
+        </member>
+        <!-- 对于成员“M:VDCSDK.VDC.VDCReleaseDecDevice”忽略有格式错误的 XML 注释 -->
+        <member name="M:VDCSDK.VDC.VDCInitDirectDraw(System.IntPtr,System.UInt32)">
+            <summary>
+            Initialise DirectDraw[The part About DirectDraw is created internally by the SDK, users do not need to call the interface function]
+            </summary>
+            <param name="hParent">Window Handle</param>
+            <param name="colorKey">User Set Transparent Color</param>
+            <returns>Error Code</returns>
+        </member>
+        <member name="M:VDCSDK.VDC.VDCReleaseDirectDraw">
+            <summary>
+            Release DirectDraw
+            </summary>
+            <returns>Error Code</returns>
+        </member>
+        <member name="M:VDCSDK.VDC.VDCChannelOpen(System.Int32,System.UInt32@)">
+            <summary>
+            Find the open channel, operating handle, and channel related operations must use the handle
+            </summary>
+            <param name="nChannelNum">Channel No.（from 0）</param>
+            <param name="phChannel">Operation Handle</param>
+            <returns>Error Code</returns>
+        </member>
+        <member name="M:VDCSDK.VDC.VDCChannelClose(System.UInt32)">
+            <summary>
+            Close the channel, release the related resources
+            </summary>
+            <param name="hChannel">Channel Handle</param>
+            <returns>Error Code</returns>
+        </member>
+        <member name="M:VDCSDK.VDC.VDCOpenStream(System.UInt32,System.IntPtr,System.UInt32)">
+            <summary>
+            Open the stream interface (similar to open the file)
+            </summary>
+            <param name="hChannel">Channel Handle</param>
+            <param name="pFileHeadBuf">File Head Data</param>
+            <param name="dwSize">File Head Length</param>
+            <returns>Error Code</returns>
+        </member>
+        <member name="M:VDCSDK.VDC.VDCOpenStreamEx(System.UInt32,System.IntPtr,System.UInt32)">
+            <summary>
+            Open the stream interface (enhanced version)
+            </summary>
+            <param name="hChannel">Channel Handle</param>
+            <param name="pFileHeadBuf">File Head Data</param>
+            <param name="dwSize">File Head Length</param>
+            <returns>Error Code</returns>
+        </member>
+        <member name="M:VDCSDK.VDC.VDCResetStream(System.UInt32)">
+            <summary>
+            fflush
+            </summary>
+            <param name="hChannel">Channel Handle</param>
+            <returns>Error Code</returns>
+        </member>
+        <member name="M:VDCSDK.VDC.VDCCloseStream(System.UInt32)">
+            <summary>
+            Close the data flow
+            </summary>
+            <param name="hChannel">Channel Handle</param>
+            <returns>Error Code</returns>
+        </member>
+        <member name="M:VDCSDK.VDC.VDCCloseStreamEx(System.UInt32)">
+            <summary>
+            Close the data flow
+            </summary>
+            <param name="hChannel">Channel Handle</param>
+            <returns>Error Code</returns>
+        </member>
+        <member name="M:VDCSDK.VDC.VDCInputData(System.UInt32,System.IntPtr,System.UInt32)">
+            <summary>
+            Input data after opening the stream 
+            </summary>
+            <param name="hChannel">Channel Handle</param>
+            <param name="pBuf">Buffer Address</param>
+            <param name="dwSize">Buffer Area Size</param>
+            <returns>Error Code</returns>
+        </member>
+        <member name="M:VDCSDK.VDC.VDCOpenFile(System.UInt32,System.String)">
+            <summary>
+            Open the file
+            </summary>
+            <param name="hChannel">Channel Handle</param>
+            <param name="szFileName">File Name</param>
+            <returns>Error Code</returns>
+        </member>
+        <member name="M:VDCSDK.VDC.VDCCloseFile(System.UInt32)">
+            <summary>
+            Close the file
+            </summary>
+            <param name="hChannel">Channel Handle</param>
+            <returns>Error Code</returns>
+        </member>
+        <member name="M:VDCSDK.VDC.VDCPlay(System.UInt32,System.IntPtr)">
+            <summary>
+            Start to Paly
+            </summary>
+            <param name="hChannel">Channel Handle</param>
+            <param name="hwnd">Window Handle</param>
+            <returns>Error Code</returns>
+        </member>
+        <member name="M:VDCSDK.VDC.VDCPause(System.UInt32,System.Boolean)">
+            <summary>
+            Pause
+            </summary>
+            <param name="hChannel">Channel Handle</param>
+            <param name="bPause">true: pause;false: continue</param>
+            <returns>Error Code</returns>
+        </member>
+        <member name="M:VDCSDK.VDC.VDCStop(System.UInt32)">
+            <summary>
+            Stop
+            </summary>
+            <param name="hChannel">Channel Handle</param>
+            <returns>Error Code</returns>
+        </member>
+        <member name="M:VDCSDK.VDC.DH_InitDecDevice(System.Int32@)">
+            <summary>
+            Initialization Device
+            </summary>
+            <param name="pDeviceTotal">Initialization Successful Channel Number</param>
+            <returns>Error Code</returns>
+        </member>
+        <member name="T:VDCSDK.VDC.VIDEO_STANDARD">
+            <summary>
+            Video Standards 
+            </summary>
+        </member>
+        <member name="F:VDCSDK.VDC.tagDSPDetail.reserved1">
+            the first channel coding index for the video output channel
+        </member>
+    </members>
+</doc>

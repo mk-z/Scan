@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>MFCProj</Keyword>
+    <ProjectGuid>{939C7579-B60B-421A-96F4-B36F035CFCF6}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>F:\work\other\大华，鑫鹏安全\大华__229_250808_General_NetSDK_Chn_Win32_IS_V3.43.8.R.151020\NetSDK_Chn_Bin\库文件</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>$(ProjectName)_d</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Release\NetSDKDemo.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Release\NetSDKDemo.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\NetSDKDemo.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Release\NetSDKDemo.dll</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Debug\NetSDKDemo.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Debug\NetSDKDemo.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug\NetSDKDemo.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>F:\work\other\大华，鑫鹏安全\大华__229_250808_General_NetSDK_Chn_Win32_IS_V3.43.8.R.151020\NetSDK_Chn_Bin\库文件\NetSDKDemo_d.exe</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AddDeviceDlg.cpp" />
+    <ClCompile Include="AdvanceBtnPannel.cpp" />
+    <ClCompile Include="AlarmCtrlDlg.cpp" />
+    <ClCompile Include="AudioBroadcastDlg.cpp" />
+    <ClCompile Include="AutoMaintenance.cpp" />
+    <ClCompile Include="BSWndContainer.cpp" />
+    <ClCompile Include="ClientState.cpp" />
+    <ClCompile Include="ColorPannel.cpp" />
+    <ClCompile Include="ConfigAlarm.cpp" />
+    <ClCompile Include="ConfigAlarmAlarm.cpp" />
+    <ClCompile Include="ConfigAlarmBlind.cpp" />
+    <ClCompile Include="ConfigAlarmDisk.cpp" />
+    <ClCompile Include="ConfigAlarmMotion.cpp" />
+    <ClCompile Include="ConfigAlarmMotionArea.cpp" />
+    <ClCompile Include="ConfigAlarmMotionAreaBlock.cpp" />
+    <ClCompile Include="ConfigAlarmVlost.cpp" />
+    <ClCompile Include="ConfigChannel.cpp" />
+    <ClCompile Include="ConfigComm.cpp" />
+    <ClCompile Include="ConfigMainDlg.cpp" />
+    <ClCompile Include="ConfigNetwork.cpp" />
+    <ClCompile Include="ConfigRecord.cpp" />
+    <ClCompile Include="ConfigServer.cpp" />
+    <ClCompile Include="CycleChild.cpp" />
+    <ClCompile Include="CycleMonitor.cpp" />
+    <ClCompile Include="DDNS_QueryIP.cpp" />
+    <ClCompile Include="DeviceWorkState.cpp" />
+    <ClCompile Include="DevMgr.cpp" />
+    <ClCompile Include="DiskControl.cpp" />
+    <ClCompile Include="DownloadByTime.cpp" />
+    <ClCompile Include="ExButton.cpp" />
+    <ClCompile Include="ExSliderCtrl.cpp" />
+    <ClCompile Include="ExtPtzCtrl.cpp" />
+    <ClCompile Include="font.cpp" />
+    <ClCompile Include="NetSDKDemo.cpp" />
+    <ClCompile Include="NetSDKDemoDlg.cpp" />
+    <ClCompile Include="NetUpgrade.cpp" />
+    <ClCompile Include="NormalBtnPannel.cpp" />
+    <ClCompile Include="PlayBackByTime.cpp" />
+    <ClCompile Include="PlayCtrlPannel.cpp" />
+    <ClCompile Include="PlayWnd.cpp" />
+    <ClCompile Include="PreviewParmsDlg.cpp" />
+    <ClCompile Include="PtzMenu.cpp" />
+    <ClCompile Include="PTZPannel.cpp" />
+    <ClCompile Include="RecordCtrlDlg.cpp" />
+    <ClCompile Include="RuntimeMsgPannel.cpp" />
+    <ClCompile Include="SaveDataPannel.cpp" />
+    <ClCompile Include="ScreenPannel.cpp" />
+    <ClCompile Include="SearchRecord.cpp" />
+    <ClCompile Include="SelectPannel.cpp" />
+    <ClCompile Include="setdeviceconfig.cpp" />
+    <ClCompile Include="SplitInfoDlg.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="SystemConfig.cpp" />
+    <ClCompile Include="TransCom.cpp" />
+    <ClCompile Include="UserManage.cpp" />
+    <ClCompile Include="User_AddGroup.cpp" />
+    <ClCompile Include="User_AddUser.cpp" />
+    <ClCompile Include="User_ModifyGroup.cpp" />
+    <ClCompile Include="User_ModifyPsw.cpp" />
+    <ClCompile Include="User_ModifyUser.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NetSDKDemo.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddDeviceDlg.h" />
+    <ClInclude Include="AdvanceBtnPannel.h" />
+    <ClInclude Include="AlarmCtrlDlg.h" />
+    <ClInclude Include="AudioBroadcastDlg.h" />
+    <ClInclude Include="AutoMaintenance.h" />
+    <ClInclude Include="BSWndContainer.h" />
+    <ClInclude Include="ClientState.h" />
+    <ClInclude Include="ColorPannel.h" />
+    <ClInclude Include="ConfigAlarm.h" />
+    <ClInclude Include="ConfigAlarmAlarm.h" />
+    <ClInclude Include="ConfigAlarmBlind.h" />
+    <ClInclude Include="ConfigAlarmDisk.h" />
+    <ClInclude Include="ConfigAlarmMotion.h" />
+    <ClInclude Include="ConfigAlarmMotionArea.h" />
+    <ClInclude Include="ConfigAlarmMotionAreaBlock.h" />
+    <ClInclude Include="ConfigAlarmVlost.h" />
+    <ClInclude Include="ConfigChannel.h" />
+    <ClInclude Include="ConfigComm.h" />
+    <ClInclude Include="ConfigMainDlg.h" />
+    <ClInclude Include="ConfigNetwork.h" />
+    <ClInclude Include="ConfigRecord.h" />
+    <ClInclude Include="ConfigServer.h" />
+    <ClInclude Include="CycleChild.h" />
+    <ClInclude Include="CycleMonitor.h" />
+    <ClInclude Include="DDNS_QueryIP.h" />
+    <ClInclude Include="Depend\dhassistant.h" />
+    <ClInclude Include="Depend\dhnetsdk.h" />
+    <ClInclude Include="DeviceWorkState.h" />
+    <ClInclude Include="DevMgr.h" />
+    <ClInclude Include="DiskControl.h" />
+    <ClInclude Include="DownloadByTime.h" />
+    <ClInclude Include="ExButton.h" />
+    <ClInclude Include="ExSliderCtrl.h" />
+    <ClInclude Include="ExtPtzCtrl.h" />
+    <ClInclude Include="font.h" />
+    <ClInclude Include="MessageText.h" />
+    <ClInclude Include="MessageText_eng.h" />
+    <ClInclude Include="NetSDKDemo.h" />
+    <ClInclude Include="NetSDKDemoDlg.h" />
+    <ClInclude Include="NetUpgrade.h" />
+    <ClInclude Include="NormalBtnPannel.h" />
+    <ClInclude Include="PlayBackByTime.h" />
+    <ClInclude Include="PlayCtrlPannel.h" />
+    <ClInclude Include="PlayWnd.h" />
+    <ClInclude Include="PreviewParmsDlg.h" />
+    <ClInclude Include="PtzMenu.h" />
+    <ClInclude Include="PTZPannel.h" />
+    <ClInclude Include="RanderManager.h" />
+    <ClInclude Include="RecordCtrlDlg.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="RuntimeMsgPannel.h" />
+    <ClInclude Include="SaveDataPannel.h" />
+    <ClInclude Include="ScreenPannel.h" />
+    <ClInclude Include="SearchRecord.h" />
+    <ClInclude Include="SelectPannel.h" />
+    <ClInclude Include="setdeviceconfig.h" />
+    <ClInclude Include="SplitInfoDlg.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="SystemConfig.h" />
+    <ClInclude Include="TransCom.h" />
+    <ClInclude Include="UserManage.h" />
+    <ClInclude Include="User_AddGroup.h" />
+    <ClInclude Include="User_AddUser.h" />
+    <ClInclude Include="User_ModifyGroup.h" />
+    <ClInclude Include="User_ModifyPsw.h" />
+    <ClInclude Include="User_ModifyUser.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\NetSDKDemo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\NetSDKDemo.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Depend\dhconfigsdk.lib" />
+    <Library Include="Depend\dhnetsdk.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="NetSDKDemo.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

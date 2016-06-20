@@ -1,0 +1,125 @@
+//{{NO_DEPENDENCIES}}
+// Microsoft Visual C++ generated include file.
+// Used by DemoIVSPC.rc
+//
+#define IDM_ABOUTBOX                    0x0010
+#define IDD_ABOUTBOX                    100
+#define IDS_ABOUTBOX                    101
+#define IDD_DEMOIVSPC_DIALOG            102
+#define IDR_MAINFRAME                   128
+#define IDR_TOOLBAR                     129
+#define IDR_MENU                        131
+#define IDD_LOGIN                       133
+#define IDD_CONFIG                      135
+#define IDD_CONFIG_GLOBAL               136
+#define IDD_CONFIG_MODULE               137
+#define IDD_CONFIG_RULES                138
+#define IDD_PREVIEW                     139
+#define IDD_SUBDLG_LOGO                 153
+#define IDD_SUBDLG_RULE_NUMBERSTAT      154
+#define IDD_QUERY                       155
+#define IDD_DRAWFRAME                   156
+#define IDD_TARGET_FILTER               157
+#define IDC_LOGIN_IPADDR_IP             1001
+#define IDC_LOGIN_EDT_PORTNUM           1002
+#define IDC_LOGIN_EDT_USERNAME          1003
+#define IDC_LOGIN_EDT_PSW               1004
+#define IDC_MAIN_CHK_SWITCH             1010
+#define IDC_MAIN_BTN_PREVIEW            1011
+#define IDC_MAIN_BTN_CONFIG             1012
+#define IDC_MAIN_BTN_ALARM              1013
+#define IDC_MAIN_BTN_QUERY              1013
+#define IDC_MAIN_BTN_LOGOUT             1014
+#define IDC_PREVIEW_CMB_CHANNEL         1030
+#define IDC_PREVIEW_LIST_ALARM          1031
+#define IDC_PREVIEW_STATIC_PREVIEW      1032
+#define IDC_CONFIG_TAB                  1050
+#define IDC_CFGRULE_BTN_ADDRULE         1060
+#define IDC_CFGRULE_BTN_DELRULE         1061
+#define IDC_CFGRULE_STATIC_PREVIEW      1062
+#define IDC_CFGRULE_BTN_SET             1063
+#define IDC_CFGRULE_BTN_GET             1064
+#define IDC_CFGRULE_BTN_REDRAW          1065
+#define IDC_CFGRULE_EDT_CHANNELNAME     1066
+#define IDC_CFGRULE_TREE_RULELIST       1067
+#define IDC_CFGRULE_EDT_RULENAME        1068
+#define IDC_CFGRULE_CMB_RULETYPE        1069
+#define IDC_CFGMOD_BTN_ADDMOD           1077
+#define IDC_CFGMOD_BTN_DELMOD           1078
+#define IDC_CFGMOD_CHK_ENCAP            1079
+#define IDC_CFGMOD_TREE_TRACKREGION     1080
+#define IDC_CFGMOD_BTN_ADDDETEC         1081
+#define IDC_CFGMOD_BTN_ADDEXCLUD        1082
+#define IDC_CFGMOD_BTN_REDRAW           1083
+#define IDC_CFGMOD_BTN_DELREGION        1084
+#define IDC_CFGMOD_CMB_OBJTYPE          1085
+#define IDC_CFGMOD_CMB_                 1086
+#define IDC_CFGMOD_SLID_SENSI           1087
+#define IDC_CFGMOD_BTN_FILTER           1088
+#define IDC_CFGMOD_CHK_ENFILTER         1089
+#define IDC_CFGMOD_BTN_SET              1090
+#define IDC_CFGMOD_BTN_GET              1091
+#define IDC_CFGMOD_TREE_MODLIST         1092
+#define IDC_CFGMOD_EDT_CHANNELNAME      1093
+#define IDC_CFGMOD_STATIC_PREVIEW       1094
+#define IDC_CFGGLO_EDT_CHANNELNAME      1095
+#define IDC_CFGGLO_CMB_SCENE            1096
+#define IDC_CFGGLO_BTN_SET              1097
+#define IDC_CFGGLO_BTN_GET              1098
+#define IDC_CFGGLO_TREE_REGION          1099
+#define IDC_CFGGLO_RADIO_VRULER         1100
+#define IDC_CFGGLO_RADIO_HRULER         1101
+#define IDC_CFGGLO_EDT_REALLEN          1102
+#define IDC_CFGGLO_BTN_ADDAERA          1103
+#define IDC_CFGGLO_BTN_DELAREA          1104
+#define IDC_CFGGLO_BTN_RESET            1105
+#define IDC_CFGGLO_STATIC_PREVIEW       1106
+#define IDC_CFGGLO_BTN_ADDRULER         1107
+#define IDC_CFGGLO_BTN_DELRULER         1108
+#define IDC_CFGGLO_BTN_REDRAW           1109
+#define IDC_PROGRESS                    4205
+#define IDC_NUMSTAT_TREE_OBJTYPE        4208
+#define IDC_EDIT_INTERVAL               4209
+#define IDC_NUMSATA_BTN_DRAWDIRECTION   4210
+#define IDC_COMBO1                      4211
+#define IDC_COMBO_NUMSTAT_TYPE          4211
+#define IDC_COMBO_FILTER_PATTERN        4211
+#define IDC_LIST_TYPE                   4212
+#define IDC_QUERY_CMB_CHANNEL           4213
+#define IDC_EDIT_UPPERLIMIT             4213
+#define IDC_QUERY_CMB_TYPES             4214
+#define IDC_EDIT_BEGIN                  4215
+#define IDC_EDIT_COUNT                  4216
+#define IDC_QUERY_DTP_STARTDATE         4217
+#define IDC_QUERY_DTP_STARTTIME         4218
+#define IDC_QUERY_DTP_ENDDATE           4219
+#define IDC_QUERY_DTP_ENDTIME           4220
+#define IDC_STATIC_SHOW_RESULT          4221
+#define ID_QUERY_START                  4222
+#define ID_QUERY_CANCEL                 4223
+#define IDC_EDIT_PERIOD                 4224
+#define IDC_BTN_PREVIEW                 4224
+#define IDC_BTN_NEXT                    4225
+#define IDC_BTN_REDRAW                  4225
+#define IDC_STATIC_DRAW_TIP             4226
+#define IDC_STATIC_VEDIO_VIEW           4227
+#define IDC_CHECK_RECTANGLE             4228
+#define IDC_COMBO_FILTER_TYPE           4229
+#define IDC_BTN_FILTER_OK               4232
+#define IDC_BTN_FILTER_CANCEL           4233
+#define IDC_EDIT_CANMERA_HEIGHT         4234
+#define IDC_EDIT_DISTANCE               4235
+#define IDC_EDIT_ANGLE                  4236
+#define IDC_BUTTON1                     4237
+#define IDC_BTN_HOR_LINE                4237
+
+// Next default values for new objects
+// 
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE        158
+#define _APS_NEXT_COMMAND_VALUE         32771
+#define _APS_NEXT_CONTROL_VALUE         4238
+#define _APS_NEXT_SYMED_VALUE           101
+#endif
+#endif
